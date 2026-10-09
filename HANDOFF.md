@@ -4,6 +4,8 @@
 
 用户已授权创建 ABP 独立仓库并在此对接。已创建公开远端 https://github.com/IoTSharp/SonnetDB.Abp，origin 指向该仓库。当前分支 main；此交接随本次初始化内容提交保存，精确提交标识以 git log -1 为准。
 
+初始代码提交 fb22306ef0b03bae10a05c085b6cfff0116697db 已推送 main，并通过独立 GitHub branch API 回读核对。该提交的 Ubuntu CI 37906959016 已 completed/success；本段更新为仅文档的验证记录，最新提交由 git log -1 读取。
+
 开始时此目录不存在，因此在修改产品源码前建立此交接。SonnetDB 主仓库的 Workbench/博客及其它工作树变更不属于本项目。
 
 ## 已完成与验证
