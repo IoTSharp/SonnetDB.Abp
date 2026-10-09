@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/SonnetDB.Abp.EntityFrameworkCore/SonnetDB.Abp.EntityFrameworkCore.csproj" />
+  </Folder>
+  <Folder Name="/samples/">
+    <Project Path="samples/SonnetDB.Abp.Sample/SonnetDB.Abp.Sample.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/SonnetDB.Abp.EntityFrameworkCore.Tests/SonnetDB.Abp.EntityFrameworkCore.Tests.csproj" />
+  </Folder>
+</Solution>

@@ -1,0 +1,25 @@
+name: CI
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  integration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: '10.0.x'
+      - run: dotnet restore SonnetDB.Abp.slnx
+      - run: dotnet format SonnetDB.Abp.slnx --verify-no-changes --no-restore --severity warn
+      - run: dotnet build SonnetDB.Abp.slnx -c Release --no-restore
+      - run: dotnet test SonnetDB.Abp.slnx -c Release --no-build --no-restore --logger trx --results-directory artifacts/test-results
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: test-results
+          path: artifacts/test-results
+          if-no-files-found: ignore

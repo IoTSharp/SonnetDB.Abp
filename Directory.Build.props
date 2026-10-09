@@ -1,0 +1,16 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <Version>0.1.0-alpha.1</Version>
+    <Authors>maikebing</Authors>
+    <RepositoryUrl>https://github.com/IoTSharp/SonnetDB.Abp</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageProjectUrl>https://github.com/IoTSharp/SonnetDB.Abp</PackageProjectUrl>
+    <!-- ABP/EF Core 使用运行时模型；此程序集不声明 Native AOT 兼容。 -->
+    <IsAotCompatible>false</IsAotCompatible>
+    <UseSharedCompilation>false</UseSharedCompilation>
+  </PropertyGroup>
+</Project>

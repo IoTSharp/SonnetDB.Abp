@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <PackageId>SonnetDB.Abp.EntityFrameworkCore</PackageId>
+    <Description>SonnetDB 的 ABP Entity Framework Core 集成，提供模块声明、Provider 配置与工作单元连接复用。</Description>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <PackageReadmeFile>PackageReadme.md</PackageReadmeFile>
+    <PackageTags>sonnetdb;abp;entity-framework-core;database</PackageTags>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SonnetDB.EntityFrameworkCore" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="PackageReadme.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+</Project>
