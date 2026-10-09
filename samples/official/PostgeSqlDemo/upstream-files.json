@@ -1,0 +1,728 @@
+[
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "gitBlob": "c941e52669683c63ad9c3db2073b54ac74e20ba7",
+    "sha256": "13a51d1e2ad3b2997aaeb6295a568a555faa0c01c040f0db71a0d85c803cf111"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "gitBlob": "cbb3f13a8b63452960d954ed4c6b626629e6b155",
+    "sha256": "ceaa5b3ed5aac82a2b9a948cb4114524fdaecad749dd67f2d258c2ba14be0245"
+  },
+  {
+    "path": "common.props",
+    "mode": "100644",
+    "gitBlob": "7585f303ba0e0532fee2242d6470a77dfe4ff9b0",
+    "sha256": "af6177c3104f07d9ae7d1dc1eca1236cdb61f6b4801f2551d812bad32cdcf4da"
+  },
+  {
+    "path": "PostgeSqlDemo.sln",
+    "mode": "100644",
+    "gitBlob": "283732dfb14170998fd85ff85e27869958c85fdd",
+    "sha256": "e6db3a25d71ac95151c0a4c186d8a031bcce0de47596da639d153857415d5f7e"
+  },
+  {
+    "path": "PostgeSqlDemo.sln.DotSettings",
+    "mode": "100644",
+    "gitBlob": "cb0b2c919f75c02f264be049b25b49828974664c",
+    "sha256": "a2720bad501f52bfc11a0b5a214408771b52e2e4177a7c85ff6fff8384dc4136"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "gitBlob": "9d947e3bd71ac84dd5260f17d331eba43eea5818",
+    "sha256": "6d3be9387eb291c3807ac1900d7c0579394a6dd35dc1dc25288ba57b30b33f39"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Application.Contracts/Permissions/PostgeSqlDemoPermissionDefinitionProvider.cs",
+    "mode": "100644",
+    "gitBlob": "7f4945d22e8d2d80237aa4765978d22000db7e5c",
+    "sha256": "6ae22118942e495d20e99b1749ac91a5b69471685fdf39259827a00240e53555"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Application.Contracts/Permissions/PostgeSqlDemoPermissions.cs",
+    "mode": "100644",
+    "gitBlob": "408a66a3ad38a3cf1ec7a22e4defed9935bc58f8",
+    "sha256": "ca659e39666ee989d1a4221127bc115ca0f06ade1c74fc0a1992a7e19c5d43b4"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Application.Contracts/PostgeSqlDemo.Application.Contracts.csproj",
+    "mode": "100644",
+    "gitBlob": "d113da9c19375d7b7b1479f5372a3ebad55e3cef",
+    "sha256": "949a3f978fa9382505afa55eb7aaac59995e364c5c3693f11c97419355f4b18f"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Application.Contracts/PostgeSqlDemoApplicationContractsModule.cs",
+    "mode": "100644",
+    "gitBlob": "42ae83b1d8ff0e87d3ceeca4860735224ff8305b",
+    "sha256": "c3b492083351cee9b6462a4b29c66ee7d7364831d6bfb75c5790dce91b38f40d"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Application.Contracts/PostgeSqlDemoDtoExtensions.cs",
+    "mode": "100644",
+    "gitBlob": "d8c6233d94a296ae1aa97a7f2d21d998c1f91656",
+    "sha256": "76fe6771f9fa573a1787da5eb3009fb4284f6d05bb4c7981e572d42fe854fd1e"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Application/PostgeSqlDemo.Application.csproj",
+    "mode": "100644",
+    "gitBlob": "e7155bf095af94d06e94d6d2b4a207734a6b83db",
+    "sha256": "dc5e3b869aa96951d4f08e55a2c9f482c73f9a6869b0e33d960866030899335f"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Application/PostgeSqlDemoApplicationAutoMapperProfile.cs",
+    "mode": "100644",
+    "gitBlob": "c1e70a38403fbf21e666ca322381ea309ae56a99",
+    "sha256": "73b39094454c64394a027e73c4127939adbc3f04b1ce41b40eb6132cbaad23a2"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Application/PostgeSqlDemoApplicationModule.cs",
+    "mode": "100644",
+    "gitBlob": "0b431f97375a068c09eb406905676aa087f47852",
+    "sha256": "979c2fd03d53a7fba87f64ff50c9a143308e34d0d885cd4a716530ef93b7e193"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Application/PostgeSqlDemoAppService.cs",
+    "mode": "100644",
+    "gitBlob": "63a9ab946ea21fa16bc5864b266373406d7831f6",
+    "sha256": "3ddb5eab583d249401e95ea1d882a8412a5da67415c436cf7cfc5491074c9727"
+  },
+  {
+    "path": "src/PostgeSqlDemo.DbMigrator/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "7a716df81a256398f16e7bcc628ddfce1d9616d7",
+    "sha256": "5deb734d100f54c8bfe405336f65728d797c6e401321c0271168a1fe9016fcb7"
+  },
+  {
+    "path": "src/PostgeSqlDemo.DbMigrator/DbMigratorHostedService.cs",
+    "mode": "100644",
+    "gitBlob": "f21e53da5583db5af196a8ceb4e1c92a213a8c21",
+    "sha256": "78e3bfe0fbbf6bebefc2fec556cd0720237c72008b8a0e6b6463602fdb6dad95"
+  },
+  {
+    "path": "src/PostgeSqlDemo.DbMigrator/PostgeSqlDemo.DbMigrator.csproj",
+    "mode": "100644",
+    "gitBlob": "15885e98abeb45f2c11caa179349c49f4f304759",
+    "sha256": "8d966868b392fb1eecd8a48390800490a67e13e9920fcaa42d7ed2db075853fe"
+  },
+  {
+    "path": "src/PostgeSqlDemo.DbMigrator/PostgeSqlDemoDbMigratorModule.cs",
+    "mode": "100644",
+    "gitBlob": "f12c9eb1a55db6f81155561229e5a6ae6a9b163e",
+    "sha256": "eae8aaebd08b0ef60cd0f3b53b44b60d9291e068dafa69169637307fb5ca109c"
+  },
+  {
+    "path": "src/PostgeSqlDemo.DbMigrator/Program.cs",
+    "mode": "100644",
+    "gitBlob": "921ff20a8444e5eaca5640fed94a887d0aade88b",
+    "sha256": "88649ad00fd9a92fb4457069a99158a23f655859f78abfeb442535854d6667cf"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain.Shared/Localization/PostgeSqlDemo/cs.json",
+    "mode": "100644",
+    "gitBlob": "619521939cf3b1b2bd974d02a55e9ebb3b3299ba",
+    "sha256": "aa3a094005f1b66289292062a92193e44c8b9b688845c3d3c511de4f32fcb4e1"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain.Shared/Localization/PostgeSqlDemo/en.json",
+    "mode": "100644",
+    "gitBlob": "baa9fe753ee1c909492f094259b3d31adc161777",
+    "sha256": "4f40b597a4712474901631fb49b7a1fc8a44bb140b0d4bcfc9ddabc9ea813dee"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain.Shared/Localization/PostgeSqlDemo/pl-PL.json",
+    "mode": "100644",
+    "gitBlob": "33412f307ca4b0ed7af9ee52484099c067fe6ca5",
+    "sha256": "a12f7381fb09fe215f30f42e4a547a4fc46271397530bf094eee671bcfab4bc4"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain.Shared/Localization/PostgeSqlDemo/pt-BR.json",
+    "mode": "100644",
+    "gitBlob": "8c818a07af405ba8caf208bb7b49d390a2c844b2",
+    "sha256": "c5b656f1ab373b18559d72ae781244dcae871c24084018c7c40a44fdded57181"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain.Shared/Localization/PostgeSqlDemo/ru.json",
+    "mode": "100644",
+    "gitBlob": "8464e4434474ddf95c953b5709c2178ddc391341",
+    "sha256": "bf3f69ebc1ac1c6c3d366d4f5ce88a353f9661d54bb3f008f8e0cb1a8f06dbc2"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain.Shared/Localization/PostgeSqlDemo/sl.json",
+    "mode": "100644",
+    "gitBlob": "a066ef26baa7a762eebd46fef6650ce4635e9e9f",
+    "sha256": "5636d4ca999940cdee3c24cc15af323893de952705c787d59871b856fe588765"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain.Shared/Localization/PostgeSqlDemo/tr.json",
+    "mode": "100644",
+    "gitBlob": "5bf83ee7a8e2e1e315a20b99c428d5e4733b1933",
+    "sha256": "356e12b4eb299a32b99bfd1efd20658a877d5be768abc08c5b123236775abb63"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain.Shared/Localization/PostgeSqlDemo/vi.json",
+    "mode": "100644",
+    "gitBlob": "c115a35726d049352cdf3c6773c5caeda67651ad",
+    "sha256": "73d137a03e279534c134d94389653016cf0407ab5eb8987dc75f05fdddae54f7"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain.Shared/Localization/PostgeSqlDemo/zh-Hans.json",
+    "mode": "100644",
+    "gitBlob": "23790bde506730dcb517f31f3b2a1ac458c74f95",
+    "sha256": "791a81f2e8ecf75643b865ebcb832090b91d731801a3f8f8de14696634b01f13"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain.Shared/Localization/PostgeSqlDemo/zh-Hant.json",
+    "mode": "100644",
+    "gitBlob": "31e0ab5a47a599f6fd945c2962eb34fc2487fc9c",
+    "sha256": "50ab5d8312e891769bb5dd76202ee65310a8f82e71edfa8121329595e2df45b6"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain.Shared/Localization/PostgeSqlDemoResource.cs",
+    "mode": "100644",
+    "gitBlob": "4d00d0857c5d79a32d2ce4c1af42b3ce08fc587d",
+    "sha256": "801d695f6bb844342dff24fc4ae44a8ce016ee814fe494b0134ae455d5c086d6"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain.Shared/MultiTenancy/MultiTenancyConsts.cs",
+    "mode": "100644",
+    "gitBlob": "727016108757ba187166ca570e69e8ac4d5eed73",
+    "sha256": "f7787f8b16772a571c0d11ad7fc3322300ac8c82d9ab53df3b0279d86c566b3b"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain.Shared/PostgeSqlDemo.Domain.Shared.csproj",
+    "mode": "100644",
+    "gitBlob": "7c053224d1c4532128e9f0ac00472e3308a30bbb",
+    "sha256": "c9dc77979101e09c1308b6db127614b9f6ad780566d6039c93a3227ef0b7a229"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain.Shared/PostgeSqlDemoDomainErrorCodes.cs",
+    "mode": "100644",
+    "gitBlob": "715c8544688cdbf7da3e7759667af8253b3e0a66",
+    "sha256": "09d149b846170f3054c09ce3ff47e31a02025bb30280cce169a14319b0eb9705"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain.Shared/PostgeSqlDemoDomainSharedModule.cs",
+    "mode": "100644",
+    "gitBlob": "b2ec3d0ddf4f5dbb9279edde4f663973468ce05c",
+    "sha256": "65c5bbcecafe4763c13dce550670517284cd8b6c9b1248a4f23775de3750af31"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain/Data/IPostgeSqlDemoDbSchemaMigrator.cs",
+    "mode": "100644",
+    "gitBlob": "e858fdebc41970e953ef018f2fa5f408fa39cf07",
+    "sha256": "0e31b3030aad43a715da23cc51b791a4318eddd9a31ebfb2224129ed12da2869"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain/Data/NullPostgeSqlDemoDbSchemaMigrator.cs",
+    "mode": "100644",
+    "gitBlob": "177a0e161dc26ab1d5bfe44f9b27dccf34e21964",
+    "sha256": "fb70711c5f821f8b54d90f86731248d41968d66cdea280aa610b2d825160ca4d"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain/Data/PostgeSqlDemoDbMigrationService.cs",
+    "mode": "100644",
+    "gitBlob": "9d781766d61fad3df648143b7d929f7c55bdd4f3",
+    "sha256": "407031028322f4d55daf59bc4676f7b8c90ffa473032b15a9bd2e34180cb2cb7"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain/IdentityServer/IdentityServerDataSeedContributor.cs",
+    "mode": "100644",
+    "gitBlob": "7aef527db190ab00210a7694fc79bec7118c3e18",
+    "sha256": "f403f7bcb8d35b987429a18c5db338f5315168a849b317d3c7a8fcf214229def"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain/ObjectExtending/PostgeSqlDemoDomainObjectExtensions.cs",
+    "mode": "100644",
+    "gitBlob": "ce992ade2d31aa320747d2f69889379274b597d9",
+    "sha256": "2e1914431ab363fc0f9fd61df5e7b59fd5fe4172439db51b7367b9b79b04c878"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain/PostgeSqlDemo.Domain.csproj",
+    "mode": "100644",
+    "gitBlob": "8c33e62a5a934d65b6dda3e3d4f72e4c14483294",
+    "sha256": "bec84de6f8a3785e304854399bf5adb1c0c22a6d6e1e81e732e9aa943a476c5c"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain/PostgeSqlDemoConsts.cs",
+    "mode": "100644",
+    "gitBlob": "9bda1aa965a958de30f4e1d5ed46b8d12836510f",
+    "sha256": "7957b17a62fbe9d6604fce0962ab4c7d3c65011ac9a6ff11ba4e5b89911d3604"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain/PostgeSqlDemoDomainModule.cs",
+    "mode": "100644",
+    "gitBlob": "314ae48cb2eb8e3cac8ccfd2cd48558f53332631",
+    "sha256": "1a28ff893c2d2dbd1f6710cddc548846872cbbe9c297c50bf69126e7b170f4c9"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain/Settings/PostgeSqlDemoSettingDefinitionProvider.cs",
+    "mode": "100644",
+    "gitBlob": "177d3ca9b548c546e53faed1bd4c6e5b77a4eff0",
+    "sha256": "a71f9318014f2a8775389f8d2d52984cafb7bc992604c6a10ea91ffd2eb7f1c7"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain/Settings/PostgeSqlDemoSettings.cs",
+    "mode": "100644",
+    "gitBlob": "b93439a73c60d98d81861384917a0a824a0c3dba",
+    "sha256": "d53f2b43437e6127a1a3b1a25cc0a26a6e8c72a542546b6d69a6332cf89a344c"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain/Spatial/City.cs",
+    "mode": "100644",
+    "gitBlob": "6f203d87121aa772454ac7e2e5abc690cc083691",
+    "sha256": "3d62e9cc1508f9eda0aff1c7aa252ab0750e46a33cdfbe1dd3a4e1526d2ca022"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain/Spatial/Country.cs",
+    "mode": "100644",
+    "gitBlob": "9697e767f728192dcab2188aa597db6832967e4f",
+    "sha256": "8c737f1fdfc0af7b4b8ea97d908df8fac1ca4c89b45c63f8ecfdc5f299434fba"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Domain/Users/AppUser.cs",
+    "mode": "100644",
+    "gitBlob": "f49682a49e40f6f5e3304dd8d2c853877b4c6684",
+    "sha256": "c88e4aed8d0f8eb15832ee1c3da399875f7cb4cb1c27febd3a3af4f3fdf2cfe9"
+  },
+  {
+    "path": "src/PostgeSqlDemo.EntityFrameworkCore.DbMigrations/EntityFrameworkCore/EntityFrameworkCorePostgeSqlDemoDbSchemaMigrator.cs",
+    "mode": "100644",
+    "gitBlob": "31b9ca3f39d6657005181273c52f55470851137b",
+    "sha256": "b68e1137995b4d73a7510974753afa1d48df64dcb240ab18e9c244b43e8aef49"
+  },
+  {
+    "path": "src/PostgeSqlDemo.EntityFrameworkCore.DbMigrations/EntityFrameworkCore/PostgeSqlDemoEntityFrameworkCoreDbMigrationsModule.cs",
+    "mode": "100644",
+    "gitBlob": "b155df5d4ef2a43b0955b12ba00898d856dcf85b",
+    "sha256": "48e41cbc20792ce4e01d14b835ed70ebc9270ebca3b76d646b4b2e48f0afffe2"
+  },
+  {
+    "path": "src/PostgeSqlDemo.EntityFrameworkCore.DbMigrations/EntityFrameworkCore/PostgeSqlDemoMigrationsDbContext.cs",
+    "mode": "100644",
+    "gitBlob": "386c0a6c805d6dbf9229bc36da6c6e7ba30704ad",
+    "sha256": "e25593a0ba34763154b8e55b11e67306d595c684b8d5eabca999f2de8008a4f1"
+  },
+  {
+    "path": "src/PostgeSqlDemo.EntityFrameworkCore.DbMigrations/EntityFrameworkCore/PostgeSqlDemoMigrationsDbContextFactory.cs",
+    "mode": "100644",
+    "gitBlob": "04da095dcf385dd32839b2b7a88883937ec5ada4",
+    "sha256": "0e46223a5f78714047d9a5fe0585e43b56896fdd0a9575b9ab98ae7466d3ad75"
+  },
+  {
+    "path": "src/PostgeSqlDemo.EntityFrameworkCore.DbMigrations/Migrations/20240912065319_Initial.cs",
+    "mode": "100644",
+    "gitBlob": "04bf65dfe353c4da7ee8d3bcf7eceee27e92ff4e",
+    "sha256": "fc3a5674a623b7563a888214c16c58ab98f1188a0a1c708ebd7ec87dbdf4c233"
+  },
+  {
+    "path": "src/PostgeSqlDemo.EntityFrameworkCore.DbMigrations/Migrations/20240912065319_Initial.Designer.cs",
+    "mode": "100644",
+    "gitBlob": "3c1bf855e243891bd5035675e14e012940bf1228",
+    "sha256": "b1b608d7a68c9c4a97c13e2b62f7429669d76627eb72e9beceeed13a4dabbc39"
+  },
+  {
+    "path": "src/PostgeSqlDemo.EntityFrameworkCore.DbMigrations/Migrations/PostgeSqlDemoMigrationsDbContextModelSnapshot.cs",
+    "mode": "100644",
+    "gitBlob": "0cdbbfdbaba24722e7d6e9ffd021d28ac0a9522f",
+    "sha256": "aab4822136bc0c6758cadbbdfbb11581f49cc3dd55a9047c9186985783ff107e"
+  },
+  {
+    "path": "src/PostgeSqlDemo.EntityFrameworkCore.DbMigrations/PostgeSqlDemo.EntityFrameworkCore.DbMigrations.csproj",
+    "mode": "100644",
+    "gitBlob": "9235a876ff20294a171f063f454beb3038baea05",
+    "sha256": "6505e880c0e25b0a1e76f3d68c2d92a2c673de5d989d2e5dc57d0ca5685450a0"
+  },
+  {
+    "path": "src/PostgeSqlDemo.EntityFrameworkCore/EntityFrameworkCore/PostgeSqlDemoDbContext.cs",
+    "mode": "100644",
+    "gitBlob": "e1d87f2243675105a01a73f182b35835ea2eecf6",
+    "sha256": "f53a72ca1317a74bf9d9654647c910d4078e759e6a7a6e2501078b305c63a900"
+  },
+  {
+    "path": "src/PostgeSqlDemo.EntityFrameworkCore/EntityFrameworkCore/PostgeSqlDemoDbContextModelCreatingExtensions.cs",
+    "mode": "100644",
+    "gitBlob": "32090cdbdaa5815ca045cca32c56cda9915397c2",
+    "sha256": "6bbab2555adf33081ad20feb4a72ae452d3a5f6edca9d4b958af7faeff0e1cb8"
+  },
+  {
+    "path": "src/PostgeSqlDemo.EntityFrameworkCore/EntityFrameworkCore/PostgeSqlDemoEfCoreEntityExtensionMappings.cs",
+    "mode": "100644",
+    "gitBlob": "31deb7186c31b210832ca4cb1354fbd865b8182a",
+    "sha256": "858c41880e2d65c6b41ba1eb434ae01982bc4227342234a200f15404c8b6536c"
+  },
+  {
+    "path": "src/PostgeSqlDemo.EntityFrameworkCore/EntityFrameworkCore/PostgeSqlDemoEntityFrameworkCoreModule.cs",
+    "mode": "100644",
+    "gitBlob": "824186d1579c0037660401d001feb881353dc186",
+    "sha256": "ac8d79cc90d6c753b62524558ff8b48d48e120dda895979732f4c4ad601c3fce"
+  },
+  {
+    "path": "src/PostgeSqlDemo.EntityFrameworkCore/PostgeSqlDemo.EntityFrameworkCore.csproj",
+    "mode": "100644",
+    "gitBlob": "4f035471b0f05123134c04f6fd015ad0e26639bf",
+    "sha256": "f1f5d23ed0034be5e4158fc5441446e95c03f98f13d4e5cd08958e7b69304fef"
+  },
+  {
+    "path": "src/PostgeSqlDemo.HttpApi.Client/PostgeSqlDemo.HttpApi.Client.csproj",
+    "mode": "100644",
+    "gitBlob": "747e34f3f1b6fd155848641fedfa78474f406d68",
+    "sha256": "e4176b9fa7bf2eb5c3f938c2dd8bad0baca0a1811f40bfaa8c074e4fed8ecef2"
+  },
+  {
+    "path": "src/PostgeSqlDemo.HttpApi.Client/PostgeSqlDemoHttpApiClientModule.cs",
+    "mode": "100644",
+    "gitBlob": "bd82947542875cc4d5171fef5c3358f255183215",
+    "sha256": "737314ce65d405e4984ef956703ca990728b9e463b01913d67c9ff72da5e67ad"
+  },
+  {
+    "path": "src/PostgeSqlDemo.HttpApi/Controllers/PostgeSqlDemoController.cs",
+    "mode": "100644",
+    "gitBlob": "546caaa55457126899f9dd39d92c69a571dc7c17",
+    "sha256": "549f156f1013a3165b62e1d6a895828677be8f44c173594d15836c2b3330f100"
+  },
+  {
+    "path": "src/PostgeSqlDemo.HttpApi/Models/Test/TestModel.cs",
+    "mode": "100644",
+    "gitBlob": "3f88a6ce8d033c1314a91ab463872f11a2f617db",
+    "sha256": "76120c8ad8f59c405165e7e74a89796a4a0ef63603ed7f396804c7ba76fd69f6"
+  },
+  {
+    "path": "src/PostgeSqlDemo.HttpApi/PostgeSqlDemo.HttpApi.csproj",
+    "mode": "100644",
+    "gitBlob": "bae76a8edd637d1f2ac0d64669116955640c61cf",
+    "sha256": "5ef3cf6730c1be63a639b625b03008963204af94d3638050b1b3013dda319736"
+  },
+  {
+    "path": "src/PostgeSqlDemo.HttpApi/PostgeSqlDemoHttpApiModule.cs",
+    "mode": "100644",
+    "gitBlob": "d3b873329e035b19deb2a888f0e167ab9eebb698",
+    "sha256": "2cad7df469b558c4abb1ba419f9da66941162aa6871875407d297590da716778"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/abp.resourcemapping.js",
+    "mode": "100644",
+    "gitBlob": "122e8e926aed2bcdd229513db34efe107e74ec68",
+    "sha256": "835583314984e1164b48f796782ede62cf67a1a4e8b02e69542b6e6aebda8c8e"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/appsettings.Development.json",
+    "mode": "100644",
+    "gitBlob": "2c63c0851048d8f7bff41ecf0f8cee05f52fd120",
+    "sha256": "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "a4337c30fb6c28520ee6d0d8dde07f25f093d667",
+    "sha256": "3b6d44ea0350b00a982cabc94be542d36e27c049ec7521f2812041c269dda955"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/gulpfile.js",
+    "mode": "100644",
+    "gitBlob": "f7ebc78f23b5ffae00851a59aea7c57ecf52cc61",
+    "sha256": "211bac3c64a060538af908c6d85028e3c81f2b0d534077b4bec929a80976c31d"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/Menus/PostgeSqlDemoMenuContributor.cs",
+    "mode": "100644",
+    "gitBlob": "b9330e341a50e16f3a5f2d8d43db0b5396193bd9",
+    "sha256": "fe93292f037ed674f009c659fbdaba133b0f810e7d78ea970f65db20e709a0b8"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/package-lock.json",
+    "mode": "100644",
+    "gitBlob": "a2f8ce2158c71bada3b715c4c7fd1da67b636136",
+    "sha256": "75e0e7e47258f06640802960df4f0c86dba67937cc0ca76a25c2f8c51d5c53a4"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/package.json",
+    "mode": "100644",
+    "gitBlob": "d0de1d59f790e1a9f5845755ae75cfa350e48362",
+    "sha256": "ba554ce230fd912ee16b49a22def7ffba3e2961a10b4dd2992ff18e770d43a8a"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/Pages/_ViewImports.cshtml",
+    "mode": "100644",
+    "gitBlob": "c1da1f5f107073cb33bda44b29af50b0ca819024",
+    "sha256": "12f2ecf13ffdd45d83b0198a52d2bd0972c59a17dc4da1c61d0a1974ddec9fda"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/Pages/Index.cshtml",
+    "mode": "100644",
+    "gitBlob": "8e628c9faa2f62de221cf8f8b3432edb9c8ea5f6",
+    "sha256": "c1b786812d79142382c68f14f1fc7b5ad12bc49de17687c046a47e51abb6c1d3"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/Pages/Index.cshtml.cs",
+    "mode": "100644",
+    "gitBlob": "9c75cc18462314526f59e40a4a2bcb5962d8b90b",
+    "sha256": "259d8297d5166b9577d073dd874b1f71bf2b8805c098895e761ffd2ee6e5a41d"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/Pages/Index.css",
+    "mode": "100644",
+    "gitBlob": "3f73b78b9f6de1fc1e1f03fcdba37af35dc38fa6",
+    "sha256": "87de4ffd49aa2a649a1a081f16c3733b1ac23914b783c2c8662ffa5d48acb486"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/Pages/Index.js",
+    "mode": "100644",
+    "gitBlob": "46f089b9c760d62f5635665e1c8ad3f0ff75c05a",
+    "sha256": "b5425e8eaa4f124bb2846debcb463cb2b212817021d5e9a74ab2edc12a6e5f10"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/Pages/PostgeSqlDemoPage.cs",
+    "mode": "100644",
+    "gitBlob": "da49fc13516f272d0539434b181270a05055f8f3",
+    "sha256": "9039c9895be52dc2742b956f099b24d85c24d30aa6cbe5ac7d7db07ceb619d51"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/Pages/PostgeSqlDemoPageModel.cs",
+    "mode": "100644",
+    "gitBlob": "4189270f5a4d6f8f359d400bd6e2bd23d9240f13",
+    "sha256": "73eecde568edeac9b8cd7693ab47393f39dfa2102e866ed8e42bcd1ab0c22fae"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/PostgeSqlDemo.Web.csproj",
+    "mode": "100644",
+    "gitBlob": "c779f671e97bb94fa66f839b945ab0be1577e6c0",
+    "sha256": "f3bc6c9f32641d7c51cbfd160b4887f96279a90109c4f821fa6fd087d3aec28e"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/PostgeSqlDemoBrandingProvider.cs",
+    "mode": "100644",
+    "gitBlob": "81045faca290275ac4bb4792f574859d7c3c0cb9",
+    "sha256": "63b131b10b18256577b5570018d90c2e786055cd894ee30660763319f71aba7c"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/PostgeSqlDemoWebAutoMapperProfile.cs",
+    "mode": "100644",
+    "gitBlob": "bfe838a1581a17110dc4a5dec7f4209532c193dd",
+    "sha256": "16c4e478e46416691b3841627de5be4b932b918f99bdbf9bcd5b94e9cd3a916c"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/PostgeSqlDemoWebModule.cs",
+    "mode": "100644",
+    "gitBlob": "dfac27ac225f561bd52ea64e15782e1914dd02d4",
+    "sha256": "f36e42230f0c6d2dd1c5d7a60bfe46ba3872ef69e968be5c3e228ac59f9e82f0"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/Program.cs",
+    "mode": "100644",
+    "gitBlob": "f6bb4239e13721d0f70568268e570566befa6be5",
+    "sha256": "e94f2a85be3610a5e02b8d31594e5018eeea0d9b6c1a16d4fb281dfca2cb9ea0"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/Properties/launchSettings.json",
+    "mode": "100644",
+    "gitBlob": "728eb8119820a5142bdbf4b84d975d41cb44e76c",
+    "sha256": "f30dadb71817cbc7797c2af546b5fc5ae27db2898bb18ce2551a47aa28e296d5"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/Startup.cs",
+    "mode": "100644",
+    "gitBlob": "4ecbbfd9401ae5926a22a9cc2de6e33a3a0d4d01",
+    "sha256": "9aabdee389571b6b736204c2d281b75e30b67ecfbcc739c4e67498fadb9ec5cb"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/tempkey.rsa",
+    "mode": "100644",
+    "gitBlob": "f3b32de233b39df1192c5d3a9709856531631390",
+    "sha256": "9da7fc410649cbebc4b01b7e31b96472c7b66a10b332070019f2bcc124e5db25"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/Views/_ViewImports.cshtml",
+    "mode": "100644",
+    "gitBlob": "c1da1f5f107073cb33bda44b29af50b0ca819024",
+    "sha256": "12f2ecf13ffdd45d83b0198a52d2bd0972c59a17dc4da1c61d0a1974ddec9fda"
+  },
+  {
+    "path": "src/PostgeSqlDemo.Web/yarn.lock",
+    "mode": "100644",
+    "gitBlob": "02070244edcf01725ef754968c4d1cadfedf104d",
+    "sha256": "b64ab7be2b80e69a0bcd4bfc7706bd4c7e676debcb92b16bc4f6bd4178c98c18"
+  },
+  {
+    "path": "test/PostgeSqlDemo.Application.Tests/PostgeSqlDemo.Application.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "0661f8672e3e39f8362e303256b1b9cf4e5ada05",
+    "sha256": "c664d78d9ac9a6458332ecc6a489deda8d18557ae1ecf20d2ebd868b771e206c"
+  },
+  {
+    "path": "test/PostgeSqlDemo.Application.Tests/PostgeSqlDemoApplicationTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "5aeaf6f3485986598b27ac96eae07913a005eed4",
+    "sha256": "fa6961a122967cc5fdb5cc3e0afb698d907fb56959bf438402a67a7879c415e3"
+  },
+  {
+    "path": "test/PostgeSqlDemo.Application.Tests/PostgeSqlDemoApplicationTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "b50f60858cbe2bd3e10fa0bebec0e4aeb8e44bb9",
+    "sha256": "8e7700caeb2dff409d0d4a05acdac35d2968c8353bbdfaae14d04b540aeae8ae"
+  },
+  {
+    "path": "test/PostgeSqlDemo.Application.Tests/Samples/SampleAppServiceTests.cs",
+    "mode": "100644",
+    "gitBlob": "1e367f892207db80eb06b631a0f69f613657eaa1",
+    "sha256": "f32db9d032c3ee6262145cd32b8a660f9451dea9313d728d92290882e19cdcdc"
+  },
+  {
+    "path": "test/PostgeSqlDemo.Domain.Tests/PostgeSqlDemo.Domain.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "b39f49a6814ecf73c4a6285856356eaf79284385",
+    "sha256": "af9195cd763ee2c051dbc1ecea044079aebb17cb4e83f235a80b0bcce96c4417"
+  },
+  {
+    "path": "test/PostgeSqlDemo.Domain.Tests/PostgeSqlDemoDomainTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "c9f4720c4853f91df4ff7d662f025c5084cda77f",
+    "sha256": "de8b328091e9154c38ec1663d02414acb33851b66641f785debbfa45c09cada4"
+  },
+  {
+    "path": "test/PostgeSqlDemo.Domain.Tests/PostgeSqlDemoDomainTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "3a006e11b106bf3eb235abb6ff55e992d6e567d4",
+    "sha256": "859590471310486be0109b65696bcc8a57d3e322c56ce215349696a48603be76"
+  },
+  {
+    "path": "test/PostgeSqlDemo.Domain.Tests/Samples/SampleDomainTests.cs",
+    "mode": "100644",
+    "gitBlob": "5f2dd6d973bd5d5421c13dd091df081096a5344c",
+    "sha256": "d4b81ffb9dcdb2ef0456da9df64a840f6d25b5ee5cfed23a8e509bf825b478ec"
+  },
+  {
+    "path": "test/PostgeSqlDemo.EntityFrameworkCore.Tests/EntityFrameworkCore/PostgeSqlDemoEntityFrameworkCoreTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "41c404b83e83112f04357d5496f5d879fce4e51c",
+    "sha256": "c2ef043a69f4b8301751ff3eb578a6c24e5d5f088ccc84d5368ac95d1b194410"
+  },
+  {
+    "path": "test/PostgeSqlDemo.EntityFrameworkCore.Tests/EntityFrameworkCore/PostgeSqlDemoEntityFrameworkCoreTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "e2a75708673f538a9c0360ad2d29fbb4d21199f0",
+    "sha256": "078a4744dae8e747eaf883f03d9bc75a8e20c93deddda4f37691e2c945b0ee89"
+  },
+  {
+    "path": "test/PostgeSqlDemo.EntityFrameworkCore.Tests/EntityFrameworkCore/Samples/SampleRepositoryTests.cs",
+    "mode": "100644",
+    "gitBlob": "78bf88053930b9e676a338f797e0a6b37f9e5fdf",
+    "sha256": "a6adec60ae0675fe5fe3e901df8742a7ca58f06e1fd0f0c7adc408f1c80eb544"
+  },
+  {
+    "path": "test/PostgeSqlDemo.EntityFrameworkCore.Tests/PostgeSqlDemo.EntityFrameworkCore.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "2b16ce84152d81bd746861132779c6af68ca8a58",
+    "sha256": "76da3978d03897d394a5a58936aa79cce553ccca6d3ced23bc0bd65fafc3770d"
+  },
+  {
+    "path": "test/PostgeSqlDemo.HttpApi.Client.ConsoleTestApp/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "2a7e23425c91a67920801eb5fcf81a4c1a17644c",
+    "sha256": "bb564ba271822f76859b9a14926087bf29e73dc79f9b53cb4f87122df99ed6e9"
+  },
+  {
+    "path": "test/PostgeSqlDemo.HttpApi.Client.ConsoleTestApp/ClientDemoService.cs",
+    "mode": "100644",
+    "gitBlob": "228a1373e26fedd69ad41d8acec4f68487d0d5a4",
+    "sha256": "5438c253539e0cb9edc6eeafa2bf71bee312cda47072a77e1ac1a97cfe6d9a1b"
+  },
+  {
+    "path": "test/PostgeSqlDemo.HttpApi.Client.ConsoleTestApp/ConsoleTestAppHostedService.cs",
+    "mode": "100644",
+    "gitBlob": "7ba5a16868dba86cd7e41b7a05e4f01476127009",
+    "sha256": "b168241164ace6eb02ab252d9c243e2c860a61a63ddfbaa19c857c641ecd2d62"
+  },
+  {
+    "path": "test/PostgeSqlDemo.HttpApi.Client.ConsoleTestApp/PostgeSqlDemo.HttpApi.Client.ConsoleTestApp.csproj",
+    "mode": "100644",
+    "gitBlob": "0b1428ab1929a4c4325154ee32745e5ea2deb7f4",
+    "sha256": "d62aa73f9efc5c8ff48d124859ed7c70ad0a14b2b3753710c13cb2a2bb442f80"
+  },
+  {
+    "path": "test/PostgeSqlDemo.HttpApi.Client.ConsoleTestApp/PostgeSqlDemoConsoleApiClientModule.cs",
+    "mode": "100644",
+    "gitBlob": "54aaed106516eec66be5022b570b3ecfa62a6de6",
+    "sha256": "c004cc6b16b7d495cf4073e80449f4d49f0dac604544b694e4c4af1faf9162fc"
+  },
+  {
+    "path": "test/PostgeSqlDemo.HttpApi.Client.ConsoleTestApp/Program.cs",
+    "mode": "100644",
+    "gitBlob": "e35acf6c3522d32835f38807fc345acc9f467fbc",
+    "sha256": "fd5034f351bcdd2210614b023389553170d17a426bcd4513c99b7c1171fd448e"
+  },
+  {
+    "path": "test/PostgeSqlDemo.TestBase/PostgeSqlDemo.TestBase.csproj",
+    "mode": "100644",
+    "gitBlob": "bb482ebc94a80ef717a583f73fd653348f1914e7",
+    "sha256": "856f8828c847cb8c69bf43dea4c0cb5e888b7b20fd775c3cac1fe6b27cb4ac9a"
+  },
+  {
+    "path": "test/PostgeSqlDemo.TestBase/PostgeSqlDemoTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "02e8cfe240bc2caac78a0ba5cf9693f7bed2c7e4",
+    "sha256": "c42bba715b0cc76ece6fb875eb2490b790de9daff219a44edb7c2c2b44f70c96"
+  },
+  {
+    "path": "test/PostgeSqlDemo.TestBase/PostgeSqlDemoTestBaseModule.cs",
+    "mode": "100644",
+    "gitBlob": "58569835755370fd767d4ca894bfc2e826ed8dd8",
+    "sha256": "f79ed46f40ec92fd54b9c8508216c81f67b9bc3ef393ff9f768a3eb451758faf"
+  },
+  {
+    "path": "test/PostgeSqlDemo.TestBase/PostgeSqlDemoTestDataSeedContributor.cs",
+    "mode": "100644",
+    "gitBlob": "ed11ac96e2c53ae49823ad729c44a2cb41a3474c",
+    "sha256": "a6be206c9f480c46afdeaffd5ca9a0266e7c577b34c3aca99f530d912feeefea"
+  },
+  {
+    "path": "test/PostgeSqlDemo.TestBase/Security/FakeCurrentPrincipalAccessor.cs",
+    "mode": "100644",
+    "gitBlob": "abd90e1ca2c47c579991a3937bb4abf2d39e5afc",
+    "sha256": "f3b09aead6919a84b10bc25bc2cc6105ae76c9fcce3be7fffaf6ce5f9d4cac75"
+  },
+  {
+    "path": "test/PostgeSqlDemo.Web.Tests/Pages/Index_Tests.cs",
+    "mode": "100644",
+    "gitBlob": "41e839b8353f94941fecc1f545cd629fbd512cfc",
+    "sha256": "9b0a47ebde521d3dd0bdb896d0ffa6e128c20759b282080c67aea4e1737ec4c3"
+  },
+  {
+    "path": "test/PostgeSqlDemo.Web.Tests/PostgeSqlDemo.Web.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "5a75cc39f43d7ecbc8ef8970aec97480a9242b74",
+    "sha256": "422ca1536d0969f66855a7d44df99b66ac16817c30fd5996365204100c86982b"
+  },
+  {
+    "path": "test/PostgeSqlDemo.Web.Tests/PostgeSqlDemoWebTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "429f056e07bea835d17f9a7bfbbdfed60d1ee759",
+    "sha256": "ad2396c7198ccebc1595b662665585fa3f108e4ab86d59e543fd3049ed48f490"
+  },
+  {
+    "path": "test/PostgeSqlDemo.Web.Tests/PostgeSqlDemoWebTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "225c62564e170ee2c9aa5741f369f9d38a052708",
+    "sha256": "d7c3d808a0dc64d822dc78a4c1f14ac891a42e148dd21f0bfd7b1a1e9232c8cc"
+  },
+  {
+    "path": "test/PostgeSqlDemo.Web.Tests/PostgeSqlDemoWebTestStartup.cs",
+    "mode": "100644",
+    "gitBlob": "8804a57f6515f0b4d65a50edf3f5d2056dd3724c",
+    "sha256": "3e3c237071683b3a37c7362747182e39792949b16d4ce6d2bfac36833c7c0c49"
+  },
+  {
+    "path": "test/PostgeSqlDemo.Web.Tests/WebContentDirectoryFinder.cs",
+    "mode": "100644",
+    "gitBlob": "1b6e41588ab9e0b36459bf2919a61c5a146fb920",
+    "sha256": "e056827ee4d7847068af2ca00a78f76f380087d6bd09d09ae8d62f7b32e16e3d"
+  },
+  {
+    "path": "test/PostgeSqlDemo.Web.Tests/xunit.runner.json",
+    "mode": "100644",
+    "gitBlob": "34b2fe2cddb72b7d1fd0d80e16fe768756657cb6",
+    "sha256": "0122935f783ca0959cce7839c5287fb16ac8b8087975e20415761e671ca3b159"
+  }
+]

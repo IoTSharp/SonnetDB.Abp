@@ -1,0 +1,36 @@
+{
+  "applications": {
+    "Acme.BookStore.HttpApi.Host": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44367",
+      "path": "../../../aspnet-core/src/Acme.BookStore.HttpApi.Host/Acme.BookStore.HttpApi.Host.csproj",
+      "healthCheckEndpoint": "/health-status",
+      "execution": {
+        "order": 4
+      }
+    },
+    "Acme.BookStore.Angular": {
+      "type": "cli",
+      "workingDirectory": "../../../angular",
+      "startCommand": "./start.ps1",
+      "launchUrl": "http://localhost:4200",
+      "execution": {
+        "order": 2
+      }
+    }
+  },
+  "tasks": {
+    "Initialize Solution": {
+      "behaviour": 2,
+      "startCommand": "./initialize-solution.ps1",
+      "workingDirectory": "../../scripts",
+      "shortDescription": "Installs client libraries and seeds the MongoDB database."
+    },
+    "Migrate Database": {
+      "behaviour": 0,
+      "startCommand": "./migrate-database.ps1",
+      "workingDirectory": "../../scripts",
+      "shortDescription": "Runs the MongoDB migrator/seed project."
+    }
+  }
+}

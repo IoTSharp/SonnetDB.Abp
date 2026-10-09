@@ -5,6 +5,8 @@
 - 开始前阅读根 HANDOFF.md；结束前更新完成项、缺口、验证、Git 状态与资源归属。
 - 固定包依赖于 Directory.Packages.props。禁止跨仓库 ProjectReference、复制引擎源码或直接修改 NuGet 缓存。
 - ABP 注册、配置、连接复用问题在本仓库修复；通用 SQL、事务与 EF Provider 问题回 SonnetDB 仓库单独处理。
+- 当前主线沿用 abp-samples 的完整官方 Demo，保留固定提交、来源许可证、业务/UI 与 ABP 模块；通过适配组件接入九种原生模型，按 ROADMAP 顺序逐项独立验收。尽量不改 Demo，不修改 ABP 框架；数据库缺口须最小复现、查重并向 SonnetDB 提交需求 issue，记录链接与复测条件。
+- 第一批官方示例 S01–S13 已先完整入库，再逐个迁移；源码导入与 SonnetDB 运行分别标状态。samples/official/ 为原始来源，未迁移时保留上游包版本与说明，不计为构建/运行通过；进入对应迁移任务时统一到根固定依赖，再纳入根解决方案与真实 CI 测试。新增例子先更新清单、总数与来源。
 - 不使用 unsafe；Nullable、ImplicitUsings、TreatWarningsAsErrors 必须开启；public API 使用中文 XML 文档。
 - 生产 JSON 如有新增，使用 source-generated System.Text.Json。ABP/EF Core 集成不声明 Native AOT 支持，不能冒称核心引擎的 AOT 能力覆盖本包。
 - 真实本地数据库测试、远程 Server、ABP 内置模块、恢复与正式发布分别验收；计划或构建不代表完成。

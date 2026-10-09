@@ -1,0 +1,112 @@
+# [A06 / EF Core] JSON 列类型映射缺失阻塞 ABP Identity Passkey 和官方 BookStore 迁移
+
+## 需求与范围
+
+本需求来自 SonnetDB.Abp 的 A06：基于 ABP 官方 BookStore MVC/EF Core 完整示例，保留 Identity、Account、权限、设置、租户、审计与 OpenIddict 等标准模块，通过适配包切换数据库。示例来源为 abpframework/abp-samples，提交 97bc6ddfbc491843ddcd101342ce10e088c1d0d6，目录 BookStore-Mvc-EfCore。
+
+SQLite 可以对同一官方模型生成标准初始迁移。SonnetDB 在迁移生成的关系模型构建阶段就失败，尚未执行数据库 SQL。本仓库不删除 Passkey/Identity、不修改 ABP 框架、不改 NuGet 缓存，也不在适配层替代引擎 Provider 的类型映射。
+
+## 固定环境
+
+- Windows、PowerShell 7.6.6、.NET SDK 10.0.401，net10.0。
+- Volo.Abp 10.7.0；Microsoft.EntityFrameworkCore / Relational / Sqlite / Design 10.0.12。
+- 公开 NuGet SonnetDB.EntityFrameworkCore 4.0.0，无 SonnetDB 引擎源码引用。
+- 已安装 dotnet-ef 10.0.5 用于生成迁移；工具提示版本较低，但不依赖 EF CLI 的纯程序最小复现同样失败，因此不能由升级 CLI 推断此缺口消失。
+- 仅验证本地 Provider 模型；不推导 Server、其他模型或完整 Demo 的兼容性。
+
+## 最小复现（无需 ABP）
+
+SonnetDB.Abp 仓库中的 samples/SonnetDB.Abp.JsonColumnRepro 使用同一模型与两个固定 Provider。只构造标准迁移需要的设计时关系模型，无数据库文件与建表操作：
+
+```csharp
+builder.Entity<Passkey>()
+    .ComplexProperty(passkey => passkey.Data, data => data.ToJson());
+var relationalModel = context.GetService<IDesignTimeModel>()
+    .Model.GetRelationalModel();
+```
+
+```text
+dotnet restore SonnetDB.Abp.slnx
+dotnet build samples/SonnetDB.Abp.JsonColumnRepro -c Release --no-restore
+dotnet run --project samples/SonnetDB.Abp.JsonColumnRepro -c Release --no-build --no-restore -- Sqlite
+dotnet run --project samples/SonnetDB.Abp.JsonColumnRepro -c Release --no-build --no-restore -- SonnetDB
+```
+
+SQLite 实际：退出 0，`Sqlite: Passkey.Data store type = TEXT`。
+
+也可独立建立空目录，无需获取 SonnetDB.Abp 的未提交工作区。保存 Repro.csproj 与 Program.cs，执行 `dotnet run -- Sqlite` 和 `dotnet run -- SonnetDB`：
+
+```xml
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SonnetDB.EntityFrameworkCore" Version="4.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="10.0.12" />
+  </ItemGroup>
+</Project>
+```
+
+```csharp
+using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Metadata;
+
+var options = new DbContextOptionsBuilder<ReproContext>();
+if (args.Single() == "Sqlite")
+    options.UseSqlite("Data Source=:memory:");
+else
+    options.UseSonnetDB("Data Source=json-column-repro");
+using var context = new ReproContext(options.Options);
+var model = context.GetService<IDesignTimeModel>().Model.GetRelationalModel();
+Console.WriteLine(model.Tables.Single().Columns.Single(x => x.Name == "Data").StoreType);
+
+internal sealed class ReproContext(DbContextOptions<ReproContext> options) : DbContext(options)
+{
+    protected override void OnModelCreating(ModelBuilder builder) =>
+        builder.Entity<Passkey>().ComplexProperty(x => x.Data, data => data.ToJson());
+}
+internal sealed class Passkey
+{
+    public Guid Id { get; set; }
+    public PasskeyData Data { get; set; } = new();
+}
+internal sealed class PasskeyData
+{
+    public string CredentialId { get; set; } = string.Empty;
+}
+```
+
+SonnetDB 实际：退出 1，`InvalidOperationException`：
+
+```text
+The store type 'null' specified for JSON column 'Data' in table 'Passkey'
+is not supported by the current provider.
+JSON columns require a provider-specific JSON store type.
+```
+
+调用链从 `RelationalModel.CreateContainerColumn` 经关系模型初始化到 `GetRelationalModel()`，未执行 SQL。
+
+## 官方应用复现
+
+```text
+dotnet ef migrations add InitialSonnetDB --project samples/BookStore/src/Acme.BookStore.SonnetDB.Migrations --startup-project samples/BookStore/src/Acme.BookStore.DbMigrator --context BookStoreDbContext --configuration Release --no-build --output-dir Migrations -- --Database:Provider SonnetDB --ConnectionStrings:Default "Data Source=./artifacts/bookstore-sonnetdb"
+```
+
+实际退出 1，同样的异常发生在 `Volo.Abp.Identity.IdentityUserPasskey` 的 `Data` JSON 列，调用链进入 `MigrationsScaffolder.ScaffoldMigration`。切换 Sqlite 与 SQLite 的迁移程序集后，初始迁移生成退出 0。日志分别保留在本地忽略的 artifacts/checks/a06-sonnetdb-migration-generate.*、a06-sqlite-migration-generate-3.*、a06-json-repro-sqlite.*、a06-json-repro-sonnetdb.*。
+
+## 需要 SonnetDB 实现与验收
+
+1. Provider 给 EF Core 10 的 `ToJson` 提供明确的 JSON 容器存储类型和对应类型映射，含本复现的 ComplexProperty，以及 ABP Identity Passkey 实际使用的映射方式。单独向模型添加 HasColumnType 不是完整实现；JSON 参数与查询也必须有相应合同。
+2. 最小复现设计时/运行时模型、官方 BookStore 标准初始迁移和重复迁移通过。
+3. 真正支持 JSON 聚合插入、读取、更新、删除、空值、数组、嵌套值、参数绑定、Unicode 与转义；支持应用实际使用的 JSON path 查询，并验证事务回滚、重启持久化。
+4. 使用未修改 ABP 模块的 Passkey 存储与账户旅程做集成回归；SQLite 同模型对照。能力先分别验收本地和真实 Server，再声明各范围支持。
+5. 通过公开 NuGet 发布修复版本，SonnetDB.Abp 固定版本后重跑同一复现和完整应用。不将源码修复、单次建模成功或 issue 关闭当作完整兼容。
+
+这属于通用 EF Provider JSON 能力需求；不要求在本仓库研发或复制 SonnetDB 引擎。2026-10-09 已查重 Passkey、ToJson 和 JSON/EF 相关 issue；未发现相同的公开需求，SQL JSON 函数或 SqlSugar JSON 字段 issue 不等同于本 EF 容器映射缺口。
+
+补充参照：同一官方应用的 PostgreSQL 标准迁移、重复初始化、真实 admin 登录、书籍/作者 HTTP CRUD 与分页、重建宿主后读取已通过。SQLite 完整登录独立事务遇到写锁的失败保留，未关闭安全日志/事务制造成功。

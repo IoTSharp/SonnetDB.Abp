@@ -1,0 +1,33 @@
+﻿@page
+@using Microsoft.AspNetCore.Mvc.Localization
+@using DapperDemo.Localization
+@inject IHtmlLocalizer<DapperDemoResource> L
+@model DapperDemo.Pages.IndexModel
+
+@section styles {
+    <abp-style src="/Pages/Index.cshtml.css"/>
+}
+
+@section scripts {
+    <abp-script src="/Pages/Index.cshtml.js"/>
+}
+
+<div class="container">
+    <abp-card>
+        <abp-card-header>
+            <abp-card-title>
+                List of the books
+            </abp-card-title>
+        </abp-card-header>
+        <abp-card-body>
+            <abp-list-group>
+                @foreach (var book in Model.Books)
+                {
+                    <abp-list-group-item>
+                        @book.Name ($@book.Price.ToString("0.00"))<br/>
+                    </abp-list-group-item>
+                }
+            </abp-list-group>
+        </abp-card-body>
+    </abp-card>
+</div>

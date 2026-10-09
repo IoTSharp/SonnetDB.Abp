@@ -1,0 +1,25 @@
+{
+  "id": "e6f60c26-d21c-4d25-8500-91c2eddd8439",
+  "template": "app",
+  "versions": {
+    "AbpFramework": "10.6.0",
+    "AbpStudio": "3.0.10",
+    "TargetDotnetFramework": "net10.0",
+    "LeptonX": "5.6.0"
+  },
+  "modules": {
+    "Acme.BookStore": {
+      "path": "Acme.BookStore.abpmdl"
+    }
+  },
+  "runProfiles": {
+    "Default": {
+      "path": "etc/abp-studio/run-profiles/Default.abprun.json"
+    }
+  },
+  "options": {
+    "httpRequests": {
+      "ignoredUrls": []
+    }
+  }
+}

@@ -1,6 +1,6 @@
 [CmdletBinding()]
 param(
-    [Parameter(Mandatory)][ValidateSet('dotnet', 'gh', 'git', 'pwsh')][string]$Executable,
+    [Parameter(Mandatory)][ValidateSet('dotnet', 'gh', 'git', 'pwsh', 'node', 'docker')][string]$Executable,
     [Parameter(Mandatory)][ValidateCount(1, 32)][string[]]$Arguments,
     [Parameter(Mandatory)][ValidatePattern('^[a-z0-9-]+$')][string]$Label,
     [ValidateRange(5, 300)][int]$TimeoutSeconds = 120,
@@ -25,6 +25,7 @@ foreach ($taskArgument in $Arguments) { $taskStartInfo.ArgumentList.Add($taskArg
 $taskStartInfo.Environment['MSBUILDDISABLENODEREUSE'] = '1'
 $taskStartInfo.Environment['DOTNET_CLI_USE_MSBUILD_SERVER'] = '0'
 $taskStartInfo.Environment['DOTNET_CLI_TELEMETRY_OPTOUT'] = '1'
+$taskStartInfo.Environment['DOTNET_PROCESSOR_COUNT'] = '2'
 if ($Proxy) {
     $taskStartInfo.Environment['HTTP_PROXY'] = 'http://127.0.0.1:7890'
     $taskStartInfo.Environment['HTTPS_PROXY'] = 'http://127.0.0.1:7890'
@@ -52,7 +53,14 @@ function Save-TaskDescendants {
             $taskChildren = @(Get-CimInstance Win32_Process -Filter "ParentProcessId = $taskParentId" -OperationTimeoutSec 3)
             foreach ($taskChild in $taskChildren) {
                 if ($taskIdentities.Count -ge 128) { throw 'Process ledger limit exceeded.' }
-                if (-not $taskChild.CommandLine -or -not $taskChild.CreationDate) { throw 'Incomplete owned child identity.' }
+                if (-not $taskChild.CreationDate) { throw 'Incomplete owned child creation identity.' }
+                if (-not $taskChild.CommandLine) {
+                    # 已退出的短命子进程可能仍出现在父链快照中；只重采一次，绝不终止身份不完整的进程。
+                    $taskChildProbe = Get-CimInstance Win32_Process -Filter "ProcessId = $($taskChild.ProcessId)" -OperationTimeoutSec 3
+                    if (-not $taskChildProbe -or $taskChildProbe.CreationDate -ne $taskChild.CreationDate) { continue }
+                    if (-not $taskChildProbe.CommandLine -or $taskChildProbe.ParentProcessId -ne $taskChild.ParentProcessId) { throw 'Incomplete live owned child identity.' }
+                    $taskChild = $taskChildProbe
+                }
                 $taskIdentities[[int]$taskChild.ProcessId] = $taskChild
                 $taskNext.Add([int]$taskChild.ProcessId)
             }
@@ -69,6 +77,10 @@ try {
     $taskStdout = $taskProcess.StandardOutput.ReadToEndAsync()
     $taskStderr = $taskProcess.StandardError.ReadToEndAsync()
     $taskRootIdentity = Get-CimInstance Win32_Process -Filter "ProcessId = $($taskProcess.Id)" -OperationTimeoutSec 3
+    if ($taskRootIdentity -and -not $taskRootIdentity.CommandLine -and $taskProcess.HasExited) {
+        # CIM 可能在短命进程退出时仍返回身份但丢失命令行；记录启动参数与真实退出码，不尝试终止。
+        $taskRootIdentity = $null
+    }
     if ($taskRootIdentity) {
         if (-not $taskRootIdentity.CommandLine -or $taskRootIdentity.ParentProcessId -ne $PID) { throw 'Root identity could not be verified.' }
         $taskIdentities[[int]$taskProcess.Id] = $taskRootIdentity
@@ -95,10 +107,17 @@ finally {
             if (-not $taskProcess.WaitForExit(5000)) { $taskFailure = 'Owned root did not exit after cancellation.' }
         }
     }
+    $taskKnownFilter = (@($taskIdentities.Keys) | ForEach-Object { "ProcessId = $_" }) -join ' OR '
+    $taskLiveById = @{}
+    if ($taskKnownFilter) {
+        foreach ($taskKnownLive in @(Get-CimInstance Win32_Process -Filter $taskKnownFilter -OperationTimeoutSec 8)) {
+            $taskLiveById[[int]$taskKnownLive.ProcessId] = $taskKnownLive
+        }
+    }
     foreach ($taskIdentity in @($taskIdentities.Values)) {
         if ($taskCleanupClock.Elapsed.TotalSeconds -ge 30) { $taskFailure = 'Recorded process cleanup deadline exceeded.'; break }
         if ($taskIdentity.ProcessId -eq $taskRootIdentity.ProcessId) { continue }
-        $taskLive = Get-CimInstance Win32_Process -Filter "ProcessId = $($taskIdentity.ProcessId)" -OperationTimeoutSec 3
+        $taskLive = $taskLiveById[[int]$taskIdentity.ProcessId]
         if ($taskLive -and $taskLive.CreationDate -eq $taskIdentity.CreationDate -and $taskLive.CommandLine -ceq $taskIdentity.CommandLine -and $taskLive.ParentProcessId -eq $taskIdentity.ParentProcessId) {
             $taskOwnedProcess = [Diagnostics.Process]::GetProcessById([int]$taskIdentity.ProcessId)
             try { $taskOwnedProcess.Kill($true); $null = $taskOwnedProcess.WaitForExit(5000) }
@@ -107,9 +126,15 @@ finally {
     }
     if ($taskStdout -and $taskStdout.IsCompleted) { [IO.File]::WriteAllText($taskPrefix + '.stdout.log', $taskStdout.GetAwaiter().GetResult()) }
     if ($taskStderr -and $taskStderr.IsCompleted) { [IO.File]::WriteAllText($taskPrefix + '.stderr.log', $taskStderr.GetAwaiter().GetResult()) }
+    $taskLiveById = @{}
+    if ($taskKnownFilter) {
+        foreach ($taskKnownLive in @(Get-CimInstance Win32_Process -Filter $taskKnownFilter -OperationTimeoutSec 8)) {
+            $taskLiveById[[int]$taskKnownLive.ProcessId] = $taskKnownLive
+        }
+    }
     foreach ($taskIdentity in @($taskIdentities.Values)) {
         if ($taskCleanupClock.Elapsed.TotalSeconds -ge 45) { $taskFailure = 'Recorded process audit deadline exceeded.'; break }
-        $taskLive = Get-CimInstance Win32_Process -Filter "ProcessId = $($taskIdentity.ProcessId)" -OperationTimeoutSec 3
+        $taskLive = $taskLiveById[[int]$taskIdentity.ProcessId]
         if ($taskLive -and $taskLive.CreationDate -eq $taskIdentity.CreationDate) { $taskRemaining += [int]$taskIdentity.ProcessId }
     }
     $taskReceipt = [ordered]@{

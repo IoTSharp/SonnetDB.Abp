@@ -1,0 +1,398 @@
+[
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+    "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "gitBlob": "8448ace5f74a2975123d42c53436a7b339b9785d",
+    "sha256": "5266fea018d8f9b193075ca408b2c8a690ac701c491bdc93d9c22a78c0a988ff"
+  },
+  {
+    "path": "DapperDemo.sln",
+    "mode": "100644",
+    "gitBlob": "74ea2f5827da8cf46b3455fca0cb3c559bfe8e72",
+    "sha256": "ab492764ae5faf0cc260de3d03805023fb48fadf3d7c08473b2c6981205663f1"
+  },
+  {
+    "path": "DapperDemo/abp.resourcemapping.js",
+    "mode": "100644",
+    "gitBlob": "4a2ad4589644bbdd2cd3c836c12688c7102a5b54",
+    "sha256": "8d4d2e9bf16d2ffef65e2b94f2873c41144038b0d748ff8aae44f813007eb63c"
+  },
+  {
+    "path": "DapperDemo/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "10f8c3cd1406bc10b73c23355bbdcef9dc714f44",
+    "sha256": "b4f2972802d58d1eac8daf3286d5bc69addcccdac473d805a9228c9041ace0a8"
+  },
+  {
+    "path": "DapperDemo/appsettings.secrets.json",
+    "mode": "100644",
+    "gitBlob": "7a73a41bfdf76d6f793007240d80983a52f15f97",
+    "sha256": "8eb95bcbc154530931e15fc418c8b1fe991095671409552099ea1aa596999ede"
+  },
+  {
+    "path": "DapperDemo/DapperDemo.csproj",
+    "mode": "100644",
+    "gitBlob": "ba1b8022fe36a3752e033c5c8f781571f8516632",
+    "sha256": "4a8f59a5a3f977cfcb124116212a0c15f82508601e84b44a833782c436069d36"
+  },
+  {
+    "path": "DapperDemo/DapperDemoBrandingProvider.cs",
+    "mode": "100644",
+    "gitBlob": "564b1071b3f74dee2cea234e0fa02c6c6b58092d",
+    "sha256": "22fb03d6623ed003f3e7a7b13ea52c2f98a479d44b59d5317e0577b9f628a884"
+  },
+  {
+    "path": "DapperDemo/DapperDemoModule.cs",
+    "mode": "100644",
+    "gitBlob": "d306373feb429c03ba75eafc55e51b77f6cd3700",
+    "sha256": "2ab6ee923b68d2a7f081591712e7885a463f2472ef08698a847a32236cb961bf"
+  },
+  {
+    "path": "DapperDemo/Data/DapperDemoDataSeederContributor.cs",
+    "mode": "100644",
+    "gitBlob": "e29c0f58b94679de08af5f6829758d8a87939e87",
+    "sha256": "96a58e3973be35e39dff5ca2384f282af959976afa4cf03f12c2bdc1a0a9d64c"
+  },
+  {
+    "path": "DapperDemo/Data/DapperDemoDbContext.cs",
+    "mode": "100644",
+    "gitBlob": "34b746bb6b5f71bcaf710d232051daf2729feec8",
+    "sha256": "692ac0ca5ef965947768de0c645109b382e7a42513f6dbefba0fdbee1674a134"
+  },
+  {
+    "path": "DapperDemo/Data/DapperDemoDbContextFactory.cs",
+    "mode": "100644",
+    "gitBlob": "38d7986da5eb288e941a5fd6e60ca6aa8c0b86a6",
+    "sha256": "bb2578da016fa46ebfd3f77c3d492427dde728f2846cbdc2e8683404f6717925"
+  },
+  {
+    "path": "DapperDemo/Data/DapperDemoDbMigrationService.cs",
+    "mode": "100644",
+    "gitBlob": "3b24ccc3bab3c6a303889fee1e5c78cb503a3206",
+    "sha256": "4360027ab8795b87ab471548151528bb8c35888ae8c6ec40a28747f54630c485"
+  },
+  {
+    "path": "DapperDemo/Data/DapperDemoEFCoreDbSchemaMigrator.cs",
+    "mode": "100644",
+    "gitBlob": "98a223ffee022c1b107588c88c65f8f5851a8b27",
+    "sha256": "cfe2ce077e3a931e4d7790c1eec14bedc55fb2f17df68d8ef1100baca9527f0a"
+  },
+  {
+    "path": "DapperDemo/DataViews/BookDataView.cs",
+    "mode": "100644",
+    "gitBlob": "5b3391303d15db8e4e6f79dbccf527c1a0fdc21d",
+    "sha256": "72be6e3df39f6a0bcf1e9cce5ae1713b4415a90d6f579c0def0aad175f339f6e"
+  },
+  {
+    "path": "DapperDemo/Entities/Book.cs",
+    "mode": "100644",
+    "gitBlob": "5c9645be96de0e316f5f94a052ea8e29be066695",
+    "sha256": "3dc7147409c6010b2c06e8ee2cdfddd5fa3c2e1f7703db73dac729eb03fe342b"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemo/ar.json",
+    "mode": "100644",
+    "gitBlob": "153f571276c5db1cf5ced918ef400f06f63f8a47",
+    "sha256": "f1cef9185a61a8eb5788b2d700c7122c6cd1db7304d4e61e85687e9dbe74306d"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemo/cs.json",
+    "mode": "100644",
+    "gitBlob": "524a48e4ebdf5eeb4cb9ac0a1fa0018b2b5dfec9",
+    "sha256": "69deb480228b640562b6075894c2073b85bc367f2c6e11452ba43e2cf54506b6"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemo/de.json",
+    "mode": "100644",
+    "gitBlob": "05a00caf0c7ee6194034d0574a1d48db61ca45e0",
+    "sha256": "a8d4f97c2ef5feaa3e7b3fb98e6ee76858bd20a6b0c0c709a3aca666eaa7ac24"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemo/en-GB.json",
+    "mode": "100644",
+    "gitBlob": "cf24737f244d70d08a3a8cb9b44765f400c53a35",
+    "sha256": "5cdf988d13b6b078d3df3fd5df89b257a7c73270b26fb5b8387b3db0f486e56e"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemo/en.json",
+    "mode": "100644",
+    "gitBlob": "3ee17295cb64edccd6fbbddabbecc76850387ac1",
+    "sha256": "d124654e5e4f331172c295716145d2e2e32845d462acc27a4a37ee38903a49c5"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemo/es.json",
+    "mode": "100644",
+    "gitBlob": "6e138d3e1dcdfc02d30bcfdd6a44624b882dda3b",
+    "sha256": "2eb62d9c1f0efafa3271c24b2cd9277788c9a6e43656a1151b11b1f6e91f62b9"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemo/fi.json",
+    "mode": "100644",
+    "gitBlob": "e963857efc790b636cfc991aabf90e4fae2277e2",
+    "sha256": "9effaccd02d666b05bac210a73de2d2a9b9e95f77db1a4ba145583fae4a818fb"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemo/fr.json",
+    "mode": "100644",
+    "gitBlob": "b2c2b620f72e93e8c47a87b95d99ac3223ee45e0",
+    "sha256": "60dcf4248b62e3d75b3eaa686cff04a843c199ca245ccb2e36bfed106cf5b3f2"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemo/hi.json",
+    "mode": "100644",
+    "gitBlob": "ec16d655b51472519039664663afc7493f077ee9",
+    "sha256": "a6099b063e7dac3cc854a4e2528c5e395d2dc6c87b0ffda46b52fe172d916ebb"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemo/hu.json",
+    "mode": "100644",
+    "gitBlob": "5833dcb4151f482cf13e1afe03c1138c0f7e6d77",
+    "sha256": "3e5d4b7b723787079680c390d19c6368ff3ca15840061019425289a8d35e8fa1"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemo/is.json",
+    "mode": "100644",
+    "gitBlob": "080c0baca229d5ff7ecbf7ba3b55a5bc38f6027f",
+    "sha256": "7d0319ceccd7620bed5a161aade44dd9ab4dabf208394047b3a8c9f522bd6566"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemo/it.json",
+    "mode": "100644",
+    "gitBlob": "57c3cf63d484df491bcdfa261c608d90c2dfabd8",
+    "sha256": "172f46b5644c8611d7fb12f6474a045483bd6caa3dc886f2f6845abfe8517dd8"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemo/nl.json",
+    "mode": "100644",
+    "gitBlob": "525ee02d1004881e8cbb556eda1506411ed38b37",
+    "sha256": "16720bd52c4ffe1ab40966101fdc47dc17f4cd477fe1404b2df7ac941e4e278a"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemo/pl-PL.json",
+    "mode": "100644",
+    "gitBlob": "2ebf70a5e15ecdad909af301443f63bac2ff7d49",
+    "sha256": "aaef5855b836ef4a00fb1c90bc529685f1d6af68657ef4f72e119b9cbd09cb07"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemo/pt-BR.json",
+    "mode": "100644",
+    "gitBlob": "96e45d3c3e69a6bc9dbe1d0f3a6076d72464da43",
+    "sha256": "a9fd0dddcaf6a009d14d537aae6a02c850408839d8f51579d0378e8b15a53fe3"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemo/ro-RO.json",
+    "mode": "100644",
+    "gitBlob": "48102a75b7002f5f8917c0ebb0724ea642b98ad1",
+    "sha256": "d20a5643a544db12dd8472839bacedab611968c1e542d03dd8ece7302b5f5402"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemo/ru.json",
+    "mode": "100644",
+    "gitBlob": "eb4cc96b5d4a93147ee651fde4deb582079e5d70",
+    "sha256": "c350d9fd97bff20aa57f1f1dad1e5e81088b5d25d4332c45bab10c839e89cabb"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemo/sk.json",
+    "mode": "100644",
+    "gitBlob": "227d0a74cbf786dff1079b278eb99428165afd61",
+    "sha256": "4d5c6cf7725c63b9c1756a7a29e6964a769a766720da66c2748c9d9f833d59bc"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemo/sl.json",
+    "mode": "100644",
+    "gitBlob": "29876afa0c0537f5c092037c358df6e500ca9bf3",
+    "sha256": "9ee8971753786b5ae36e4db5b70ed19a2f39a911f20798c51a8910c88fa18162"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemo/tr.json",
+    "mode": "100644",
+    "gitBlob": "6cbdac76a218c7271b31be5c4f15dac87185d9ee",
+    "sha256": "33354ff0ad8431c753b67278f4db23233e7275bde980aa5e366c2ff3c7d372d7"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemo/vi.json",
+    "mode": "100644",
+    "gitBlob": "f2e55bd7b0683d4af85999d0869924a4f3fd26ca",
+    "sha256": "aa0af3c1f842eb0b0c03b27baf5f6458140f6da4d1a97bf75bf6004e2270ff5c"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemo/zh-Hans.json",
+    "mode": "100644",
+    "gitBlob": "6a66abeb9c31746c4cff2303e12ffcc265299e6e",
+    "sha256": "a7a1134d192793ddd0aaaeec9160b55f4dd5440f516203b42e052e9d4302fef0"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemo/zh-Hant.json",
+    "mode": "100644",
+    "gitBlob": "7b4872c97463b56be0bf8e96b18a4bf6d07a1d07",
+    "sha256": "acf0f641164546125795c2cd3df79a5ee8a1ac5e9632501ce548ec0c8fbf221c"
+  },
+  {
+    "path": "DapperDemo/Localization/DapperDemoResource.cs",
+    "mode": "100644",
+    "gitBlob": "4eb96509f926551cbb088894c5255e6b11e32e48",
+    "sha256": "ddf82b0a8eed7c6988433993008f412df1afebca595b212ac56958c6f6ca6018"
+  },
+  {
+    "path": "DapperDemo/Menus/DapperDemoMenuContributor.cs",
+    "mode": "100644",
+    "gitBlob": "e15ff0d1a942a03cc8f7759ee264553024228794",
+    "sha256": "803104675b6b7c9bf391bbe6f393f101c9f2ba1a2dcb494172aad3bd21bd3612"
+  },
+  {
+    "path": "DapperDemo/Menus/DapperDemoMenus.cs",
+    "mode": "100644",
+    "gitBlob": "fe9459a991b42948f66973e3f8d93e64cb0e0aed",
+    "sha256": "868874310f43d84f286c2a0eef21b1c5174b7d0c94e697c29ab20b8467b6356b"
+  },
+  {
+    "path": "DapperDemo/Migrations/20240911073736_Initial.cs",
+    "mode": "100644",
+    "gitBlob": "2697508b558971c768e4a2fe2ddbfe7ba40956d8",
+    "sha256": "3a03d642e6e1b8dd20dfb01e2cb29c95fc966ed5c486732efdbc8f765a7e6131"
+  },
+  {
+    "path": "DapperDemo/Migrations/20240911073736_Initial.Designer.cs",
+    "mode": "100644",
+    "gitBlob": "298b8e7bfdf259af0798f87ba1f3e305d7392b56",
+    "sha256": "cfbb81d01d74a2826ee0660d7eccbba465fdff180043abb56ef4a7164d61618c"
+  },
+  {
+    "path": "DapperDemo/Migrations/DapperDemoDbContextModelSnapshot.cs",
+    "mode": "100644",
+    "gitBlob": "5eaa6939a3a53a3c766865a16ba206f5d6bd2714",
+    "sha256": "355f87e0ee789a72e82bed720ee2d6eb22fd4be0e0bb259b22d4ce030b1e3014"
+  },
+  {
+    "path": "DapperDemo/ObjectMapping/DapperDemoAutoMapperProfile.cs",
+    "mode": "100644",
+    "gitBlob": "9297603969a8143d8b3210bc599b2c1e4e4d8132",
+    "sha256": "da78a992bafb9d5327fe85b359d6a47fd576112fbee83ad2657fb9a9b74af2b2"
+  },
+  {
+    "path": "DapperDemo/package.json",
+    "mode": "100644",
+    "gitBlob": "7a0fb0d2547a1b9313e034dc40be1410327dea64",
+    "sha256": "3e32d5b0db69cca441b806dc68023c7d251f9bc0816618ddb422c4a1bc39de79"
+  },
+  {
+    "path": "DapperDemo/Pages/_ViewImports.cshtml",
+    "mode": "100644",
+    "gitBlob": "c1da1f5f107073cb33bda44b29af50b0ca819024",
+    "sha256": "12f2ecf13ffdd45d83b0198a52d2bd0972c59a17dc4da1c61d0a1974ddec9fda"
+  },
+  {
+    "path": "DapperDemo/Pages/Index.cshtml",
+    "mode": "100644",
+    "gitBlob": "e6cd4c673b5028e2d54b69c4fdc8f897001d0fd1",
+    "sha256": "6e32bb9b87fff2aae86b7d2f03b2ced31346813d38e93b6e831ee6867951ddf0"
+  },
+  {
+    "path": "DapperDemo/Pages/Index.cshtml.cs",
+    "mode": "100644",
+    "gitBlob": "76e246f3a02fdd6a5d07a9ae19261264ae2b780a",
+    "sha256": "e14c3bb76f5d138d834da7548d0b48cdf39c779278e95a572c5302463baffce8"
+  },
+  {
+    "path": "DapperDemo/Pages/Index.cshtml.css",
+    "mode": "100644",
+    "gitBlob": "5f282702bb03ef11d7184d19c80927b47f919764",
+    "sha256": "f1945cd6c19e56b3c1c78943ef5ec18116907a4ca1efc40a57d48ab1db7adfc5"
+  },
+  {
+    "path": "DapperDemo/Pages/Index.cshtml.js",
+    "mode": "100644",
+    "gitBlob": "6cdadd67c011de320c804014b71461cbf5840a34",
+    "sha256": "8742ee8e15298f1db776cd519fe22d4195cd0f218fa27e28175b79e9752146a1"
+  },
+  {
+    "path": "DapperDemo/Program.cs",
+    "mode": "100644",
+    "gitBlob": "75ee837cbb38c0fe782a8b139182df0d03995775",
+    "sha256": "e207c15b8276f89b29d7a4b85c19e61141dc67f0951b9b734137ba12006271d8"
+  },
+  {
+    "path": "DapperDemo/Properties/launchSettings.json",
+    "mode": "100644",
+    "gitBlob": "df053fc6e2fec215980ed7233be7d01a5fe68106",
+    "sha256": "95ca0909c3f64998b88f8703ad53b2fd77c07c96cf7b89719892281ed2ea163a"
+  },
+  {
+    "path": "DapperDemo/Repositories/DapperBookRepository.cs",
+    "mode": "100644",
+    "gitBlob": "9ea90d90d1317389220315d2209a0d6d8698edca",
+    "sha256": "0fff8d2d59e17337dfb4957d3648afa2efcaf8104d1e45e023345b2a1a236bef"
+  },
+  {
+    "path": "DapperDemo/Services/DemoService.cs",
+    "mode": "100644",
+    "gitBlob": "7fe18b38212c9686c1a980168305aadc21300aa8",
+    "sha256": "cb551a88cf72b3f14184951002ce5e63196a6c18b3ca3d0b7a090e2edc7c85b8"
+  },
+  {
+    "path": "DapperDemo/Services/Dtos/.gitkeep",
+    "mode": "100644",
+    "gitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "DapperDemo/web.config",
+    "mode": "100644",
+    "gitBlob": "99dd3a74bbdb81ad7eca9181a182a8d89a84b7d2",
+    "sha256": "ceff99d48cec21be00a455680e9899f7740f5b75d0c08974687dc0fe5fa7e70d"
+  },
+  {
+    "path": "DapperDemo/wwwroot/global-styles.css",
+    "mode": "100644",
+    "gitBlob": "74db4bd54f3f72c1e84ce5b512504c5c2d128613",
+    "sha256": "d007b490db9e3bef0930c34c57b7a4b03bf0116e8fe06e9206fb130c4ef06f31"
+  },
+  {
+    "path": "DapperDemo/wwwroot/images/logo/leptonx/logo-dark-thumbnail.png",
+    "mode": "100644",
+    "gitBlob": "621596bb5c1a301136d9ee2af5ffe1391a4af776",
+    "sha256": "fe22525ee249a11be341ac93df02c1d8ded12c9fab9ca765977e74ba6941fb29"
+  },
+  {
+    "path": "DapperDemo/wwwroot/images/logo/leptonx/logo-dark.png",
+    "mode": "100644",
+    "gitBlob": "e4bfe818c880edfbe00b88ddfc1cbc98289eb238",
+    "sha256": "2a39a8fe7f501f0d401a8c49e38f6d964dc7f31c71ca9916399cb6b37e23c7f6"
+  },
+  {
+    "path": "DapperDemo/wwwroot/images/logo/leptonx/logo-light-thumbnail.png",
+    "mode": "100644",
+    "gitBlob": "886c96086415a813f5de9dd916ee465c7859b267",
+    "sha256": "c47dc4bb7e49f0d27d26c4e5045c5583b231e60ebccefb270f3d516d494a9247"
+  },
+  {
+    "path": "DapperDemo/wwwroot/images/logo/leptonx/logo-light.png",
+    "mode": "100644",
+    "gitBlob": "6ebd97e2b2805085393d70d51ffd926be6de9fde",
+    "sha256": "e2c5e241d205bfd0b733478f0b7342eefbf92a7c3a04b7184d46562c62a9928a"
+  },
+  {
+    "path": "DapperDemo/yarn.lock",
+    "mode": "100644",
+    "gitBlob": "72fc868d7795cea2f30f098142baa0f87c3e1922",
+    "sha256": "dd180a5ac7113fb1a06eff161b97703db8e34c63cc8ab001f99be86515ce08e7"
+  },
+  {
+    "path": "migrate-database.ps1",
+    "mode": "100644",
+    "gitBlob": "e128a52216e9ab89c74be334d6d018b8926e6c8b",
+    "sha256": "805ff592ccfcf7f4fc0fddbb61ac093f094960c723cf6081b9b9282bac62c8c6"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "gitBlob": "1685dc4b54cbb58a76c900118d9f4d684ec73ae2",
+    "sha256": "0b946f5af8f225abad6d3e588fb0a53b2d08babc1a5342c863d07f09816275a7"
+  }
+]

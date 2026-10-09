@@ -1,0 +1,27 @@
+{
+  "applications": {
+    "Acme.BookStore.Web": {
+      "type": "dotnet-project",
+      "launchUrl": "https://localhost:44339",
+      "path": "../../../src/Acme.BookStore.Web/Acme.BookStore.Web.csproj",
+      "healthCheckEndpoint": "/",
+      "execution": {
+        "order": 2
+      }
+    }
+  },
+  "tasks": {
+    "Initialize Solution": {
+      "behaviour": 2,
+      "startCommand": "./initialize-solution.ps1",
+      "workingDirectory": "../../scripts",
+      "shortDescription": "Installs client libraries, applies database migrations, seeds data, and creates the development certificate."
+    },
+    "Migrate Database": {
+      "behaviour": 0,
+      "startCommand": "./migrate-database.ps1",
+      "workingDirectory": "../../scripts",
+      "shortDescription": "Applies database migrations and seeds data."
+    }
+  }
+}

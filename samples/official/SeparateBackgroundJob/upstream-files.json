@@ -1,0 +1,884 @@
+[
+  {
+    "path": "common.props",
+    "mode": "100644",
+    "gitBlob": "7e89c3a06b0fd59cbf893dd272242effb9348e9f",
+    "sha256": "653369b881844d1ea98269cf3726635c53c1c21ff90dc80c987e5b1bd29ed8fc"
+  },
+  {
+    "path": "JobExecutor/.gitattributes",
+    "mode": "100644",
+    "gitBlob": "c941e52669683c63ad9c3db2073b54ac74e20ba7",
+    "sha256": "13a51d1e2ad3b2997aaeb6295a568a555faa0c01c040f0db71a0d85c803cf111"
+  },
+  {
+    "path": "JobExecutor/.gitignore",
+    "mode": "100644",
+    "gitBlob": "7e38cbc13629583a6510b2fb2b339338a674dfc0",
+    "sha256": "a47f858b36ffb786a8054217acf58434a6d34b216c0b1e7337978c6b4a39c520"
+  },
+  {
+    "path": "JobExecutor/BackgroundJobExecutor.sln",
+    "mode": "100644",
+    "gitBlob": "559c78f751322bde73338babbd808e9e37ee5d28",
+    "sha256": "4285655f31619433ddb7c85e26372647cb540f2269fdaf41bf89876c8d8b6c08"
+  },
+  {
+    "path": "JobExecutor/common.props",
+    "mode": "100644",
+    "gitBlob": "7e29afcfb8f06c8099c88b424d0b552e1c72c83f",
+    "sha256": "e3324392b37729a320201efe4964e64d1225e14d184890347d867fb02b65d6b0"
+  },
+  {
+    "path": "JobExecutor/src/BackgroundJobExecutor/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "a7abe7d3239c0c91fba4d6fb1ab8d984daea17f7",
+    "sha256": "49c917cee0fb574649b0fcb5b12c6f85207817157f67752fe83f0bfd7aa9c199"
+  },
+  {
+    "path": "JobExecutor/src/BackgroundJobExecutor/appsettings.secrets.json",
+    "mode": "100644",
+    "gitBlob": "7a73a41bfdf76d6f793007240d80983a52f15f97",
+    "sha256": "8eb95bcbc154530931e15fc418c8b1fe991095671409552099ea1aa596999ede"
+  },
+  {
+    "path": "JobExecutor/src/BackgroundJobExecutor/BackgroundJobExecutor.csproj",
+    "mode": "100644",
+    "gitBlob": "d438259c82a198954f666f51a5b5d2262d35f397",
+    "sha256": "63611e861def2b7d5c95249b969fa2bad505ec0f97b644a09e87b9b8a009d63a"
+  },
+  {
+    "path": "JobExecutor/src/BackgroundJobExecutor/BackgroundJobExecutorHostedService.cs",
+    "mode": "100644",
+    "gitBlob": "ce277dc1c5f490c7b0fcffa6510352052998334e",
+    "sha256": "c5623507de71c730fc3f9fe12fce28c74f12bf5df7186382e293eeefb484cfb2"
+  },
+  {
+    "path": "JobExecutor/src/BackgroundJobExecutor/BackgroundJobExecutorModule.cs",
+    "mode": "100644",
+    "gitBlob": "64f04c5aabc580c9f9f9aa85a06a8e8a760e7f4b",
+    "sha256": "bb8da944c89007f13fd44c5f20a4f4144f3b26138cc83ff75078873d75a02783"
+  },
+  {
+    "path": "JobExecutor/src/BackgroundJobExecutor/HelloWorldService.cs",
+    "mode": "100644",
+    "gitBlob": "02d5abe0971201b4492cb8fd775e3c90e1476f78",
+    "sha256": "6c3e44252cb6a0900d098c148c55c54be398fd8b6ae11e5f942c9bd0269e307f"
+  },
+  {
+    "path": "JobExecutor/src/BackgroundJobExecutor/Program.cs",
+    "mode": "100644",
+    "gitBlob": "1c58f8368633595046039c743cd65f9739e73071",
+    "sha256": "feac7fd5b68f169349e3c6ee55273602ee4eef0d83e4d94a9d884158a5950ed8"
+  },
+  {
+    "path": "NuGet.Config",
+    "mode": "100644",
+    "gitBlob": "bdc451971a8a75772a2ebe551f3b9716ca1c103b",
+    "sha256": "a735a4b04eb2c02b3ef468145fc7c287008f1ea683fd41a45d43cb42548d3f22"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "gitBlob": "4ef02f917a71c6ede79bc73ed96f1ca794790ef4",
+    "sha256": "5f7d4b5c6d8fb4122f29d93b22e72c0f0f6f23f4037a7109eaf89d3da1684d76"
+  },
+  {
+    "path": "SeparateBackgroundJob.sln",
+    "mode": "100644",
+    "gitBlob": "0e63374ec041a844c46826368a7f4a857d3090b9",
+    "sha256": "a90049679b08d5fe82d79865ca7637dc1cd24e2f95323e07eb4ff750190484b9"
+  },
+  {
+    "path": "SeparateBackgroundJob.sln.DotSettings",
+    "mode": "100644",
+    "gitBlob": "cb0b2c919f75c02f264be049b25b49828974664c",
+    "sha256": "a2720bad501f52bfc11a0b5a214408771b52e2e4177a7c85ff6fff8384dc4136"
+  },
+  {
+    "path": "Shared/SeparateBackgroundJob.Common.Shared/MyReportJob.cs",
+    "mode": "100644",
+    "gitBlob": "c0860da42278cf30e2df955b4db13c77abb41ae8",
+    "sha256": "dab8a3befe1571baa6726a6ef9f7ad00de17d1352f8d7c7f0b783ed08d928de0"
+  },
+  {
+    "path": "Shared/SeparateBackgroundJob.Common.Shared/MyReportJobArgs.cs",
+    "mode": "100644",
+    "gitBlob": "4b61fc8cc8400bb43e5435f14606c2db19f55128",
+    "sha256": "bc5549a7beb6f46d6241e92833eb946751e5c03c9ad0e219a088442ce3aeee53"
+  },
+  {
+    "path": "Shared/SeparateBackgroundJob.Common.Shared/SeparateBackgroundJob.Common.Shared.csproj",
+    "mode": "100644",
+    "gitBlob": "7ecad51dc6e6ef312a11b77ae4acce62a7b0f5cd",
+    "sha256": "c922ffc1c57bd6362d7b4e1881f7dc7220d455d7f5b6f5a236cdadd53f4cfed2"
+  },
+  {
+    "path": "Shared/SeparateBackgroundJob.Common.Shared/SeparateBackgroundJobCommonSharedModule.cs",
+    "mode": "100644",
+    "gitBlob": "e594901857dd9a68a374a9d4572b5a2af28fd6d1",
+    "sha256": "f334baabcdc17235c4f1630302c2f2794baa43d3fb04548f8b5913855d753198"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Application.Contracts/Permissions/SeparateBackgroundJobPermissionDefinitionProvider.cs",
+    "mode": "100644",
+    "gitBlob": "20f382ad7c3026c369532d78906f5444c755c86c",
+    "sha256": "1daaeef7dc9b978b2d5d3b80a34aed55435d6d6e9ecaea6a77723ff679c77774"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Application.Contracts/Permissions/SeparateBackgroundJobPermissions.cs",
+    "mode": "100644",
+    "gitBlob": "5e7abfc93b859b3e30084f040a750fd5ab1c534e",
+    "sha256": "c9cfe1cc00aadcef775f59c785796a327482c13eb7869c1d29a2ad639244ead8"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Application.Contracts/SeparateBackgroundJob.Application.Contracts.csproj",
+    "mode": "100644",
+    "gitBlob": "2d65e8ab469f65be534ad93927b757bda2d6be8c",
+    "sha256": "a56d03e56ff393770dc73f6d18923487756ed461fd06e65353aa0d388d297670"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Application.Contracts/SeparateBackgroundJobApplicationContractsModule.cs",
+    "mode": "100644",
+    "gitBlob": "a1040c99ac11c97b976b1d4b64406d8d75c6f6da",
+    "sha256": "d29b2dc8e288072dc86584b341670319ca6ee341a8caed2718a293c6f41e3b0b"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Application.Contracts/SeparateBackgroundJobDtoExtensions.cs",
+    "mode": "100644",
+    "gitBlob": "7309d977e4f23ae0cf22c683e13a142d66d02048",
+    "sha256": "8fcd2675fc4f5aaabcf8bd245e619850b008597358f4934f835ae43ab415353a"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Application/Properties/AssemblyInfo.cs",
+    "mode": "100644",
+    "gitBlob": "b5c43aa73da65bf22936f4af3765ad4ccfc1fe6d",
+    "sha256": "0f32c6c1e0ccdd0994430497d231ea3848a8123a98dde7b1a34690ff6d67feaf"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Application/SeparateBackgroundJob.Application.csproj",
+    "mode": "100644",
+    "gitBlob": "0ce013f2077415e378164000c24bd0ea4c7e35a4",
+    "sha256": "dea93ecf1ba6690907ea0e712acb716ba53207530c27e754517d378b32fe37a6"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Application/SeparateBackgroundJobApplicationAutoMapperProfile.cs",
+    "mode": "100644",
+    "gitBlob": "a4e85395e4db512a1fe483c76ea3fc132e56b620",
+    "sha256": "ac693062fd39e2a05bacfe4ec4c577432568d7476cbbe22f87e1d5db3d90b846"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Application/SeparateBackgroundJobApplicationModule.cs",
+    "mode": "100644",
+    "gitBlob": "9f25be4486ca9fc76debaf89c5098d800f0cbbd7",
+    "sha256": "d5d7e89de4d098bf6b19e7696abd217379da6a778550fd82288ac541889b2162"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Application/SeparateBackgroundJobAppService.cs",
+    "mode": "100644",
+    "gitBlob": "3e4e788ae253cbb0230345f01df6650d3e5898da",
+    "sha256": "3f18f992f9c24553296475af8eed2b981c8785d2f61652b405b43871e892ef41"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.DbMigrator/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "aaa3a59373feb4ea67e7a554036b57f257d6f744",
+    "sha256": "58df33b6e739d9b0ffc80b5389d3337e8d8acab141038a4ee5bb6803b5e2bbe5"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.DbMigrator/appsettings.secrets.json",
+    "mode": "100644",
+    "gitBlob": "7a73a41bfdf76d6f793007240d80983a52f15f97",
+    "sha256": "8eb95bcbc154530931e15fc418c8b1fe991095671409552099ea1aa596999ede"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.DbMigrator/DbMigratorHostedService.cs",
+    "mode": "100644",
+    "gitBlob": "d424c4347048c522734a6182b3a0b689a7f860c2",
+    "sha256": "c6178d55be1e6b1203c869668ae7b19800c1b8861b94b9741c16bf3590622bbf"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.DbMigrator/Program.cs",
+    "mode": "100644",
+    "gitBlob": "2bbec04a7f4152bd7495f16bbc9da54025c9a678",
+    "sha256": "ead8eecd06e27c5cbdf782ca25501ed17bb0cfa1d31cd6d4a630b06a8a076146"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.DbMigrator/SeparateBackgroundJob.DbMigrator.csproj",
+    "mode": "100644",
+    "gitBlob": "274250a0c58026b66a7e68a718df26eadb726476",
+    "sha256": "dac371ac8d64b6ae93b260f80d9ab83931a1219fa26babe3b1d9fd2e7d2efea0"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.DbMigrator/SeparateBackgroundJobDbMigratorModule.cs",
+    "mode": "100644",
+    "gitBlob": "f6d445b8c4616424bd4b309f41c0e7cec32d7ffd",
+    "sha256": "e03c1e0937009f5fceca17e82b98f815a253cbe70f6ec02c8a1161ecfd3b5b97"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/ar.json",
+    "mode": "100644",
+    "gitBlob": "96bbf80b40c6b18119ec5d67793564024b008d2d",
+    "sha256": "ac846e10e371d4b3206fbe8ba6644116ac0dd144670574648b99637fbedd5a63"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/cs.json",
+    "mode": "100644",
+    "gitBlob": "5a0bbf613e1c04db8e53bef212a64ad853cc084a",
+    "sha256": "d0913130082f87173f663e36888ed5b699bb6481e7a594b1783f45276bd79d76"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/de.json",
+    "mode": "100644",
+    "gitBlob": "831493be8675534fe19a08544dd3106ceaad9427",
+    "sha256": "86c6defce4ce18e3152358bd9c3b29ba5870e202fa9103714d02f9184faf06b6"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/en-GB.json",
+    "mode": "100644",
+    "gitBlob": "d2ca0793a3d3ee31ef911c195356ab0908b3c015",
+    "sha256": "bc1439cff74f5144bd6bcdf4bab06edc10030d1c2015c95ff0e20737f38e9fa1"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/en.json",
+    "mode": "100644",
+    "gitBlob": "d2a6a9831ebc67b7db1f042c0d955a57ebb3926b",
+    "sha256": "faec2df7fa9849a8d7c650a4a681fdd979503b58db33c55bfdc479d48ed562f2"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/es.json",
+    "mode": "100644",
+    "gitBlob": "31b4b59e256acf17b6271340649e268fb0c62602",
+    "sha256": "58abd217ddab4c7eb64df39e03d11c78284ba7e7ee465b51dea9a957cc80eeba"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/fi.json",
+    "mode": "100644",
+    "gitBlob": "a318859f23d1d1107593fed1d0d5fcd4c4ab5fc7",
+    "sha256": "fb8383022d309bffe9a152aa12368a4be20fa78131a6c917aabe37f74329d58c"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/fr.json",
+    "mode": "100644",
+    "gitBlob": "e76eac0c710ea581d1105a718fe6be27e998d8fb",
+    "sha256": "f4955a8edb72656750a20b6aa37bfeb22b4446605273718049789de298e94dbc"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/hi.json",
+    "mode": "100644",
+    "gitBlob": "a1676bfd45094468e1958ef23b2c75872fa74f3d",
+    "sha256": "d339e37d113a17a4acb7f84d20b7072dba2b2c2cf20a2444f462fdd34e92c4f4"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/hr.json",
+    "mode": "100644",
+    "gitBlob": "fa8efab3227702389a8c2858116574a200324d87",
+    "sha256": "daeda343f9d7fbe09f84c7161ae94ec59e1acc67cf9464a38207f4906175e8bf"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/hu.json",
+    "mode": "100644",
+    "gitBlob": "c7b6a33a0f985c43ff60a6f41e0c34b9f9a4de26",
+    "sha256": "25aaf4e277498ea38e66047f913d9b7e47759718a228d72cf7923568359278a6"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/is.json",
+    "mode": "100644",
+    "gitBlob": "190df903738ea466c6b0b94a72cfa5616750b9f6",
+    "sha256": "e317c8800b90121ccbf264d58245ec4369d664f92c4b144b4ddcccfafeacc338"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/it.json",
+    "mode": "100644",
+    "gitBlob": "82ce42b0338735b08eb0aad235532003c8244cc8",
+    "sha256": "aa87dc231177e0431a1287caa732d47bdf0e85c568c9339cb99323429d6372ce"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/nl.json",
+    "mode": "100644",
+    "gitBlob": "9ba8da4743b552618c50bf2c6c87e27f6b175df3",
+    "sha256": "9fe18054ee5928c4845fdb7452d76775f036ac79a0008771a90a63a67eb6c87f"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/pl-PL.json",
+    "mode": "100644",
+    "gitBlob": "33412f307ca4b0ed7af9ee52484099c067fe6ca5",
+    "sha256": "a12f7381fb09fe215f30f42e4a547a4fc46271397530bf094eee671bcfab4bc4"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/pt-BR.json",
+    "mode": "100644",
+    "gitBlob": "8c818a07af405ba8caf208bb7b49d390a2c844b2",
+    "sha256": "c5b656f1ab373b18559d72ae781244dcae871c24084018c7c40a44fdded57181"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/ro-RO.json",
+    "mode": "100644",
+    "gitBlob": "1fe560196eb543a8d1d82491853753b004aeaa76",
+    "sha256": "662761b5866e679de8ef8f0bc807955d5bca9f6d4126a7660f9254e065ff624b"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/ru.json",
+    "mode": "100644",
+    "gitBlob": "8464e4434474ddf95c953b5709c2178ddc391341",
+    "sha256": "bf3f69ebc1ac1c6c3d366d4f5ce88a353f9661d54bb3f008f8e0cb1a8f06dbc2"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/sk.json",
+    "mode": "100644",
+    "gitBlob": "4f35aaf1c3af2dcfc1f911f2d72d92c6f1cf7d42",
+    "sha256": "73ded766a528816911600f2beebeb6ce40a0a07dd809d8cd73f1dab4c41c6c31"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/sl.json",
+    "mode": "100644",
+    "gitBlob": "a066ef26baa7a762eebd46fef6650ce4635e9e9f",
+    "sha256": "5636d4ca999940cdee3c24cc15af323893de952705c787d59871b856fe588765"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/tr.json",
+    "mode": "100644",
+    "gitBlob": "2cc911e48e6b658b6e778706864ddb1d45c01b2a",
+    "sha256": "47f3a3765eaf6a01c2ad3ae06e068784b7167da8c315c789d09133a26a335f62"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/vi.json",
+    "mode": "100644",
+    "gitBlob": "c115a35726d049352cdf3c6773c5caeda67651ad",
+    "sha256": "73d137a03e279534c134d94389653016cf0407ab5eb8987dc75f05fdddae54f7"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/zh-Hans.json",
+    "mode": "100644",
+    "gitBlob": "23790bde506730dcb517f31f3b2a1ac458c74f95",
+    "sha256": "791a81f2e8ecf75643b865ebcb832090b91d731801a3f8f8de14696634b01f13"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJob/zh-Hant.json",
+    "mode": "100644",
+    "gitBlob": "31e0ab5a47a599f6fd945c2962eb34fc2487fc9c",
+    "sha256": "50ab5d8312e891769bb5dd76202ee65310a8f82e71edfa8121329595e2df45b6"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/Localization/SeparateBackgroundJobResource.cs",
+    "mode": "100644",
+    "gitBlob": "f79efe6e206d55c79f370d80d5cb524bd9e1ee24",
+    "sha256": "f2f34d37180f754a2c3bb961e08145737437df45e7550b0f177405d381634ba9"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/MultiTenancy/MultiTenancyConsts.cs",
+    "mode": "100644",
+    "gitBlob": "1e736e6b21a7081186c454e7768023ba745464f2",
+    "sha256": "5a7d4f2bfb2bd67beeeb745acb4727603ced483587e294d46a9829156d35f910"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/SeparateBackgroundJob.Domain.Shared.csproj",
+    "mode": "100644",
+    "gitBlob": "1989007369ac818c2fbe00cc5aa0b9ce2c8d5d88",
+    "sha256": "bb27433c6f70bace665a7fa0f65076e8f66023074851b4d512a9aaf4685321af"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/SeparateBackgroundJobDomainErrorCodes.cs",
+    "mode": "100644",
+    "gitBlob": "2525e71e0dce6011f677831ddbac97fa571f143d",
+    "sha256": "01318494d01d3d2112f4b9281c200c9919af5e2883c2a542785e6e31b648bc95"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/SeparateBackgroundJobDomainSharedModule.cs",
+    "mode": "100644",
+    "gitBlob": "26b46417ff343e9aa510586977f5703d315a9ab8",
+    "sha256": "642026057d812a4f0a015f205130922e57b057a9a66f61ffb9c22280fc737cee"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/SeparateBackgroundJobGlobalFeatureConfigurator.cs",
+    "mode": "100644",
+    "gitBlob": "1702fc17e19d2df900d764317cdd3a458c925552",
+    "sha256": "64a95e290b57d7d2df884eae051cf964caa4b7cce9d76cc327de63d9159f06da"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain.Shared/SeparateBackgroundJobModuleExtensionConfigurator.cs",
+    "mode": "100644",
+    "gitBlob": "21b5ff16abd8e7a99d09db9c3b57c18b445827d0",
+    "sha256": "d8291a94446c8f54c07966590f4da9630dcf0d68b298c52b97267de924c1e570"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain/Data/ISeparateBackgroundJobDbSchemaMigrator.cs",
+    "mode": "100644",
+    "gitBlob": "1f3a7f6b14c1d4de70250b6e4949441b082cc880",
+    "sha256": "75732e0786ff71cbcbcbc44a59ab2f91eb4c46ac187b5f3063d2904bb5c7dc7c"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain/Data/NullSeparateBackgroundJobDbSchemaMigrator.cs",
+    "mode": "100644",
+    "gitBlob": "dd31f32ec425d23aaa4a4a6f8720432eea4518f5",
+    "sha256": "f7e877fc72a50eb01f6f080cf4f2a5d3ea43309b37830e35ca36a85a39164c54"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain/Data/SeparateBackgroundJobDbMigrationService.cs",
+    "mode": "100644",
+    "gitBlob": "9c0bdd970831f1fb116ba7fc80f9156680d715c8",
+    "sha256": "5798c920e657642fec4f95cb2ff693b39c929f5d1ea9746a663d84e4df9dec0a"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain/OpenIddict/OpenIddictDataSeedContributor.cs",
+    "mode": "100644",
+    "gitBlob": "c2c4dbb3bbe6a34ded066baecd8f887b875c8495",
+    "sha256": "9d680e40ff1cec2c8e7b84c23cc62dec9d7df1556fd73117ab49a9ed533f3599"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain/Properties/AssemblyInfo.cs",
+    "mode": "100644",
+    "gitBlob": "7dc101e86ba23a9530c7b47f0f329744102242ef",
+    "sha256": "f4383f48f17c37a7630a679d4e84ff784104f860c6146c95f2463f17f8a56084"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain/SeparateBackgroundJob.Domain.csproj",
+    "mode": "100644",
+    "gitBlob": "527bbf2b6c7a2c807eb40151428611ffe27522b8",
+    "sha256": "43c99b62c40dee4a7845bc4d0afad1bd63fd51296233f54c1220f79d464ae83b"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain/SeparateBackgroundJobConsts.cs",
+    "mode": "100644",
+    "gitBlob": "da03298c526292e0d1dac7285180616928e22a52",
+    "sha256": "fc612da5ac6ddc803d5fb87c2ead80ceb360d46d138b57bdf48b7afd46bc4a14"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain/SeparateBackgroundJobDomainModule.cs",
+    "mode": "100644",
+    "gitBlob": "028738f07631811e1b1f03b1e0b5e755f276e47b",
+    "sha256": "304fd710a6b7d9175ac9030f865df48a604396b6d0b7769414df2ac8e7a7c2e7"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain/Settings/SeparateBackgroundJobSettingDefinitionProvider.cs",
+    "mode": "100644",
+    "gitBlob": "c7abe5f4c2b71e22a9738cac56cf1ff5fb3b1f69",
+    "sha256": "909266dad0a5ca6df3a2c6acff0e24f91bc97efb9700fcc7e69e3b7bbcb776d6"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Domain/Settings/SeparateBackgroundJobSettings.cs",
+    "mode": "100644",
+    "gitBlob": "a747e4894ec7885b175e252604e809b2865b68b3",
+    "sha256": "cf0f36546a68c833115d202616d4612c58f18c971aa0ba7c8215bb6244e02219"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.EntityFrameworkCore/EntityFrameworkCore/EntityFrameworkCoreSeparateBackgroundJobDbSchemaMigrator.cs",
+    "mode": "100644",
+    "gitBlob": "95ac1e1535df1d05f575884121a81c227367d9ef",
+    "sha256": "c70ab74824d7b7e32ba54bc5a80da4fab09c548e1646d629d251afb73b28d341"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.EntityFrameworkCore/EntityFrameworkCore/SeparateBackgroundJobDbContext.cs",
+    "mode": "100644",
+    "gitBlob": "6655c1bc854f004981453aaef7ca217ed5c1b8e2",
+    "sha256": "89147a3f608ee6d1159bdeacbc623774d7f6223f8313473b4fe90e44e147290f"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.EntityFrameworkCore/EntityFrameworkCore/SeparateBackgroundJobDbContextFactory.cs",
+    "mode": "100644",
+    "gitBlob": "9ba720fb2550b9a75fd2cb39dd2c431a18e45948",
+    "sha256": "ca7cca9cbc9f17fca74ed70be0c09c3231e0d9ad553d36704bf0d0115f051cb4"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.EntityFrameworkCore/EntityFrameworkCore/SeparateBackgroundJobEfCoreEntityExtensionMappings.cs",
+    "mode": "100644",
+    "gitBlob": "039cc25ed8f4b8bbf7b9689ab6e4aee86dc35db2",
+    "sha256": "544f408ce10b2425a61d38d5c89bee0c9cf9f85a4ba4fa635c1d8df3658a4f5d"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.EntityFrameworkCore/EntityFrameworkCore/SeparateBackgroundJobEntityFrameworkCoreModule.cs",
+    "mode": "100644",
+    "gitBlob": "186732bc4aeaa81f979051447e8f468b98d5694c",
+    "sha256": "81d79fd577a73b56864670938dc5814e9cd8f04d9537f021c9aef646683f6432"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.EntityFrameworkCore/Migrations/20240912065335_Initial.cs",
+    "mode": "100644",
+    "gitBlob": "95d256d09176b566e25108da574f13ba33aa27b1",
+    "sha256": "c17200f4c91d53fa0a68c796bf62962c45da9638a63b3479f4bf8cf59c649f41"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.EntityFrameworkCore/Migrations/20240912065335_Initial.Designer.cs",
+    "mode": "100644",
+    "gitBlob": "3b1e36ad0fa38f2394c1b13681737e67aac14047",
+    "sha256": "d26f9f23752ec0695507852ce05e9c0d8bbe952b8a999d6819431aac5c1c15dd"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.EntityFrameworkCore/Migrations/SeparateBackgroundJobDbContextModelSnapshot.cs",
+    "mode": "100644",
+    "gitBlob": "1091322687d7fae46090274d946940462f606917",
+    "sha256": "2dae79c099e287a23ac4ee5f4851a264d95e63ccca306b2424cc6a0da40c2110"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.EntityFrameworkCore/Properties/AssemblyInfo.cs",
+    "mode": "100644",
+    "gitBlob": "3b2b215a0459dcb007b5478a806700192462f7d4",
+    "sha256": "c0d510e377e6093d4736429b6f54fa2750e891289bcc366d264a3a42a23ff471"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.EntityFrameworkCore/SeparateBackgroundJob.EntityFrameworkCore.csproj",
+    "mode": "100644",
+    "gitBlob": "1d340b95217ccdaf197756bffa7ee578c3e3236b",
+    "sha256": "19b979981316732d87407af1b66c2da1dcf8c0f9b4ee474a4bb765d595497086"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.HttpApi.Client/SeparateBackgroundJob.HttpApi.Client.csproj",
+    "mode": "100644",
+    "gitBlob": "12e535121fcaeaf9a4ae210aa4e1d18b2534a539",
+    "sha256": "afefc1c2e5002a5ce4447cb315f03890aaa75575dfeb8f2061c0412739cda987"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.HttpApi.Client/SeparateBackgroundJobHttpApiClientModule.cs",
+    "mode": "100644",
+    "gitBlob": "6ef520391272174f5238c5c623409574ffe098ea",
+    "sha256": "eb9ac9a916b05c7051e100080e0414249b19083e68d051dae8878229ce227256"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.HttpApi/Controllers/SeparateBackgroundJobController.cs",
+    "mode": "100644",
+    "gitBlob": "b53a4b27d37dc745491d9df915695cd1dad4f6bc",
+    "sha256": "9e7a19e00155759e66aa101d17b6298238446055c0a52cf918118f2da531a2f0"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.HttpApi/Models/Test/TestModel.cs",
+    "mode": "100644",
+    "gitBlob": "9c306cf5aea7f9ebbb8d0a045145bb9fb8457e31",
+    "sha256": "3ac1168bd6cd41dc33575f2887cb894ca4333e092981149b56ded4e9199ab378"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.HttpApi/SeparateBackgroundJob.HttpApi.csproj",
+    "mode": "100644",
+    "gitBlob": "862a0ee279451cc5c66759e7ab86e7fd877e385b",
+    "sha256": "d4a0f113fac9f7ec3ea21670e2202212a7a87d739782dd5660469df2323842a1"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.HttpApi/SeparateBackgroundJobHttpApiModule.cs",
+    "mode": "100644",
+    "gitBlob": "67c137f4a66c57a4b51b45c54758bffe5daff68f",
+    "sha256": "6805fd152221d1e037371e455929376e6d7a0a1c8e499a7466b685e429386a5f"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/abp.resourcemapping.js",
+    "mode": "100644",
+    "gitBlob": "4a2ad4589644bbdd2cd3c836c12688c7102a5b54",
+    "sha256": "8d4d2e9bf16d2ffef65e2b94f2873c41144038b0d748ff8aae44f813007eb63c"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/appsettings.Development.json",
+    "mode": "100644",
+    "gitBlob": "2c63c0851048d8f7bff41ecf0f8cee05f52fd120",
+    "sha256": "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "f0cba83f92c8ec6e5ea77dba5e8d4e4b67bc431f",
+    "sha256": "102532f35cd840035bcdd59f164466f64b9e67648e84193fc84e9f75da68594e"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/appsettings.secrets.json",
+    "mode": "100644",
+    "gitBlob": "7a73a41bfdf76d6f793007240d80983a52f15f97",
+    "sha256": "8eb95bcbc154530931e15fc418c8b1fe991095671409552099ea1aa596999ede"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/Components/_ViewImports.cshtml",
+    "mode": "100644",
+    "gitBlob": "c1da1f5f107073cb33bda44b29af50b0ca819024",
+    "sha256": "12f2ecf13ffdd45d83b0198a52d2bd0972c59a17dc4da1c61d0a1974ddec9fda"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/Menus/SeparateBackgroundJobMenuContributor.cs",
+    "mode": "100644",
+    "gitBlob": "67e08e6c293b433f39e1185cd76cd3f28eddad9f",
+    "sha256": "d743221caf75077989bf2f7ed0dab2312bcd74a995b5c750ff42011bbc7037e9"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/Menus/SeparateBackgroundJobMenus.cs",
+    "mode": "100644",
+    "gitBlob": "9e171987c4f71d45ca092b19dce847b2d39113ae",
+    "sha256": "bc1ac2a570be494858f06450b2d394992eab595839df25770c97a3e6d4132338"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/package.json",
+    "mode": "100644",
+    "gitBlob": "7a0fb0d2547a1b9313e034dc40be1410327dea64",
+    "sha256": "3e32d5b0db69cca441b806dc68023c7d251f9bc0816618ddb422c4a1bc39de79"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/Pages/_ViewImports.cshtml",
+    "mode": "100644",
+    "gitBlob": "c1da1f5f107073cb33bda44b29af50b0ca819024",
+    "sha256": "12f2ecf13ffdd45d83b0198a52d2bd0972c59a17dc4da1c61d0a1974ddec9fda"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/Pages/Index.cshtml",
+    "mode": "100644",
+    "gitBlob": "9acc5aef06c8fbd56f1c288187db9de6493683c8",
+    "sha256": "da59e852da591b5edc4d983cdd34ea6d9394e8f40ffbc90d764440e51515e39d"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/Pages/Index.cshtml.cs",
+    "mode": "100644",
+    "gitBlob": "b6db54d05b6ea380c9c8cf4b239119c814f53034",
+    "sha256": "717c8572cce3d88c3de59257d9b77d579fd3aa1a8a6e7d311411fd784ca2481f"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/Pages/Index.css",
+    "mode": "100644",
+    "gitBlob": "7f8a925bc09fec261efbe05acc95c7244ab31bb5",
+    "sha256": "ccb4795e765d0376c5f07e58161ef61dc208aca3d45dd9a7e7222a094709c755"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/Pages/Index.js",
+    "mode": "100644",
+    "gitBlob": "32b47c56fd0b3281613013e347dcfb028f7c25d0",
+    "sha256": "60cc61320bdccb8534246e5ae38e5393ffd41469f0c16d8b3d49fea0dd700c48"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/Pages/SeparateBackgroundJobPageModel.cs",
+    "mode": "100644",
+    "gitBlob": "c437d79b51c3fea394713a235a341eef154d2b65",
+    "sha256": "231375425bd0fa07ac65b3fc2e04a7b7f67b860cea856b2b2c14d4132f0cfe91"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/Program.cs",
+    "mode": "100644",
+    "gitBlob": "fcbe2a5770b46cb820924b9d334cebff07a4a289",
+    "sha256": "a83b5a1539705ec0ba6324c13512367cbd7023b66b059472eef7dc59bf55565a"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/Properties/AssemblyInfo.cs",
+    "mode": "100644",
+    "gitBlob": "bafd0d6af7680a68bef39c8c82ddffc257c01f40",
+    "sha256": "85202516a95163bca9bb8ddb44e5355ff97825b30b07cb58f3fc372702e6b5e3"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/Properties/launchSettings.json",
+    "mode": "100644",
+    "gitBlob": "f84f8299c3badcf2dd25fd7a7afcf0678c2fb425",
+    "sha256": "f45586f8e71c6aba9135fbd7da1704da2ae155319b4a79b4f7067a0906c5378f"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/SeparateBackgroundJob.Web.csproj",
+    "mode": "100644",
+    "gitBlob": "201d1f13b6d753c806c2203a5651bdb1a13c0692",
+    "sha256": "7a84582019a3917309511a19b9205b1608cd308208ce54f667618d139faff5f5"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/SeparateBackgroundJobBrandingProvider.cs",
+    "mode": "100644",
+    "gitBlob": "779e3df5dd73da0b5c94b794e381d08bbaed8e33",
+    "sha256": "01248935d887099c2f1c65853e66b38214b4268ce83910769797987a07eb239b"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/SeparateBackgroundJobWebAutoMapperProfile.cs",
+    "mode": "100644",
+    "gitBlob": "a2f7ec5fcf0f34f734f4b1048a32610145f163ec",
+    "sha256": "f3c3f07c506d9e24a4d15c30e13dc5cc26601cb77b9cbf4f81846f39931e1624"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/SeparateBackgroundJobWebModule.cs",
+    "mode": "100644",
+    "gitBlob": "d61cea751d0c9f0295e7df2f7216f3e9af34f943",
+    "sha256": "be12f5b6a34d3ddea6ba20684cc881d1fdecd48da8422484a3480f48ca2f7e73"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/Views/_ViewImports.cshtml",
+    "mode": "100644",
+    "gitBlob": "c1da1f5f107073cb33bda44b29af50b0ca819024",
+    "sha256": "12f2ecf13ffdd45d83b0198a52d2bd0972c59a17dc4da1c61d0a1974ddec9fda"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/web.config",
+    "mode": "100644",
+    "gitBlob": "a4475f07427c146b663b2aa90d6f6b3413b04171",
+    "sha256": "d22a7733f9d58d9c7d7dc069fb1092c4386a5ced12532d555d12c19b80c66075"
+  },
+  {
+    "path": "src/SeparateBackgroundJob.Web/yarn.lock",
+    "mode": "100644",
+    "gitBlob": "b1d078111ce17b46b20bea28fc0ff1edbb6b7ad1",
+    "sha256": "b815c66f93007d4722071c6248aec8b72d6aec1ed181b1ea94f918d136b3cbe1"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.Application.Tests/Samples/SampleAppServiceTests.cs",
+    "mode": "100644",
+    "gitBlob": "12e5aee867a44427071adaad574759a054c908d7",
+    "sha256": "695cb926652b26913ff9f5c5e4e9d0685d65262922ab4867c752f8f617eb5330"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.Application.Tests/SeparateBackgroundJob.Application.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "7d24e06c5055ee2d4970d17a783b6cb02bd0c19b",
+    "sha256": "ea59d01d2ac7b9c00c035568c738b7435cf43d2e2ffb94f5617931299416a44b"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.Application.Tests/SeparateBackgroundJobApplicationTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "105302873344e2e765d1709d4a47133a31381189",
+    "sha256": "24d73bdc72837108c9225536a20a5846057a90733ac2721688d9e90dd1f64360"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.Application.Tests/SeparateBackgroundJobApplicationTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "ad9ddad5319e121d2e52ad1ad6c12f8dcf9c3d1b",
+    "sha256": "41e4405e5f05738bc04f0babef14394a4ff953a7ea38773f760fe1c93c426f32"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.Domain.Tests/Samples/SampleDomainTests.cs",
+    "mode": "100644",
+    "gitBlob": "49340be9a7c228a461403d5883722cb63637eabf",
+    "sha256": "118daa255b29b7c81d4f7954bc53266b96ad7c555c350c4c302942d16efd1e1d"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.Domain.Tests/SeparateBackgroundJob.Domain.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "f4f4c2e31cf87112e07c28a15a2c703e8745f3cc",
+    "sha256": "db960f3f42acfeaf6ff678ddac20b827fb89033dd668c1656ca745b23a18cd9b"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.Domain.Tests/SeparateBackgroundJobDomainTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "f58174edc5ab6ac2c875bf1d340b2847ef217102",
+    "sha256": "e9c6c308eb8f40dde154d7eee9b01bdfbd2b3f4c66d1897e4ef7735e67bd704a"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.Domain.Tests/SeparateBackgroundJobDomainTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "23b1261e169aacf18558cde9e6912e731f98dd28",
+    "sha256": "e984b93ee6aa738f75ca538231990caa38b2ff7d6ef15b8e8cb49b4a7b467204"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.EntityFrameworkCore.Tests/EntityFrameworkCore/Samples/SampleRepositoryTests.cs",
+    "mode": "100644",
+    "gitBlob": "25016ad2998207a30cfdb8ac1ce24f8c267cb2d0",
+    "sha256": "d79db3d99cba62b919278f8edb2e6f6de2902e22646569e2e2517f48e6539871"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.EntityFrameworkCore.Tests/EntityFrameworkCore/SeparateBackgroundJobEntityFrameworkCoreTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "d3b818665e895048cb7907ed383266106048dde7",
+    "sha256": "04995567d200cfe90b5a486d5b2300f23d3a393f43cd7cb5c1cb5e78a87a0dab"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.EntityFrameworkCore.Tests/EntityFrameworkCore/SeparateBackgroundJobEntityFrameworkCoreTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "ebf70231db15ad4d8a7ce6220a9b3f7d824a5066",
+    "sha256": "5a8784d6d7b3ebb4a384ac1541b1e79e949d01a1da03ef38c6a159bce6c50552"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.EntityFrameworkCore.Tests/SeparateBackgroundJob.EntityFrameworkCore.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "1c71eb1db17b165ac133e3595ee1dd65516cdb5b",
+    "sha256": "b70d25285ad57fa57f97d5ffefb9750c987daa42a58355e8d9bad3eef6d362a1"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.HttpApi.Client.ConsoleTestApp/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "feebba36f8cd26c7bd1834de897895bb1de0a6ed",
+    "sha256": "200945e0a0e0f3d6c12d543f8e6e0833af6d6ff5aca297ab9fd5b8f7699e82c9"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.HttpApi.Client.ConsoleTestApp/appsettings.secrets.json",
+    "mode": "100644",
+    "gitBlob": "7a73a41bfdf76d6f793007240d80983a52f15f97",
+    "sha256": "8eb95bcbc154530931e15fc418c8b1fe991095671409552099ea1aa596999ede"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.HttpApi.Client.ConsoleTestApp/ClientDemoService.cs",
+    "mode": "100644",
+    "gitBlob": "2f7dc9a8bd098fe7a4249aa75abe1546b514b85d",
+    "sha256": "5862edfbcfcab5917da140098bd95ae5f285b490d233e8137b2be2b75fbb85ea"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.HttpApi.Client.ConsoleTestApp/ConsoleTestAppHostedService.cs",
+    "mode": "100644",
+    "gitBlob": "17f0e0213883afde2f97df83376efcb9ffe88233",
+    "sha256": "415bbb978c5932c14cc2f873df997f95585de76b151667480033179578500120"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.HttpApi.Client.ConsoleTestApp/Program.cs",
+    "mode": "100644",
+    "gitBlob": "04561a6e43c57df031dfae654455cb5dd9b5868d",
+    "sha256": "4ee5c484dd715210102e70124bb5f71f58c52662deae5157d3ad1f7a9527d8e8"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.HttpApi.Client.ConsoleTestApp/SeparateBackgroundJob.HttpApi.Client.ConsoleTestApp.csproj",
+    "mode": "100644",
+    "gitBlob": "ad78283c59794b7c95c0a61e588362481ac46b40",
+    "sha256": "70165799433b8dd3f942a479565e1049bf817e79766af81da525070afca46a61"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.HttpApi.Client.ConsoleTestApp/SeparateBackgroundJobConsoleApiClientModule.cs",
+    "mode": "100644",
+    "gitBlob": "4dbd00e3fd64ad45936302070b52f90a976d13f2",
+    "sha256": "dda36cc87d1e66621bdf8797268d06dc3f94cd91b1096e1fbd362875ed02f324"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.TestBase/Security/FakeCurrentPrincipalAccessor.cs",
+    "mode": "100644",
+    "gitBlob": "8c3d462d97441e886ab177ff2415bd9d7219ab4a",
+    "sha256": "f528bcc9bf6d8d87a5a9508d3c097ce31f854e8d5619472593404a48ecdf9105"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.TestBase/SeparateBackgroundJob.TestBase.csproj",
+    "mode": "100644",
+    "gitBlob": "906ee77d789f36110c4555babc9c23a7581e51c7",
+    "sha256": "f0537cc9b42d9fe1606c49cf7ebeee940f722d1dd4352f10816157c941ce9173"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.TestBase/SeparateBackgroundJobTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "b9d6d2a508eb7cf534737b78f70e87242d29e52f",
+    "sha256": "4a39b1cc855257fb034615321098b2eba0ec2f88b99dc13fe19e3237f45446d9"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.TestBase/SeparateBackgroundJobTestBaseModule.cs",
+    "mode": "100644",
+    "gitBlob": "7f6c44744f5fcffb89017e3dd93d28aa21548826",
+    "sha256": "ec31ae22843cc7cc839b8bf0b162627577a4eccf91bef2ff53c5e8911b0bad01"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.TestBase/SeparateBackgroundJobTestDataSeedContributor.cs",
+    "mode": "100644",
+    "gitBlob": "3e8c4c853341026dc8340adf0759c6ed337fdf4a",
+    "sha256": "ce355d91942e65a1a947bfe1d098a79be3dbd1c7a222449cffe733d33f968998"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.Web.Tests/Pages/Index_Tests.cs",
+    "mode": "100644",
+    "gitBlob": "4911ebc819020962da1e54b8baa317e44bff9b8a",
+    "sha256": "c6f19fca49130ee41107447039dde6303ea7d93ab188561e15cef5c0a2877351"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.Web.Tests/SeparateBackgroundJob.Web.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "826604025ad1970f0189f4739acb35161e5d2e71",
+    "sha256": "76b13d72bf5cf72fda7c030e598b758b9368451e3e5e5d7a6b5cc74fdcb0150c"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.Web.Tests/SeparateBackgroundJobWebTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "68bda580e69a4485ece91beb7514580470a96fdd",
+    "sha256": "b064c5d74e641e1ab22c59437ab193b3813dbd330e636fe2d149cf67c6d5c372"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.Web.Tests/SeparateBackgroundJobWebTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "ba13bf8f192e06dcc6b32ddd9740ea702a65ed17",
+    "sha256": "4ca184fe02b3e49684e2ee9f857a0096d58afa70398630baaf0251684fe683ca"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.Web.Tests/WebContentDirectoryFinder.cs",
+    "mode": "100644",
+    "gitBlob": "195deb1d285f0c80ff9be424a40477a64d40dc91",
+    "sha256": "57b2c5ab8f96b80624fb4df90699561d405d6dc71100fbda71aec70a5ee3ab06"
+  },
+  {
+    "path": "test/SeparateBackgroundJob.Web.Tests/xunit.runner.json",
+    "mode": "100644",
+    "gitBlob": "78c070e83207bdd11bb030a7bdf071817b002a43",
+    "sha256": "fc494e3756292818bf0990f400cb29f19780e4ec76cd0b8a1efa72a5dbab5618"
+  }
+]

@@ -1,0 +1,977 @@
+[
+  {
+    "path": ".gitattributes",
+    "gitBlob": "c941e52669683c63ad9c3db2073b54ac74e20ba7",
+    "sha256": "13a51d1e2ad3b2997aaeb6295a568a555faa0c01c040f0db71a0d85c803cf111"
+  },
+  {
+    "path": ".gitignore",
+    "gitBlob": "8d2484a60dab3844341053a899b1866887a2acb7",
+    "sha256": "53514d97906811326f5b152cc58afe4e8fac4127f8867f7842e082bf0120d3e8"
+  },
+  {
+    "path": ".prettierrc",
+    "gitBlob": "56af76bd946b9fb138e50acb89d460c7b857bc3e",
+    "sha256": "06d3746be94056a4b24f5a74c6bd1c5efd9492eeeba42ded768fa3043aa2f6ca"
+  },
+  {
+    "path": "Acme.BookStore.abpmdl",
+    "gitBlob": "bab823cec95eabc8c87c483aec3fbb2c4063fb6f",
+    "sha256": "f09cd8ca91ec6f17435a8f3944c3cfee491b6d4f9ade0aabc38551b892428216"
+  },
+  {
+    "path": "Acme.BookStore.abpsln",
+    "gitBlob": "cc3948e13107b4802120be9411bbbd7042dd1c89",
+    "sha256": "324d24bd1cf89feb05e0624e82d0cf5c53d09cbaf0b09f9f59f683b928808c20"
+  },
+  {
+    "path": "Acme.BookStore.sln",
+    "gitBlob": "895ebe74183984a38129c09c2a219384f3665e0e",
+    "sha256": "24d68f070bb730b54a22884c07448415563651b52b098152d8471b9d99ec6e81"
+  },
+  {
+    "path": "Acme.BookStore.sln.DotSettings",
+    "gitBlob": "cb0b2c919f75c02f264be049b25b49828974664c",
+    "sha256": "a2720bad501f52bfc11a0b5a214408771b52e2e4177a7c85ff6fff8384dc4136"
+  },
+  {
+    "path": "NuGet.Config",
+    "gitBlob": "bdc451971a8a75772a2ebe551f3b9716ca1c103b",
+    "sha256": "a735a4b04eb2c02b3ef468145fc7c287008f1ea683fd41a45d43cb42548d3f22"
+  },
+  {
+    "path": "README.md",
+    "gitBlob": "6595e553122147577c297cdfa53c65820216add6",
+    "sha256": "f3ac44598c623647e6e95ae02da6f042069fdc7e17d7c987cbd0f42fa2c994cc"
+  },
+  {
+    "path": "common.props",
+    "gitBlob": "22d34c48021904a26f514e9d9c6bb6b1c73fa409",
+    "sha256": "b7b001c518da813afa77e5b2dbd8113f640130f4a05150ec29cc85dc5ab4d5d0"
+  },
+  {
+    "path": "etc/abp-studio/run-profiles/Default.abprun.json",
+    "gitBlob": "e4e0e21c72f4433df703de77104d6effbea2ae8e",
+    "sha256": "cc31e2ff67b0b0d98429914fcc61a0d839814b3b28f6fcf711f17afc444c5513"
+  },
+  {
+    "path": "etc/scripts/initialize-solution.ps1",
+    "gitBlob": "4d03f46d4ed343e75a9416e26a8e3eef343570b4",
+    "sha256": "255c43c1539bca1ca00a9c5dfcb599944f723f83d2d53f68e4f5165e90d4608f"
+  },
+  {
+    "path": "etc/scripts/migrate-database.ps1",
+    "gitBlob": "d8bb7ca4adbf9fbefbc60415d02b3c8177184550",
+    "sha256": "97d41edf738695d2d9015f4bc65af4eae288485537a01fdfd8e2c11c6aa313e0"
+  },
+  {
+    "path": "global.json",
+    "gitBlob": "3ff7e05a7c2f1c04e6d141aec2df20b201bb220c",
+    "sha256": "129e38d91d332cd4eb8bc1ca1c9aab80094d01b162fab61ff1f2c8916a80321c"
+  },
+  {
+    "path": "src/Acme.BookStore.Application.Contracts/Acme.BookStore.Application.Contracts.csproj",
+    "gitBlob": "38859fc64562f1632b8876959cd7949718677341",
+    "sha256": "52dc25fa897cc3e6e44731cdab0f2e22c8df9d2b9187b7c5ed1bd99e6321ab03"
+  },
+  {
+    "path": "src/Acme.BookStore.Application.Contracts/Authors/AuthorDto.cs",
+    "gitBlob": "e06a8ec128546b51f6df6a9b183dd0cf5ab65cc0",
+    "sha256": "cc621d211da18e1045d41c55eb713865f0ac2f1fa4ca9aafab0ff811c5c0942a"
+  },
+  {
+    "path": "src/Acme.BookStore.Application.Contracts/Authors/CreateAuthorDto.cs",
+    "gitBlob": "ca0439183634fd4591b22b626fbbc1cc7b138809",
+    "sha256": "1673af06ffda78ae4aae2b91e84f3ef8ec7ed4c087bac4167bc723aadf00aa44"
+  },
+  {
+    "path": "src/Acme.BookStore.Application.Contracts/Authors/GetAuthorListDto.cs",
+    "gitBlob": "35a88528211ac916babb7f705ee71fa6e68ba05f",
+    "sha256": "dffe915ee8070401359f72f9eb69f5dc6762e2569f7dc2c52fb9329af804a8e6"
+  },
+  {
+    "path": "src/Acme.BookStore.Application.Contracts/Authors/IAuthorAppService.cs",
+    "gitBlob": "58cc3656f082cbd3a7702c640dc91620502f2e62",
+    "sha256": "450e167444d2ebec11f2b6d39ec33631c70236aca51cdd27c112055385db2cf8"
+  },
+  {
+    "path": "src/Acme.BookStore.Application.Contracts/Authors/UpdateAuthorDto.cs",
+    "gitBlob": "5daf34a02caf7fbff878f5babc90223104bfad44",
+    "sha256": "83b377cd31e8146229182b59b4865f7eeed60b99c3f3acd22b2be74772bb4e6b"
+  },
+  {
+    "path": "src/Acme.BookStore.Application.Contracts/BookStoreApplicationContractsModule.cs",
+    "gitBlob": "b4121d0f4142b3a310e007d5c4ec711d681e1eef",
+    "sha256": "59446eeb5615ba707165fbf4789b3c7fdeead2d7bfdf1985b2d8fb27e0d2e9d9"
+  },
+  {
+    "path": "src/Acme.BookStore.Application.Contracts/BookStoreDtoExtensions.cs",
+    "gitBlob": "bf3b6d30a9687e7643bc6f248cb1b9b30d711c95",
+    "sha256": "590332d3f8d869b27894a896a31fb72981146a3c95f06963d64f14c5e236f5a4"
+  },
+  {
+    "path": "src/Acme.BookStore.Application.Contracts/Books/AuthorLookupDto.cs",
+    "gitBlob": "3a0324053dc20f6c8e83f821781f6f32c74f7b5e",
+    "sha256": "9222b5c110e332ad25b90666ba4182b2bfb263388c1919699e6c784568101f6c"
+  },
+  {
+    "path": "src/Acme.BookStore.Application.Contracts/Books/BookDto.cs",
+    "gitBlob": "24298b6170383e471e5e7e94c000b5839b57cc51",
+    "sha256": "8d051f1e350a9072f56b83b5c136bf6438463c02b7898a47412b2f80b79b5c50"
+  },
+  {
+    "path": "src/Acme.BookStore.Application.Contracts/Books/CreateUpdateBookDto.cs",
+    "gitBlob": "dfddfd64223e37a1cd3bf68c88210e1c20338e99",
+    "sha256": "ab401f5029e5c1d545ef265fb6a3225953109f83ca340ec73b2bb87b395f7ca0"
+  },
+  {
+    "path": "src/Acme.BookStore.Application.Contracts/Books/IBookAppService.cs",
+    "gitBlob": "fac0be49813fa4d60d42a5e15b3b092f427dcf87",
+    "sha256": "9594a696d229a180982cc9e0e5808b197052674aac29074a11b8ae9679d93034"
+  },
+  {
+    "path": "src/Acme.BookStore.Application.Contracts/Permissions/BookStorePermissionDefinitionProvider.cs",
+    "gitBlob": "a1c56715e3863b491a44c36725ba0daf89fe7186",
+    "sha256": "64f4ac746e88ce243f16cf297f5d34368675a48ab1391f155d576543a8dc3cac"
+  },
+  {
+    "path": "src/Acme.BookStore.Application.Contracts/Permissions/BookStorePermissions.cs",
+    "gitBlob": "60121b990d54fa01a705d743004775c95d1d0658",
+    "sha256": "15cb6d4f22a7b53ca3718e67f6f12ef58504e079c6467f8a5d54653d5201a3c0"
+  },
+  {
+    "path": "src/Acme.BookStore.Application/Acme.BookStore.Application.csproj",
+    "gitBlob": "9a0b6a472c89c839704249eef1a3c771edebac4e",
+    "sha256": "fd5ebc3ed27864bd122259af93c6844f36946ebddeba161b8f50f7905eb9e791"
+  },
+  {
+    "path": "src/Acme.BookStore.Application/Authors/AuthorAppService.cs",
+    "gitBlob": "0179ada7f7059e8ad55e485c946c9a3ae332f70a",
+    "sha256": "89fe0ea1c6d39a82ab634b07acb320169a61c33cbca701a4582e17ccf230db0a"
+  },
+  {
+    "path": "src/Acme.BookStore.Application/BookStoreAppService.cs",
+    "gitBlob": "8e8b91fe5ab182b267374143c1b2a9728af80c79",
+    "sha256": "d0922f840b6915a255e3c39ea63408963a38e7a24ad2a04f7a79810c4772d511"
+  },
+  {
+    "path": "src/Acme.BookStore.Application/BookStoreApplicationMappers.cs",
+    "gitBlob": "1bc8e44b0f6102ea5e5cab8e2852c70b3f22c12b",
+    "sha256": "6fd3c6c09e05e0872a5141d8ba1e28cc1c9fba59ee0cd8f8e14f53dd6e6e5843"
+  },
+  {
+    "path": "src/Acme.BookStore.Application/BookStoreApplicationModule.cs",
+    "gitBlob": "88ccbcbbcf879dbb3f01412a9186dc2346280446",
+    "sha256": "97a5978ce85a0bed7d90baab9bb9915bbe4a308737fc3d38f09203cd05fb1daf"
+  },
+  {
+    "path": "src/Acme.BookStore.Application/Books/BookAppService.cs",
+    "gitBlob": "6c54d764228b6d9672bc2757e510027bbbf91e8e",
+    "sha256": "96d3933637be9434ff770accf0b41baca3a3638c211301cd99f52b418815ffcd"
+  },
+  {
+    "path": "src/Acme.BookStore.Application/Properties/AssemblyInfo.cs",
+    "gitBlob": "ab4c46c74a2c6fb1ccf4cf33506c4fee43ce6648",
+    "sha256": "269569315a5234cff5e756b91eea6ad1fbec40c2d084cb077533a729e8235580"
+  },
+  {
+    "path": "src/Acme.BookStore.DbMigrator/Acme.BookStore.DbMigrator.csproj",
+    "gitBlob": "77074d6d64606b8e320551e7b10eac22309fa062",
+    "sha256": "946bcd5cafbec9d2aab100cdd7b7455a8113e51648309f96ae1f9cc7275bdcd0"
+  },
+  {
+    "path": "src/Acme.BookStore.DbMigrator/BookStoreDbMigratorModule.cs",
+    "gitBlob": "e6c2d72232d30651728fa7904c0fb2d2632a17d0",
+    "sha256": "6e397327bbf2660165e45100d33d0fbdec2fec66fbc0de30b9a60b1f8c7f5435"
+  },
+  {
+    "path": "src/Acme.BookStore.DbMigrator/DbMigratorHostedService.cs",
+    "gitBlob": "10b7b4c76f66f9be7ef4c853f38def30367db79a",
+    "sha256": "a12917e0d6c9520c7a0c30690870916c716e9c3468bf92272ba767044d8de1ea"
+  },
+  {
+    "path": "src/Acme.BookStore.DbMigrator/Program.cs",
+    "gitBlob": "d86f9b556460bfdab6699a3fdfe1345a2059ad99",
+    "sha256": "a01393c411bd422db69e619fdb1cadf3678108a954f02f5b61f99decc2c6f4f5"
+  },
+  {
+    "path": "src/Acme.BookStore.DbMigrator/appsettings.json",
+    "gitBlob": "611de55e2ec632bbd6591498d73ac105027ea46d",
+    "sha256": "026cfc162f68459c91b979b3afb078c14e0efac7d153059710f28e2c52ea68f3"
+  },
+  {
+    "path": "src/Acme.BookStore.DbMigrator/appsettings.secrets.json",
+    "gitBlob": "7a73a41bfdf76d6f793007240d80983a52f15f97",
+    "sha256": "8eb95bcbc154530931e15fc418c8b1fe991095671409552099ea1aa596999ede"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Acme.BookStore.Domain.Shared.csproj",
+    "gitBlob": "d59113d615de27ba85de45d9a2cec621155601dc",
+    "sha256": "01f2591ab0fb92040531eea82d72af1dd3098d012ac63081a009c1cf1c6cbaa9"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Authors/AuthorConsts.cs",
+    "gitBlob": "ba2158c9647147dd6c57962d2c205bb777e42f7e",
+    "sha256": "758c4960ab6363645ea88b55b6a6214b04fa8ea1973da86b2541e39809973881"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/BookStoreDomainErrorCodes.cs",
+    "gitBlob": "8fcac9127b3382dbaf68a53ffa9f9fed678220f9",
+    "sha256": "dbb1ec350ca604c497cfc318d5c45e8dfad8cdd2c61d00a51331027ad1d57f7a"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/BookStoreDomainSharedModule.cs",
+    "gitBlob": "94ad5bdbed9aa39a3702199ce2519a483236f351",
+    "sha256": "438025cf1c441ce1f0b0f46ca103b248e4c9fffdeaf70fff372e1d9b38e9d83e"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/BookStoreGlobalFeatureConfigurator.cs",
+    "gitBlob": "c4960c72adee4c7fe316ae0b758b2f46653bbb17",
+    "sha256": "228db227b65c244d77ae4bf7d361f57eb9d5d104b97fb9802d58715384dd0e97"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/BookStoreModuleExtensionConfigurator.cs",
+    "gitBlob": "1f97d3155063bf46e3f0a9d58f51624758362c47",
+    "sha256": "d87c34a8283ce7e4d082e3f2d3624850b385099223fd8d87eb2403e65f30823f"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Books/BookType.cs",
+    "gitBlob": "2c03699f30d5d59c452a845b1e322c6ec7a3bbed",
+    "sha256": "80b263264c41dbc0327bfd7585558de5f790a516c36c7c529516c45a050d77b0"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/ar.json",
+    "gitBlob": "aa3bcfacb9e558ae6acb9dc1072c12826e8566e7",
+    "sha256": "8d498858ee59c00f3b4cd71008c2f0162a7849d3a74005958cd9d15bff094a12"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/cs.json",
+    "gitBlob": "5a0bbf613e1c04db8e53bef212a64ad853cc084a",
+    "sha256": "d0913130082f87173f663e36888ed5b699bb6481e7a594b1783f45276bd79d76"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/de.json",
+    "gitBlob": "831493be8675534fe19a08544dd3106ceaad9427",
+    "sha256": "86c6defce4ce18e3152358bd9c3b29ba5870e202fa9103714d02f9184faf06b6"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/en-GB.json",
+    "gitBlob": "d2ca0793a3d3ee31ef911c195356ab0908b3c015",
+    "sha256": "bc1439cff74f5144bd6bcdf4bab06edc10030d1c2015c95ff0e20737f38e9fa1"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/en.json",
+    "gitBlob": "4a292506cd7e5bdc26b9703e16dfcd6321078310",
+    "sha256": "5749a1de3b1253ed9313a7ff3cf21ea6257eea10cdca003d1801999d3c780ccd"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/es.json",
+    "gitBlob": "31b4b59e256acf17b6271340649e268fb0c62602",
+    "sha256": "58abd217ddab4c7eb64df39e03d11c78284ba7e7ee465b51dea9a957cc80eeba"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/fi.json",
+    "gitBlob": "a318859f23d1d1107593fed1d0d5fcd4c4ab5fc7",
+    "sha256": "fb8383022d309bffe9a152aa12368a4be20fa78131a6c917aabe37f74329d58c"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/fr.json",
+    "gitBlob": "e76eac0c710ea581d1105a718fe6be27e998d8fb",
+    "sha256": "f4955a8edb72656750a20b6aa37bfeb22b4446605273718049789de298e94dbc"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/hi.json",
+    "gitBlob": "a1676bfd45094468e1958ef23b2c75872fa74f3d",
+    "sha256": "d339e37d113a17a4acb7f84d20b7072dba2b2c2cf20a2444f462fdd34e92c4f4"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/hr.json",
+    "gitBlob": "fa8efab3227702389a8c2858116574a200324d87",
+    "sha256": "daeda343f9d7fbe09f84c7161ae94ec59e1acc67cf9464a38207f4906175e8bf"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/hu.json",
+    "gitBlob": "c7b6a33a0f985c43ff60a6f41e0c34b9f9a4de26",
+    "sha256": "25aaf4e277498ea38e66047f913d9b7e47759718a228d72cf7923568359278a6"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/is.json",
+    "gitBlob": "190df903738ea466c6b0b94a72cfa5616750b9f6",
+    "sha256": "e317c8800b90121ccbf264d58245ec4369d664f92c4b144b4ddcccfafeacc338"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/it.json",
+    "gitBlob": "82ce42b0338735b08eb0aad235532003c8244cc8",
+    "sha256": "aa87dc231177e0431a1287caa732d47bdf0e85c568c9339cb99323429d6372ce"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/nl.json",
+    "gitBlob": "9ba8da4743b552618c50bf2c6c87e27f6b175df3",
+    "sha256": "9fe18054ee5928c4845fdb7452d76775f036ac79a0008771a90a63a67eb6c87f"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/pl-PL.json",
+    "gitBlob": "33412f307ca4b0ed7af9ee52484099c067fe6ca5",
+    "sha256": "a12f7381fb09fe215f30f42e4a547a4fc46271397530bf094eee671bcfab4bc4"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/pt-BR.json",
+    "gitBlob": "8c818a07af405ba8caf208bb7b49d390a2c844b2",
+    "sha256": "c5b656f1ab373b18559d72ae781244dcae871c24084018c7c40a44fdded57181"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/ro-RO.json",
+    "gitBlob": "1fe560196eb543a8d1d82491853753b004aeaa76",
+    "sha256": "662761b5866e679de8ef8f0bc807955d5bca9f6d4126a7660f9254e065ff624b"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/ru.json",
+    "gitBlob": "8464e4434474ddf95c953b5709c2178ddc391341",
+    "sha256": "bf3f69ebc1ac1c6c3d366d4f5ce88a353f9661d54bb3f008f8e0cb1a8f06dbc2"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/sk.json",
+    "gitBlob": "4f35aaf1c3af2dcfc1f911f2d72d92c6f1cf7d42",
+    "sha256": "73ded766a528816911600f2beebeb6ce40a0a07dd809d8cd73f1dab4c41c6c31"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/sl.json",
+    "gitBlob": "a066ef26baa7a762eebd46fef6650ce4635e9e9f",
+    "sha256": "5636d4ca999940cdee3c24cc15af323893de952705c787d59871b856fe588765"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/tr.json",
+    "gitBlob": "2cc911e48e6b658b6e778706864ddb1d45c01b2a",
+    "sha256": "47f3a3765eaf6a01c2ad3ae06e068784b7167da8c315c789d09133a26a335f62"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/vi.json",
+    "gitBlob": "c115a35726d049352cdf3c6773c5caeda67651ad",
+    "sha256": "73d137a03e279534c134d94389653016cf0407ab5eb8987dc75f05fdddae54f7"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/zh-Hans.json",
+    "gitBlob": "23790bde506730dcb517f31f3b2a1ac458c74f95",
+    "sha256": "791a81f2e8ecf75643b865ebcb832090b91d731801a3f8f8de14696634b01f13"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStore/zh-Hant.json",
+    "gitBlob": "31e0ab5a47a599f6fd945c2962eb34fc2487fc9c",
+    "sha256": "50ab5d8312e891769bb5dd76202ee65310a8f82e71edfa8121329595e2df45b6"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/Localization/BookStoreResource.cs",
+    "gitBlob": "17c4334db96a8559cadc4d9f789d7fc1d14aaef5",
+    "sha256": "26be8a63cc349f3a421804d1690462825ad876485c30cc199f90b7ca7f428c56"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain.Shared/MultiTenancy/MultiTenancyConsts.cs",
+    "gitBlob": "3493f97606eec6ce03fb39c0cce40e858328c540",
+    "sha256": "039ae68ecb5aa0f6cccb7bfc34b6d66b4145777c6c23800196575c6b2f12da88"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain/Acme.BookStore.Domain.csproj",
+    "gitBlob": "678879faf813c899f3a34ae8cb5fa21fd86bbf0c",
+    "sha256": "467ce3b178e5a758f85e0f9c98bcbb51b6beca99e67c798d6a83bb5da891959f"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain/Authors/Author.cs",
+    "gitBlob": "af0cf2b5da006bd38310161b8e99dbf2f9e2ef3f",
+    "sha256": "4414670cbf1c9e2985a948e80b3d27ca5c5ba0777e3cd9ca7b8d3140d85143b9"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain/Authors/AuthorAlreadyExistsException.cs",
+    "gitBlob": "1e688ca59496b4d28b9b01dedc2eaf32990da254",
+    "sha256": "aa5f4664cea77e91c613269e1cce49a0251044ce942ced0e49df84e05ecebfb1"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain/Authors/AuthorManager.cs",
+    "gitBlob": "c18de229e247863987ab8ac81df6ea314b4f69c0",
+    "sha256": "aaa184657e7d7375d28318a25b3bbea2499dc13e06b795ed125f77ef1e0e0e02"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain/Authors/IAuthorRepository.cs",
+    "gitBlob": "a58bd6796c85ace9ed1b2e1c9d9572cfb1854f86",
+    "sha256": "dd796ed05cd36e6a7606d4abf455a5ff73cd82eeba5eac8c7aa747a96c17624b"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain/BookStoreConsts.cs",
+    "gitBlob": "5f4604f9e55a467012ccb5d04c459ced4af88576",
+    "sha256": "78a6be45d5d8460a50d45f300e2fab72442cbc00b9888e770d2efaf3d9316c96"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain/BookStoreDataSeederContributor.cs",
+    "gitBlob": "9696787d07032154830e29e59f36ab360894098d",
+    "sha256": "8006c80be9e8e69a387cad6dfcc77a8927eab9910003dc7d9f2e45389a68c5ab"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain/BookStoreDomainModule.cs",
+    "gitBlob": "3b659619e5b664852122484c8b238b14d3541dc2",
+    "sha256": "76b85138faa1a7fcf79e7a6446330b8f3e5536f69d6872c690920d87bb027d94"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain/Books/Book.cs",
+    "gitBlob": "b7dfa8cad54865e4d0796cffa8cab0176774013b",
+    "sha256": "320f8bc4e91134c4557f86ce73bb88f6a2cf3f0951e05138a0e622e1e432b117"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain/Data/BookStoreDbMigrationService.cs",
+    "gitBlob": "d2cc0d8fe60ac8008412bff977d33c40422ba24d",
+    "sha256": "c91e687c158393cabde1388f433023129ca284dd04e1743e20c27cd2240f6528"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain/Data/IBookStoreDbSchemaMigrator.cs",
+    "gitBlob": "0b95dba00981bfe0c26d0a90a9eafbf773509ff4",
+    "sha256": "3c056c05a8736d6c4f90d53f91f676b1fef4ddb0f9e0ad5fc01e1a87d9ca48f8"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain/Data/NullBookStoreDbSchemaMigrator.cs",
+    "gitBlob": "0e01b973fd18c14fc5ac23da118af1d53837bab9",
+    "sha256": "e92625fc09b8c39f177313e802f289756a954f37b036e6a573ac8a2f687e6311"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain/OpenIddict/OpenIddictDataSeedContributor.cs",
+    "gitBlob": "42c9d5aa53a4ed745eb3950d7311964df6c63953",
+    "sha256": "d13c0cf3734ba4cd95fe79485bb6c3205f32e8f87858f05758ae0e9d35faf07d"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain/Properties/AssemblyInfo.cs",
+    "gitBlob": "94d836f9006abcdc1e0ded2f776be67a14b7e1ad",
+    "sha256": "e34909f1d4548d7e7337089e46269e67fea5b23514c7913ea5562ea44f00dfdc"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain/Settings/BookStoreSettingDefinitionProvider.cs",
+    "gitBlob": "10ab3158b24c967a434778a5f6b1e08ecb84a28d",
+    "sha256": "0dc0ec36f1c3afebbf77ffeebc90491268fb4470576f9dae94b4d26f5c2e0fdf"
+  },
+  {
+    "path": "src/Acme.BookStore.Domain/Settings/BookStoreSettings.cs",
+    "gitBlob": "b1aaea343e1029d182ccf9488a594a715a611f3d",
+    "sha256": "1adf599330018051a7f41936651619c2aa157eef91a262822e0d480023e96c4f"
+  },
+  {
+    "path": "src/Acme.BookStore.EntityFrameworkCore/Acme.BookStore.EntityFrameworkCore.csproj",
+    "gitBlob": "639644281d6677f6f62940d88f85f157c6013c86",
+    "sha256": "ca24c192c79b28bf02de5db7b3c7fdedb1df34999d59ce9a976c429ea39f029e"
+  },
+  {
+    "path": "src/Acme.BookStore.EntityFrameworkCore/Authors/EfCoreAuthorRepository.cs",
+    "gitBlob": "68236214a9aefa4d43a7af9a0bd11acbe797da45",
+    "sha256": "279998d4d8f2c09f8b304a2149c9424ea5513dc1cd44816dbdc0104bcb11b267"
+  },
+  {
+    "path": "src/Acme.BookStore.EntityFrameworkCore/EntityFrameworkCore/BookStoreDbContext.cs",
+    "gitBlob": "98451a15ba2d7454512701e48aa2cf0b2ebbfe70",
+    "sha256": "b7a3143a43fc16717969c680f7d8bd2fc1a3ccfc684cf94e143c6d9f2bd7f242"
+  },
+  {
+    "path": "src/Acme.BookStore.EntityFrameworkCore/EntityFrameworkCore/BookStoreDbContextFactory.cs",
+    "gitBlob": "7aedcfb017d5a818588bf7c0059f381bced4bd8c",
+    "sha256": "420c1aa689495c5b21df95a24db2c65dc1129a263c9b4847662bad8687cf6460"
+  },
+  {
+    "path": "src/Acme.BookStore.EntityFrameworkCore/EntityFrameworkCore/BookStoreEfCoreEntityExtensionMappings.cs",
+    "gitBlob": "7e01f681e1180cd1fb67b97dad9cb5d43edc6ec8",
+    "sha256": "ebdc6e379ac629395daee81d45564d486c714c52318e6eb17763e0cf408b5b04"
+  },
+  {
+    "path": "src/Acme.BookStore.EntityFrameworkCore/EntityFrameworkCore/BookStoreEntityFrameworkCoreModule.cs",
+    "gitBlob": "e9caedb233bfdba0704dd82857de11dec37fd74d",
+    "sha256": "308b465a18083154984ab315af4b2cd465aef66f3ce694a9051dbf85f809f603"
+  },
+  {
+    "path": "src/Acme.BookStore.EntityFrameworkCore/EntityFrameworkCore/EntityFrameworkCoreBookStoreDbSchemaMigrator.cs",
+    "gitBlob": "0413f6d4b36edf9f657145bbb2eeb49dfd0e9c7d",
+    "sha256": "b62f667be7f5e525bcb7216ecb60edaadce7f0ffdb6cabec850bfac6e4383035"
+  },
+  {
+    "path": "src/Acme.BookStore.EntityFrameworkCore/Migrations/20251013072333_Initial.Designer.cs",
+    "gitBlob": "438a9be100ee4d879fb4c23799fdf139fcb99d40",
+    "sha256": "722abf9b1dd6d9e5f372a55ab4d7a8cb92aa4137b9cda83a5391189e10ee14c5"
+  },
+  {
+    "path": "src/Acme.BookStore.EntityFrameworkCore/Migrations/20251013072333_Initial.cs",
+    "gitBlob": "cceeb3931b911843ea84dbc417db73b332a0f4c9",
+    "sha256": "2af3fa445d5d2e73f7228d16c42fe0e9f33bbec6a62175f2376a82cc80c6b6b7"
+  },
+  {
+    "path": "src/Acme.BookStore.EntityFrameworkCore/Migrations/20260618143912_Upgraded_To_Abp_10_4_1.Designer.cs",
+    "gitBlob": "7c5cf77d667a8ab79e13dac0d1cc7bdca658087c",
+    "sha256": "5d259fa2e2f9ed2e3a468577b90f194664b6c4dfd8a903fdfa01c5112e5b11cd"
+  },
+  {
+    "path": "src/Acme.BookStore.EntityFrameworkCore/Migrations/20260618143912_Upgraded_To_Abp_10_4_1.cs",
+    "gitBlob": "2a151d817725ed04094dd0844b2ed4a86e690c1d",
+    "sha256": "cfa1a8fe5c0f3a53c6cec29971cb0a1f998bd364b23117dbd80965395a157e35"
+  },
+  {
+    "path": "src/Acme.BookStore.EntityFrameworkCore/Migrations/20260824163700_Upgraded_To_Abp_10_6.Designer.cs",
+    "gitBlob": "6727c15159ac64f327a506ad176db95b9c09b2ec",
+    "sha256": "9cb018c32414e1596d3be740da2080c6aca12016e7b5e4f02e38482d8435a2e1"
+  },
+  {
+    "path": "src/Acme.BookStore.EntityFrameworkCore/Migrations/20260824163700_Upgraded_To_Abp_10_6.cs",
+    "gitBlob": "9cf5afccefc23444092814e11547c90c8d1bc964",
+    "sha256": "27e0e164a3bbde167f9159d8734116950cf62faea85d270226fe54f4eb36a0f0"
+  },
+  {
+    "path": "src/Acme.BookStore.EntityFrameworkCore/Migrations/BookStoreDbContextModelSnapshot.cs",
+    "gitBlob": "50c2305fb405ccdc3ea90898d7b34e92529f5f27",
+    "sha256": "2fe96693cba6fb80efee8abaa6d6b6e39eee79a564827ba2fa15961cbec5c3e8"
+  },
+  {
+    "path": "src/Acme.BookStore.EntityFrameworkCore/Properties/AssemblyInfo.cs",
+    "gitBlob": "9f5a215cbabca6569c0dc2c5820bd65013dfae34",
+    "sha256": "ad0e3e04307034877f48702f4b07f61d3d3b638b64a68158857ba1618ec4c1c8"
+  },
+  {
+    "path": "src/Acme.BookStore.HttpApi.Client/Acme.BookStore.HttpApi.Client.csproj",
+    "gitBlob": "1295c67bdd8b2188edb3417d51f1f96ca0ff6de5",
+    "sha256": "410aa1fc2ed949ec467e1297f60f939b4eebdecc389913d2d09030f524c782ac"
+  },
+  {
+    "path": "src/Acme.BookStore.HttpApi.Client/BookStoreHttpApiClientModule.cs",
+    "gitBlob": "642b895278bd4a9b726400991a2648b37eecff9a",
+    "sha256": "ac929ac8ba0df4a19320c7cccdf530d772d71746ece3102b4306fc46f2ff96e7"
+  },
+  {
+    "path": "src/Acme.BookStore.HttpApi/Acme.BookStore.HttpApi.csproj",
+    "gitBlob": "31c2126b19da344458981aed58320f42ada8b89e",
+    "sha256": "d98b96463666774b7d9f97fe6c7b99c9f4d86c22d5c57866e5876245f86cd6ed"
+  },
+  {
+    "path": "src/Acme.BookStore.HttpApi/BookStoreHttpApiModule.cs",
+    "gitBlob": "2836808b0776ea91d1b7a23d1c8abf3cb932cdb8",
+    "sha256": "65e12ccb82b7fb5bda06ade80fb37a556376ea213c5e4af1456146a8db88ab71"
+  },
+  {
+    "path": "src/Acme.BookStore.HttpApi/Controllers/BookStoreController.cs",
+    "gitBlob": "a8866e97f2d818607d883023e865bb9ae88e4e3e",
+    "sha256": "ea61d61a4968dc8670fe46d0a3a127a8c0a6a623969883b8f7cf32e46586d0c4"
+  },
+  {
+    "path": "src/Acme.BookStore.HttpApi/Models/Test/TestModel.cs",
+    "gitBlob": "f8ca625e77aa4fff96fb5d2d058e1615d15e8a06",
+    "sha256": "02af7554964d4db8894bb37255d3f584ab7b34a73bc9f0b5c056eeeaada689e1"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Acme.BookStore.Web.csproj",
+    "gitBlob": "0e21773c13bfe61c3de84df581c1478bbc72abc2",
+    "sha256": "a0b7bab01cd769eb996e6c9386927b83e849eccb7d75b2f4e256d8cf5cc6f565"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/BookStoreBrandingProvider.cs",
+    "gitBlob": "086a7c2abcc378ca493114ad79d25beb11358b3a",
+    "sha256": "ee75e65e59b9a94849bd607450f14b057fcf93f5f57d718d8b5690a8056dbab3"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/BookStoreWebAutoMappers.cs",
+    "gitBlob": "a9810fd656c3693459c1d779533720102482365a",
+    "sha256": "9f07b85cc83d675a9f5c697a24c76535cef22c2afaea8c40a3b3ff6f44377d20"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/BookStoreWebModule.cs",
+    "gitBlob": "0ccf6ce82bd8e7e9bb4a9915be8fa95fe03e0533",
+    "sha256": "78977a2767f1a08ea02472a1278bd55fee778d319b5698fdaa34b293d7804a47"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Components/_ViewImports.cshtml",
+    "gitBlob": "c1da1f5f107073cb33bda44b29af50b0ca819024",
+    "sha256": "12f2ecf13ffdd45d83b0198a52d2bd0972c59a17dc4da1c61d0a1974ddec9fda"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Menus/BookStoreMenuContributor.cs",
+    "gitBlob": "c2cfd9ae9d2413b9378c067f8522d9bb7b10c6ae",
+    "sha256": "1dd6023d395e539b514819e9ea7ca21cd00e0148044a5a56f409294e9afccda5"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Menus/BookStoreMenus.cs",
+    "gitBlob": "fc8bca8b8a4f54923f70da5d18211dc4350b535a",
+    "sha256": "03f5baac8bc7df90b532c2d27a82d5d60bc6e9f0377b8589c9f604386ff19709"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Pages/Authors/CreateModal.cshtml",
+    "gitBlob": "5ab6432ee719eda88d3d590c8466226fa9f99d2d",
+    "sha256": "cb60e57bd45d253b04dd1eb0ae6c518f2c9fa8abca761a583e25a505698e50f3"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Pages/Authors/CreateModal.cshtml.cs",
+    "gitBlob": "d508262e3a4a4477d3e71679bf7943037e0819f5",
+    "sha256": "b68b83c1fd458cd6eacd892a1c7eb3d8f83dc13a1b541ff68cf9cdaaf0113577"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Pages/Authors/EditModal.cshtml",
+    "gitBlob": "63899e54cf6eab8fa3da2fe7a6440ce309ebd2d1",
+    "sha256": "b867f7ee832d5f0b5e93f20e72b33b8b35be5b1cdcc59363d59a74530c6b6c59"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Pages/Authors/EditModal.cshtml.cs",
+    "gitBlob": "d1ef9a7b9935a8b0f8f6d4bcbdca398965d105ff",
+    "sha256": "a369b22298de8806a592ad81730ca37d08d15474fccb60cf9031a7201c3ea4b3"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Pages/Authors/Index.cshtml",
+    "gitBlob": "accbac19965255b5d3ad438372ad4424e02310b0",
+    "sha256": "470c4175e38ae6fe3b92a6da3bc63dd59115e8c8d091103f6fbe49828a6007f9"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Pages/Authors/Index.cshtml.cs",
+    "gitBlob": "726f5c0091689cd48a4d64e4e2194d81510375fd",
+    "sha256": "119fdb5fe18780e086559a9d872a0cdef1cb5b5bff184a6de272b1a5daa47fc8"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Pages/Authors/Index.js",
+    "gitBlob": "4b2b57090a0f64bd953ebf3fcd51e433a4a80420",
+    "sha256": "00f19d5d8679fd37ce7c80555d8768c8a6060e7a8fa2051ef9df5271ee9edbc0"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Pages/BookStorePageModel.cs",
+    "gitBlob": "933913a0a2338af4e19b88a7b7a77d0230f6eee4",
+    "sha256": "1bf149429c3e0791e6775b2d9e9f6139faaa793d3481615517f097ece2038b24"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Pages/Books/CreateModal.cshtml",
+    "gitBlob": "e8503eac5c2580cfb21e0affb484e98065f2b503",
+    "sha256": "916e1024cbd7354f2b36ec88050381f679fa5032fb48bc0acd5c9f6240d491bd"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Pages/Books/CreateModal.cshtml.cs",
+    "gitBlob": "39212917f2d72f56d7e21aee81f3aaa42546c597",
+    "sha256": "1ab289b88d58db0df97106d188613a4d5a94abd40b329c5b17459f461548fb0a"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Pages/Books/EditModal.cshtml",
+    "gitBlob": "0e9863a01107d9e837864668f51240999a9cb60e",
+    "sha256": "7653b3c4b804917edde70e4b5ad6cdb20b52fcf2ef2037e36abcf4966ad874ca"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Pages/Books/EditModal.cshtml.cs",
+    "gitBlob": "c23ed3fda0dca9daa246e85d47c0f936cd6823b8",
+    "sha256": "d77727243b7acb929da407b6478ef1411625fdbb5a955c06587be99d498aa1d5"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Pages/Books/Index.cshtml",
+    "gitBlob": "7ec5b6bc3e7ace266377c7befa2f68c562e3fd10",
+    "sha256": "a8803e90461539c976c48059592c2f757779189f77cb61ece1f05bf7443faa3d"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Pages/Books/Index.cshtml.cs",
+    "gitBlob": "6d0a1bf3927a67379ab17f600256ebdc873fbdc5",
+    "sha256": "0026d18769a9d8a71f749d61bef64045279b294a9141ad3012a6fc49ec41583b"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Pages/Books/Index.js",
+    "gitBlob": "62825461b148e3f7b9da5bc69a40c108f7b71c79",
+    "sha256": "0ef98ef86233c81fcae0b88c79b19857db2322af4a9932ad84de7976af346374"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Pages/Index.cshtml",
+    "gitBlob": "9f0d9a974f2a47036e34386e400bd83e1cbc5832",
+    "sha256": "a675f9c3670c756747d52cb5ef6df181fb93ed0ac6acfdbf540070f7fe426616"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Pages/Index.cshtml.cs",
+    "gitBlob": "6a5d8aba833c9f52a20c9a8aca7d29664af0f282",
+    "sha256": "18e270eefef56de15b83b4c9a6d0de54803cb8243bb207d93e2d433381a9b910"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Pages/Index.css",
+    "gitBlob": "7f8a925bc09fec261efbe05acc95c7244ab31bb5",
+    "sha256": "ccb4795e765d0376c5f07e58161ef61dc208aca3d45dd9a7e7222a094709c755"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Pages/Index.js",
+    "gitBlob": "32b47c56fd0b3281613013e347dcfb028f7c25d0",
+    "sha256": "60cc61320bdccb8534246e5ae38e5393ffd41469f0c16d8b3d49fea0dd700c48"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Pages/_ViewImports.cshtml",
+    "gitBlob": "c1da1f5f107073cb33bda44b29af50b0ca819024",
+    "sha256": "12f2ecf13ffdd45d83b0198a52d2bd0972c59a17dc4da1c61d0a1974ddec9fda"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Program.cs",
+    "gitBlob": "74aa2a6231cca19c649e2d88fb53ebbcea4606ac",
+    "sha256": "9bc1d726c84c0c658dadcc7cadb2137c2619b2cb335b54003f743250fff1a8c1"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Properties/AssemblyInfo.cs",
+    "gitBlob": "ba8ec78bf28ac63aa42e01ecaa88393278d04fe3",
+    "sha256": "896036d4b7157b7e0bf39165d939c56ad2751b39d1857b39fd3a3d49d19ef89d"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Properties/launchSettings.json",
+    "gitBlob": "f0cc5352a2e7abb07c0549bfc1162b19eb37246a",
+    "sha256": "88acfaeff475bdd579142dc2b0ddc4d763fe5093762fff4e77d9f6adec4abcfc"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/Views/_ViewImports.cshtml",
+    "gitBlob": "c1da1f5f107073cb33bda44b29af50b0ca819024",
+    "sha256": "12f2ecf13ffdd45d83b0198a52d2bd0972c59a17dc4da1c61d0a1974ddec9fda"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/abp.resourcemapping.js",
+    "gitBlob": "4a2ad4589644bbdd2cd3c836c12688c7102a5b54",
+    "sha256": "8d4d2e9bf16d2ffef65e2b94f2873c41144038b0d748ff8aae44f813007eb63c"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/appsettings.Development.json",
+    "gitBlob": "2c63c0851048d8f7bff41ecf0f8cee05f52fd120",
+    "sha256": "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/appsettings.json",
+    "gitBlob": "8b02325cf0c610605eb8c84d117c559d066f2a93",
+    "sha256": "6c0db198bd250773cb56c0888235feb0b5ada0533993b01d9873014d644b3f4d"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/appsettings.secrets.json",
+    "gitBlob": "7a73a41bfdf76d6f793007240d80983a52f15f97",
+    "sha256": "8eb95bcbc154530931e15fc418c8b1fe991095671409552099ea1aa596999ede"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/openiddict.pfx",
+    "gitBlob": "e5e46b3578a4575a67e9a4163b8ea9e5454f22db",
+    "sha256": "22331d40220f2415b25fb4e2ffc7acaa34d2277828e9f489667bf71448afacdb"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/package.json",
+    "gitBlob": "b4b3563878d9b8ca8859ae8d46b9ff1246bf572c",
+    "sha256": "5b2202f77940d796f4157178765a2098aa791d23e19749aec61644d63ffcc893"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/web.config",
+    "gitBlob": "43f87d423285e8a5a1472c974550fc29d50d08b1",
+    "sha256": "1f4cbbf2deef3140197ea65c218c3473e96f770e4c6f6b3eab0578b524ac16e5"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/wwwroot/global-styles.css",
+    "gitBlob": "74db4bd54f3f72c1e84ce5b512504c5c2d128613",
+    "sha256": "d007b490db9e3bef0930c34c57b7a4b03bf0116e8fe06e9206fb130c4ef06f31"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/wwwroot/images/logo/leptonx/logo-dark-thumbnail.png",
+    "gitBlob": "621596bb5c1a301136d9ee2af5ffe1391a4af776",
+    "sha256": "fe22525ee249a11be341ac93df02c1d8ded12c9fab9ca765977e74ba6941fb29"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/wwwroot/images/logo/leptonx/logo-dark.png",
+    "gitBlob": "e4bfe818c880edfbe00b88ddfc1cbc98289eb238",
+    "sha256": "2a39a8fe7f501f0d401a8c49e38f6d964dc7f31c71ca9916399cb6b37e23c7f6"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/wwwroot/images/logo/leptonx/logo-light-thumbnail.png",
+    "gitBlob": "886c96086415a813f5de9dd916ee465c7859b267",
+    "sha256": "c47dc4bb7e49f0d27d26c4e5045c5583b231e60ebccefb270f3d516d494a9247"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/wwwroot/images/logo/leptonx/logo-light.png",
+    "gitBlob": "6ebd97e2b2805085393d70d51ffd926be6de9fde",
+    "sha256": "e2c5e241d205bfd0b733478f0b7342eefbf92a7c3a04b7184d46562c62a9928a"
+  },
+  {
+    "path": "src/Acme.BookStore.Web/yarn.lock",
+    "gitBlob": "23e2c6daf03fd518cb7809e020c02be121255624",
+    "sha256": "2ea11942b68223268dcdcd509e4f355b9bf3fa6eaf91ab967b3e8c947db0ff36"
+  },
+  {
+    "path": "test/Acme.BookStore.Application.Tests/Acme.BookStore.Application.Tests.csproj",
+    "gitBlob": "c7006a90f1d93ecee1cdb53b999b1db040a8c7d5",
+    "sha256": "c097a8b1f122098ea81c7936b3751648e75f19af84b7b7095de125056331f900"
+  },
+  {
+    "path": "test/Acme.BookStore.Application.Tests/Authors/AuthorAppService_Tests.cs",
+    "gitBlob": "2b915aa7bf4f843f290993fedfbb124241f0b1d4",
+    "sha256": "bec745878135cd24554d9cd029eab41403ed8a8760f0f9b5373a0bb87119799d"
+  },
+  {
+    "path": "test/Acme.BookStore.Application.Tests/BookStoreApplicationTestBase.cs",
+    "gitBlob": "41a1e6c14583e24ae0bb6c72b3908acb2d996c14",
+    "sha256": "7425365043950434317ce303d507d007eaa134a6b3402a4b88a415cdd70a4ae2"
+  },
+  {
+    "path": "test/Acme.BookStore.Application.Tests/BookStoreApplicationTestModule.cs",
+    "gitBlob": "dd941905678c291bd3c2c08cd0389152447ac74e",
+    "sha256": "10c2ce8abfbffe46d706e44a5ebcd9a729708d67725ae8f81e88ba266d037f90"
+  },
+  {
+    "path": "test/Acme.BookStore.Application.Tests/Books/BookAppService_Tests.cs",
+    "gitBlob": "debbc789dfad75a0e1bb969b5cbb69458a819613",
+    "sha256": "0c3c1eeb14c446bc21e066e46a0b67221ca438af589ab4727925d91fefd65a79"
+  },
+  {
+    "path": "test/Acme.BookStore.Application.Tests/Samples/SampleAppServiceTests.cs",
+    "gitBlob": "c1e6fa644768b2586e4bd7f7e229a4e10cc0213e",
+    "sha256": "b1a8444f5dcd14305b07ca848791a803a19c5c3e7ceba924a8af6e3a38ab3b5f"
+  },
+  {
+    "path": "test/Acme.BookStore.Domain.Tests/Acme.BookStore.Domain.Tests.csproj",
+    "gitBlob": "c1b1e25b154e20d4adbafc51910a86b758c2042c",
+    "sha256": "643ebd574855c42e982260cf5f9457ab4b9f94fd33bd8d8add5034a3e4911fbd"
+  },
+  {
+    "path": "test/Acme.BookStore.Domain.Tests/BookStoreDomainTestBase.cs",
+    "gitBlob": "fab79f84ccb0fa0313f00e24376bd25382b944c2",
+    "sha256": "1193fabd66f2ef2818e2f98ce9cbf16aeb1f924ccb32ebc24a44f2ff497dca70"
+  },
+  {
+    "path": "test/Acme.BookStore.Domain.Tests/BookStoreDomainTestModule.cs",
+    "gitBlob": "a3a77ea6e28a5ae9a0546cb99bae12d64890629e",
+    "sha256": "6d9e95e6425902bbe36e1a05d6269f735faefcb06780cb0c74ecc8d0afdc4bbe"
+  },
+  {
+    "path": "test/Acme.BookStore.Domain.Tests/Samples/SampleDomainTests.cs",
+    "gitBlob": "e608ba38ae2cb5830fee9a6066c07313146d67dd",
+    "sha256": "fb126159187713f8bb54e783c09f11260d41f0c2b2b7f684ae7713bddf7126a4"
+  },
+  {
+    "path": "test/Acme.BookStore.EntityFrameworkCore.Tests/Acme.BookStore.EntityFrameworkCore.Tests.csproj",
+    "gitBlob": "e3e9cd6d97988942e55b35098a2a4453a57cf194",
+    "sha256": "dfdc3a405477505b17d3fe44deb255ca9d710898d82704c593bd8b7ae7ecbca8"
+  },
+  {
+    "path": "test/Acme.BookStore.EntityFrameworkCore.Tests/EntityFrameworkCore/Applications/Authors/EfCoreAuthorAppService_Tests.cs",
+    "gitBlob": "9214b08bd9a1c5efe72b4862cbc6e5dc376628da",
+    "sha256": "546a4c8b2e89afad33d6a810a1749ce2a3d28ee61086b546d33adf6f4df79e1c"
+  },
+  {
+    "path": "test/Acme.BookStore.EntityFrameworkCore.Tests/EntityFrameworkCore/Applications/Books/EfCoreBookAppService_Tests.cs",
+    "gitBlob": "0492fb8c390dde064611e65cb173c9629596a32e",
+    "sha256": "abf94c7a8a1658d37494c7b0d5b62d7af1ae695d064d67565cac557d4c4babc1"
+  },
+  {
+    "path": "test/Acme.BookStore.EntityFrameworkCore.Tests/EntityFrameworkCore/Applications/EfCoreSampleAppServiceTests.cs",
+    "gitBlob": "5959406ebd75ed5e3a81623292ecfbb82927eb06",
+    "sha256": "9d6e3b2f6601f61cbfeed91233068d22b172041051c8548bd9b16564961d6a85"
+  },
+  {
+    "path": "test/Acme.BookStore.EntityFrameworkCore.Tests/EntityFrameworkCore/BookStoreEntityFrameworkCoreCollection.cs",
+    "gitBlob": "07af60df6583ccb50225b581ebb7a93d5b13660c",
+    "sha256": "1fb9d477c520e3ca96ab45acae6cb75045fd735e4712927472e2379b57ceb289"
+  },
+  {
+    "path": "test/Acme.BookStore.EntityFrameworkCore.Tests/EntityFrameworkCore/BookStoreEntityFrameworkCoreCollectionFixtureBase.cs",
+    "gitBlob": "fff19f41677eade8d064b424e0e254a64fe56c70",
+    "sha256": "523e80cbfd50b01b7ca04c6865a2ba6f555d906a3161453bb6ec2f61a2f1410d"
+  },
+  {
+    "path": "test/Acme.BookStore.EntityFrameworkCore.Tests/EntityFrameworkCore/BookStoreEntityFrameworkCoreFixture.cs",
+    "gitBlob": "6ee6813e292d607385453c996bf9acdcaa5216b0",
+    "sha256": "d29b28f7cbae65de36090eb2d315c2479b50ecbf9b08456656b82a53bd3a966e"
+  },
+  {
+    "path": "test/Acme.BookStore.EntityFrameworkCore.Tests/EntityFrameworkCore/BookStoreEntityFrameworkCoreTestBase.cs",
+    "gitBlob": "0d3786f388c419b4c1839c57986d0eab57884e80",
+    "sha256": "de664ebde808ad3f81536631daca83ca5784c2d5f2d98211bee0ee7a7037a2b3"
+  },
+  {
+    "path": "test/Acme.BookStore.EntityFrameworkCore.Tests/EntityFrameworkCore/BookStoreEntityFrameworkCoreTestModule.cs",
+    "gitBlob": "75e7f0ed0b1cb1260e7589b6fed1fa715378dd2a",
+    "sha256": "0b695e5af265ce412255cf0b68ea994e15bc91c157bec668f7667e82ed805d46"
+  },
+  {
+    "path": "test/Acme.BookStore.EntityFrameworkCore.Tests/EntityFrameworkCore/Domains/EfCoreSampleDomainTests.cs",
+    "gitBlob": "e144ede4746f09e979b1a9edb99c0197b2bc9f9b",
+    "sha256": "d0e61303c11e14ff30e6c1a9a51f7e83c025e874be196f81cbcfbcc056fd3913"
+  },
+  {
+    "path": "test/Acme.BookStore.EntityFrameworkCore.Tests/EntityFrameworkCore/Samples/SampleRepositoryTests.cs",
+    "gitBlob": "6a432cea7271b2fd13f4bc440070dcf0956cc378",
+    "sha256": "5dd9dc4175dca8ef4e91863c2af04f37e30ac021a6c8e2edb503b464fa3b26e8"
+  },
+  {
+    "path": "test/Acme.BookStore.HttpApi.Client.ConsoleTestApp/Acme.BookStore.HttpApi.Client.ConsoleTestApp.csproj",
+    "gitBlob": "42974bc35f35b928b0ee8861f43ab15299a22fe4",
+    "sha256": "a2d054e0ebc866430d392e7a077a91338dbb2bbd2244c64185f24a53e2188b7b"
+  },
+  {
+    "path": "test/Acme.BookStore.HttpApi.Client.ConsoleTestApp/BookStoreConsoleApiClientModule.cs",
+    "gitBlob": "7cf8c7b3db2e95ac8a3aa16dc7f0a439928e91f0",
+    "sha256": "9aab99ff1752a381d5ba684f7a8764338ad6a604b28f45c7058f1decd5899c84"
+  },
+  {
+    "path": "test/Acme.BookStore.HttpApi.Client.ConsoleTestApp/ClientDemoService.cs",
+    "gitBlob": "e4fb3f1acdebcae0ad9afc773f70eb3a94d9bda8",
+    "sha256": "8d49cf33e77b366a6be1dd2b6539c22883cdffcf7356acb1b4edab4e7b525ae0"
+  },
+  {
+    "path": "test/Acme.BookStore.HttpApi.Client.ConsoleTestApp/ConsoleTestAppHostedService.cs",
+    "gitBlob": "54ac083d7c059395cf602c4785ff29f5874a6bb0",
+    "sha256": "4976827123afa41754af255cab7aba26b5805363f1cfe208c45b034fa87df3e0"
+  },
+  {
+    "path": "test/Acme.BookStore.HttpApi.Client.ConsoleTestApp/Program.cs",
+    "gitBlob": "6b23799bf6c263fc8c73ca15137f135e91192591",
+    "sha256": "1d9352c4f1386d33c8f8abfe2e0edb37d55cf331b15929124e1d308a982345e9"
+  },
+  {
+    "path": "test/Acme.BookStore.HttpApi.Client.ConsoleTestApp/appsettings.json",
+    "gitBlob": "4c1c5ffd7e1fbed62a7f98eda22c21907618df9a",
+    "sha256": "88b8d7ff39b698fc5565f512902842127a39b996108be892c43ab4550bfce573"
+  },
+  {
+    "path": "test/Acme.BookStore.HttpApi.Client.ConsoleTestApp/appsettings.secrets.json",
+    "gitBlob": "7a73a41bfdf76d6f793007240d80983a52f15f97",
+    "sha256": "8eb95bcbc154530931e15fc418c8b1fe991095671409552099ea1aa596999ede"
+  },
+  {
+    "path": "test/Acme.BookStore.TestBase/Acme.BookStore.TestBase.csproj",
+    "gitBlob": "314306387fe19f50ca864d7ef17f133a0adf331b",
+    "sha256": "2ec9cd641c832c93d4da271652dfbf028935fc96f484e1d819e19573faaf65ca"
+  },
+  {
+    "path": "test/Acme.BookStore.TestBase/BookStoreTestBase.cs",
+    "gitBlob": "c83dbcf404fdb109777b50b0783745847131f723",
+    "sha256": "7397fd25f62dfa4d1d364bad7b02d99ec2ba6aa3ab97c8f46288a722d2c59fc9"
+  },
+  {
+    "path": "test/Acme.BookStore.TestBase/BookStoreTestBaseModule.cs",
+    "gitBlob": "f035cc26afedfc37e30ca4e23bd23d4724d45ecf",
+    "sha256": "2d8fff9fbd776c18beac8ab369a8f8a466a49a060149a4503986d09c1958a5ac"
+  },
+  {
+    "path": "test/Acme.BookStore.TestBase/BookStoreTestConsts.cs",
+    "gitBlob": "f2519f34544fa20edb746ec850f8245047fb5ad7",
+    "sha256": "6c6826adc39290d7331698a836734d358eda23716d6250df2a8d88672eb8682a"
+  },
+  {
+    "path": "test/Acme.BookStore.TestBase/BookStoreTestDataSeedContributor.cs",
+    "gitBlob": "dfd91e219fa07bea065483c0e3651fc4c0a65abe",
+    "sha256": "da73d39da699d7e184663d4d3c5818c95eb496aae5fb35578619a2329c27b50c"
+  },
+  {
+    "path": "test/Acme.BookStore.TestBase/Security/FakeCurrentPrincipalAccessor.cs",
+    "gitBlob": "eae4b998834992afbfce5acc99a4b857ef4ea64a",
+    "sha256": "d29be2b8eba30d86cccacbee4c0561c00a9951ca405a17af72c93cbc496c28cc"
+  },
+  {
+    "path": "test/Acme.BookStore.Web.Tests/Acme.BookStore.Web.Tests.csproj",
+    "gitBlob": "2df5f9730e5bf6cc71499c193f99af644e756635",
+    "sha256": "2aff00c31f2302544c5b730b6ef6f1a592d8dc4b23c7ef416dca2b82206ab71e"
+  },
+  {
+    "path": "test/Acme.BookStore.Web.Tests/BookStoreWebTestBase.cs",
+    "gitBlob": "df9b77c5c1afbeed36f844945220ad2a2d8caa48",
+    "sha256": "3ae327afb6a35a470534960ca986a54bea4bf940a388a2df7dc36c2e8f3a62b3"
+  },
+  {
+    "path": "test/Acme.BookStore.Web.Tests/BookStoreWebTestModule.cs",
+    "gitBlob": "463a25521af4ee90f1b063afff281a8c2dd06929",
+    "sha256": "e81b137ef51369e4bb37465ed4fcb7c637821bb8a9c64e010e7726f0be10f642"
+  },
+  {
+    "path": "test/Acme.BookStore.Web.Tests/Pages/Index_Tests.cs",
+    "gitBlob": "f76da9c206faa10d1cb977dd1c1531f5b37f4a27",
+    "sha256": "9473a43a0f7a5e0b4c8127309064641ba643fb581aa4db7f9588cf199ce0c9df"
+  },
+  {
+    "path": "test/Acme.BookStore.Web.Tests/Program.cs",
+    "gitBlob": "535ca1b2e68a8514afc8a6da849a58df9726830e",
+    "sha256": "6aee690c7491bde78edabbceb267f2459e87cf56d17d9ff85c3770b6c8d438dd"
+  },
+  {
+    "path": "test/Acme.BookStore.Web.Tests/xunit.runner.json",
+    "gitBlob": "78c070e83207bdd11bb030a7bdf071817b002a43",
+    "sha256": "fc494e3756292818bf0990f400cb29f19780e4ec76cd0b8a1efa72a5dbab5618"
+  }
+]

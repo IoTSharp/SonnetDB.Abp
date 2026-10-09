@@ -1,0 +1,2276 @@
+[
+  {
+    "path": ".editorconfig",
+    "mode": "100644",
+    "gitBlob": "3aa69eabddca7df8c1c24e44a069c727bd20be25",
+    "sha256": "8b19295565286cd9b13dfc62feb6703cad5ea959865e911da58c5b88d5dc6d65"
+  },
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "gitBlob": "dfe0770424b2a19faf507a501ebfc23be8f54e7b",
+    "sha256": "1a1dbe176bc233b499d35a57db7513f2941c99ab9759f177830c9149be99005b"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "gitBlob": "62bc6c04602741c5a9129ceff4849814423207fd",
+    "sha256": "77c22e4d578470d6f5529e29a190b0553add4ce8565bdd4f814dbd5502dbe60a"
+  },
+  {
+    "path": "common.props",
+    "mode": "100644",
+    "gitBlob": "013e567040b0dabe035de0ab33983ca4ba33285c",
+    "sha256": "eb1a1d9f07be45f14d5438d7adb92960dad9d76af535ff928fc8673ebb90f7f4"
+  },
+  {
+    "path": "docker-compose.yml",
+    "mode": "100644",
+    "gitBlob": "781106d4344de9f1f47abcc1a18fc5041c60e81f",
+    "sha256": "318a965e30adceac9f009233961a5a755c2207123e9e9dd6ce30e3e3343b26fe"
+  },
+  {
+    "path": "etc/build/build-images-locally.ps1",
+    "mode": "100644",
+    "gitBlob": "3c03acc2439def4f9cfbfe8d3f990cf2962f89a1",
+    "sha256": "740012df8ae7c5591504bdea59e8bfd3c6c6d9d2e446c669c8f0ff7590ab7e4c"
+  },
+  {
+    "path": "etc/docker/docker-compose.yml",
+    "mode": "100644",
+    "gitBlob": "ba081b1190f69684d27b162f9a3845e18611b49f",
+    "sha256": "b7417e73518ec018e64b9f78889de49a411819897e26ff7f38c482b1306c701e"
+  },
+  {
+    "path": "etc/docker/run-docker.ps1",
+    "mode": "100644",
+    "gitBlob": "67ec9d470014a18f5c6685b90a86e198198135e3",
+    "sha256": "2bd8e7fc926e8ecfbd1a10994c6125b6f0e9eec1ec542d28800d4362ad72e410"
+  },
+  {
+    "path": "etc/docker/stop-docker.ps1",
+    "mode": "100644",
+    "gitBlob": "ba85c949eb30a454eae06a3cd9a26726aa8c261c",
+    "sha256": "1348e6074ade7c2fdeb64f42eb944bafda1ecb63f03626e287d4553a35e42c48"
+  },
+  {
+    "path": "etc/run-profiles/Default.abprun.json",
+    "mode": "100644",
+    "gitBlob": "4f71e3e6c8e0370a49906d63a98c98b923ea7c42",
+    "sha256": "e5569fc558df2651f41c7c7a8cf060b1b2a642e5fc5f23f830b2d85d3262fe24"
+  },
+  {
+    "path": "migrate-database.ps1",
+    "mode": "100644",
+    "gitBlob": "f6019ac33a1be70e169de858401795eccb53eef7",
+    "sha256": "4690b7c7ebe1b210bd4ecd7be3654136d6bf850a19de6378de252791e4c87e55"
+  },
+  {
+    "path": "ModularCrm.abpmdl",
+    "mode": "100644",
+    "gitBlob": "adfde44178749263540a8fc94681f97ec01c4182",
+    "sha256": "d74ee685af29a1732f012ee192c89ba1f48781628b25a02e2973d30fa7b71481"
+  },
+  {
+    "path": "ModularCrm.abpsln",
+    "mode": "100644",
+    "gitBlob": "5c2d23e67556ee00230c551939924e214040f35a",
+    "sha256": "582422fb132e069ae191230294446fadb328b4d95b592763335a8bc69dc9980e"
+  },
+  {
+    "path": "ModularCrm.sln",
+    "mode": "100644",
+    "gitBlob": "2cf994d654b0534c49e3e159b6b98dbab7e0940a",
+    "sha256": "049e977bdfaa6083a30994be9e953b9132913a9fd8113573ff7da6d212417536"
+  },
+  {
+    "path": "ModularCrm/.npmrc",
+    "mode": "100644",
+    "gitBlob": "b529f628536233f6d6dfe5c229e88f1cb83b732f",
+    "sha256": "6941f1fcf27a186ac3eb275bb6abbc5722c31f907d6bdb23c84691433c0e8aea"
+  },
+  {
+    "path": "ModularCrm/abp.resourcemapping.js",
+    "mode": "100644",
+    "gitBlob": "70bd3f1e22e60ad74ec9a58ebfb387b4719c5bc7",
+    "sha256": "6146ad023d8dd4756938536e72f2733394b7bde0fdc8d6f2705851b13c0f705b"
+  },
+  {
+    "path": "ModularCrm/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "ad2a7c17c482a36d8e18daeff6f4d2efce78bd35",
+    "sha256": "f1660b36d28b3cacd6ddb8c3bcb2376868de2564dfab3e2872508886a5752f53"
+  },
+  {
+    "path": "ModularCrm/Data/ModularCrmDataSeedContributor.cs",
+    "mode": "100644",
+    "gitBlob": "7951a116c9654df3e6eb45975267254ec7d0463c",
+    "sha256": "5b3e6762ee462e06a51324e4222ffe578b39c5b43b3482bd381a4ef77401a44a"
+  },
+  {
+    "path": "ModularCrm/Data/ModularCrmDbContext.cs",
+    "mode": "100644",
+    "gitBlob": "b0cbdb9ff44d312508dd89a9622eddb07f6d2cf6",
+    "sha256": "7d72e2b60a6f0c89423733565e0884b67ef5a33944437803a5ff8bbf8890ae2d"
+  },
+  {
+    "path": "ModularCrm/Data/ModularCrmDbContextFactory.cs",
+    "mode": "100644",
+    "gitBlob": "2debd9655d0a31d1eb92b9f2f12eb3eefafd75d3",
+    "sha256": "6bcac01e610c1507df28f2b950f5217474281e3456bd88aba06c41f3170c1a69"
+  },
+  {
+    "path": "ModularCrm/Data/ModularCrmDbMigrationService.cs",
+    "mode": "100644",
+    "gitBlob": "87c9bb7438341d5b713f4b87ca8cfa3527974bb2",
+    "sha256": "8aa933d795abf4b7005b2fb48d5697d363fd2fd1e8486d04869d88a384958247"
+  },
+  {
+    "path": "ModularCrm/Data/ModularCrmDbSchemaMigrator.cs",
+    "mode": "100644",
+    "gitBlob": "2308a22957fe94aef0c869c955c9e905f20244f6",
+    "sha256": "cd71ad6708a861767fe2523eaf63eaf08833c33381d66bbfcad847bc15a787c0"
+  },
+  {
+    "path": "ModularCrm/Data/ModularCrmEfCoreEntityExtensionMappings.cs",
+    "mode": "100644",
+    "gitBlob": "34f425f38a218596a9c0079ed9a8a24f17628440",
+    "sha256": "f887444cea892709ed0053b5eed1f3ca3ee92995518fb4a5583f6c7548f774b6"
+  },
+  {
+    "path": "ModularCrm/Dockerfile.local",
+    "mode": "100644",
+    "gitBlob": "77ce9cdbacbba23630041462b855a397cf4845b2",
+    "sha256": "5be066dd47c85e160fa4bbafed91f0dab793089fe16ce766b8de58356f78e908"
+  },
+  {
+    "path": "ModularCrm/Entities/.gitkeep",
+    "mode": "100644",
+    "gitBlob": "e69de29bb2d1d6434b8b29ae775ad8c2e48c5391",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/ar.json",
+    "mode": "100644",
+    "gitBlob": "00641844e77c40718b593f74e9af5f79de6f76d7",
+    "sha256": "ccf132a2b3d9f2eeefbb6f5229892f69db8125ba0818fac3e1fdd50e9d9f3db1"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/cs.json",
+    "mode": "100644",
+    "gitBlob": "a532ddd57b866861cdd94c41ca38561e2ef8c38a",
+    "sha256": "5fcfbf62252aa29cc35cc36e71a99021abe55ce457b7ed3c209fa6f3d4d8a9d5"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/de-DE.json",
+    "mode": "100644",
+    "gitBlob": "17a284af45c3b40614b241e2f7a5a578f38b404c",
+    "sha256": "5408371588eebf0d54bc01e766a26d22896d7ed1c09ec03e05530dec702cb043"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/en-GB.json",
+    "mode": "100644",
+    "gitBlob": "ae8f5bfa5de9622363c74077915d85350849335d",
+    "sha256": "9dc3af9ae441b090f1c7864db164d40055b7e6a36f822eb17f5d9388f1128e72"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/en.json",
+    "mode": "100644",
+    "gitBlob": "174ad93e08b17bea874ceeacea27347280b95eee",
+    "sha256": "247379f49406e4efce1d1eb741387c44cb0e3bb1f2b2f82ab1310c2e6c307d47"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/es.json",
+    "mode": "100644",
+    "gitBlob": "446a3fb8e2beebb1a298866c399cbe4cccfb7c01",
+    "sha256": "71752961117e4049ac673b73c5e4a859221cb8b2db91e85151cb51402b6ac2c6"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/fi.json",
+    "mode": "100644",
+    "gitBlob": "09ae68c7cbe5cb061b7761813e025db700d2f54c",
+    "sha256": "c01cfb50c69f2bcd1047303fe720f45446a33ade013cff8a4794820bbd082452"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/fr.json",
+    "mode": "100644",
+    "gitBlob": "b2c2b620f72e93e8c47a87b95d99ac3223ee45e0",
+    "sha256": "60dcf4248b62e3d75b3eaa686cff04a843c199ca245ccb2e36bfed106cf5b3f2"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/hi.json",
+    "mode": "100644",
+    "gitBlob": "9bd2ae7e79bf30e0a7245ae45e3c91c4a6cb7609",
+    "sha256": "d33082ca2bb539e1e5624ccde9690736e2aaed87667118c66ec3844cd5f16847"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/hr.json",
+    "mode": "100644",
+    "gitBlob": "387c3ba7b4e13553a6acaae55d7e246a7ca47854",
+    "sha256": "f50942a4e6f2cd65850985a550320524c9b0cff35b3bfe923aac02b0dc75352d"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/hu.json",
+    "mode": "100644",
+    "gitBlob": "9fbb3119bc205d37ec59773b4f96a2364ea564ca",
+    "sha256": "db4b652de0ae5b763cba5329e9b4c24d32b0b3d29915b3083d5c09d8583c9c6f"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/is.json",
+    "mode": "100644",
+    "gitBlob": "a2e240e185680bbef5f99cac45629d19d9f901a7",
+    "sha256": "0cb85ad3ae8adcff28c0592dab42de1fe67c32f1df8f86b56e4187706a4aa17c"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/it.json",
+    "mode": "100644",
+    "gitBlob": "50f1f415092a0eec4a3af786ad38473ab2cd5f1f",
+    "sha256": "8ad8bc0f7d81512085c3ac7c9908682bab77fe92621e6958f6ae73eeffde2ed0"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/nl.json",
+    "mode": "100644",
+    "gitBlob": "eebf21dd738f161572ccaaeaf593f0c918113a70",
+    "sha256": "89f6b98940f788044ad1884d449694485768631ea02272974b8e965726df90c6"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/pl-PL.json",
+    "mode": "100644",
+    "gitBlob": "a86b94ce75f3d878692eeff7f07352026372f749",
+    "sha256": "76ac72971ae01eb57274624e21c7c0feb8806bdd3ce83417ea071e1f7c739315"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/pt-BR.json",
+    "mode": "100644",
+    "gitBlob": "4192bbf62a23736398f417e4fcb78c14c34476df",
+    "sha256": "96ba1f5e8783dd9791ca0dafca54b5365a51679e9fa4954d6dc175a481d336a9"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/ro-RO.json",
+    "mode": "100644",
+    "gitBlob": "8ab23ef6f8f034274e4ba9a4198762d35d3bf5c9",
+    "sha256": "294271f6f8a111424703cdf9a310cf27652c8b872c071aba7cd7d596e124c815"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/ru.json",
+    "mode": "100644",
+    "gitBlob": "7d11c869b4a0938be13b001df4b939dc19c86590",
+    "sha256": "75ca664fa7b10d13ee12af9b2033bf2d110ff7e1e0f78feed80cb369f381b68d"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/sk.json",
+    "mode": "100644",
+    "gitBlob": "f51f7a5ea76cca66b6459671fb0127f9187c8445",
+    "sha256": "295535d7f4aa9903cdf8d1c02ddadf8e1c8e51fef808519fbf7c7bbb045af439"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/sl.json",
+    "mode": "100644",
+    "gitBlob": "c588c430a5c06eede98b092ca5441f8309e82938",
+    "sha256": "b01e2e562d42d4ece46715e98522571c0ab8e66dae0140cba8ec7ea088d9d81f"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/tr.json",
+    "mode": "100644",
+    "gitBlob": "e2cabdcaeb38a31837db93bb8d28440d0c71e64b",
+    "sha256": "7f91897fd7e63cca5ce608efc30f68ea06aa0b31dbb94e996b13d23652005ea8"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/vi.json",
+    "mode": "100644",
+    "gitBlob": "f093b555a72fce548220fffb780f30e561f94d40",
+    "sha256": "e1a7c0de4283c1f50c448df74c0ebd69db59132ae202a80906a1879ccbf84adb"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/zh-Hans.json",
+    "mode": "100644",
+    "gitBlob": "c68cc59514a20c4908cbd4ec7d695bf659d15422",
+    "sha256": "7a210df97958af447e602f7bdba32b6f51648066f9d9c5091fb7e629f4e13aec"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrm/zh-Hant.json",
+    "mode": "100644",
+    "gitBlob": "2c30f13d80fc7c727c7842a0689466ae9e938049",
+    "sha256": "a074fc4d162ffbf0c79a0999ab7999b353c2ad7054d4793acea0da456e5507e5"
+  },
+  {
+    "path": "ModularCrm/Localization/ModularCrmResource.cs",
+    "mode": "100644",
+    "gitBlob": "2a89d1be735159696849da390b29f72570b795af",
+    "sha256": "dbc72dbec90ec8c7160b7bd5c089a8b47d3da21425811569b5bda2a827465add"
+  },
+  {
+    "path": "ModularCrm/Menus/ModularCrmMenuContributor.cs",
+    "mode": "100644",
+    "gitBlob": "76e3ccf0d8dbf10205ef9d6b5dc387fdfb908102",
+    "sha256": "d4c311a58e8caf32aa98a52e65c29188ecfe53d5b19a5fd2186d3d10fc7952a6"
+  },
+  {
+    "path": "ModularCrm/Menus/ModularCrmMenus.cs",
+    "mode": "100644",
+    "gitBlob": "6ac189795a50ade9a66d3d5848db42bae1e5020a",
+    "sha256": "db09cc8bda0d8e2448d7a6c36cce631b60c9d4b78e251d55e18ec4af028f3074"
+  },
+  {
+    "path": "ModularCrm/Menus/ModularCrmToolbarContributor.cs",
+    "mode": "100644",
+    "gitBlob": "69bf7385e9a863a4d36569321e5998a5f82a50ae",
+    "sha256": "9a60ebe69fcfc244bd5c5c2b5857c6ff8fff9912997e4bb9566bd67ee522e085"
+  },
+  {
+    "path": "ModularCrm/Migrations/ModularCrm/20250208030214_Initial.cs",
+    "mode": "100644",
+    "gitBlob": "6f5ce75669ad0a7ec68636a986a7f6c035b6a019",
+    "sha256": "04d0457c0564586fb9a26148b0963726ec08b686acf49b0cd7374f37235dd352"
+  },
+  {
+    "path": "ModularCrm/Migrations/ModularCrm/20250208030214_Initial.Designer.cs",
+    "mode": "100644",
+    "gitBlob": "815ac5be8b17a97d54025193054408f120a284d4",
+    "sha256": "0208619131cbf03e90dedfa76cc232f9d8b4d7de9197d27ddf28d3ed9ed932db"
+  },
+  {
+    "path": "ModularCrm/Migrations/ModularCrm/ModularCrmDbContextModelSnapshot.cs",
+    "mode": "100644",
+    "gitBlob": "016e236fd8b835d7bad0e3f2f99ee6f343c84423",
+    "sha256": "81b674f275dadd9100809d8b0141228c49f03ac06278f57ea2a85fddf86f230a"
+  },
+  {
+    "path": "ModularCrm/Migrations/Products/20250208030229_Initial.cs",
+    "mode": "100644",
+    "gitBlob": "fd2373c6038247b258fa0b57ae28b103920cb2db",
+    "sha256": "05cdde2a5cbb6adf604bdf8fe38255e10e23e94428567f424897328a5f915a66"
+  },
+  {
+    "path": "ModularCrm/Migrations/Products/20250208030229_Initial.Designer.cs",
+    "mode": "100644",
+    "gitBlob": "825fb3a3cec26acca89c171bf78bf63ff57c726f",
+    "sha256": "7fafbb07ba35555e57fa47be941ce83b2b16d053744c722d18ff5c67b9782b6c"
+  },
+  {
+    "path": "ModularCrm/Migrations/Products/ProductsDbContextModelSnapshot.cs",
+    "mode": "100644",
+    "gitBlob": "0a4e6b35189176717e35401d01313f222ee44ead",
+    "sha256": "5ba4ede66d79296c4020a2f4dba7e1f0572302a4176edd3b21ba04fdf9bdbb06"
+  },
+  {
+    "path": "ModularCrm/ModularCrm.abppkg",
+    "mode": "100644",
+    "gitBlob": "48875c29cfd006dcd439966e13589766894a479c",
+    "sha256": "7c2b8f1302c6c34aa8937307e71d368f4dad6f4316a9f85d80a149be04cab9f2"
+  },
+  {
+    "path": "ModularCrm/ModularCrm.csproj",
+    "mode": "100644",
+    "gitBlob": "aca8bace5d0e325dd19fca41d68fb27690ffc262",
+    "sha256": "7b8e30504544a8ee741447c694d9b92830ce37ff09c0a35caba7bd8bc78b877f"
+  },
+  {
+    "path": "ModularCrm/ModularCrmBrandingProvider.cs",
+    "mode": "100644",
+    "gitBlob": "f6022b2983dc50e666644554396a06e11395fc52",
+    "sha256": "76d811fac64c91825b240b39a35505a77b16d3b394aef0101810ae772a0b8f63"
+  },
+  {
+    "path": "ModularCrm/ModularCrmGlobalFeatureConfigurator.cs",
+    "mode": "100644",
+    "gitBlob": "14db827ed1e0db9d3df7d6c7acf9e9e401780b20",
+    "sha256": "61f864db8e3330d9f78c678690e22b8b3a6f106c72e945582c3b84c24990b6c0"
+  },
+  {
+    "path": "ModularCrm/ModularCrmModule.cs",
+    "mode": "100644",
+    "gitBlob": "429d5fd23bc5fbe8910eec8026ad037db3df09bf",
+    "sha256": "dd35f60240bca98170de5f8343b5e2db0c5f4eb412217d5fb1e25552cafe626f"
+  },
+  {
+    "path": "ModularCrm/ModularCrmModuleExtensionConfigurator.cs",
+    "mode": "100644",
+    "gitBlob": "90b7c28a3113c28c2f9d50b4659bb89a90a25066",
+    "sha256": "baa126e16b5ac66e9fa597998ed81ca3a6aec438411993b3fe07408dfbfd28f4"
+  },
+  {
+    "path": "ModularCrm/ObjectMapping/ModularCrmAutoMapperProfile.cs",
+    "mode": "100644",
+    "gitBlob": "76b6e6a4bb9028a467bdd6ab8acfd7e7a56aa48e",
+    "sha256": "42018101ab7a2caf7dff0ed6bf0868c38b276d3a00d4ec5d63b9bb30ebddfc28"
+  },
+  {
+    "path": "ModularCrm/package.json",
+    "mode": "100644",
+    "gitBlob": "545ae42c831f97c539786c068d45712f2587208c",
+    "sha256": "2557f3ce5c8879b24fc3fa179d6508f58b79241f18073412fd48b9541d5d14b1"
+  },
+  {
+    "path": "ModularCrm/Pages/_ViewImports.cshtml",
+    "mode": "100644",
+    "gitBlob": "c1da1f5f107073cb33bda44b29af50b0ca819024",
+    "sha256": "12f2ecf13ffdd45d83b0198a52d2bd0972c59a17dc4da1c61d0a1974ddec9fda"
+  },
+  {
+    "path": "ModularCrm/Pages/Index.cshtml",
+    "mode": "100644",
+    "gitBlob": "b40149fb40023f6fdc7ded891e86751b5acebf5a",
+    "sha256": "a80507e8857f8ff76c82074ebedc1dba9df7c7023f1ef30d8245119d221ab005"
+  },
+  {
+    "path": "ModularCrm/Pages/Index.cshtml.cs",
+    "mode": "100644",
+    "gitBlob": "96f5c3fc3e88e56fe33046489349cc12cc840d82",
+    "sha256": "58ab14e41f73584e04059fb6da3de6d274088539ff5e6c905b76ce7916d6eb6d"
+  },
+  {
+    "path": "ModularCrm/Pages/Index.cshtml.css",
+    "mode": "100644",
+    "gitBlob": "35781a362dc07332f5b5fdc97d7cac0dc6674892",
+    "sha256": "01df3b96c53cf5ab4c95d253c08c290c41546bc92ecae4cc41bfd2f4e1102043"
+  },
+  {
+    "path": "ModularCrm/Pages/Index.cshtml.js",
+    "mode": "100644",
+    "gitBlob": "6cdadd67c011de320c804014b71461cbf5840a34",
+    "sha256": "8742ee8e15298f1db776cd519fe22d4195cd0f218fa27e28175b79e9752146a1"
+  },
+  {
+    "path": "ModularCrm/Permissions/ModularCrmPermissionDefinitionProvider.cs",
+    "mode": "100644",
+    "gitBlob": "1d0c23049abb5ec554511dd420b4772519285342",
+    "sha256": "9271c8c12c4cee9924765ce0be76b0cff6d4e1a050427b8ced02b335b621002c"
+  },
+  {
+    "path": "ModularCrm/Permissions/ModularCrmPermissions.cs",
+    "mode": "100644",
+    "gitBlob": "441e4fc0d021913eb42a0bff297735e7e192e899",
+    "sha256": "72d3a74084c874f49cfc01d35d2e711813c09a1c98e73580f2e605d131cedbd9"
+  },
+  {
+    "path": "ModularCrm/Program.cs",
+    "mode": "100644",
+    "gitBlob": "8013fbc89feb97b4827fd35132589d164d52fd4c",
+    "sha256": "e499c4fb3ca89037bb48b720765819a2307d057f2b142fce453e309713d0a920"
+  },
+  {
+    "path": "ModularCrm/Properties/launchSettings.json",
+    "mode": "100644",
+    "gitBlob": "35ecce7f2b4b253b5efcb604f31796907e995df4",
+    "sha256": "364313f95f4350259a11aecfff26970234fbbe369dd65649cbf8faecb068a503"
+  },
+  {
+    "path": "ModularCrm/Services/Dtos/Orders/OrderReportDto.cs",
+    "mode": "100644",
+    "gitBlob": "5f951179d60bc4deaf521944b8e70dcd89ec96ff",
+    "sha256": "52495040ca0d41f9d57aafcc6beaa4a4bd1d03610f5c0d6f38a8ff69508e57a7"
+  },
+  {
+    "path": "ModularCrm/Services/ModularCrmAppService.cs",
+    "mode": "100644",
+    "gitBlob": "7f484f0cdcc740f1ea52ade20ae2d8491c450300",
+    "sha256": "73f251d78fce0e99475500bfa3ecaef0f0ef918b42c83e7ebd6c04d85e4fad16"
+  },
+  {
+    "path": "ModularCrm/Services/Orders/IOrderReportingAppService.cs",
+    "mode": "100644",
+    "gitBlob": "089cd2784339aa6a1b36efea79ad685158db5d7a",
+    "sha256": "f7102b6078124e9ea70648c4b24d9864b2ebc30a3ce677272d24c89862146a8f"
+  },
+  {
+    "path": "ModularCrm/Services/Orders/OrderReportingAppService.cs",
+    "mode": "100644",
+    "gitBlob": "09caed97e23dc48301703a9e33109df512567734",
+    "sha256": "0c11bd09ea72d604b9e82b917513abadb38176327abbe24fc35b138ce98e3796"
+  },
+  {
+    "path": "ModularCrm/Themes/_ViewImports.cshtml",
+    "mode": "100644",
+    "gitBlob": "229004aa93c565ab5a53ada7aa619677e33bccfa",
+    "sha256": "4f82769cc3b0b7be502b793cc336cf47fd83127fb7215a6d00bec5d3a578cf4c"
+  },
+  {
+    "path": "ModularCrm/web.config",
+    "mode": "100644",
+    "gitBlob": "e454466c6691e97ae632240862b18461c2f62d3e",
+    "sha256": "f216f3639a2f3d9c05ec49ffa834193a1fbddbe92adcb6e04bbc8686e5d0ad97"
+  },
+  {
+    "path": "ModularCrm/wwwroot/global-styles.css",
+    "mode": "100644",
+    "gitBlob": "ebebf2382967742cb62139756d2e40a7c3605471",
+    "sha256": "c94809be3ae90a68daeefbd94b5cbd7a8481ae32e7e0a6b6818218817aa65496"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/favicon/android-chrome-192x192.png",
+    "mode": "100644",
+    "gitBlob": "6e3956bff08aa034c78a4fd91f0db83698b4e78a",
+    "sha256": "db0d709067bd8699b35a33eb37d11561c2273bd2ffb93bd8996556e52ffc80d5"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/favicon/android-chrome-256x256.png",
+    "mode": "100644",
+    "gitBlob": "e1e26006414b9474399a378afcd6ff1d47492966",
+    "sha256": "cb46f326bb276a8ae74370e5f056f49360924c99220809c1221863588b941094"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/favicon/apple-touch-icon.png",
+    "mode": "100644",
+    "gitBlob": "4d6e101d8f7612fa1dfdeeb15651f17d2ded19a9",
+    "sha256": "59dbb8964981fa486bdc2018187f6e0c3de31c8ac1f47f91ab46aee1f64e6b93"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/favicon/browserconfig.xml",
+    "mode": "100644",
+    "gitBlob": "d416bc536fbc9391e90070bdffacdc962fcfb346",
+    "sha256": "10c2782332cfba2e8300b1d083aaa6f90593bc6461e43d427abf194624b84545"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/favicon/favicon-16x16.png",
+    "mode": "100644",
+    "gitBlob": "ae5ab6d39598be1868b9ea86cae725ed6c5d2dc9",
+    "sha256": "dbbb984e11e9c584ede6568696067ba8e642a997fe5a09b114d5951bf7a51a1e"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/favicon/favicon-32x32.png",
+    "mode": "100644",
+    "gitBlob": "b5284a3f1a2645bec8e6e74f4a7855150c3ac3b3",
+    "sha256": "90c2575beb696448535cacf65534e06fd3c2eb985da7f2fbe08de8c93f6bab02"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/favicon/favicon.ico",
+    "mode": "100644",
+    "gitBlob": "450151f27260563a2f6adb9a987efe4cc7b82b61",
+    "sha256": "0d341e6ce9f7c73b6dcee93b98967e85c67deac072b54a7582ea093a013ab93f"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/favicon/mstile-150x150.png",
+    "mode": "100644",
+    "gitBlob": "03d6b4b29052ebc0c71ca95e237e27b2be32a5c5",
+    "sha256": "c59bae2527764d40c24d3a5f7bbde5c259214300a85364cf46d7f4bafd61ea3e"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/favicon/safari-pinned-tab.svg",
+    "mode": "100644",
+    "gitBlob": "d5fd42153bc9f4be1e31df10114210bf66ee7c9e",
+    "sha256": "fca8f78dc0e74de8242f47f0bd1787e0c5c19f8e747eb088cd52ab229bacf71d"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/favicon/site.webmanifest",
+    "mode": "100644",
+    "gitBlob": "de65106f489b7415e06a4fd2cfd2f8cf3704f939",
+    "sha256": "6f0f2424553b90c57af3b114fb382d57c7dec7e10b49f8f81da63e6f23b6446f"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/getting-started/bg-01.png",
+    "mode": "100644",
+    "gitBlob": "ac6b323aa9572d615d559b8c4dc3c8b5507b0e65",
+    "sha256": "1c8bc85a5b74a10aeb17e55ff418446fa63382bfb8914d43c7560c35c6b841f9"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/getting-started/book.png",
+    "mode": "100644",
+    "gitBlob": "58afe9ec2ac6ee53b95aadb8856372f686ef6b5b",
+    "sha256": "005f86f5043414810e2641ac1b0a399c7e05aeaf00116408e5f2d4b0b5c0ad1c"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/getting-started/discord.svg",
+    "mode": "100644",
+    "gitBlob": "3b03f7637f9a516e429b3726095852169d040eb2",
+    "sha256": "ece8576ad3a3ecb8fea4d6c9b19797cbc961717dce1b5d33507414dee62e47a5"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/getting-started/img-blog.png",
+    "mode": "100644",
+    "gitBlob": "37fc5be0e03e6d59a60d559d74d6fdfa51e10482",
+    "sha256": "fec59e2ed8c33b07fc08f2c1e11eec21cea8560aa6b55039b7e38a578347d471"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/getting-started/img-community.png",
+    "mode": "100644",
+    "gitBlob": "e9d9671a1127cc24e39e99d4f721998d6fac5e02",
+    "sha256": "c87141c10c6aaab0d47fb16ee2e50362bf3a3d4202c36de6f3bdb905dcf5dab1"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/getting-started/img-support.png",
+    "mode": "100644",
+    "gitBlob": "27f4f13b22c1036c269b6e2b17d29e287e2ef26a",
+    "sha256": "4cfd901ddc74e88dbfb59ef4f4b4dd8986c133609546242520814344bd234d7f"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/getting-started/instagram.svg",
+    "mode": "100644",
+    "gitBlob": "f13e4841520d1ca0b97c1725140de7d84a48c6dc",
+    "sha256": "b6826c6acc49b0a7ee44c55557fe7caf52cada69f7d3ec5a2ca5d5a0f75aab02"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/getting-started/stack-overflow.svg",
+    "mode": "100644",
+    "gitBlob": "2b09789444b45fdce241ffb1c1627abc41d0a958",
+    "sha256": "4728f1f5c3c430c79a90298a225b35b66874a61f27b92a5a00af3cd92db9ebe5"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/getting-started/x-white.svg",
+    "mode": "100644",
+    "gitBlob": "38b09ee33ecaabff11f8c6c8fd704a712a03c6fa",
+    "sha256": "cb9734b439a938c9d345da1b8ac42200651a828ed1bcf76e6ff99188e1ba694c"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/getting-started/youtube.svg",
+    "mode": "100644",
+    "gitBlob": "1d38b170b6b2af44e20d0195290100310b9be784",
+    "sha256": "a8e9b0a73d2b4bb5899716a33e32852e666311d527c896459da125306b5a1d35"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/logo/leptonxlite/logo-dark-thumbnail.png",
+    "mode": "100644",
+    "gitBlob": "9734a07a4d4539d3081bb897ffc8d5e75dab8798",
+    "sha256": "d2b971ef512cec4fbf484d97ec48552f081558f6ca083d4fd769d5b2a70218ef"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/logo/leptonxlite/logo-dark.png",
+    "mode": "100644",
+    "gitBlob": "a3bbe82224deec74650461230f66d609eda717e3",
+    "sha256": "b87d813f124c36099dedea3147b18019ee07bf6c6f3fcf197911a8c85af1466c"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/logo/leptonxlite/logo-light-thumbnail.png",
+    "mode": "100644",
+    "gitBlob": "ca3918481aa685480be0c54b0d70a99a5986e587",
+    "sha256": "ee69152fc597d7de54825f89cc34a4d1755a36dbefb6daed85c3cbe67544f934"
+  },
+  {
+    "path": "ModularCrm/wwwroot/images/logo/leptonxlite/logo-light.png",
+    "mode": "100644",
+    "gitBlob": "761fb4443d597661e7700574e52b787d7ed7255b",
+    "sha256": "f2080171624cef7d90ae9c4479aacbedf4723a49d1d49231273a5ef92098adc7"
+  },
+  {
+    "path": "ModularCrm/yarn.lock",
+    "mode": "100644",
+    "gitBlob": "050c5212b776bf3417b551b440ed1ce7e860e42a",
+    "sha256": "5e89891ed623c5fbba451290b28fb25e9da3c2c600da0c0b81b5e73c8b708cae"
+  },
+  {
+    "path": "modules/modularcrm.ordering/common.props",
+    "mode": "100644",
+    "gitBlob": "ecccb9d05e3da69095a36c95b27d584ab9edfd6f",
+    "sha256": "3119db270cce53293c61ac5a2cc07cf903086fd4a7bc42598e8a68c2a052d47d"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.abpmdl",
+    "mode": "100644",
+    "gitBlob": "ef424c1d25bf961891afb2c050c247f197fc8bb5",
+    "sha256": "4686a66f236b6a88a862bc5ef37a5bd9b3e9ea393823d5dd81f14c4e422092b1"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Enums/OrderState.cs",
+    "mode": "100644",
+    "gitBlob": "f8e4faad80294733d5d58f36f53511098d70e7ea",
+    "sha256": "b3a9181616e886f7ce8506a84630e9ac8488e95cd839aafb2f4fd2ef564b8bba"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Events/OrderPlacedEto.cs",
+    "mode": "100644",
+    "gitBlob": "7818b6fd9130dc79e9b2d82a9cf412fb1a6f3613",
+    "sha256": "de16e2950094d7473821a1cc8aeac8dcda200f66ef1e5ec9da2bf568031c8e76"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/FodyWeavers.xsd",
+    "mode": "100644",
+    "gitBlob": "3f3946e282d751530621ca47e983145cc3cfa61e",
+    "sha256": "93e00bbad281ebdce66da74781ce515b6bb1a25f307467f687f5e4922c26e53c"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/ar.json",
+    "mode": "100644",
+    "gitBlob": "395a4e3bddb12b32b52c9f67263224be3b6d0171",
+    "sha256": "343aa90eb932aa23ffc8ed31f6b2cf15510fd30c4ea4e6e55305b2cce59dc836"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/cs.json",
+    "mode": "100644",
+    "gitBlob": "383ac80a3bd606ddf25c3192cf9459ee087f89a2",
+    "sha256": "4561838ed5fd3c9b62887dec7d8c4510b796edfaeade065621569a4468875da4"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/de.json",
+    "mode": "100644",
+    "gitBlob": "d48c8c119e8962c1604eb634d510dab770e6e9cf",
+    "sha256": "0e0ab4cb7b8a6358106fc472655b6269eff63628aca55aa42ea2db4c24296fbd"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/en-GB.json",
+    "mode": "100644",
+    "gitBlob": "064be93cd11309404b81518183561a3e5113afc4",
+    "sha256": "da2659b506e713365b4f955920fcd4a83b123d0e32b892d93390a6ac7c132196"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/en.json",
+    "mode": "100644",
+    "gitBlob": "7bc4fa24ccd95f0087d7f7aec7a2c67837088c67",
+    "sha256": "8455e27b3206a3cfd660ee20692d82647b653f2f42e1e12430f6c49f5c53fded"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/es.json",
+    "mode": "100644",
+    "gitBlob": "d19e8139aecfff681129be48833d1a8b57649478",
+    "sha256": "2d56dd039178a9876f21d7ce80c711de014f2e4b2b1d3edde8581ecd8271e38f"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/fi.json",
+    "mode": "100644",
+    "gitBlob": "50317fae509bd17c1932da777d4dd5e76b7211cb",
+    "sha256": "876f6ab74e5bca7964a82b7c781bc329db4eeb5fe0b9aa9ccb1c79e909ec070e"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/fr.json",
+    "mode": "100644",
+    "gitBlob": "68dac28293a2eba235a8ce9f203b853a2ae68c0a",
+    "sha256": "0d680daaff8db05099923dc4b9ceb45247624f597b82b1585064b908c891da24"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/hi.json",
+    "mode": "100644",
+    "gitBlob": "29858a0d1bdf6f83c46bc7d4ed4330d0b6cc19a0",
+    "sha256": "9d1dd345841c4b1d6ddbb5a34ac5857deae9d0e355e9b7b4c1e888c8ae68e583"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/hr.json",
+    "mode": "100644",
+    "gitBlob": "e6be0c62d9be0c2430c45b265f343574615f7bd5",
+    "sha256": "945dac94785c661c2b697d62f95828fb8665d2a14e71ef36ac36e8b5891c9ee9"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/hu.json",
+    "mode": "100644",
+    "gitBlob": "6d8c6f921f795d6198a1572a483d3e3001fb10e9",
+    "sha256": "37e39e88860afbac31380d6b617985a99f156260767f877f4360f7ad7c290992"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/is.json",
+    "mode": "100644",
+    "gitBlob": "90064e64235510fbd7e3ea79e035780cec45ab87",
+    "sha256": "04bba16f4a8bebb18fcfb099d5816844f4feee491833bda32a45d05ef043ce85"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/it.json",
+    "mode": "100644",
+    "gitBlob": "537ba0c5542470991c126aace5624dd5f1738d52",
+    "sha256": "5fd6f6db59385728da8e5cdbcadc5677e2e1c4a0024e1278f8562e04f92dade4"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/nl.json",
+    "mode": "100644",
+    "gitBlob": "dd09ecb79237cdc49ca2f631bb5a3d11922bd812",
+    "sha256": "17899376f3f2245f8271c6332acf121142dc9f1c1fc4f43ba167ce2239bc6b78"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/pl-PL.json",
+    "mode": "100644",
+    "gitBlob": "cfaa092297883f4108fd793a20e79b8b1ce44ba1",
+    "sha256": "f6ef30b3bcfb50c6909b4de0d25127a5f6d8478490fb843377ce79d6d4d2bf83"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/pt-BR.json",
+    "mode": "100644",
+    "gitBlob": "901e6f098c4713e9453dd589b39974abea0460f9",
+    "sha256": "25f993b6120d075ddea9647da0cb5b90df85a38b8ddc7c13dabdd26734f07889"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/ro-RO.json",
+    "mode": "100644",
+    "gitBlob": "3ae7e28d906a39e64a0f32402aa48132e18a9087",
+    "sha256": "b5ee4880bee47de2f4dee2fb3e22b97662805ab6c1e163d812fd4c673b720047"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/ru.json",
+    "mode": "100644",
+    "gitBlob": "2f830a6d1a552327f3a31e73f3b7a621848107cb",
+    "sha256": "32760bca91535c1aa22e36618f886bf309af003a63700f17c81ec8622c209ee3"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/sk.json",
+    "mode": "100644",
+    "gitBlob": "a87283913a65e88d8e1c1161e34341c7246de2d9",
+    "sha256": "a1d1bf42413bd87a16f49ee528daa59f4d33bae8997e89032ec469a1a3a7e5a8"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/sl.json",
+    "mode": "100644",
+    "gitBlob": "af676a80eb3750eeeac3e35bfea3458a6d558bdd",
+    "sha256": "db448776d01550b269f5194da5975cc00a57581b07b4b0030f93e3e7dd3adf83"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/tr.json",
+    "mode": "100644",
+    "gitBlob": "a87faa67e30321bd6080e6402bc4452266f7c223",
+    "sha256": "4111a397663c359722f29aed65993d6375cc1f9263909a1ea9f9f820adb5f500"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/vi.json",
+    "mode": "100644",
+    "gitBlob": "c2cf02ffc38c90002ecb60c12182eeb17f86399c",
+    "sha256": "f827179699d40514bbf5588ae3c0c75b2dba894421dada36381d80afd399e610"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/zh-Hans.json",
+    "mode": "100644",
+    "gitBlob": "8181ee82470662d0010369019062bbcc869db0e9",
+    "sha256": "077dde69dd2954e5a104f59a7cd0a0df08dc8de88cdbb019c71d24ca2eb45612"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/Ordering/zh-Hant.json",
+    "mode": "100644",
+    "gitBlob": "e6f4a6ba1facb3215da4d90a495023bba4ea8fea",
+    "sha256": "e411fe487cc98459f3cebbca91a26af0e383aaa59c539e2626ed049ed30023ee"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Localization/OrderingResource.cs",
+    "mode": "100644",
+    "gitBlob": "f40bca1f43afff6ba366a0b80c56ec0fa7eeb933",
+    "sha256": "f31b6a62af81b2caa1816dbe31f1e754e372dd4b5e6b633aa00a85466b1e6092"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/ModularCrm.Ordering.Contracts.abppkg",
+    "mode": "100644",
+    "gitBlob": "49032794e2e9fd8e3ca0d47f65c9a8f9c165efcc",
+    "sha256": "1e9927413fa64713364ed0ae7fe58f25200274967695d84549dc5c7e56a0cc09"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/ModularCrm.Ordering.Contracts.csproj",
+    "mode": "100644",
+    "gitBlob": "33b88b16fb9b2b7bf7032186124dd1cb9340d93b",
+    "sha256": "4e90fddd7c58a6f146902d6edfcdbbebb8efef9f57aeccf0562625bea26f095a"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/OrderingContractsModule.cs",
+    "mode": "100644",
+    "gitBlob": "3965bcb1c63028612458bb19c9e4afc21c81a55c",
+    "sha256": "ec236781565a2908b02c86b29784407b15323847148d202d21c05af9e205fc6c"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/OrderingRemoteServiceConsts.cs",
+    "mode": "100644",
+    "gitBlob": "6dcfd5091154a8758ce1d73bb1e921ed0b7dfee6",
+    "sha256": "8ec7b4dad4d139559cb5611c77483962f84411908387294428ad35258f98ecc4"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Permissions/OrderingPermissionDefinitionProvider.cs",
+    "mode": "100644",
+    "gitBlob": "627908d7bcfa8525820aee73bcceaba4f13b2bde",
+    "sha256": "9e5918efb8b13af434e341491a8bcdbf5892ecb3a90f88acc0aa9aefb08b5920"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Permissions/OrderingPermissions.cs",
+    "mode": "100644",
+    "gitBlob": "ba633f4890e5292d1cfb3c9b0fab053bf9af2456",
+    "sha256": "235df2560b777bcf2d76cd8f8d9937182105fc0b841c8334694e0a167c9a19e7"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Services/IOrderAppService.cs",
+    "mode": "100644",
+    "gitBlob": "50629144527bec17d440942a2b7a35bee396f450",
+    "sha256": "b26b9e4901550bbfe5ab18469a6e4b959414d17f0ef9d4316435ae414de02e35"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Services/OrderCreationDto.cs",
+    "mode": "100644",
+    "gitBlob": "e5eeb81cb6fc455d6485b138357777b9b380ce83",
+    "sha256": "dcf27a1a75afe32e1a61006e013d49c1ae4d18851fcaed8a8e3b10d7e21ae96c"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.Contracts/Services/OrderDto.cs",
+    "mode": "100644",
+    "gitBlob": "fbdfaecebb9efb47bab9bb92c230e12ac88feaab",
+    "sha256": "a31f23dc4cbb71188c6ddd187de79123e8a714794d78b3d4e93cb449bb9bbf38"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.sln",
+    "mode": "100644",
+    "gitBlob": "f368ecce5034da14aa718705b86b38ee45b5a9dc",
+    "sha256": "eca75151799a4146d4ed00a4bd40d0e2fc5c89e4ce344d4ed459bf7496d5e2d0"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.UI/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.UI/FodyWeavers.xsd",
+    "mode": "100644",
+    "gitBlob": "3f3946e282d751530621ca47e983145cc3cfa61e",
+    "sha256": "93e00bbad281ebdce66da74781ce515b6bb1a25f307467f687f5e4922c26e53c"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.UI/Menus/OrderingMenuContributor.cs",
+    "mode": "100644",
+    "gitBlob": "c2061a7f6abe1fd4e08244b38125dfbbe769eae2",
+    "sha256": "55610abdb570f237327f8e7d307a0f297bebd7a958af66d9843797eec546aa94"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.UI/Menus/OrderingMenus.cs",
+    "mode": "100644",
+    "gitBlob": "b2811804a53934b292b5185513a34f2970d6dc62",
+    "sha256": "219a4d712dec15508bdb510b0391a321b7a0a876cf27730c7119cc0226e7a066"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.UI/ModularCrm.Ordering.UI.abppkg",
+    "mode": "100644",
+    "gitBlob": "930c4018b3a3967a6d67b62af176a8735958a4f2",
+    "sha256": "4108c11d3fd7379af1e6f8cf75f71332c12ea9f726e58065918a5f8477e058ed"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.UI/ModularCrm.Ordering.UI.csproj",
+    "mode": "100644",
+    "gitBlob": "6c3468d43d83d4646d9fd15ca98a46d7ae4f20a1",
+    "sha256": "1ed0000394e4f3da6e283105a903ca49d049a0c9a06d2d477a727eb835205606"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.UI/OrderingWebAutoMapperProfile.cs",
+    "mode": "100644",
+    "gitBlob": "ed2901faafdee126aebfc3668df38b75152f5a80",
+    "sha256": "f0691eb66843e7f721cff5e3b4ce9f4ff40809da4f07e1a8916aed1c7aaa7b50"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.UI/OrderingWebModule.cs",
+    "mode": "100644",
+    "gitBlob": "60aeca3aac1316c22f793f84600786d2387ec717",
+    "sha256": "c9c14c897e33d80f1578b8a7df0f995fc93a4f0e9572bbf50c0f57c79814febc"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.UI/Pages/_ViewImports.cshtml",
+    "mode": "100644",
+    "gitBlob": "c1da1f5f107073cb33bda44b29af50b0ca819024",
+    "sha256": "12f2ecf13ffdd45d83b0198a52d2bd0972c59a17dc4da1c61d0a1974ddec9fda"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.UI/Pages/Ordering/Index.cshtml",
+    "mode": "100644",
+    "gitBlob": "be7c039a79e05154c062ccefca1d7cd05075a8d1",
+    "sha256": "161d27df9fff425501c6dc014738acb0535459d5cb70d43ff5b27b5e01c98dcc"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.UI/Pages/Ordering/Index.cshtml.cs",
+    "mode": "100644",
+    "gitBlob": "c7ed31547e98f132bca36f79b846b199b140c030",
+    "sha256": "dc3266236736f9f54737c6ce81a641030466fb043d586d0e9261e79b78bb2fc0"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.UI/Pages/OrderingPageModel.cs",
+    "mode": "100644",
+    "gitBlob": "4b0bbbaa669b7278c7ca630ee206a0db5a6a21d0",
+    "sha256": "f279d3d1b7d6a64cf10c731a8ce363f63010993597cb21b8cffa27e3917cf1ec"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering.UI/Properties/launchSettings.json",
+    "mode": "100644",
+    "gitBlob": "25c191c7f9056a2234346a3dee056c17430c8a7b",
+    "sha256": "9f291338ec225720392480e642b3cd7302ec51180d21235815c2dcfdc738dc1b"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering/Data/IOrderingDbContext.cs",
+    "mode": "100644",
+    "gitBlob": "c4343d6ea57ac96c7c73ebf5c77a8dc22f2701d8",
+    "sha256": "2291ef34548bf587d810b85f30a81eb930199a2ce9054492d0bcf9f3f45dbddc"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering/Data/OrderingDbContext.cs",
+    "mode": "100644",
+    "gitBlob": "7af4936dc2d3165a47d54411357532df09f61e56",
+    "sha256": "a5ffccac0cd872d619defb1931c4b244a69e89565051afb0d162bef4b7a45bea"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering/Data/OrderingDbContextModelCreatingExtensions.cs",
+    "mode": "100644",
+    "gitBlob": "0616fd70b086763622e42518ed1e0e81b2fe3f63",
+    "sha256": "566fd1412d66351c6d85c79662d499efce36419d356ff44534ac026857426a28"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering/Entities/Order.cs",
+    "mode": "100644",
+    "gitBlob": "7851d48d7e97be0f77fcc0b09a738d50cfdf4e33",
+    "sha256": "08f7d8d9e828b8c7b5521a65078334b4ef10ccc7c8a6a6ba5b8efa509448314b"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering/FodyWeavers.xsd",
+    "mode": "100644",
+    "gitBlob": "3f3946e282d751530621ca47e983145cc3cfa61e",
+    "sha256": "93e00bbad281ebdce66da74781ce515b6bb1a25f307467f687f5e4922c26e53c"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering/ModularCrm.Ordering.abppkg",
+    "mode": "100644",
+    "gitBlob": "412567ac33376cde6af7ad7ceae30f395171eba7",
+    "sha256": "618096d4d9c8b64252ff4e17968fea1993d464b4a59b3cb3776829123fa128ce"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering/ModularCrm.Ordering.csproj",
+    "mode": "100644",
+    "gitBlob": "736f9e88ba9599e1d13a8a59dbcd70f1d9cb676a",
+    "sha256": "9a5d50039da8a6968a8069f0f692e236dfff1d8f3a007b27d4b38b2015fe3a58"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering/OrderingAppService.cs",
+    "mode": "100644",
+    "gitBlob": "580f88d049daa22400dc7fb0fc817b508b4de6c4",
+    "sha256": "a2a0028bb2dc765af83d4c5e15a8c3f2382168cd6c96e8c5c7b5ddb0fe3a6d7e"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering/OrderingAutoMapperProfile.cs",
+    "mode": "100644",
+    "gitBlob": "4eaccc378fff0c33bc4c2846f4d0a170bc65ca74",
+    "sha256": "d3d1e6a33e603dfb3880f17090f1bc01f613f59a262f8735369940d3beb6a340"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering/OrderingDbProperties.cs",
+    "mode": "100644",
+    "gitBlob": "da4df8b17aa23728505e280f363e7567e9ce3d85",
+    "sha256": "a3a4bcd9c59202825d6934cab9042cd9c57d750209d16e0cae1c1cb904265c28"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering/OrderingModule.cs",
+    "mode": "100644",
+    "gitBlob": "91f4c740ae313638f096b33d0a9d18ea7a75509e",
+    "sha256": "c2e1f4884f7dee6d57c7e92d4223d89f8b3f728bd58966402eee4f4e381ddaeb"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering/Services/OrderAppService.cs",
+    "mode": "100644",
+    "gitBlob": "4ef2dbec9b731ce4234d0cb29ab0f385b40103a7",
+    "sha256": "f84fc1060879f10defb63b469954ca5d69b933598c9a4fffba0999edf9e65201"
+  },
+  {
+    "path": "modules/modularcrm.ordering/ModularCrm.Ordering/Services/OrderPaymentCompletedEventHandler.cs",
+    "mode": "100644",
+    "gitBlob": "d21cc880fd78fc6c505234ec4975627f476f84a8",
+    "sha256": "2de228473aa53f75365d732dcaf8218b369f7dfc909d1f4c3db0f88f96ca5584"
+  },
+  {
+    "path": "modules/modularcrm.payment/common.props",
+    "mode": "100644",
+    "gitBlob": "ecccb9d05e3da69095a36c95b27d584ab9edfd6f",
+    "sha256": "3119db270cce53293c61ac5a2cc07cf903086fd4a7bc42598e8a68c2a052d47d"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.abpmdl",
+    "mode": "100644",
+    "gitBlob": "46116f3585c1240074a8bc3cbc15e4a41c9054f9",
+    "sha256": "38d1ccd8e32f35f61cbcc5a4d984f5ac0f99c8101277e943b1280116e3408faa"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/FodyWeavers.xsd",
+    "mode": "100644",
+    "gitBlob": "3f3946e282d751530621ca47e983145cc3cfa61e",
+    "sha256": "93e00bbad281ebdce66da74781ce515b6bb1a25f307467f687f5e4922c26e53c"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/ar.json",
+    "mode": "100644",
+    "gitBlob": "33f037eb908af7b9e54f5a818c3ed151986d0bf5",
+    "sha256": "5028777b971b576f26e7e815fe4a9694aac61372283eb47062a5a09b4135ac77"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/cs.json",
+    "mode": "100644",
+    "gitBlob": "fa44b2f4bfba566b39fc8945ebbc1af0602c0b9b",
+    "sha256": "d983629a21760489096b658bb2a1fe07297b3bce92b4b9a2d9121470cee1b4ef"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/de.json",
+    "mode": "100644",
+    "gitBlob": "ded95442d2796c237d2e381e5d61eead0f3e4fe1",
+    "sha256": "92741c2256996841008073c1aaa47a53e7f54bd54d21bef7cae6a97f913f6e29"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/en-GB.json",
+    "mode": "100644",
+    "gitBlob": "1c93a89b3dddc678ab8d46d6414cde9a0e1b004c",
+    "sha256": "e600ab6a3d2be8fa620dc851ae06da75720910592d3869a7512c12966c311ece"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/en.json",
+    "mode": "100644",
+    "gitBlob": "0838f51b2f1d2a9c6c97712d1734d889f090d09f",
+    "sha256": "7c5da57a19f4c147d03914e9ccbc2f9f2fac301ef67a7758b19d4514368ea7d2"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/es.json",
+    "mode": "100644",
+    "gitBlob": "c1267882e4d09ed79e26ecf87213a889c62f048b",
+    "sha256": "4da16a126566af8ab98cfb70c948afacfafdc84c9f557975bf891c50f172f394"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/fi.json",
+    "mode": "100644",
+    "gitBlob": "1a52ba17d8aaf91e6b2a7069f29266a71ad08767",
+    "sha256": "a035cade37d350d73066c19a2ba92b6e897b326cfe8d34ee934081c6daa8581c"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/fr.json",
+    "mode": "100644",
+    "gitBlob": "3e3b5e28a20c8fb43c1dd7d34e523fe63764ed16",
+    "sha256": "191b6b7d49e17c9e238068edad3acf7f0622921dd61b7c08e3a23fecc8ee4f8f"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/hi.json",
+    "mode": "100644",
+    "gitBlob": "29d55bee4207c2f2b5a28d786aa2feac87d38ad9",
+    "sha256": "058a6986792b4e4e49b71d894b74902ecea0d1c005fbfdccc31cc0fa24920d75"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/hr.json",
+    "mode": "100644",
+    "gitBlob": "dbd787dfb05e62b088aced3c7d5070a97e48684b",
+    "sha256": "6a204ff6a257822c5b5d661a9f7e6ede7b30845bf67e8e7680ea127e64bd304d"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/hu.json",
+    "mode": "100644",
+    "gitBlob": "768db7aabd54458c3ab5b9f651df9a0cb3addb35",
+    "sha256": "e9e35ec70fd64ee776a644c1d7e1e9410954e0551b684efbb29b3e999edaa01a"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/is.json",
+    "mode": "100644",
+    "gitBlob": "1fd8a31a9914c4f6880135ce7c4a4a04e0f169e0",
+    "sha256": "b3a6783d09a16fabcea01bbe85217f6ab38330bf2c639647568316ab482a434f"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/it.json",
+    "mode": "100644",
+    "gitBlob": "20626c66d80cafb9d63ae0480c9be769671d9c0f",
+    "sha256": "9b33abb63c2532444e8587f06f76bb0c74ff9e7bf3d66b69287587f89eae3df0"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/nl.json",
+    "mode": "100644",
+    "gitBlob": "14526f1c414637da467cc935465560f9d6f7b926",
+    "sha256": "375d5c0f3cc54e13fb21f384e33dfc017f582dc1cdf951f9be5fe3f266340dd4"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/pl-PL.json",
+    "mode": "100644",
+    "gitBlob": "65f8a9f4203c5414ca064c7fbc7c07766e50a6a0",
+    "sha256": "ed0dabea75b13d9b60557b1c73b3b22ad9e5def328b2ab63420dcd8fc8139b12"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/pt-BR.json",
+    "mode": "100644",
+    "gitBlob": "7202741ca3dcc85bfb7f3b51aee9f2c5e0a698ef",
+    "sha256": "4780b62cb870f4693a5b07e3b84950de1471d5c3a2c20f2f3425a409d8037a88"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/ro-RO.json",
+    "mode": "100644",
+    "gitBlob": "6891d6809bc69027d1215ad34b93affb3fdf8b11",
+    "sha256": "25a54b3d8c7c636bc94a0dc3055e917473d43ceeb8f0d0b044cbb76c22aa4077"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/ru.json",
+    "mode": "100644",
+    "gitBlob": "f1827eb9dd611f67f54142201f1e77ea13fd8eb0",
+    "sha256": "be9d7b953d5562a26e9845c9b55dc21f72834d2bd9cd8d00cb65e3622d548f60"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/sk.json",
+    "mode": "100644",
+    "gitBlob": "0ea300ce6fadad7416915d22883361c984212120",
+    "sha256": "82577deb6a9827540f77c15be1af881f49280ece0afef3bc9fc5c0dc20cbc90a"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/sl.json",
+    "mode": "100644",
+    "gitBlob": "e65744c1e9c0db617efeaccb09f3e8c7c32f8224",
+    "sha256": "87cc3c2f4d8e8c721671c0db4e63160d9ac120191402913be008066ddabeb70e"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/tr.json",
+    "mode": "100644",
+    "gitBlob": "821d36b3d1862678b58bfeb5f8410dfccec85ac1",
+    "sha256": "6eb5ad2c10848895de825c2a8a8ba18fe7f2076697ebe8260e6bc7e065049fe7"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/vi.json",
+    "mode": "100644",
+    "gitBlob": "78ec8701a89a19b7e57305302af889f15b54697f",
+    "sha256": "0c1d7efece4694eb4ec9e9f4ddd87568b2370e30eeedded4fbdb37554985a8d4"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/zh-Hans.json",
+    "mode": "100644",
+    "gitBlob": "83455ae22f2f63e2e4df29e7b5c7748ce134d00b",
+    "sha256": "2c858a3074380db086268768c6e6566d9c24d2c42591dc6148beacde64e5461e"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/Payment/zh-Hant.json",
+    "mode": "100644",
+    "gitBlob": "0ad1e50c7b8ec7016866586fb2061434da365aea",
+    "sha256": "d7d47249804bdec6df7afc0b3dd703a70e8e59d3f1aa5e25517006d4b12064e3"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Localization/PaymentResource.cs",
+    "mode": "100644",
+    "gitBlob": "365c396988b9db351d09c6144ca2ea57f47746eb",
+    "sha256": "da7a5fccaa825870a35187caa4a357e77b88cd0ca56a414be4495850a576ca7c"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/ModularCrm.Payment.Contracts.abppkg",
+    "mode": "100644",
+    "gitBlob": "49032794e2e9fd8e3ca0d47f65c9a8f9c165efcc",
+    "sha256": "1e9927413fa64713364ed0ae7fe58f25200274967695d84549dc5c7e56a0cc09"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/ModularCrm.Payment.Contracts.csproj",
+    "mode": "100644",
+    "gitBlob": "acc77dacbdcb7eb82084c87e3cb6bb2d72433471",
+    "sha256": "addc1ba7001e75c12449992293c019bc1eb94b086c59eac4576a5f8adb434cc2"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Payment/PaymentCompleted.cs",
+    "mode": "100644",
+    "gitBlob": "4c1f6bcef956a26e047ff9051818bee1d029ad2d",
+    "sha256": "4a1c67e075eb8f58cf4f8a16e01dae0e4ff06e666da3d492dd5ae6022401f9ce"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/PaymentContractsModule.cs",
+    "mode": "100644",
+    "gitBlob": "7bb6409e8a1cfc7cbd7f3d3941e8c800804591d3",
+    "sha256": "d48c24b38e0eb1a11b46b13d7d86899da4cbb39a6ae2c42539f0207e6066c134"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/PaymentRemoteServiceConsts.cs",
+    "mode": "100644",
+    "gitBlob": "ef23fe52e7fff1401e9c92bd364419aaeea8e558",
+    "sha256": "3ae4c89e9a36fcd8fd4220be17b65f9541a9e6cb9a4f57a3ea74960a129aed1e"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Permissions/PaymentPermissionDefinitionProvider.cs",
+    "mode": "100644",
+    "gitBlob": "29c28ce6446b5702c1741a53d0ca089cb6ab78f8",
+    "sha256": "6f3d743458ac0d110bc0530a160398415d5ebba9f6f59235fd2755bee2534152"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Permissions/PaymentPermissions.cs",
+    "mode": "100644",
+    "gitBlob": "440a8d8066a2883bf3320a3cf002920b091fbe65",
+    "sha256": "3d15817cfd8383cc13027a34f708d69ebfa5206c76fefa492e635f77b330613e"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Services/IPaymentAppService.cs",
+    "mode": "100644",
+    "gitBlob": "e3c8de14bd8f220799e8fbfad666f58b72561323",
+    "sha256": "26b975f120fb6de00c2c9e811fd27db9da59a8d345d10e7b2d15afc3d36059a0"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.Contracts/Services/PaymentRecordDto.cs",
+    "mode": "100644",
+    "gitBlob": "3c1a7395254f076619b1f94cb2cdce81905d2ede",
+    "sha256": "1b6a37f5c84911d0d5d3031703f7894befd037e6bff709f7e742be4741a25ad1"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.sln",
+    "mode": "100644",
+    "gitBlob": "265b908b8c6a5a61d53c93a0d80aa16df02443ea",
+    "sha256": "544b1894b5b129163a6b45e653340b1c92f6d2c2abdf708f5852176f50929dcb"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.UI/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.UI/FodyWeavers.xsd",
+    "mode": "100644",
+    "gitBlob": "3f3946e282d751530621ca47e983145cc3cfa61e",
+    "sha256": "93e00bbad281ebdce66da74781ce515b6bb1a25f307467f687f5e4922c26e53c"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.UI/Menus/PaymentMenuContributor.cs",
+    "mode": "100644",
+    "gitBlob": "13e7d67c20734bb31f45058aa4c99d91ebeec4db",
+    "sha256": "d64d905f8b6d9ca2c75b9c731a3496c23e935ad80ec5165ec5a851a41b22cb4b"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.UI/Menus/PaymentMenus.cs",
+    "mode": "100644",
+    "gitBlob": "50911f3519f8212b27eb63323a3062d5e800a259",
+    "sha256": "2cb9088965e55e54a11776f10b5082d366a4522a4d20633c2ee675fffd45fe81"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.UI/ModularCrm.Payment.UI.abppkg",
+    "mode": "100644",
+    "gitBlob": "930c4018b3a3967a6d67b62af176a8735958a4f2",
+    "sha256": "4108c11d3fd7379af1e6f8cf75f71332c12ea9f726e58065918a5f8477e058ed"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.UI/ModularCrm.Payment.UI.csproj",
+    "mode": "100644",
+    "gitBlob": "31a0d9d72ec37f4fe318ac122128903bf0de0b83",
+    "sha256": "1ff1157388cca3bb4a4254b0b03c0ec77533fe80e910bc5824a5d3815569f249"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.UI/Pages/_ViewImports.cshtml",
+    "mode": "100644",
+    "gitBlob": "c1da1f5f107073cb33bda44b29af50b0ca819024",
+    "sha256": "12f2ecf13ffdd45d83b0198a52d2bd0972c59a17dc4da1c61d0a1974ddec9fda"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.UI/Pages/Payment/Index.cshtml",
+    "mode": "100644",
+    "gitBlob": "52f505c6d248dc80ec7fafabd982bee948dcd4ab",
+    "sha256": "7d629a39a2dfded8a0c812f5f47f22f9c4c3887399e3fa4185ae9eba4c9aea64"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.UI/Pages/Payment/Index.cshtml.cs",
+    "mode": "100644",
+    "gitBlob": "2a34f23e0b8f01a4a5e8f0c828551ef921ace56d",
+    "sha256": "5ef7d5895d33c97b16b2cbc8b3c8a846f7b29922d91678d2dd773937f4d49fff"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.UI/Pages/PaymentPageModel.cs",
+    "mode": "100644",
+    "gitBlob": "52475b76ad55f48ea2ba82f5ebe960c47d495920",
+    "sha256": "1a66198694f85af1daa2fd5f6b858bb245596e8869ff366c19f8408283cdfdea"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.UI/PaymentWebAutoMapperProfile.cs",
+    "mode": "100644",
+    "gitBlob": "2cba608b6805cc04f7e97c966ff7cc787bdb6fd9",
+    "sha256": "fc32ecf899187d39b5ef5068f9b97cac8cad30d011aa3bfe0f5bc6ac8acf754a"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.UI/PaymentWebModule.cs",
+    "mode": "100644",
+    "gitBlob": "009139885c65e5c753f3eb8afc2f9e78573e82bd",
+    "sha256": "8c0cb7dd563b5737dcf4684e8847845daf51e9478710fdb87135225532b54652"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment.UI/Properties/launchSettings.json",
+    "mode": "100644",
+    "gitBlob": "90dc7b66bdbd7a649267e96c4287b033f8622bef",
+    "sha256": "8448cc4be66332c598bd57c3432b2552d393fa994169926b837b823327c433a6"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment/Data/IPaymentMongoDbContext.cs",
+    "mode": "100644",
+    "gitBlob": "494f6e0d0bfb65ce3da9d3462470a0bd9fc0dee1",
+    "sha256": "d30c9c6afefc0cd3a2af38d57da8ed057b329922fe9d9778907ae836df625261"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment/Data/PaymentMongoDbContext.cs",
+    "mode": "100644",
+    "gitBlob": "797f486bee3441ae21bed8e168e922cb16a8b9d5",
+    "sha256": "dc6fc67b06fbd2057a7aa286b314585f63ae498e6c997b636d98e690ab7367d3"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment/Data/PaymentMongoDbContextExtensions.cs",
+    "mode": "100644",
+    "gitBlob": "13ad10e0e27b29fdf78ad3647708257cb5fdde94",
+    "sha256": "60f0030c76b6f73a2cadcd7ec2b05a66aa45a6cb5c2b4d3163d07c6bcec98f1a"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment/Entities/Order.cs",
+    "mode": "100644",
+    "gitBlob": "ed1129d8afc5a16bf215220cea17aa881409031a",
+    "sha256": "0fbc93318b91a939b1c5a256967cfd101c42d9ada2c7e5c8a83522ae1f60c42c"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment/FodyWeavers.xsd",
+    "mode": "100644",
+    "gitBlob": "3f3946e282d751530621ca47e983145cc3cfa61e",
+    "sha256": "93e00bbad281ebdce66da74781ce515b6bb1a25f307467f687f5e4922c26e53c"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment/ModularCrm.Payment.abppkg",
+    "mode": "100644",
+    "gitBlob": "412567ac33376cde6af7ad7ceae30f395171eba7",
+    "sha256": "618096d4d9c8b64252ff4e17968fea1993d464b4a59b3cb3776829123fa128ce"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment/ModularCrm.Payment.csproj",
+    "mode": "100644",
+    "gitBlob": "e9bf1e781b57f94af435aadf4f8e6315beaa4d8a",
+    "sha256": "e7a3fe81af03442c81e495f49c7cca87a03028017cc6ed21184e60c942e46561"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment/Orders/PaymentAppService.cs",
+    "mode": "100644",
+    "gitBlob": "c15f794a60f18b81de27623d802cc6c20286d87d",
+    "sha256": "e1e654acfccc368edf1eb4010aeef00e0a314afaad737b174f7bac19c0a4895c"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment/Orders/PaymentOrderPlacedEventHandler.cs",
+    "mode": "100644",
+    "gitBlob": "dfed0263251b946b89a8f8c61f8b0d0c446ef536",
+    "sha256": "7ac6b7fad595fe87ff243a38e52288b3a5ace20efa7a77ffb4f45c699a74fc1d"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment/PaymentAppServiceBase.cs",
+    "mode": "100644",
+    "gitBlob": "47907a7fa1ed028fd842b01e5a4283b5fc88e294",
+    "sha256": "22498e2da34ce2df158f3898b6a0d0e9c09da5a2f22bc93e865c755a0640e029"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment/PaymentAutoMapperProfile.cs",
+    "mode": "100644",
+    "gitBlob": "af9ee2c7190447ef58d41052c1181d5a1e627609",
+    "sha256": "4c00589dd773dd208cbfbb554bc76596445fab654a30150c3ac47669ce5b3d99"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment/PaymentDbProperties.cs",
+    "mode": "100644",
+    "gitBlob": "a6ec792f9e645ecdbef3bddea3e7e08f4499dad3",
+    "sha256": "b6b279c939c9c251a4e7e4a7287cb5868917795151c3a731af9777307fbd9d61"
+  },
+  {
+    "path": "modules/modularcrm.payment/ModularCrm.Payment/PaymentModule.cs",
+    "mode": "100644",
+    "gitBlob": "5b818d8e54675d9de84da184d5540a687bfbed71",
+    "sha256": "4d1c76158a91a206302814d4e56e6ccd0254b9654b9fb6daa0a3a2965dc035d4"
+  },
+  {
+    "path": "modules/modularcrm.products/.editorconfig",
+    "mode": "100644",
+    "gitBlob": "3aa69eabddca7df8c1c24e44a069c727bd20be25",
+    "sha256": "8b19295565286cd9b13dfc62feb6703cad5ea959865e911da58c5b88d5dc6d65"
+  },
+  {
+    "path": "modules/modularcrm.products/.gitignore",
+    "mode": "100644",
+    "gitBlob": "c52878b5fd597618e81a618c57562d7a795d257b",
+    "sha256": "5e87931ffbee24798409de2cc7e455b47071cc4a3814f8e87a6c2e6c56ab2a99"
+  },
+  {
+    "path": "modules/modularcrm.products/common.props",
+    "mode": "100644",
+    "gitBlob": "6af0c7389304c405ff94df10a3470d821edcac84",
+    "sha256": "53ad6a4f47eaeeb917cef425451c6bbe936392bef8359245a0fb9213b9ea3dc6"
+  },
+  {
+    "path": "modules/modularcrm.products/ModularCrm.Products.abpmdl",
+    "mode": "100644",
+    "gitBlob": "cf072e2c6af396f4edecbcd10a756a4c5bd7ac6e",
+    "sha256": "1768f3059caac208da8c70c4bf8065bc1e1385a48d3cc282b3d8717e147da5db"
+  },
+  {
+    "path": "modules/modularcrm.products/ModularCrm.Products.sln",
+    "mode": "100644",
+    "gitBlob": "ba0447b9cb4ee2489e37ccd03252774856d68676",
+    "sha256": "56120adc6d18ec9f39dc3b681b01152c1a9eb76d3013d1323a226aa0a4603f3e"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application.Contracts/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application.Contracts/Integration/IProductIntegrationService.cs",
+    "mode": "100644",
+    "gitBlob": "c09ba8b3fcb27f02097ed53fee4ae13f242587fd",
+    "sha256": "f672561f38e8b198f872e2bfccd970bb99765bc98d7defbf29d69d757a0e668f"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application.Contracts/IProductAppService.cs",
+    "mode": "100644",
+    "gitBlob": "17bc562239c53bb0fe5e9c94650f5f2e7dff530c",
+    "sha256": "ed4509d3f3f97d5b69c0814be15457673a7d3c08b8a95c980a10fbb645f0a6d6"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application.Contracts/ModularCrm.Products.Application.Contracts.abppkg",
+    "mode": "100644",
+    "gitBlob": "49032794e2e9fd8e3ca0d47f65c9a8f9c165efcc",
+    "sha256": "1e9927413fa64713364ed0ae7fe58f25200274967695d84549dc5c7e56a0cc09"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application.Contracts/ModularCrm.Products.Application.Contracts.abppkg.analyze.json",
+    "mode": "100644",
+    "gitBlob": "113ed1eced9beb5ddaafef2627e54fad1b35e130",
+    "sha256": "64ff02497b2e0e1974b7a613bece57cbf23669b1978756f1a251be87b6a76fb6"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application.Contracts/ModularCrm.Products.Application.Contracts.csproj",
+    "mode": "100644",
+    "gitBlob": "89b096588957aedda327cac03f60fe434e69baa2",
+    "sha256": "dad8c3683de067f3e211ecde9080194e00d3a49b94d44a1b0e3d9f7d7fcc6bc9"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application.Contracts/Permissions/ProductsPermissionDefinitionProvider.cs",
+    "mode": "100644",
+    "gitBlob": "61dc52a6eff958dd7dffabcf59df8d886ba7d2d9",
+    "sha256": "d675179734e10beb6ac8c9effe31b70a934c3a72ddedd0d406fbf573ab1c060b"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application.Contracts/Permissions/ProductsPermissions.cs",
+    "mode": "100644",
+    "gitBlob": "8f553a6165bc030ebb01d5c4d072f5a551c33355",
+    "sha256": "3611aca1021207a5842cf2a0ac685147a763aacd676269ec43d053b8b38eb345"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application.Contracts/ProductCreationDto.cs",
+    "mode": "100644",
+    "gitBlob": "58c43407a942b2556a4e4f5305e03c27371891c1",
+    "sha256": "ba32ae6680ee2da5ba307a28bf9883079d1d6e3d63ea27de7c4637eedd804e21"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application.Contracts/ProductDto.cs",
+    "mode": "100644",
+    "gitBlob": "d106029b7a526b0fca9c1b3de44bde1dfc6916e1",
+    "sha256": "0ffedd4538f25f0c0586585310b3a059e956bdda9119fe55ee08537c39b1b549"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application.Contracts/ProductsApplicationContractsModule.cs",
+    "mode": "100644",
+    "gitBlob": "f9503bdd8d28f0c5ae728f61ab064752d60b9d26",
+    "sha256": "44c2bba87d10eed2144ffe427595bc9afa2748f15c8592b93ad07325998ac0bd"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application.Contracts/ProductsRemoteServiceConsts.cs",
+    "mode": "100644",
+    "gitBlob": "32b63b9e49c6a3769820b284a71d25604e76fcc7",
+    "sha256": "2573568ad2f39b9dad15192692506978eddded1a664b6dab824e862f11ba0502"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application.Contracts/Samples/ISampleAppService.cs",
+    "mode": "100644",
+    "gitBlob": "04059666cb5fdc9096c19746c61225c7918c4ad0",
+    "sha256": "ecafe6af4271cbc44580a3fbfbfa309d6115960f9f3182709459308fca2fa886"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application.Contracts/Samples/SampleDto.cs",
+    "mode": "100644",
+    "gitBlob": "14498fca24efa0c0b75e93c948ef5f284b2f3b10",
+    "sha256": "b13d7a91f1983eac6994750c6637621cd18413e2e40468e6d89dcb98c2a1eb31"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application/Integration/ProductIntegrationService.cs",
+    "mode": "100644",
+    "gitBlob": "a799d5909e8c504349c0a18811138d65ebc2b066",
+    "sha256": "952090c173fe153c546eda9b26227cea11fc1907efddf0fd71f6d188600d2d8b"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application/ModularCrm.Products.Application.abppkg",
+    "mode": "100644",
+    "gitBlob": "412567ac33376cde6af7ad7ceae30f395171eba7",
+    "sha256": "618096d4d9c8b64252ff4e17968fea1993d464b4a59b3cb3776829123fa128ce"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application/ModularCrm.Products.Application.abppkg.analyze.json",
+    "mode": "100644",
+    "gitBlob": "59e50e4ce61f207e9f73817543b48523da6e77f0",
+    "sha256": "4e964ae81f8c4fd89fe8a259c7ee12733d327d22f991aa2b2ac0be223e03ccd0"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application/ModularCrm.Products.Application.csproj",
+    "mode": "100644",
+    "gitBlob": "be7b44cdfe60a8ae7268e940aa39996101a0903c",
+    "sha256": "4caaeda01873adc717713fb93e1844933530fc553ddef70dd0f38a0385036d94"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application/ProductAppService.cs",
+    "mode": "100644",
+    "gitBlob": "f246aec427e177ce4208e6761d3d596dbe881c15",
+    "sha256": "5c027c5cdf5333e47e9c8d1064c32b740df87144d85fc571a8a1f0f95799f85b"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application/ProductsApplicationAutoMapperProfile.cs",
+    "mode": "100644",
+    "gitBlob": "60856652930aa4f7f5501c854ee00d328966ac21",
+    "sha256": "4a7fe02192b1b3d722756dd751ae6b59cc8453955c9f5ee764ef31ed1539113c"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application/ProductsApplicationModule.cs",
+    "mode": "100644",
+    "gitBlob": "1408f57a9e69c7ff27644fdb0393538ca764af8e",
+    "sha256": "a32bbb3ad2b7cf11d182f1629cd7648f66ce3ad0c382a8d524732650483a85be"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application/ProductsAppService.cs",
+    "mode": "100644",
+    "gitBlob": "d0282d693014c0c67c1662ca7404b67f318c6b96",
+    "sha256": "cb5e9f8acf00e562fe0b6814af431186ef059223b4388a216f38bf71f12dd4b9"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Application/Samples/SampleAppService.cs",
+    "mode": "100644",
+    "gitBlob": "078f4b853c470a03ebfc4bf4ee83fff3507708b9",
+    "sha256": "0846793dd5448879c232494cd9d753440360352b337f68a96b4e17088baeb295"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/ar.json",
+    "mode": "100644",
+    "gitBlob": "0deeef33efcf43cb6c7493b941d3b00ebbfd67df",
+    "sha256": "7a7900b6a8032b5f7b650b33fb649b456f96ced131f04af19c161efd5c8279c8"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/cs.json",
+    "mode": "100644",
+    "gitBlob": "3f843799cb288d0468eda1049f357583dbb2c5f6",
+    "sha256": "d2788e854a094592bea3599177965ab8b2cadfe416b18c2713b846235e4a3db1"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/de.json",
+    "mode": "100644",
+    "gitBlob": "96ac87e269582840434a0454c60d6c8b920a3078",
+    "sha256": "9e0eafe5a146bacb4dcba77aab9e3f5e709fbef68e45f2ed07106dcd00519bbe"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/en-GB.json",
+    "mode": "100644",
+    "gitBlob": "ed05a8c417b3810ecf18cb1a8ccb242edaefee34",
+    "sha256": "30c2e621d03bf5509902bab2d0351fe48684fefccf397fa433b40ff466ed2058"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/en.json",
+    "mode": "100644",
+    "gitBlob": "d129dbe721d37e592116fe7334468fbaef1bc72a",
+    "sha256": "7305680258a307476aa6043d9952c4f663a2a766bf166744d944d4a56e136d50"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/es.json",
+    "mode": "100644",
+    "gitBlob": "61cecc427794e52e4977c98372af27aca350b57a",
+    "sha256": "224e2823c73f5c004f924427a7da2816a87c6325495b91403f0163e1ad21d271"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/fi.json",
+    "mode": "100644",
+    "gitBlob": "63b7b1cbd55f18ba4e61e5c057e3d02d9101e7d0",
+    "sha256": "55590bf8324307110d20f1f4e6be79fbff76841c2a35fbd99355c7f599689516"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/fr.json",
+    "mode": "100644",
+    "gitBlob": "33626926c6b3c4b9a716048f0ba09c055bc55769",
+    "sha256": "a28830d453253e5c48ce2292b481c1c45bd7b621bb9a474b17fdc0e1638c60c4"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/hi.json",
+    "mode": "100644",
+    "gitBlob": "32314597cb42415bff3ea62c570b3ace4d83ae8e",
+    "sha256": "93def38dbe03545570e8a2b129e2c43c2fb2ca58996036ce3781290fe721a013"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/hr.json",
+    "mode": "100644",
+    "gitBlob": "7e44d37a32f87616b485d062c90f8553979b7618",
+    "sha256": "44ffb9a29e35e27c302b36dba48ea94a3c786dbc8d67fafc1f73fafdae4564a1"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/hu.json",
+    "mode": "100644",
+    "gitBlob": "9e7b4ccf57ef938901e57ae6b785b30703d5b64d",
+    "sha256": "b6db35762d0afa1a35a0f62493435338af726cd93b2ffab713fb943f0cdf8150"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/is.json",
+    "mode": "100644",
+    "gitBlob": "512a5f1cbe79693fecca49172e6b9c01f8fce1f7",
+    "sha256": "f9abc0128d3631685b75275828399daafea0f33cb29d130f481f534a43d64946"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/it.json",
+    "mode": "100644",
+    "gitBlob": "ffcb0936ee0ec9ebea99e04f257d65a258080292",
+    "sha256": "3b1b583144ddddd6665d3f3b3e52eddab0153e9087e22ef47d8433833a3a8b6a"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/nl.json",
+    "mode": "100644",
+    "gitBlob": "1b19aa02c59cd09ccdf13b0e7a8ec8400bd9b626",
+    "sha256": "e2f16161c3a9f17c9860f4f315dd1603d819fe9c4e8e0441881bf760910b8095"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/pl-PL.json",
+    "mode": "100644",
+    "gitBlob": "38ab826b30824cc28fe7b12d743cd3ca35e54f0d",
+    "sha256": "c37cd5d40980612db5f0e7990e7fc243f4e960f77983f0cb8ff67a4480494517"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/pt-BR.json",
+    "mode": "100644",
+    "gitBlob": "709361f56aeaba820cd17d5583308a839350438b",
+    "sha256": "b06d394ce8f7983cac89bef2446ae86495dae31adda7fa318de39842e96d104c"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/ro-RO.json",
+    "mode": "100644",
+    "gitBlob": "3b3162164898bf6e6d1a712ec2a88b050c3fc758",
+    "sha256": "84ff0c46c817072a1d69a6f7216fa18a3548b3a3cb46611fe171cbc372e3d7fd"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/ru.json",
+    "mode": "100644",
+    "gitBlob": "6713e8f8483a926a083f2bb150a2bfd2012f76ce",
+    "sha256": "8a87bd89b3436d2555e1f9a34cb019be088540618b8644c585f56bcb3cf3513c"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/sk.json",
+    "mode": "100644",
+    "gitBlob": "e09362ee95e7a4b8888c6055712b3ceb467dba06",
+    "sha256": "ec82110e02d651de63cd4cfc6e6b6313793400d7d1a871294e56add17102521b"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/sl.json",
+    "mode": "100644",
+    "gitBlob": "fcdfd3725a80084c709d110d38ca816b5f3c8b3d",
+    "sha256": "0737b81aabee25f4c8ef8e25da9162ddb26504b2bd658528af42fe2449d60931"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/tr.json",
+    "mode": "100644",
+    "gitBlob": "7350847fd6bd0f0d06de14df80a203f1fe942a96",
+    "sha256": "e433713ce3fb09c8ec2e2fd0af5307082d858313bd0cac206a8dad44acb70076"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/vi.json",
+    "mode": "100644",
+    "gitBlob": "3bd425d83706b80b634dbcc207a51b750df2a893",
+    "sha256": "25bcaf67b1bf2accc632525d4f100a70381f4147c52b8adac4d8e79b158e03a7"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/zh-Hans.json",
+    "mode": "100644",
+    "gitBlob": "897c4775ef0a08ac51afdf6c2b4f74c4907e2fd1",
+    "sha256": "5d6e7f96495912b7ad1de9b93b7bfc1859a9cbfd94c0df616a8254535f99fbe2"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/Products/zh-Hant.json",
+    "mode": "100644",
+    "gitBlob": "d0c1b95cc7b2ce984a438743395c09a78841a05f",
+    "sha256": "b6c98cdaa903e9a94f1ee8d4d8ad472cac96cebb65ab9cbb07f2d246e9d61d05"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/Localization/ProductsResource.cs",
+    "mode": "100644",
+    "gitBlob": "7fbdc2b81db24a2ffd5bea89b542da5ba238aeb9",
+    "sha256": "9dfbc708c952ea87f4b93de8c5caa37dc01159575ca42ae23da53748a430e899"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/ModularCrm.Products.Domain.Shared.abppkg",
+    "mode": "100644",
+    "gitBlob": "8b3de05f76d2d4cdeb4849a033af48716db73476",
+    "sha256": "ad7c3ba481f5c3615a8300b7370c31158e96161a37fbd1db943bfbd85dba81ed"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/ModularCrm.Products.Domain.Shared.abppkg.analyze.json",
+    "mode": "100644",
+    "gitBlob": "e70914777ecafc32261d1c585d314fcaae2a738d",
+    "sha256": "f102ebd58af7cfd131245bff251b947104ea60241d50c711b5338a029ce819a8"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/ModularCrm.Products.Domain.Shared.csproj",
+    "mode": "100644",
+    "gitBlob": "f81296b6985e939493c62b402d10d04ebec2f205",
+    "sha256": "0585cd57a49d1030ac597febe2b92d8ebbe78eeb5a2e8f7175b3afab183e9a58"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/ProductsDomainSharedModule.cs",
+    "mode": "100644",
+    "gitBlob": "f56b354ec28e8d432c07817f97f8e072d9f9ecee",
+    "sha256": "68290cfe0b800aa885468c3d53ff170a01463118800541877c769dd1ea98157c"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain.Shared/ProductsErrorCodes.cs",
+    "mode": "100644",
+    "gitBlob": "bba2c51834b4da28c2aa81a4413ec26eaa0ed536",
+    "sha256": "9aed83df277aab3ad2df5f841e1ba1aa5d393080f70a5578a8c34795bc43bd69"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain/ModularCrm.Products.Domain.abppkg",
+    "mode": "100644",
+    "gitBlob": "1d574efe45d829b153ea64080509159f90ff0929",
+    "sha256": "34770b5b94b9918635feb165def63dda89636e3035e31cbd5f17e27e6940404f"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain/ModularCrm.Products.Domain.abppkg.analyze.json",
+    "mode": "100644",
+    "gitBlob": "794825560fb9256b37832368e3b397ae12c23ad7",
+    "sha256": "9e67aa65ddb9e5f46201f8f70f1d5a4b38a68478f86fb2fe29ae6c7c163d5d9a"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain/ModularCrm.Products.Domain.csproj",
+    "mode": "100644",
+    "gitBlob": "26b9f38df64e7cfb0b8b2fb6cd5af942260b8d3f",
+    "sha256": "b497e1638fb35b7fd0d5b68eafe44d6e8a2e819e67e681781bd624aa4470cd09"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain/Orders/ProductsOrderPlacedEventHandler.cs",
+    "mode": "100644",
+    "gitBlob": "f03cfb462f37cd16fc5a91096fa8c35f282b9743",
+    "sha256": "bdb26a154a5db1be23bbc2e48e95fb849ebcf8c586da88d35f67776dca37c0a1"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain/Product.cs",
+    "mode": "100644",
+    "gitBlob": "d6d34b2742ee7b8cb429b60aad8392aac877424d",
+    "sha256": "8b46d9eead44aac57adb3e2f59fd3b6549dcfa4ecd2b5026e1be874ef2965cae"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain/ProductsDbProperties.cs",
+    "mode": "100644",
+    "gitBlob": "bbac9538efaef0c621f302d318e7786a2bbfcbcc",
+    "sha256": "89b3528b4387cc101d6e453d271fdc1e6c5c2ef403cf6d32b5953cef8b8099c8"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain/ProductsDomainModule.cs",
+    "mode": "100644",
+    "gitBlob": "e8473443f8695f40088b9bd65f2b906c9a3bb0fa",
+    "sha256": "5d27a1b5e3f664b695f1e7f62a337fd333d32d989eced59170f141ab5e1e2320"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain/Settings/ProductsSettingDefinitionProvider.cs",
+    "mode": "100644",
+    "gitBlob": "d4053d0109a03ca9bbf6d0b69ad7a605b8877a07",
+    "sha256": "70b9b2436309d325165675319b0dcbcd0f68fb8bb887a72f9620975040bfd7da"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain/Settings/ProductsSettings.cs",
+    "mode": "100644",
+    "gitBlob": "85ec90d5e0b7024613938a7d5a0aeacd94e07d5c",
+    "sha256": "b59967976df87ce1efbb922ef201c216e40922cec4c52dd454f3ae422e89998e"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Domain/Users/ProductsUserCreatedEventHandler.cs",
+    "mode": "100644",
+    "gitBlob": "8b046bb8ee0c63cd4030375c86c5d608e921656d",
+    "sha256": "c90d059ba6d2e74a5efdc5fd84b0114dcce9208d56b122cdfde16522d9a995fe"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.EntityFrameworkCore/EntityFrameworkCore/IProductsDbContext.cs",
+    "mode": "100644",
+    "gitBlob": "0bdfbae2ed59ccb34e5eab33353c05d2c8d32298",
+    "sha256": "932ccdbd1ff99661a2617f8e04cfe5a6d932d8b2feaf76cf85d20a4b927eeacc"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.EntityFrameworkCore/EntityFrameworkCore/ProductsDbContext.cs",
+    "mode": "100644",
+    "gitBlob": "1a59aeb47695b15241c3d25577c8ba96a3359078",
+    "sha256": "7015d0f1b9120f9be252c1367b4f81813ca36e74d099f671d4e4cdb2a45dff79"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.EntityFrameworkCore/EntityFrameworkCore/ProductsDbContextModelCreatingExtensions.cs",
+    "mode": "100644",
+    "gitBlob": "06a262bcd2e22e9e07e3b3220b61fbd269eec6d6",
+    "sha256": "51ff2d30bff272e1d5118391a39416458bf1d764b57916f54454280b2f1ffadd"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.EntityFrameworkCore/EntityFrameworkCore/ProductsEntityFrameworkCoreModule.cs",
+    "mode": "100644",
+    "gitBlob": "d01886113ae26b30c6c91fb11feb4949c36eab4e",
+    "sha256": "ebd7d78639022c5eef15fdf11ee2b9fe97ea1616ba9fc54326ab7a866bd7061a"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.EntityFrameworkCore/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.EntityFrameworkCore/ModularCrm.Products.EntityFrameworkCore.abppkg",
+    "mode": "100644",
+    "gitBlob": "e1c64f01753c7d95325589026777ebaea1cae237",
+    "sha256": "b2dfd7711b01563d569a179d394bb115e038d73d15fe84cccf44aaa66f2da25c"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.EntityFrameworkCore/ModularCrm.Products.EntityFrameworkCore.abppkg.analyze.json",
+    "mode": "100644",
+    "gitBlob": "5ab0499c45837f60f13bb4ed6607ccbe4ffb3f9e",
+    "sha256": "e30ac6dcaf32441335a536775399c3d44eadd25c21266e9eb57159c100b08105"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.EntityFrameworkCore/ModularCrm.Products.EntityFrameworkCore.csproj",
+    "mode": "100644",
+    "gitBlob": "2433810d28accb00ec99fb38decbd581f0b0171e",
+    "sha256": "950409ebf7b778a61201832124eb303ccc25e3ffbf2a874f56115c4d45bb5339"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.HttpApi.Client/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.HttpApi.Client/ModularCrm.Products.HttpApi.Client.abppkg",
+    "mode": "100644",
+    "gitBlob": "7deef5e383e9ee7d4ab83501dfe782034ea7ea83",
+    "sha256": "f862e66ae0d22c85fb6eb9718776fa30d768dfbf732667105a92a6da6c0409ea"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.HttpApi.Client/ModularCrm.Products.HttpApi.Client.abppkg.analyze.json",
+    "mode": "100644",
+    "gitBlob": "74e892cd10debbb29a4938cf8ced2af0589093dc",
+    "sha256": "c17cf21e8df858289c5aa7a2bbdda86a077c497e142d8ae032c74fbf69f79a6a"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.HttpApi.Client/ModularCrm.Products.HttpApi.Client.csproj",
+    "mode": "100644",
+    "gitBlob": "cc63d54d38c7b030a7c3a0be6e2dcc859dacce87",
+    "sha256": "f4b8f3565bcb88db10f2201649adae88a8155c0a99c5ce5d8194c5224f97cbef"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.HttpApi.Client/ProductsHttpApiClientModule.cs",
+    "mode": "100644",
+    "gitBlob": "ecb07d18f0f4d09060125fdd4f28a316152b4f2a",
+    "sha256": "2455fe90884c235fcb2bf5bdbca8f2d0309de52d65e6b7b9919e12333345f576"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.HttpApi/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.HttpApi/ModularCrm.Products.HttpApi.abppkg",
+    "mode": "100644",
+    "gitBlob": "515bfe64c457f27d31b16531ad451b24a5d96e5d",
+    "sha256": "5ff6c8684eca46faa4a04bbaa73ea5185d3992676adca325780c54c173cfb315"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.HttpApi/ModularCrm.Products.HttpApi.abppkg.analyze.json",
+    "mode": "100644",
+    "gitBlob": "3debaacbd035837eb3fa3bf68dce7971c238fff8",
+    "sha256": "ade966e1bf2a6c88a68eb4d34379c614cf77366d288d2926da982734acfa0989"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.HttpApi/ModularCrm.Products.HttpApi.csproj",
+    "mode": "100644",
+    "gitBlob": "a879bb1cf7ba6a4b01cd8b20b74853e01b0ae06b",
+    "sha256": "b0cc5ef870d0beb3aa3949999d7dfc7e5f4d0854a8041a8985315dc494028f08"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.HttpApi/ProductsController.cs",
+    "mode": "100644",
+    "gitBlob": "593633519543d6d63fb4e3cc9fd84574b5f1d1f2",
+    "sha256": "b0e1128c255fffabe8496d2ce685a8325bf9364b8f90839342e09350a02fd0eb"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.HttpApi/ProductsHttpApiModule.cs",
+    "mode": "100644",
+    "gitBlob": "5140d6289914b5c2cd7b7134920299b7efe6bd0b",
+    "sha256": "3c6fa0e78e2b88d6ae76c8513ca66404de6ceb355675d6383832a9c5b1143a6d"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.HttpApi/Samples/SampleController.cs",
+    "mode": "100644",
+    "gitBlob": "6a41394f3da50b2b323629f9a9261bbf6f66aa8b",
+    "sha256": "6df4c9f4f5a47e82f5257bddcef0c3920a9634105999beda14d646b34e5d67ab"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Installer/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "be0de3a9084121920bb85a79d284f6ed139ae0a9",
+    "sha256": "d7d034aed659fd37454b139cf9b557f06a9736e8de81965ad2be9e3c91dfc928"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Installer/ModularCrm.Products.Installer.csproj",
+    "mode": "100644",
+    "gitBlob": "d6b5028e7911331f608fc7851492bee1e5a6edc6",
+    "sha256": "1ddfb5771b6af55302f164f1c0f58143844fb44f794ab9e708c5ebb340c83bf7"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Installer/ProductsInstallerModule.cs",
+    "mode": "100644",
+    "gitBlob": "b7247549f96281e551049a14bde1f4bfb5568a14",
+    "sha256": "70fbc9515f2b5f8dba49e731b69682e788fa1eaeb84e3f3be69a29e7033fb26a"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Web/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Web/Menus/ProductsMenuContributor.cs",
+    "mode": "100644",
+    "gitBlob": "ff66a10c03cd378484a31b9179288807179163e0",
+    "sha256": "006a604c2299103e9af5dc2f3e4c364ae988d8d0a9fa8bd094a45610ddf25b45"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Web/Menus/ProductsMenus.cs",
+    "mode": "100644",
+    "gitBlob": "1dd576c100365da1c5b6c0d9bbd3802966111feb",
+    "sha256": "cc4729d4fe10b6632f133604392adb0ef78231ff301fe572fa4c2e9daefab81e"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Web/ModularCrm.Products.Web.abppkg",
+    "mode": "100644",
+    "gitBlob": "930c4018b3a3967a6d67b62af176a8735958a4f2",
+    "sha256": "4108c11d3fd7379af1e6f8cf75f71332c12ea9f726e58065918a5f8477e058ed"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Web/ModularCrm.Products.Web.abppkg.analyze.json",
+    "mode": "100644",
+    "gitBlob": "03dd1619c6ab4ff411f53627ea69a81eda2a987f",
+    "sha256": "45bdea5e67798c500aa1840c5d421d87e778e7a75afdd65cd3df5a913721a03c"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Web/ModularCrm.Products.Web.csproj",
+    "mode": "100644",
+    "gitBlob": "cdbf197d8a0dee98dcbad7e88e7e4473476354f3",
+    "sha256": "15c3cab4d73ac28a8c1b1c8762ebb2069f8153ae4da54b360167917713c2ba28"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Web/Pages/_ViewImports.cshtml",
+    "mode": "100644",
+    "gitBlob": "c1da1f5f107073cb33bda44b29af50b0ca819024",
+    "sha256": "12f2ecf13ffdd45d83b0198a52d2bd0972c59a17dc4da1c61d0a1974ddec9fda"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Web/Pages/Products/Index.cshtml",
+    "mode": "100644",
+    "gitBlob": "f6bdb47df16e99d2ce92aab3bff2f886819e744a",
+    "sha256": "869a99c3b411d9800213da54c2c6ffb0998e123b5443aadd54575b24b7000ecf"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Web/Pages/Products/Index.cshtml.cs",
+    "mode": "100644",
+    "gitBlob": "bdae007e727ec44c9356bb2aaa371f6a164461fa",
+    "sha256": "3d11dfc2007bf0e8f6c1fe1b191908758548d8508e2e40d33dc028a4afac7030"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Web/Pages/ProductsPageModel.cs",
+    "mode": "100644",
+    "gitBlob": "72eaa24b6e6e45161bc653bceac80cd079033eb6",
+    "sha256": "6cc5da4d9457a4cf01ce4bf80eb149409bc46ff34e015db124f82fd5ce161564"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Web/ProductsWebAutoMapperProfile.cs",
+    "mode": "100644",
+    "gitBlob": "09475041098718d4ebda90ddfffff62ee6bd5ff7",
+    "sha256": "8e45b917dafcec9e46f42eab432f059ef35879e5583b92bb5c4da819aefe595d"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Web/ProductsWebModule.cs",
+    "mode": "100644",
+    "gitBlob": "791bac2db515a2eadae12d3a91821949b38c3d02",
+    "sha256": "1316946a02e14215b8f2d16c69aae087caef08fd6f78891a17af70cfdb252f3f"
+  },
+  {
+    "path": "modules/modularcrm.products/src/ModularCrm.Products.Web/Properties/launchSettings.json",
+    "mode": "100644",
+    "gitBlob": "780b89dd05e9291cb4e212ae59d2e1b1f78228b7",
+    "sha256": "bfc1e8846a36806fbcd3e42048752f78fe5b14f69d8b2b66367d7d84b060aae1"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.Application.Tests/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.Application.Tests/ModularCrm.Products.Application.Tests.abppkg",
+    "mode": "100644",
+    "gitBlob": "a686451fbc0b12debc1308ff3b63df10b1cb8672",
+    "sha256": "a9a60dc04d9d8f4ec0cf5654781e3bdb1a9f3c699ca0a314cad7e37467b4ab39"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.Application.Tests/ModularCrm.Products.Application.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "85c2a42e86ac375069519f65c0f5b85895c0acd4",
+    "sha256": "d4c5d785d26d3c1fde2823b488a7b70a71dff4a0a0c5d0d67b4a2b35dccd40ee"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.Application.Tests/ProductsApplicationTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "7ae515fad17dc35cfb44f003b0e404a12ccfcaf9",
+    "sha256": "570e6e216ee7d3bd22090846d08be8e830ce023c435bc07aa6de09c2dc11b99a"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.Application.Tests/ProductsApplicationTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "2ddac514a6f34a6bed0ecf4b74e4db33324a6ca5",
+    "sha256": "0734475b7b0e1e27ffa36a87ab2167f5ddad547e1d10364f3f28ff9f95df51b5"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.Application.Tests/Samples/SampleAppService_Tests.cs",
+    "mode": "100644",
+    "gitBlob": "8be97d892774888568ac1fdd244b44e1f8c19d95",
+    "sha256": "d54c5218013b673411c43839d6993665348123d645172c0042d6f4274d2f9a6c"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.Domain.Tests/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.Domain.Tests/ModularCrm.Products.Domain.Tests.abppkg",
+    "mode": "100644",
+    "gitBlob": "a686451fbc0b12debc1308ff3b63df10b1cb8672",
+    "sha256": "a9a60dc04d9d8f4ec0cf5654781e3bdb1a9f3c699ca0a314cad7e37467b4ab39"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.Domain.Tests/ModularCrm.Products.Domain.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "31a6e466c500d9dbd8cd5630610e0ce18d282c71",
+    "sha256": "1900b2d5d251255664c245690b19252b36f3e187cc4b3812279dd5b889a7b8d6"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.Domain.Tests/ProductsDomainTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "e066a004eeeffedb573dfc0519e0d4039bab5ba1",
+    "sha256": "bd63ee7b61105e1fa3ead9b2ddc607a8d0790af558326802a212f678c3d7cf3b"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.Domain.Tests/ProductsDomainTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "f618ffc94dda4bc79b138349b065a32a47ad29c7",
+    "sha256": "833f960e3dc349f0e13654c02a980471b49c9af07c89fe33149e1a2c7f43f543"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.Domain.Tests/Samples/SampleManager_Tests.cs",
+    "mode": "100644",
+    "gitBlob": "f495f433d6a57f433c60529eb48a94b456922da3",
+    "sha256": "20f5dba9b8dcaf14910d3a0e937ac3df4d8b786930844d39f0d38fa2ff452a07"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.EntityFrameworkCore.Tests/EntityFrameworkCore/Applications/EfCoreSampleAppService_Tests.cs",
+    "mode": "100644",
+    "gitBlob": "fbe7954bcbc7e3d1557b4c1d4c442daa3e032325",
+    "sha256": "62a0704240d68fb4dc6b680c8e074846bbe004c29ae273bc9c05b49996daf209"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.EntityFrameworkCore.Tests/EntityFrameworkCore/Domains/EfCoreSampleDomain_Tests.cs",
+    "mode": "100644",
+    "gitBlob": "832c0fb4f13fff93b0353e09f357c0b0f0340916",
+    "sha256": "57b27d6e066109b3a017cfd4bf935f4a8dcf78c6308d555563a0f7a221dc067e"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.EntityFrameworkCore.Tests/EntityFrameworkCore/ProductsEntityFrameworkCoreTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "b847c65a74e6c0d919ddd08b8c8aafd5c6bebb36",
+    "sha256": "ebc626d6ef55da974f18aa6aa75501f9b4440c9bf176edc6c5146da4641ea2b6"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.EntityFrameworkCore.Tests/EntityFrameworkCore/ProductsEntityFrameworkCoreTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "4e01672ed200a8d3c840d5b2ffe2a884c43fe9d1",
+    "sha256": "37fa89ebfef349e563b0637440ba7bc135dffbd9bf4d015e34ddaad1ff43bc59"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.EntityFrameworkCore.Tests/EntityFrameworkCore/Samples/SampleRepository_Tests.cs",
+    "mode": "100644",
+    "gitBlob": "7bf26f609b7f98665af8cec1a1cfbb5ed46099ae",
+    "sha256": "b8d3bcf84edb9da208adf64b0af95bc846002ab397fcd6e1bf43b9d03d4fe1c3"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.EntityFrameworkCore.Tests/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.EntityFrameworkCore.Tests/ModularCrm.Products.EntityFrameworkCore.Tests.abppkg",
+    "mode": "100644",
+    "gitBlob": "a686451fbc0b12debc1308ff3b63df10b1cb8672",
+    "sha256": "a9a60dc04d9d8f4ec0cf5654781e3bdb1a9f3c699ca0a314cad7e37467b4ab39"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.EntityFrameworkCore.Tests/ModularCrm.Products.EntityFrameworkCore.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "c5610f2584c5c4ba9ee1a90cae0ffa4ec7b8e4f0",
+    "sha256": "62e481ec20b0aec51ba60e5f3fe7bc3e18c78396932170477f2e830c53d1108c"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.TestBase/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.TestBase/ModularCrm.Products.TestBase.abppkg",
+    "mode": "100644",
+    "gitBlob": "a686451fbc0b12debc1308ff3b63df10b1cb8672",
+    "sha256": "a9a60dc04d9d8f4ec0cf5654781e3bdb1a9f3c699ca0a314cad7e37467b4ab39"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.TestBase/ModularCrm.Products.TestBase.csproj",
+    "mode": "100644",
+    "gitBlob": "f314a882041068d916e68cb49687ea655695a976",
+    "sha256": "2b10a638e7303397ec24a59e1a07dc30b2af9d87d1f5f9338523b8a28781f3bb"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.TestBase/ProductsDataSeedContributor.cs",
+    "mode": "100644",
+    "gitBlob": "61142152cec54278f4cc06d7b06a0c32396580d6",
+    "sha256": "56d0a83a6cda75e340595577bc86229b10157ff8492f431962f978b634db7dba"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.TestBase/ProductsTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "cfe628a13b0960789b046fe83dfbf13415ca6c70",
+    "sha256": "04c2ba5c0f4cd29dd0e1abf7570327c1868ebeaac7f3a2815cf466738f7ee1c5"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.TestBase/ProductsTestBaseModule.cs",
+    "mode": "100644",
+    "gitBlob": "7af676e6b80b37a7efeca8728431f76929da74fd",
+    "sha256": "2344715008b519584613c05bacd7c58b789039fe6b99ca58ad42e65d9e7d169a"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.TestBase/Samples/SampleRepository_Tests.cs",
+    "mode": "100644",
+    "gitBlob": "a72fa03f67e8c1be89b0efa2405f0ec5c276e07e",
+    "sha256": "11c3b51ecb6da1b6e5b1e502212252edb4ee0c72a9e5190ea024c07faedfdd47"
+  },
+  {
+    "path": "modules/modularcrm.products/test/ModularCrm.Products.TestBase/Security/FakeCurrentPrincipalAccessor.cs",
+    "mode": "100644",
+    "gitBlob": "6d1ae9ae2779439a5ccc6eb94a6a8505d716d05e",
+    "sha256": "a653196679105a857f29517fb60598b0bdf4c2fbfff2588b31523bb3dd6c767c"
+  },
+  {
+    "path": "NuGet.Config",
+    "mode": "100644",
+    "gitBlob": "c2097e6a0529d2c63a767838c2a943abfe22f5e1",
+    "sha256": "4a42d10146e2dc9e082c7ecdace00549d7983a27c8efaa78a6c53754a8a34687"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "gitBlob": "a3b072a171c50b8efdb4819eccc32514488ea38e",
+    "sha256": "4d5723dc5d25e7a0710c1a8e0ffc1ff2a009576de068e1e609b1f7a71cedc44b"
+  }
+]

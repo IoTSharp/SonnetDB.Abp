@@ -1,0 +1,1526 @@
+[
+  {
+    "path": ".editorconfig",
+    "mode": "100644",
+    "gitBlob": "3aa69eabddca7df8c1c24e44a069c727bd20be25",
+    "sha256": "8b19295565286cd9b13dfc62feb6703cad5ea959865e911da58c5b88d5dc6d65"
+  },
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "gitBlob": "c941e52669683c63ad9c3db2073b54ac74e20ba7",
+    "sha256": "13a51d1e2ad3b2997aaeb6295a568a555faa0c01c040f0db71a0d85c803cf111"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "gitBlob": "050ae20e7e6d5dc57d3db59e60c0901f39885554",
+    "sha256": "f66e1206a923eb56f02f8c3dcd93e108f7ba143f2ea52770a2a8541cd54a5913"
+  },
+  {
+    "path": "Acme.DemoCenterApp.abpmdl",
+    "mode": "100644",
+    "gitBlob": "a467e47a7794db3c284d2bad0bbd33ac48af91b4",
+    "sha256": "793780ea9a491cb495a35eb2503395b0fb03cc44263c35cf236176569e9dd1fa"
+  },
+  {
+    "path": "Acme.DemoCenterApp.abpsln",
+    "mode": "100644",
+    "gitBlob": "6e3303f1eca753ba90cdad27fb8a01d342c5a5d0",
+    "sha256": "a38c7ea1f8eea6ce1d8b97a944dd3b14136df8e2318ca7d8ad04b0bd76e17931"
+  },
+  {
+    "path": "Acme.DemoCenterApp.sln",
+    "mode": "100644",
+    "gitBlob": "4ffca5ba98c956084139d387125f691057899eb0",
+    "sha256": "d4c6e4c50c8aebb48b34cb626be3ce010d18f2122428004f8fa11effa4c18bbc"
+  },
+  {
+    "path": "common.props",
+    "mode": "100644",
+    "gitBlob": "22d34c48021904a26f514e9d9c6bb6b1c73fa409",
+    "sha256": "b7b001c518da813afa77e5b2dbd8113f640130f4a05150ec29cc85dc5ab4d5d0"
+  },
+  {
+    "path": "etc/abp-studio/run-profiles/Default.abprun.json",
+    "mode": "100644",
+    "gitBlob": "7e2e4efba34eed98c78c9c2cafeaf8e7422b8951",
+    "sha256": "6e835aea0c8d54eb421f0f747ff65a10ceb693518b2b2546104fe34c918329ea"
+  },
+  {
+    "path": "modules/acme.modulea/.editorconfig",
+    "mode": "100644",
+    "gitBlob": "3aa69eabddca7df8c1c24e44a069c727bd20be25",
+    "sha256": "8b19295565286cd9b13dfc62feb6703cad5ea959865e911da58c5b88d5dc6d65"
+  },
+  {
+    "path": "modules/acme.modulea/.gitignore",
+    "mode": "100644",
+    "gitBlob": "c52878b5fd597618e81a618c57562d7a795d257b",
+    "sha256": "5e87931ffbee24798409de2cc7e455b47071cc4a3814f8e87a6c2e6c56ab2a99"
+  },
+  {
+    "path": "modules/acme.modulea/Acme.ModuleA.abpmdl",
+    "mode": "100644",
+    "gitBlob": "84e65f1b4727227dbf538d664d6680253ea43dcf",
+    "sha256": "206d8e28b074a872604e129f4d3ba2e1569ae3d989460c004845123518fc7046"
+  },
+  {
+    "path": "modules/acme.modulea/Acme.ModuleA.sln",
+    "mode": "100644",
+    "gitBlob": "15f1a436d4716e7c513c3ffd6ed6589919ee9c8f",
+    "sha256": "7d66f7d34efbd44edb7aaacdbb7ba9d423b8cba97647072d3934eae6a3ba846d"
+  },
+  {
+    "path": "modules/acme.modulea/common.props",
+    "mode": "100644",
+    "gitBlob": "6af0c7389304c405ff94df10a3470d821edcac84",
+    "sha256": "53ad6a4f47eaeeb917cef425451c6bbe936392bef8359245a0fb9213b9ea3dc6"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Application.Contracts/Acme.ModuleA.Application.Contracts.abppkg",
+    "mode": "100644",
+    "gitBlob": "49032794e2e9fd8e3ca0d47f65c9a8f9c165efcc",
+    "sha256": "1e9927413fa64713364ed0ae7fe58f25200274967695d84549dc5c7e56a0cc09"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Application.Contracts/Acme.ModuleA.Application.Contracts.csproj",
+    "mode": "100644",
+    "gitBlob": "0a45c4e5ee79ad7fc901ea8280c6046afc1301d3",
+    "sha256": "9e82c756724e55a43352842c1f9fdd7b90d2b2442f307880cde88235ae1b3029"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Application.Contracts/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Application.Contracts/ModuleAApplicationContractsModule.cs",
+    "mode": "100644",
+    "gitBlob": "0855ae303a695b3b1dabc67ab3315662dd1db498",
+    "sha256": "24b17f14af450308dce93e47084c596a0074c04b0553b5cb9a32f2746154e25a"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Application.Contracts/ModuleARemoteServiceConsts.cs",
+    "mode": "100644",
+    "gitBlob": "bb5aaa7ea51501d8a3de5b3f7fe19b92c92631be",
+    "sha256": "ac10585407fa5830d7bf462396de8912300dd46c02dadff4e832084569fa5901"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Application.Contracts/Permissions/ModuleAPermissionDefinitionProvider.cs",
+    "mode": "100644",
+    "gitBlob": "d8b6eb9fcb00ec091c76ffff46544760fbaaa4ec",
+    "sha256": "a8e20435e3d56fa54142ae8956b3ee47cbce2a658408e0a8cac982329f0b7878"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Application.Contracts/Permissions/ModuleAPermissions.cs",
+    "mode": "100644",
+    "gitBlob": "266642969e9528479fc05b098083a196128684c4",
+    "sha256": "38d971d016d0d471d35850cab80b51d1b7c8503736bad8dd3b9819a57e14dc94"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Application.Contracts/Samples/ISampleAppService.cs",
+    "mode": "100644",
+    "gitBlob": "3e252cc3a63190e5ce8aed33a91a019d29ac64e3",
+    "sha256": "a39be06832fb1147c1203d9ed300ba4e9ebe60d1a9669ba57cf8aa9c5117cc42"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Application.Contracts/Samples/SampleDto.cs",
+    "mode": "100644",
+    "gitBlob": "a2381493989efa88dc582bc3ee3f0167d838b345",
+    "sha256": "d1e411c4a03bb9e8acd202c9da12626ba835a5518da2198c6b85925759ae1cd3"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Application/Acme.ModuleA.Application.abppkg",
+    "mode": "100644",
+    "gitBlob": "412567ac33376cde6af7ad7ceae30f395171eba7",
+    "sha256": "618096d4d9c8b64252ff4e17968fea1993d464b4a59b3cb3776829123fa128ce"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Application/Acme.ModuleA.Application.csproj",
+    "mode": "100644",
+    "gitBlob": "175acb983e82008db8671dfb59b8a407b5d84778",
+    "sha256": "05ee450364ebb306a1bf17870ad3b030f383239c85fb7a90ff91bed690b4efbe"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Application/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Application/ModuleAApplicationAutoMapperProfile.cs",
+    "mode": "100644",
+    "gitBlob": "262c090245f14cea81158d0e4730e9fb84675d5e",
+    "sha256": "0ac1df729524aa8515eaa86ca03a3a30e91f0561d08d4279a6b8e71c2ec8b11a"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Application/ModuleAApplicationModule.cs",
+    "mode": "100644",
+    "gitBlob": "2b98c41065de042a7b6baf5c0ffd6c7a1ad43bcc",
+    "sha256": "fcf90e4cbfc1c4c455c1ba84148649c67be87cb3bc4b7d0b7cb50ff18128c243"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Application/ModuleAAppService.cs",
+    "mode": "100644",
+    "gitBlob": "05ab2b62f9abc12df924084b168a60e502d55079",
+    "sha256": "b967f6e557a5a6efc04cbc04109e6229522ac680598679e825917aaabc90b526"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Application/Samples/SampleAppService.cs",
+    "mode": "100644",
+    "gitBlob": "01ab1327d22791c5b19f11e6de35701107cb8a00",
+    "sha256": "c1e59301e6c24fad5af10a50693bc9032a05686bde798888a9959c75d2518799"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Acme.ModuleA.Domain.Shared.abppkg",
+    "mode": "100644",
+    "gitBlob": "8b3de05f76d2d4cdeb4849a033af48716db73476",
+    "sha256": "ad7c3ba481f5c3615a8300b7370c31158e96161a37fbd1db943bfbd85dba81ed"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Acme.ModuleA.Domain.Shared.csproj",
+    "mode": "100644",
+    "gitBlob": "9125db8cea07597c5e27f3106faa37ecceefd2d2",
+    "sha256": "98984548335277cc4872dde3c6de198d71a6ce521cacd4567963d67729a03c01"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Contacts/ContactConsts.cs",
+    "mode": "100644",
+    "gitBlob": "f340ccb4a0019683ab18c4c6d51613de798a83d2",
+    "sha256": "8f0dd3b9cbd3ef162c3426a5ef0e54289c2836e8f416679f31af0593d2e5f2a3"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/ar.json",
+    "mode": "100644",
+    "gitBlob": "9cca64176b13416d2f45ab699e6205f5efca1d96",
+    "sha256": "f8c3399c4d05fc219b05b2bef35827cdf1f87f33fbb01bb208ac0b38136117eb"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/cs.json",
+    "mode": "100644",
+    "gitBlob": "b2483d2663d1e9040775473b5ed6c14d18ab8589",
+    "sha256": "c597cf604051f5f8188c49e951591a1545a8c5851efeb9f6e7abbed0c2a9f582"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/de.json",
+    "mode": "100644",
+    "gitBlob": "654c45a09cde00a04ee278c8fa18ed35de7f2205",
+    "sha256": "f130d90b1245e441c9df7c439c2e24cda3a3b6f7fa1649e9b5bf68e7ea30c65f"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/en-GB.json",
+    "mode": "100644",
+    "gitBlob": "afc6083a10f3fc1b8550d8a85954de1b40674f5b",
+    "sha256": "d7fc04f2df62bff5890d59464cc35843eb9c86d5de1a44c21fbb461ef3c93dd8"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/en.json",
+    "mode": "100644",
+    "gitBlob": "998ad58d924c521365e40ded8a9909a9a34264f3",
+    "sha256": "0077dcc41ec8ed718fe47ce2baecee439c7dc258f927f796267e1bbfccab5280"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/es.json",
+    "mode": "100644",
+    "gitBlob": "b0d4137af98c9e7967799c2f22d7f1c57679a9bf",
+    "sha256": "317c052990ac6b2f8b51e08895d0ebc190a3c4a17ee5e2d5fe0342f528fcf08a"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/fi.json",
+    "mode": "100644",
+    "gitBlob": "84c82edf87e2f2ab7c32b41b95d8cf6126b7d1e1",
+    "sha256": "2ead681068b9152117901bfd8002a6eae290a5e61d7df507b12fa98da817f53f"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/fr.json",
+    "mode": "100644",
+    "gitBlob": "f0260ba751b258217b63c6b5bed1c40a8d12b3a7",
+    "sha256": "154370e0dd5ead14e62edf7c1ff2ac6f65f13277fc58470ff7d5e0c78168a2a8"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/hi.json",
+    "mode": "100644",
+    "gitBlob": "ba5e57681408952a19887985274454d17f24cb8f",
+    "sha256": "958d6884b7b1a4b45b527c9e3ea00d79f26bc4851af8899f9a3ea04f50be2881"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/hr.json",
+    "mode": "100644",
+    "gitBlob": "a6942f84a1a82ebd10b080a188aaa7c81dc9f8f4",
+    "sha256": "51aeb5b3bf1ac300690447968cded6c2800c4cca9ff52be8d2340aae48f75127"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/hu.json",
+    "mode": "100644",
+    "gitBlob": "cab4038878d0c5104056e7594ce050f73e3bcd51",
+    "sha256": "8fb995bac52708f81fec80e59409280ac74e38eae0142d5e139a4b7d517b5011"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/is.json",
+    "mode": "100644",
+    "gitBlob": "560a4399d62f34c56201801cf96a9e3bdb71c5f6",
+    "sha256": "4bef6564fdab92930bfbf08b94a4669b70444c56c482edc908bdd895b0ffffff"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/it.json",
+    "mode": "100644",
+    "gitBlob": "b6e6148fed62c5dc6a769a681e07aa786fedfc30",
+    "sha256": "bf6d57bebfaf1f8115a7d151cae11ca78bbe68dfbcbc77dd3bb66ec275dbc014"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/nl.json",
+    "mode": "100644",
+    "gitBlob": "d776eb8f4145b0552db8aa661d41caee38db140d",
+    "sha256": "b019fcab25e0d3e60205fbeb018ecbca2cb775775b8cdb48c82ef9a43a8a5800"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/pl-PL.json",
+    "mode": "100644",
+    "gitBlob": "15ad069c8ec19292938a07f047bd7eeeb1d682b4",
+    "sha256": "a6c25308d95bc229139eec6b736e863770d4a716d92c2d373dbaf631f50d3ada"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/pt-BR.json",
+    "mode": "100644",
+    "gitBlob": "764552bb32680bdb44bb1b40ae9149ca01371b0e",
+    "sha256": "0d40b1e4ccbfc2ec38f4d370672e4b70199be40243343bc63a16c4440ef227b2"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/ro-RO.json",
+    "mode": "100644",
+    "gitBlob": "252c596f696282bdb287eae78eaeff3f5b96cabb",
+    "sha256": "6a937c665c48bdb677f9b51e2a48f7b2a86fb69ce6227c6b44c9ea2f18574529"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/ru.json",
+    "mode": "100644",
+    "gitBlob": "35c65f44d8c01612caf6ddabb280ab19af49bbfd",
+    "sha256": "8ff1aaa729a49d24ff65cdbaf354c452e6bd316f80230613d133339838188688"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/sk.json",
+    "mode": "100644",
+    "gitBlob": "1b21a30caba59a9b133aeca0e6e76b454d88fbdd",
+    "sha256": "cc246c9af008e4e8eab43d920eb8da0c7eb241a12acb733193a50554be5d3b5d"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/sl.json",
+    "mode": "100644",
+    "gitBlob": "369f1f605ef15b5ffe62ee930f2319dcfc80a3b7",
+    "sha256": "64576112377500a343c042f22804bdb5b4617320c62e7130c7b705b733b49930"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/tr.json",
+    "mode": "100644",
+    "gitBlob": "a5daf067ec67a2b271ebb8bf1849efa50e39f0b6",
+    "sha256": "c23e27c6ab4a3c07b8c1925039bde57d0d0a8bb3450c3dd171ecd480f37a7e23"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/vi.json",
+    "mode": "100644",
+    "gitBlob": "a44971ed726e5cce9777cb61ac8d8d78b62cd71e",
+    "sha256": "27ce79c621574246d73d959f3eb6ce320e56a8b6e498e071fb2c66eb22728684"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/zh-Hans.json",
+    "mode": "100644",
+    "gitBlob": "aff219533410a626a83cbcc115f91251fc7b5c4c",
+    "sha256": "575df21831e60e976a7f4945ba7f036aa6c6f60cff66b7e4726ca6bb8dfb6cde"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleA/zh-Hant.json",
+    "mode": "100644",
+    "gitBlob": "2c0647fc17cfbc96a18ec0480af0f6ec5170694c",
+    "sha256": "f61768eff05db1b8cfb2676e881e10c941c51d656f314b69ee2619b37cf9a313"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/Localization/ModuleAResource.cs",
+    "mode": "100644",
+    "gitBlob": "3d518f6c7f5aba0c0bd636132235dac800471894",
+    "sha256": "696af8bbad074c67f7b5786895821567f27f717a67d120ac77b4c00bed6fecb0"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/ModuleADomainSharedModule.cs",
+    "mode": "100644",
+    "gitBlob": "3370c985e4fe8b3a91e39805599bbd1b895bf96e",
+    "sha256": "12b496c5793449176432022d5785e52349dd173e108bdc89da4cacad0ec146ed"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain.Shared/ModuleAErrorCodes.cs",
+    "mode": "100644",
+    "gitBlob": "c6d9d59562b012f20cb0ee0057de92ddbf629711",
+    "sha256": "81bfccab909fb1af814d999984d7cb1513ed665ec793d0fc476e242b4681933e"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain/Acme.ModuleA.Domain.abppkg",
+    "mode": "100644",
+    "gitBlob": "1d574efe45d829b153ea64080509159f90ff0929",
+    "sha256": "34770b5b94b9918635feb165def63dda89636e3035e31cbd5f17e27e6940404f"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain/Acme.ModuleA.Domain.csproj",
+    "mode": "100644",
+    "gitBlob": "68cb6e0adf9827bff7f84055bced2c569900ce5d",
+    "sha256": "39cf6c582b7fdd982a2d6a2c433a126870b9a97b09a0ce3c19a3df6e62d04bd1"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain/Contacts/Contact.cs",
+    "mode": "100644",
+    "gitBlob": "6dd3b480d67bff0d9b1ae71370b95ce450fdd3b3",
+    "sha256": "32e710a646feda09092815054b4a23b3b8fa2e860ca0eb8d9493009a84de7945"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain/Contacts/IContactRepository.cs",
+    "mode": "100644",
+    "gitBlob": "90dc94f6d6412da184f499b18729436f7f4e6cd1",
+    "sha256": "0aa96cd0cac3152fe0350c3696b3617d7bb24cfab34af1e5d33915074a389730"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain/ModuleADbProperties.cs",
+    "mode": "100644",
+    "gitBlob": "8c865518a61f6fae7c2631c7230233d6741e02ca",
+    "sha256": "5782a7c910882add1aac1eea01008ce8237b197d8e11d1b8e1590f8c6b692b03"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain/ModuleADomainModule.cs",
+    "mode": "100644",
+    "gitBlob": "f821b3abaf356a2622486ed99e801628d346e9ad",
+    "sha256": "9d870d5aebbf0b5262e5ec6be3b557c968d79701bca01bf2a3ecd22325ba079c"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain/Settings/ModuleASettingDefinitionProvider.cs",
+    "mode": "100644",
+    "gitBlob": "37fe48035398fb65306f199782c8888e17950a1d",
+    "sha256": "3cc573c09ae0933d1217da9ce0e7759ad4a01871fc4cc8eee3af7b1223dcd4c8"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Domain/Settings/ModuleASettings.cs",
+    "mode": "100644",
+    "gitBlob": "2b93d82186d3d7d21cd1d484e6dc0c46d4b4fac9",
+    "sha256": "aca5bec58ed91bcd33748a7e2a77d0a395e0e8b55f6d282d5b620fe1730819c6"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.EntityFrameworkCore/Acme.ModuleA.EntityFrameworkCore.abppkg",
+    "mode": "100644",
+    "gitBlob": "e1c64f01753c7d95325589026777ebaea1cae237",
+    "sha256": "b2dfd7711b01563d569a179d394bb115e038d73d15fe84cccf44aaa66f2da25c"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.EntityFrameworkCore/Acme.ModuleA.EntityFrameworkCore.csproj",
+    "mode": "100644",
+    "gitBlob": "ee3ed894dd665ed753d6196e40724afac42a144f",
+    "sha256": "2f089723df644e5f2ba5de9600c76e9911933d47b1d56da2cc4fd0aa9a7ee45c"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.EntityFrameworkCore/EntityFrameworkCore/EfCoreContactRepository.cs",
+    "mode": "100644",
+    "gitBlob": "5fd8909d1a35491e0a7716fe259cf5c274401b43",
+    "sha256": "eadedc1e4a9da2cb06e8a38a16529d22402cb722eda221ef70bb1b9e01bfb9d7"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.EntityFrameworkCore/EntityFrameworkCore/IModuleADbContext.cs",
+    "mode": "100644",
+    "gitBlob": "058ab0f278cb3b8527e326fa35341fe515a413ce",
+    "sha256": "582626e3ca1bc44ecacb95ab857b66d4a1045593eab550af913f43ba8ca67343"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.EntityFrameworkCore/EntityFrameworkCore/ModuleADbContext.cs",
+    "mode": "100644",
+    "gitBlob": "23e63f7fde0c869b2e7fe39144332ae8e05c42ab",
+    "sha256": "91795a574d039d85c1fc8a258ae974d5e54b187296365d4c5a3769d9f01d7e18"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.EntityFrameworkCore/EntityFrameworkCore/ModuleADbContextModelCreatingExtensions.cs",
+    "mode": "100644",
+    "gitBlob": "0759681780a4b484124f70641a9f5b5e9c6e05e8",
+    "sha256": "0a0e7a192b72af7c35ccdd3fa1a9ee03da102c5c0c0fe1b6c16e7e4e029b56ce"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.EntityFrameworkCore/EntityFrameworkCore/ModuleAEntityFrameworkCoreModule.cs",
+    "mode": "100644",
+    "gitBlob": "021ee71eddfb652a65f89718baa0e4329501b697",
+    "sha256": "08cf619e17c505d53207aa9aeb07710f65d0636af5b3669b4bf2386a8e1873f5"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.EntityFrameworkCore/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.HttpApi.Client/Acme.ModuleA.HttpApi.Client.abppkg",
+    "mode": "100644",
+    "gitBlob": "7deef5e383e9ee7d4ab83501dfe782034ea7ea83",
+    "sha256": "f862e66ae0d22c85fb6eb9718776fa30d768dfbf732667105a92a6da6c0409ea"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.HttpApi.Client/Acme.ModuleA.HttpApi.Client.csproj",
+    "mode": "100644",
+    "gitBlob": "a6f86b57168b2368420d8874f13a523a1722d1bf",
+    "sha256": "3a3078cc6f7e08a1d1f2665ca060c49e490de72345b3f194e4bc8f104f3320d3"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.HttpApi.Client/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.HttpApi.Client/ModuleAHttpApiClientModule.cs",
+    "mode": "100644",
+    "gitBlob": "f17bf4a19b220b4d89ebb265c445a700f61d416e",
+    "sha256": "a8012cb39ae3198988c540bf914d38d642f4086ed328234c8c85233964935b8e"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.HttpApi/Acme.ModuleA.HttpApi.abppkg",
+    "mode": "100644",
+    "gitBlob": "515bfe64c457f27d31b16531ad451b24a5d96e5d",
+    "sha256": "5ff6c8684eca46faa4a04bbaa73ea5185d3992676adca325780c54c173cfb315"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.HttpApi/Acme.ModuleA.HttpApi.csproj",
+    "mode": "100644",
+    "gitBlob": "60b4315ae315708d779215921f083398dbadbc6f",
+    "sha256": "b8f57748a9366cc39e52eb0f3a50102781c234173256e6885238cc12cb8a135f"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.HttpApi/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.HttpApi/ModuleAController.cs",
+    "mode": "100644",
+    "gitBlob": "d6f9120d6bfe480fbb6281c6d217431734a6db1d",
+    "sha256": "937b563ec1241ec1089590d87b1aabbc027e0b62571fa7390928e9279cd7917c"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.HttpApi/ModuleAHttpApiModule.cs",
+    "mode": "100644",
+    "gitBlob": "42e878d613e75564569e2c49f8f21f522782e088",
+    "sha256": "04dd5e1c53e46e4bd421266935309dfae8bc889de4ed972a1d93cc007cb8a64e"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.HttpApi/Samples/SampleController.cs",
+    "mode": "100644",
+    "gitBlob": "0be174dbf70b42c9ee2b1e92eba9002a54c4c702",
+    "sha256": "0937568605a4cb23c968ce5498492caebee8bfa7fd036f2b78a9ee7cbf005b44"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Installer/Acme.ModuleA.Installer.csproj",
+    "mode": "100644",
+    "gitBlob": "7f2e0d441c7abb422db26cc8ea871761cb7e95f0",
+    "sha256": "95b919aa78d76cda410185b93e084540ac6593147b58989cf4b73c1227e114db"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Installer/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "be0de3a9084121920bb85a79d284f6ed139ae0a9",
+    "sha256": "d7d034aed659fd37454b139cf9b557f06a9736e8de81965ad2be9e3c91dfc928"
+  },
+  {
+    "path": "modules/acme.modulea/src/Acme.ModuleA.Installer/ModuleAInstallerModule.cs",
+    "mode": "100644",
+    "gitBlob": "22e1b233fa57247b6cc4449be30b129cf52f757e",
+    "sha256": "f943b8c57cb08b579024adfe9caa93a82c86e47942c0442921e7430705beef4e"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.Application.Tests/Acme.ModuleA.Application.Tests.abppkg",
+    "mode": "100644",
+    "gitBlob": "a686451fbc0b12debc1308ff3b63df10b1cb8672",
+    "sha256": "a9a60dc04d9d8f4ec0cf5654781e3bdb1a9f3c699ca0a314cad7e37467b4ab39"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.Application.Tests/Acme.ModuleA.Application.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "fe2cc783d45cb11d1aba4ded7d8a1de3d3f29f36",
+    "sha256": "dfcb3fe488eda77af589296e477682d298c0837765d6d92c1c36dc2851817613"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.Application.Tests/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.Application.Tests/ModuleAApplicationTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "d8094f294471ae8bc866ec2e977168df9346049c",
+    "sha256": "94e044d094d103226d0ee4fd96d0a7b5d76ce76df34ccb5acc3116220cc16d57"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.Application.Tests/ModuleAApplicationTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "8dfe9d40dade985e856765424755daec70409718",
+    "sha256": "df36c7169ff17ccb354fee935de7d10e678d5f6b75f557df64242d3c7cc8db35"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.Application.Tests/Samples/SampleAppService_Tests.cs",
+    "mode": "100644",
+    "gitBlob": "e47297bd85e3deaa6becd32dd734b71310d5638c",
+    "sha256": "a2e8627a9318bad208dd4cb4bef77072e5b180e343d2bf51ca8edae11713ed3b"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.Domain.Tests/Acme.ModuleA.Domain.Tests.abppkg",
+    "mode": "100644",
+    "gitBlob": "a686451fbc0b12debc1308ff3b63df10b1cb8672",
+    "sha256": "a9a60dc04d9d8f4ec0cf5654781e3bdb1a9f3c699ca0a314cad7e37467b4ab39"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.Domain.Tests/Acme.ModuleA.Domain.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "34609255fdc6286c06a926067c488fa4095e5f60",
+    "sha256": "0b6ab7006fa8a317b93a7a821cc4f1db2b8aec97dd24f875e8b219ccc82a0cdd"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.Domain.Tests/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.Domain.Tests/ModuleADomainTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "e3d597286f11ce7b843583a9d83104b77ff90614",
+    "sha256": "3150f3e015f4081b61e2882c219d4552db71ded282156cfcb8842c8f3cb54b71"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.Domain.Tests/ModuleADomainTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "49856c294221e793d099ec76ba7b9aff3600e8df",
+    "sha256": "247e885b518a866eb4f770bce6325a14d87344bd199ecfa0975ca0ac463241e1"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.Domain.Tests/Samples/SampleManager_Tests.cs",
+    "mode": "100644",
+    "gitBlob": "aded8e28ed1b24c6d0205d1e45971d6f9ce9280a",
+    "sha256": "801dacbe70f8659541a4fd18f0698809030b2e8f286f045a63fde0aa19fffe3d"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.EntityFrameworkCore.Tests/Acme.ModuleA.EntityFrameworkCore.Tests.abppkg",
+    "mode": "100644",
+    "gitBlob": "a686451fbc0b12debc1308ff3b63df10b1cb8672",
+    "sha256": "a9a60dc04d9d8f4ec0cf5654781e3bdb1a9f3c699ca0a314cad7e37467b4ab39"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.EntityFrameworkCore.Tests/Acme.ModuleA.EntityFrameworkCore.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "1de403e450ff73d718bd9de4229b17651a2815f1",
+    "sha256": "192a1a311b96ae8958c4ab546c268baa6958a68c111b3a29fca4c150bc47fa4e"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.EntityFrameworkCore.Tests/EntityFrameworkCore/Applications/EfCoreSampleAppService_Tests.cs",
+    "mode": "100644",
+    "gitBlob": "b65aabe2fedceb66c2ed493a27213fbd240aa858",
+    "sha256": "2a46a5491481ecd26793035e3cf04a457585773e54e131fa0ab3720267b5ae87"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.EntityFrameworkCore.Tests/EntityFrameworkCore/Domains/EfCoreSampleDomain_Tests.cs",
+    "mode": "100644",
+    "gitBlob": "c58ac7e103bd6bc04d22dd211f1586dc770d1d2d",
+    "sha256": "67daae2ef5c027ad59fbf75068ac5c93fd858f15aa2a1e4c83c2e7bd10356a2f"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.EntityFrameworkCore.Tests/EntityFrameworkCore/ModuleAEntityFrameworkCoreTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "64cd6669a0ca7720da4d67d4706d20f1a0523e94",
+    "sha256": "c991b61f7278352147a1181274835c399d744d703b305d34e3726f041f3bbbcb"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.EntityFrameworkCore.Tests/EntityFrameworkCore/ModuleAEntityFrameworkCoreTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "5c67812620f22e7e53e2b3c77054162df41d545a",
+    "sha256": "ec18834b4bedb596d507084b9de789960550fe30c6bd458354c622bf4c1f2773"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.EntityFrameworkCore.Tests/EntityFrameworkCore/Samples/SampleRepository_Tests.cs",
+    "mode": "100644",
+    "gitBlob": "0d4c0170583111598e4d5e3ab382ff915e9a6338",
+    "sha256": "cd34841b40967ee8ca545e7b2070996cde7d5122c22d544dffe8d478a01eaffa"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.EntityFrameworkCore.Tests/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.TestBase/Acme.ModuleA.TestBase.abppkg",
+    "mode": "100644",
+    "gitBlob": "a686451fbc0b12debc1308ff3b63df10b1cb8672",
+    "sha256": "a9a60dc04d9d8f4ec0cf5654781e3bdb1a9f3c699ca0a314cad7e37467b4ab39"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.TestBase/Acme.ModuleA.TestBase.csproj",
+    "mode": "100644",
+    "gitBlob": "e7374e8833e3da4c1aa66cbf9f628585341e4f30",
+    "sha256": "29d49a17a51a3e4d54636c7005bbf6f35f40e0cb5a0438404070e35769a02bd3"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.TestBase/FodyWeavers.xml",
+    "mode": "100644",
+    "gitBlob": "1715698ccd28de818bee94b58b3936566415b066",
+    "sha256": "adb18af1847b5f684df781725e64e8e1bb97be1ba36d3e85aa969c222a150c7b"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.TestBase/ModuleADataSeedContributor.cs",
+    "mode": "100644",
+    "gitBlob": "86518c331a4b77da04ac2a7491ee9efea0575a7f",
+    "sha256": "9ad1e7b2352e8fdec4dca467717bb88240111fdfa21eaf9def9271a61a7fa8d6"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.TestBase/ModuleATestBase.cs",
+    "mode": "100644",
+    "gitBlob": "9a5412eae4e28f9c40049d75ffa9a64f2c62f2f4",
+    "sha256": "22c3f9cdbb957b4dcee0833d2e9d052ebc00777433a998cd1fb29e9a14f1c852"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.TestBase/ModuleATestBaseModule.cs",
+    "mode": "100644",
+    "gitBlob": "d73be1f9a1552847290b37fa47d04e063f90cfee",
+    "sha256": "1bba0eae97bc482aaa8ab6334b3630b604d1a08a196b93d509df4488289e2dce"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.TestBase/Samples/SampleRepository_Tests.cs",
+    "mode": "100644",
+    "gitBlob": "85e66003d7ceee3c5ee834bfe1e075ecb38412c7",
+    "sha256": "baf6ea51a97f96d2dc945d7c2c0f32f23e4d216613835c1c96975d7afeb87f58"
+  },
+  {
+    "path": "modules/acme.modulea/test/Acme.ModuleA.TestBase/Security/FakeCurrentPrincipalAccessor.cs",
+    "mode": "100644",
+    "gitBlob": "b6b1cff918b826b5d7d9143bb81133a109e20c54",
+    "sha256": "47edcf063c4eeb92cca8d0960e2bf9f45c2ab01a3db34c506e67e0d11917ca34"
+  },
+  {
+    "path": "NuGet.Config",
+    "mode": "100644",
+    "gitBlob": "5107236a8b72f3c32687b874b84826fff83bd994",
+    "sha256": "545740e5c3cd68a770e04a14c78263db0eb4410aaec9fa18cba851e074af9e7e"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "gitBlob": "9ffb3ab74e4b06411f51b96306c28f7798b4b6ee",
+    "sha256": "4f679a0e76c867d7d7528df8760d855d501796d5a45bdc286215286205b9fefd"
+  },
+  {
+    "path": "sample.gif",
+    "mode": "100644",
+    "gitBlob": "6f798419aeb6142257bd26a6de16ee08e64b1843",
+    "sha256": "af0380c4d7bc2b48676c31f968b0470a6a5d7ea1a0ebb6fec406a78e078efebd"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Application.Contracts/Acme.DemoCenterApp.Application.Contracts.abppkg",
+    "mode": "100644",
+    "gitBlob": "49032794e2e9fd8e3ca0d47f65c9a8f9c165efcc",
+    "sha256": "1e9927413fa64713364ed0ae7fe58f25200274967695d84549dc5c7e56a0cc09"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Application.Contracts/Acme.DemoCenterApp.Application.Contracts.csproj",
+    "mode": "100644",
+    "gitBlob": "d7e1d49d31326e70e90caf92e10cc2ca444db386",
+    "sha256": "c4558e3e69a90317636c11a00f9c2c5796809de68482082c77712836761b20aa"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Application.Contracts/DemoCenterAppApplicationContractsModule.cs",
+    "mode": "100644",
+    "gitBlob": "5f554269c4b0203583097d6698794fb7b5558b72",
+    "sha256": "5037047b71bba88770dbc0600cd57015ccf6abb46e4fb772944b6231d1b515f2"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Application.Contracts/DemoCenterAppDtoExtensions.cs",
+    "mode": "100644",
+    "gitBlob": "dfce6f92bf6b365e57682dc7bc7f8dbb5f367bb2",
+    "sha256": "7537385ae197c04e6d458a8a6dc03dc12f1bb5a0613acb210879c905974a5791"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Application.Contracts/Permissions/DemoCenterAppPermissionDefinitionProvider.cs",
+    "mode": "100644",
+    "gitBlob": "c231d5f224074e8ff7712e9d660ff13a8b7eabfd",
+    "sha256": "7e2b8e234c044f5394dcfe476eb94cea9a5c1659b52bd24dd15be999cdcb31e5"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Application.Contracts/Permissions/DemoCenterAppPermissions.cs",
+    "mode": "100644",
+    "gitBlob": "867c34956a28b8b73722b8b77ff39e9e240d86de",
+    "sha256": "d203a13614f2755464b962ae88963b355683ee58a0c5e62a30d0f615fc42d4e8"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Application/Acme.DemoCenterApp.Application.abppkg",
+    "mode": "100644",
+    "gitBlob": "412567ac33376cde6af7ad7ceae30f395171eba7",
+    "sha256": "618096d4d9c8b64252ff4e17968fea1993d464b4a59b3cb3776829123fa128ce"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Application/Acme.DemoCenterApp.Application.csproj",
+    "mode": "100644",
+    "gitBlob": "f512eedd05076b73f8578c13b5d39460dcf992c0",
+    "sha256": "11f09fe2ea9f9d28fc3dbdf533de3c8339ac3e04ef4b29f8d832abcc087f3761"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Application/DemoCenterAppApplicationAutoMapperProfile.cs",
+    "mode": "100644",
+    "gitBlob": "53d653674175a2df097f095df4294490f742336c",
+    "sha256": "0bbcdfe360e50edf4943cd15b7f0d139a2d0556a55b38512d0d13432d0a7851e"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Application/DemoCenterAppApplicationModule.cs",
+    "mode": "100644",
+    "gitBlob": "cd276c8a72569e58ba551a86f3712b9f662e82b0",
+    "sha256": "fa68871a5b13a2a1f5d77f013ae8a116dbb4813c48bee8cf732855e09c1645c3"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Application/DemoCenterAppAppService.cs",
+    "mode": "100644",
+    "gitBlob": "5b3a8ad8f99669cce662a22846378c86e32b2d27",
+    "sha256": "cde066111afa90979b49941f7cd42586ef64f36abf9b543945460647d1d2a95a"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Application/Properties/AssemblyInfo.cs",
+    "mode": "100644",
+    "gitBlob": "302e40070d68270b526c0d4ce45ac4e3d2c48cea",
+    "sha256": "7886d1f892a56dd5c56e1721c6e5f74772d759084b334ffa3f973cd08d18a1b6"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.DbMigrator/Acme.DemoCenterApp.DbMigrator.abppkg",
+    "mode": "100644",
+    "gitBlob": "9e26dfeeb6e641a33dae4961196235bdb965b21b",
+    "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.DbMigrator/Acme.DemoCenterApp.DbMigrator.csproj",
+    "mode": "100644",
+    "gitBlob": "6a875015d18d5ddf9c8033cbbfbcc948d1be3c9e",
+    "sha256": "6e4cc59e1ae0a70a6e359bec63ed0517691dc1663669190f93260af2d35358dc"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.DbMigrator/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "7b6ebe0cec512f23a068d36218a67f98df093f09",
+    "sha256": "c42e2ccd6894e9df2cdf7a3b4c8f358d81032334f6bf55811b4481f0d0b0d954"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.DbMigrator/appsettings.secrets.json",
+    "mode": "100644",
+    "gitBlob": "2c63c0851048d8f7bff41ecf0f8cee05f52fd120",
+    "sha256": "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.DbMigrator/DbMigratorHostedService.cs",
+    "mode": "100644",
+    "gitBlob": "35cf61050e8fb91ce5e8cfe808d0deeed872d84b",
+    "sha256": "b36d048e67f3ab720fb28ca1328e2c5ca41d7add413347e9b8964d9b550e2c36"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.DbMigrator/DemoCenterAppDbMigratorModule.cs",
+    "mode": "100644",
+    "gitBlob": "de081742821876180f8c240d13bbe3ddeff81f62",
+    "sha256": "0e3ad8987afb639e6a6bd904db6b16f54d80fa60af4beb3f7423a9353609e154"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.DbMigrator/Dockerfile",
+    "mode": "100644",
+    "gitBlob": "91142b49e24af7ffa5a8ac06f2347969beef717e",
+    "sha256": "34334ec1ee33f8a8a50c1c392c2a8774561236ed0510f0430e3fbb77e0719803"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.DbMigrator/Program.cs",
+    "mode": "100644",
+    "gitBlob": "02fed122c937743be6c7a17b75e2664623eb459d",
+    "sha256": "6d6f8a64ae87dc62e2a05b01585538e36bed27cd58dbaab2202a51c7499c383b"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/Acme.DemoCenterApp.Domain.Shared.abppkg",
+    "mode": "100644",
+    "gitBlob": "8b3de05f76d2d4cdeb4849a033af48716db73476",
+    "sha256": "ad7c3ba481f5c3615a8300b7370c31158e96161a37fbd1db943bfbd85dba81ed"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/Acme.DemoCenterApp.Domain.Shared.csproj",
+    "mode": "100644",
+    "gitBlob": "1de1718c8e38293a03d5c542e7f368b114eb5489",
+    "sha256": "54b995d209affdc7fa1c832aaf91b4a6e0fc0da7d5236f1d085db427dd2794f5"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/Customers/CustomerConsts.cs",
+    "mode": "100644",
+    "gitBlob": "1e4a6cba6ec546973181613a72e22d645c7f7402",
+    "sha256": "82cfb0b6825818f3bc3b0cc4ecf428b020e6c723a24f59f2b4e5ae804fdd78ba"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/DemoCenterAppDomainErrorCodes.cs",
+    "mode": "100644",
+    "gitBlob": "f800f3fa2e50fcf196338c82cda45711ca0f4b15",
+    "sha256": "06d0c606fdb585055233a6a15759a6939f93094ef01d2dbf120babf6bfb79ba6"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/DemoCenterAppDomainSharedModule.cs",
+    "mode": "100644",
+    "gitBlob": "bd65ce7ecf480f8c559f9572254b4d3e70d129cf",
+    "sha256": "ded37b27bb42e8041e088fefdd39957be5054db7fdb8280dabb84013f3044509"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/DemoCenterAppGlobalFeatureConfigurator.cs",
+    "mode": "100644",
+    "gitBlob": "5691cd7b9b34ce226725a311a9ebe20eee9cd17e",
+    "sha256": "c4853546a09f34af1062f269d78719b5f4e0f17f4a20478a2e55b9e5cd8354da"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/DemoCenterAppModuleExtensionConfigurator.cs",
+    "mode": "100644",
+    "gitBlob": "75c3189cc9011763e5417a5ed0a88cc20039fd80",
+    "sha256": "893488a033ba46725c232e97703ae864d405720b12f967d71fa5cc778a8a0618"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/Localization/DemoCenterApp/ar.json",
+    "mode": "100644",
+    "gitBlob": "af42d14b9a28ab080d2a4cb5b038359fd8c286ad",
+    "sha256": "0c552b0aa4fe96b407e293912a2736ead3c5e62f0ed7bce583a3399d27b94b9f"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/Localization/DemoCenterApp/de-DE.json",
+    "mode": "100644",
+    "gitBlob": "d1c8df278d46ee98bfaaed122ae40b7455c634e3",
+    "sha256": "b80d7d934a50840839a39b21eb5336dfed651d86f292b5682c69c9a8aef8f1e2"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/Localization/DemoCenterApp/en.json",
+    "mode": "100644",
+    "gitBlob": "132321332ecdf65e864944cfce89958eae524c20",
+    "sha256": "a39307d48182be73a5ebf3182f4ddfe4dfb8e0d8b3dc8736950bef248a97b692"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/Localization/DemoCenterApp/es.json",
+    "mode": "100644",
+    "gitBlob": "1ad5ebe7467fc51530439e5546613b268e6db414",
+    "sha256": "fb95c223ea5a07e6ee52277163fcb59a149287827ffd39bdcf29021e186c3ba4"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/Localization/DemoCenterApp/fi.json",
+    "mode": "100644",
+    "gitBlob": "6d0a192cf4c4783568c56a6c56eac085c44c20e1",
+    "sha256": "61feecd81cb814a1b1f09a93de7c1ec2124838dcaf83cca65e8042f61626d4fe"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/Localization/DemoCenterApp/fr.json",
+    "mode": "100644",
+    "gitBlob": "45dc6eaa8b53f51d1e8ee5098c2a37a8d9ee76b8",
+    "sha256": "06b3ea541294165a26d25bc2273253b90a044585539436dcfa8e0744ca04eea8"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/Localization/DemoCenterApp/hi.json",
+    "mode": "100644",
+    "gitBlob": "8d68738ae86b511151e01a7eb7f38a1cd4c3d1ea",
+    "sha256": "92f7d9c422b6a4f608fd57e4c938a82c5d61716b93760925c6a7fe62886b326e"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/Localization/DemoCenterApp/hr.json",
+    "mode": "100644",
+    "gitBlob": "f37b498d43df6ae3b0bf20c607d5ede6409fbf73",
+    "sha256": "89c0c837cf3f80a4c84389c6ebb611eac1c74a6b0f249ad674511f983f6524c2"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/Localization/DemoCenterApp/hu.json",
+    "mode": "100644",
+    "gitBlob": "f02fdbc2161bc96b433098f0c9cdf8724b3fc204",
+    "sha256": "ee992e839e6381930b60e9963ba1a264d6491e364695de4d5d2f8acc91386f97"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/Localization/DemoCenterApp/it.json",
+    "mode": "100644",
+    "gitBlob": "8150071786ed345279f1fdff15d6e8850cff3e94",
+    "sha256": "cf51d7d13c6a128fab399b5eb68350895003f6f72c99d715e4e4fce135fc521f"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/Localization/DemoCenterApp/pt-BR.json",
+    "mode": "100644",
+    "gitBlob": "95c419382fe2c6a03d0d27b7c7ffb97070d81122",
+    "sha256": "a6f53f62c610014620f80aa896bcaa69ad3a8780282e7bf78ad6d597bf44f8e3"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/Localization/DemoCenterApp/ru.json",
+    "mode": "100644",
+    "gitBlob": "5a3d5e85b651626e60b7dee86f103d9ef2fd696c",
+    "sha256": "cc8339e85a7769dc1a20474c5c2bd83bf64a7c3977fdb65917acc3d0cc8a1c82"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/Localization/DemoCenterApp/sk.json",
+    "mode": "100644",
+    "gitBlob": "705783ccbe6511efb97d7c442cc4902a4a221efc",
+    "sha256": "30fa0b8ce298b41c4495fa3aab0dd8ce1c73051446c5268ac9086b5725ac8c7a"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/Localization/DemoCenterApp/sl.json",
+    "mode": "100644",
+    "gitBlob": "2706b9edb883598b8861a3f0d01f9dfdcbf8d295",
+    "sha256": "f9d8c0ef8fd3996986bd717a494109d68aa81aec53956643075c074dd7995c2b"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/Localization/DemoCenterApp/tr.json",
+    "mode": "100644",
+    "gitBlob": "7809aeab6328e9d814393bb7c6a662716f2ad8d0",
+    "sha256": "dc88bbb432059a853fed63324531691df98ade9a24b0485e2b770b0d7ea28b92"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/Localization/DemoCenterApp/zh-Hans.json",
+    "mode": "100644",
+    "gitBlob": "0681d4e297721da107204fd14296baa6233c326d",
+    "sha256": "6c5af3a8b97c16e3d757f4ab6dcaca789232ecd03f8b601ea19369cfb4c3aa81"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/Localization/DemoCenterAppResource.cs",
+    "mode": "100644",
+    "gitBlob": "34049b1052b986310469d9b96975a7e55a8fc4a1",
+    "sha256": "769d84973ba2309e48a02e4ea5ee2fbb898ec09190543f6ffb88b7235ef8cd52"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain.Shared/MultiTenancy/MultiTenancyConsts.cs",
+    "mode": "100644",
+    "gitBlob": "052f30d31b004642083b0ae9b4daf4d97ca23638",
+    "sha256": "932efa540c93183d4e35ece89f827408bb71886586528e4407b22a6e1a2f79fc"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain/Acme.DemoCenterApp.Domain.abppkg",
+    "mode": "100644",
+    "gitBlob": "1d574efe45d829b153ea64080509159f90ff0929",
+    "sha256": "34770b5b94b9918635feb165def63dda89636e3035e31cbd5f17e27e6940404f"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain/Acme.DemoCenterApp.Domain.csproj",
+    "mode": "100644",
+    "gitBlob": "9681779d43961f4da116c981a2ac036423fe89d2",
+    "sha256": "6acb4d0b646d38779de48a28c54c47c34f7c8eb822a5ea3a69a39f7562ad38a7"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain/Customers/Customer.cs",
+    "mode": "100644",
+    "gitBlob": "42d904e06140128344dcd584abdf7b81b8b3a752",
+    "sha256": "a92c73107015b4919d0bc4e9d63a953dad9236d9ddb5919d93bf819dbe0aa642"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain/Customers/ICustomerRepository.cs",
+    "mode": "100644",
+    "gitBlob": "7098024194d89ba1c629311fc845226af6df2e08",
+    "sha256": "9f5c47a1b656b69843fd4c9091089592b5138475ef2ce09a870fb5c0306199da"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain/Data/DemoCenterAppDbMigrationService.cs",
+    "mode": "100644",
+    "gitBlob": "9a583e4a0a5335fb09f3ea023f115055b612a9dc",
+    "sha256": "066f151d6229ac9288c1b5bc35634cf5e5b2375c98588e46a0cf7eec30c7c509"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain/Data/DemoCenterAppTenantDatabaseMigrationHandler.cs",
+    "mode": "100644",
+    "gitBlob": "8a645d5214a47fdce4806e93d68f472f4e6018e1",
+    "sha256": "a700b1c5dd10a1aaffd238faa350a25fd1dcbbbbb30f9825bd451f8a6c729c03"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain/Data/IDemoCenterAppDbSchemaMigrator.cs",
+    "mode": "100644",
+    "gitBlob": "a034bb6d49344912090bee1c6b4029fab9e44aff",
+    "sha256": "727ad066c9af6fc528c95ba618586f580dfa15b2ab226e58ff7dfe95bd2c18ce"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain/Data/NullDemoCenterAppDbSchemaMigrator.cs",
+    "mode": "100644",
+    "gitBlob": "822c223214e5fdee6f61d9582359ad058dc5cf7c",
+    "sha256": "bae6d53ceacd08007cd6c402f1d12899102ec28d739e86aa29371681ce4a95a1"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain/DemoCenterAppConsts.cs",
+    "mode": "100644",
+    "gitBlob": "9a5f2803df12ead4c9f7642fd9cf45f0b43a7047",
+    "sha256": "e835989db6ed54871d147ab23861bdbd5152ae685e47a5a963607c8e5ac7ef06"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain/DemoCenterAppDomainModule.cs",
+    "mode": "100644",
+    "gitBlob": "2eb44ac9ce9e8759931562837386470a6626f1c2",
+    "sha256": "424119c264f85ece98cbc88fda6b417f5ad925c8f5c0cd387eacaf779097a384"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain/OpenIddict/OpenIddictDataSeedContributor.cs",
+    "mode": "100644",
+    "gitBlob": "d8181f85d48f6631af207d8a5278bf966baca04f",
+    "sha256": "b52c02304a6775613f1776893b38d221fed2616c8b89259017002d8f1e679920"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain/Properties/AssemblyInfo.cs",
+    "mode": "100644",
+    "gitBlob": "cfdce724f2a898492cf0bb9dfcfa9230bc825fad",
+    "sha256": "ab982447e90932f92cf9f178301e68666da7db10efcd5e3d365772eaed8e42df"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain/Settings/DemoCenterAppSettingDefinitionProvider.cs",
+    "mode": "100644",
+    "gitBlob": "ebca2a6f6f11f927515109c5cacc61ec5c1d9812",
+    "sha256": "a34e9e748e45b3e516bf9495a2f37ae8d3eb77b30227738771dfa8b6c1878769"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.Domain/Settings/DemoCenterAppSettings.cs",
+    "mode": "100644",
+    "gitBlob": "a310e0ab03919b27c3a440ee7e73c4098669be23",
+    "sha256": "610132a06d9ab40ac43d37b6d22f88e7728d4c4f95a115aa383cb62f778443a1"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.EntityFrameworkCore/Acme.DemoCenterApp.EntityFrameworkCore.abppkg",
+    "mode": "100644",
+    "gitBlob": "e1c64f01753c7d95325589026777ebaea1cae237",
+    "sha256": "b2dfd7711b01563d569a179d394bb115e038d73d15fe84cccf44aaa66f2da25c"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.EntityFrameworkCore/Acme.DemoCenterApp.EntityFrameworkCore.csproj",
+    "mode": "100644",
+    "gitBlob": "64524f2814ab1e8b80e4ff843c11dc9b5be62024",
+    "sha256": "8a52df816a20517b16c39185ddcb0ab63fc1b6e51acfdd30ce33b587c305e994"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.EntityFrameworkCore/EntityFrameworkCore/DemoCenterAppDbContext.cs",
+    "mode": "100644",
+    "gitBlob": "97a0eb2b9ee5ff75fff1f4863ee34f400f7b2b06",
+    "sha256": "dcc4b10cb4cd0092899d7de517b814d1648242b85759b4c595cf4ba539d86f4a"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.EntityFrameworkCore/EntityFrameworkCore/DemoCenterAppDbContextFactory.cs",
+    "mode": "100644",
+    "gitBlob": "2dbe7483a584f83acab0f40c648347e653c96421",
+    "sha256": "fec984e9c72de2b2e34e095fc1bc1468f4a39b451ab024083444adac559be768"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.EntityFrameworkCore/EntityFrameworkCore/DemoCenterAppEfCoreEntityExtensionMappings.cs",
+    "mode": "100644",
+    "gitBlob": "77a33a4d20c039ab147c8b4cd10fa487965ea637",
+    "sha256": "6fcd3f649321d6b50f279c04c5b38857c4ad29017c872c3e19520a75a25f2e34"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.EntityFrameworkCore/EntityFrameworkCore/DemoCenterAppEntityFrameworkCoreModule.cs",
+    "mode": "100644",
+    "gitBlob": "88263027c2f478a708e8cd401597199375fb88cf",
+    "sha256": "2410ff57de21d64cc1ac6e057d82a9f880d06419b624a5340f83560d63e84866"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.EntityFrameworkCore/EntityFrameworkCore/EfCoreCustomerRepository.cs",
+    "mode": "100644",
+    "gitBlob": "d21e78f8e77d14c0ef97056be3d28d928a208134",
+    "sha256": "b67b5e33404cb60188316a80b67d0dab9189193f5936f7e64911673c77b32e73"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.EntityFrameworkCore/EntityFrameworkCore/EntityFrameworkCoreDemoCenterAppDbSchemaMigrator.cs",
+    "mode": "100644",
+    "gitBlob": "fb78981cd6d79c145db4ebc3ce8b98193c052936",
+    "sha256": "e541137e35888e8c0234035c5c96e40c72440327770dea5477ecbfbea384131d"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.EntityFrameworkCore/Migrations/20240912065242_Initial.cs",
+    "mode": "100644",
+    "gitBlob": "c989c903e6a02323d4932a816a78cebe9b31bddb",
+    "sha256": "ca6247b145306605c97db7372065d9afa71a783210ed858e1e3cfecb57b20b60"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.EntityFrameworkCore/Migrations/20240912065242_Initial.Designer.cs",
+    "mode": "100644",
+    "gitBlob": "c6b15f59e520caf6c784a83e14bed70c814d341b",
+    "sha256": "3fd06d069607d1dbabfdcd9ce9dc50af4afe316222552c3cbedc7df9e0e8d7c6"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.EntityFrameworkCore/Migrations/DemoCenterAppDbContextModelSnapshot.cs",
+    "mode": "100644",
+    "gitBlob": "5ac3f2ac72d6bcbb6e0b8b23f19326e87618334a",
+    "sha256": "487e541f1c1b17c4e84498a936357031f6cc60a9356a7618e97db209ec980e23"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.EntityFrameworkCore/Properties/AssemblyInfo.cs",
+    "mode": "100644",
+    "gitBlob": "8896532e71870ddeb90e75a640f36b671efd161b",
+    "sha256": "3f6f0c5e64ce13cc42d6d7be7a681440f0b144351697cc13473044332274878d"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi.Client/Acme.DemoCenterApp.HttpApi.Client.abppkg",
+    "mode": "100644",
+    "gitBlob": "7deef5e383e9ee7d4ab83501dfe782034ea7ea83",
+    "sha256": "f862e66ae0d22c85fb6eb9718776fa30d768dfbf732667105a92a6da6c0409ea"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi.Client/Acme.DemoCenterApp.HttpApi.Client.csproj",
+    "mode": "100644",
+    "gitBlob": "9fa5d0ddd1f3bdecfb01a3c824400eb4cca76e17",
+    "sha256": "b65fb3526582315e5454e1cd80210667b4732bd934819cb7478ee71407dca3e1"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi.Client/DemoCenterAppHttpApiClientModule.cs",
+    "mode": "100644",
+    "gitBlob": "9a879d120163d921f534b4445be0f0caf3a251ec",
+    "sha256": "f41413fa3de067abce6e2c4e30b2ee35b7d8d724f66120711bfc75b36afcba7b"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi.Host/abp.resourcemapping.js",
+    "mode": "100644",
+    "gitBlob": "4a2ad4589644bbdd2cd3c836c12688c7102a5b54",
+    "sha256": "8d4d2e9bf16d2ffef65e2b94f2873c41144038b0d748ff8aae44f813007eb63c"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi.Host/Acme.DemoCenterApp.HttpApi.Host.abppkg",
+    "mode": "100644",
+    "gitBlob": "d5b2efbcfd860a33320d9574a85e25f05e406bed",
+    "sha256": "5ef449824cf9d0ed71af5d0bb813b89b86e057eeae96789249668f57e035ec5c"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi.Host/Acme.DemoCenterApp.HttpApi.Host.csproj",
+    "mode": "100644",
+    "gitBlob": "aba14a903b624254ffbd6d4b76d8f0a31db7bb3a",
+    "sha256": "8bc39e3447ad6d975791b693b7b0fb7eaee123875ff54b09b7e03362cfdc0fad"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi.Host/appsettings.Development.json",
+    "mode": "100644",
+    "gitBlob": "2c63c0851048d8f7bff41ecf0f8cee05f52fd120",
+    "sha256": "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi.Host/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "eb2e45de1016d7abeb4a7fa8ebed8570458597e5",
+    "sha256": "187ff48ae2e64c3f887cc33acbbadac7286997f07334b5ba9d5aa5e4a71abcb4"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi.Host/DemoCenterAppBrandingProvider.cs",
+    "mode": "100644",
+    "gitBlob": "3ecf93b99286474f08eedf4259b9bc14f756e4d2",
+    "sha256": "2221d3c620c709b60bac8f395d191351bed488462ee47d7092c37837039a8b80"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi.Host/DemoCenterAppHttpApiHostModule.cs",
+    "mode": "100644",
+    "gitBlob": "c1e7b0fab3a0d4ece1102d7c0dcc8623ebef596b",
+    "sha256": "7f1318a058647af8ccb109adb13df60513aa136ed5f0d6550909565e9e8686cd"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi.Host/Dockerfile",
+    "mode": "100644",
+    "gitBlob": "df81254d28ad423f2b035e0a9b3a2e9174768a34",
+    "sha256": "15fccceee99c90a306983e72333e44b103fc96b1bb4a8200756b84b9d9925e62"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi.Host/HealthChecks/DemoCenterAppDatabaseCheck.cs",
+    "mode": "100644",
+    "gitBlob": "19c761bbaba421e484afe01c405aa227ac01803c",
+    "sha256": "0f6834c0d063dc6cfdcfc098bed78ba67824bd0740828d3f450408e92a06ef49"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi.Host/HealthChecks/HealthChecksBuilderExtensions.cs",
+    "mode": "100644",
+    "gitBlob": "972fa3473cbeaf19b43ca6c360eaddde9445ce76",
+    "sha256": "8de19ebcc80bc4e26e5723d7a56583a1464616f3de89584a97fea4a4c29d7eab"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi.Host/package.json",
+    "mode": "100644",
+    "gitBlob": "7a0fb0d2547a1b9313e034dc40be1410327dea64",
+    "sha256": "3e32d5b0db69cca441b806dc68023c7d251f9bc0816618ddb422c4a1bc39de79"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi.Host/Pages/_ViewImports.cshtml",
+    "mode": "100644",
+    "gitBlob": "c1da1f5f107073cb33bda44b29af50b0ca819024",
+    "sha256": "12f2ecf13ffdd45d83b0198a52d2bd0972c59a17dc4da1c61d0a1974ddec9fda"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi.Host/Pages/Index.cshtml",
+    "mode": "100644",
+    "gitBlob": "867c9389a047ad03318b2152d8c1e79d90b263f4",
+    "sha256": "5aa6efe5c0cb74f3e6c61d9d952544970f8d9f67498c47b3631b1e143c047439"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi.Host/Pages/Index.cshtml.cs",
+    "mode": "100644",
+    "gitBlob": "32dd263be2c0dfc120d617e23485ccde0873e35b",
+    "sha256": "e5f88dec47403275f87aecdd1f8df01427ed6c879517a43121c1338f57877c25"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi.Host/Program.cs",
+    "mode": "100644",
+    "gitBlob": "0ed58353ba12221aea3a2d8ffc50aa3deb89dcb1",
+    "sha256": "c941f93cdd41eb13fc5a2fdb94a8f2d56750b9517b92dffc892efa0f802e7a0c"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi.Host/Properties/launchSettings.json",
+    "mode": "100644",
+    "gitBlob": "40ae09dccbdfe77a0494e9501846642b7abbccce",
+    "sha256": "a0fbf66e02d87ac230eae0cc0aba75f404ef5b3aa5f1969bc182595a8f877765"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi.Host/web.config",
+    "mode": "100644",
+    "gitBlob": "d418cf7618850db6b8be60e3c4f358342be0e248",
+    "sha256": "03c9cc369c0a120d0899c98fa6ecb50e8eec42a36fafadd3813c0bbd064b56a5"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi.Host/yarn.lock",
+    "mode": "100644",
+    "gitBlob": "26071cd95a208e9b9f0316d92173f45ee521c508",
+    "sha256": "e033f353e88160d92e8e39923636962f73a0eafe05fd7361bff8699b1a4eef48"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi/Acme.DemoCenterApp.HttpApi.abppkg",
+    "mode": "100644",
+    "gitBlob": "515bfe64c457f27d31b16531ad451b24a5d96e5d",
+    "sha256": "5ff6c8684eca46faa4a04bbaa73ea5185d3992676adca325780c54c173cfb315"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi/Acme.DemoCenterApp.HttpApi.csproj",
+    "mode": "100644",
+    "gitBlob": "1adf4299974157ab9d63bb14bfe2d0b48959304e",
+    "sha256": "775042c7a8e444bf9aa05fb26fab1ab42a4c7e5a69ca69e793b17754c2338a3d"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi/Controllers/DemoCenterAppController.cs",
+    "mode": "100644",
+    "gitBlob": "2ef76c4d8ef4fa64d9f1bdc92919345e22053495",
+    "sha256": "d61c1378120ab5a2cd645e4a97e51487fad0dcfbcbc50884e61c3450302fb014"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi/DemoCenterAppHttpApiModule.cs",
+    "mode": "100644",
+    "gitBlob": "27471789e083726e5a3c1698128c889930275512",
+    "sha256": "a8dc50a79dcfefd3724f9599c568eb9e11ee384792e0e315c9566e14d24f1ec0"
+  },
+  {
+    "path": "src/Acme.DemoCenterApp.HttpApi/Models/Test/TestModel.cs",
+    "mode": "100644",
+    "gitBlob": "abec43c44877536fcb56cb7701882eeba9f68143",
+    "sha256": "e026c981ed1718ec27cc32a83dca2635c66c476695dd2b3867f491adf55eaae0"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.Application.Tests/Acme.DemoCenterApp.Application.Tests.abppkg",
+    "mode": "100644",
+    "gitBlob": "a686451fbc0b12debc1308ff3b63df10b1cb8672",
+    "sha256": "a9a60dc04d9d8f4ec0cf5654781e3bdb1a9f3c699ca0a314cad7e37467b4ab39"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.Application.Tests/Acme.DemoCenterApp.Application.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "5f5c2fa820a84cfc7fafc6864674354ff7ec0ec0",
+    "sha256": "3cb6d83e4e77eb5fa0e79ddceb9e57bf82b0b9bb3219d245e5b78b3443ea4c6b"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.Application.Tests/DemoCenterAppApplicationTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "c2be7470a1cd8a8392a940123cb0e8480b2e1ac5",
+    "sha256": "53466e4d50e4a4c456c3c7656dc017e95082d83da9cceeb23684c7203107d3f3"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.Application.Tests/DemoCenterAppApplicationTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "9a608a69abff9d4317d6f6f036e0f4011f17e47c",
+    "sha256": "929636d61c716d00a5dc42ca97caa8d40b4f4107db5304fec8a0bcfcf1916c71"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.Application.Tests/Samples/SampleAppServiceTests.cs",
+    "mode": "100644",
+    "gitBlob": "07ab4c7cd4f40e063252a0517caea5e3ed43c853",
+    "sha256": "512dad02074e14e5c99e09c79bbbe0b77c45f4e0682f96777f63592f6d2aae36"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.Domain.Tests/Acme.DemoCenterApp.Domain.Tests.abppkg",
+    "mode": "100644",
+    "gitBlob": "a686451fbc0b12debc1308ff3b63df10b1cb8672",
+    "sha256": "a9a60dc04d9d8f4ec0cf5654781e3bdb1a9f3c699ca0a314cad7e37467b4ab39"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.Domain.Tests/Acme.DemoCenterApp.Domain.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "6d8485e0ccd843f6f8894aa7085a3c42ac0a8310",
+    "sha256": "4d62bc7c5319486c96fdfebce54b2ee61ac208b702baefeab7211bc58110fc53"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.Domain.Tests/DemoCenterAppDomainTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "cc4a5f192e6168180e71cd70ccc5bf2eda7c7711",
+    "sha256": "7894cb945291434c7a42a8e3790c8959cea02a07aa185293502047fb25ce3394"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.Domain.Tests/DemoCenterAppDomainTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "964e0a3587b40396c9c48793925589e9b9022779",
+    "sha256": "68779b93293636c84bd48018329d1fa11dc6365592507b2c7baa4cdaa869d113"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.Domain.Tests/Samples/SampleDomainTests.cs",
+    "mode": "100644",
+    "gitBlob": "701496ad91f9f853e8d89335644ddfe53c00980f",
+    "sha256": "94803b70b21ce1727b5f92750fbacb7db49dda990c989c8fe42e8ae8ac13a073"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.EntityFrameworkCore.Tests/Acme.DemoCenterApp.EntityFrameworkCore.Tests.abppkg",
+    "mode": "100644",
+    "gitBlob": "a686451fbc0b12debc1308ff3b63df10b1cb8672",
+    "sha256": "a9a60dc04d9d8f4ec0cf5654781e3bdb1a9f3c699ca0a314cad7e37467b4ab39"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.EntityFrameworkCore.Tests/Acme.DemoCenterApp.EntityFrameworkCore.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "08996c38d457224ee540b63d1113e371bffffac7",
+    "sha256": "85f0f76bbbc95f370d91e52f5600e8a23eb61e388155c5f9223709a0c7a97517"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.EntityFrameworkCore.Tests/EntityFrameworkCore/Applications/EfCoreSampleAppServiceTests.cs",
+    "mode": "100644",
+    "gitBlob": "24173ff5b43797ea712bfe329a9a4c34eb3836f6",
+    "sha256": "adcf65e43cf9172c2362f7f00131c73a91faf09c59a5afd9a81728d327350bbb"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.EntityFrameworkCore.Tests/EntityFrameworkCore/DemoCenterAppEntityFrameworkCoreCollection.cs",
+    "mode": "100644",
+    "gitBlob": "b0177c45a35daa00a36b058b8f39540d26025485",
+    "sha256": "5c8d5d65641a033addcb7c09327c82be6d434f23901096950cee33d10b1d3401"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.EntityFrameworkCore.Tests/EntityFrameworkCore/DemoCenterAppEntityFrameworkCoreCollectionFixtureBase.cs",
+    "mode": "100644",
+    "gitBlob": "c7a82b2784ecc6d7a949999e1ea1800e09a062f9",
+    "sha256": "d9e3621deafb32d0353a065a0474947f21d6df29d5e806a605cd40324b2a4e87"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.EntityFrameworkCore.Tests/EntityFrameworkCore/DemoCenterAppEntityFrameworkCoreFixture.cs",
+    "mode": "100644",
+    "gitBlob": "dccced9e12fc39dd4fbd7abbed112c3362529f5b",
+    "sha256": "dc8e3ade64a1ac547a31e90bbfdc2ad4d4da6683cd16702cf05c61f21ad5e608"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.EntityFrameworkCore.Tests/EntityFrameworkCore/DemoCenterAppEntityFrameworkCoreTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "af2cb8b5388ba1b8ead4ae958f319dd24cda91ce",
+    "sha256": "467d102b39f5f2af9aa33b38abee8eb694a4828854f85bda7b36789b43913142"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.EntityFrameworkCore.Tests/EntityFrameworkCore/DemoCenterAppEntityFrameworkCoreTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "22f899eb9e70c46a501fe05a9df71458a26b33d6",
+    "sha256": "1b2fdab84948aec4852b318d14657cac2b3c2ae63bea38ada32ca3007254ead3"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.EntityFrameworkCore.Tests/EntityFrameworkCore/Domains/EfCoreSampleDomainTests.cs",
+    "mode": "100644",
+    "gitBlob": "8caad2f9db7adf9eedc0a0a3aa1b15782f28fb42",
+    "sha256": "4c441bc132739225772710d2ff12d2611c506ebce0cc81dff3a0eb27543042a6"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.EntityFrameworkCore.Tests/EntityFrameworkCore/Samples/SampleRepositoryTests.cs",
+    "mode": "100644",
+    "gitBlob": "b35be7900d91048b36da47d3f808be05c23f8608",
+    "sha256": "5c1394d3493b8b5d8fd94a9710969bce051e94e723b9611a57b3316c10fc8219"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.HttpApi.Client.ConsoleTestApp/Acme.DemoCenterApp.HttpApi.Client.ConsoleTestApp.abppkg",
+    "mode": "100644",
+    "gitBlob": "a686451fbc0b12debc1308ff3b63df10b1cb8672",
+    "sha256": "a9a60dc04d9d8f4ec0cf5654781e3bdb1a9f3c699ca0a314cad7e37467b4ab39"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.HttpApi.Client.ConsoleTestApp/Acme.DemoCenterApp.HttpApi.Client.ConsoleTestApp.csproj",
+    "mode": "100644",
+    "gitBlob": "c868f978010c446f0747e4a7690fcd254ce1c9ee",
+    "sha256": "9303bac4f022d299726863f55c6445934c402b27438d06e501856c1144c3b25c"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.HttpApi.Client.ConsoleTestApp/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "0882061c77e060b3b0736c47ab7d6ab076c979b7",
+    "sha256": "e4488325a1264e751eb5db07b4f6c23069fec422d915ae986aaef19f462aa624"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.HttpApi.Client.ConsoleTestApp/appsettings.secrets.json",
+    "mode": "100644",
+    "gitBlob": "2c63c0851048d8f7bff41ecf0f8cee05f52fd120",
+    "sha256": "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.HttpApi.Client.ConsoleTestApp/ClientDemoService.cs",
+    "mode": "100644",
+    "gitBlob": "5cdaaad45c3008295a80be6326a824a65d21fb75",
+    "sha256": "be35409831971cd63adb2e0ffd3d6a9422144a69976cf8adc8d3e0e0cd6195c7"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.HttpApi.Client.ConsoleTestApp/DemoCenterAppConsoleApiClientModule.cs",
+    "mode": "100644",
+    "gitBlob": "821d2c8aa62d2252980ac49efff0cb20a92cb674",
+    "sha256": "80e5f89935d06745ccb8b78e426b20e4ebe40f4d7a1e221f996264ef519cb38c"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.HttpApi.Client.ConsoleTestApp/Program.cs",
+    "mode": "100644",
+    "gitBlob": "3e247f0efe16243c23dbc1b84ceb4064163643d4",
+    "sha256": "4c897be60ba87c85b7853c4a1db19cf2efb1f37cc75d52dceabea932eaa15ee8"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.TestBase/Acme.DemoCenterApp.TestBase.abppkg",
+    "mode": "100644",
+    "gitBlob": "a686451fbc0b12debc1308ff3b63df10b1cb8672",
+    "sha256": "a9a60dc04d9d8f4ec0cf5654781e3bdb1a9f3c699ca0a314cad7e37467b4ab39"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.TestBase/Acme.DemoCenterApp.TestBase.csproj",
+    "mode": "100644",
+    "gitBlob": "d52cb0db1c579a335907c66e7057268ff600f7e3",
+    "sha256": "a382e0a062058d353d7cce9a32139f1b87673ae2333eb04300e12f50b66b65d5"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.TestBase/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "0db3279e44b0dc4fb7e694b6cb10210a96ba6ba5",
+    "sha256": "8e1d794b49e35ea828279c6a8c95282bbb9a0787cf5c9385256c2cc9d17baeb7"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.TestBase/appsettings.secrets.json",
+    "mode": "100644",
+    "gitBlob": "7a73a41bfdf76d6f793007240d80983a52f15f97",
+    "sha256": "8eb95bcbc154530931e15fc418c8b1fe991095671409552099ea1aa596999ede"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.TestBase/DemoCenterAppTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "4d8631a53eff45879eb9a4fdb1d5cd75a4b1fb54",
+    "sha256": "0ac92fed66a9d53040e9aa3608b4495d00f69f460214bbb2847f5880ec932f4b"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.TestBase/DemoCenterAppTestBaseModule.cs",
+    "mode": "100644",
+    "gitBlob": "ae767d52a08b77265ee4293eaa0dcb8492588660",
+    "sha256": "b0448f2ba6c283b0edb7383935d1e5349c541efe52e9029423b23fbc9ae387ce"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.TestBase/DemoCenterAppTestConsts.cs",
+    "mode": "100644",
+    "gitBlob": "bcde77e16d3cafc6eefe665e08944e49cc257f36",
+    "sha256": "1f0c686b49d8968516e317f7741efa72525fe1b7b548420bcd213f86627e01cb"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.TestBase/DemoCenterAppTestDataBuilder.cs",
+    "mode": "100644",
+    "gitBlob": "90c0c78443641abe298c01e60dec204610850bd0",
+    "sha256": "99f3c6eb7a05e34adfa92dcb3c88143960192ba1109cfa7a0f78cb78bf1436d2"
+  },
+  {
+    "path": "test/Acme.DemoCenterApp.TestBase/Security/FakeCurrentPrincipalAccessor.cs",
+    "mode": "100644",
+    "gitBlob": "4ba4e11ba7279b09828e91386f2a67021b68970a",
+    "sha256": "db4f40496968e303d006008eb04d5ffc6906980dccb87e7ca7fefb79aab82ef6"
+  }
+]

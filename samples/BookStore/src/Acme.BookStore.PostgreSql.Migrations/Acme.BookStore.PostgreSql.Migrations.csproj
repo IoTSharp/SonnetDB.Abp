@@ -1,0 +1,5 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <ItemGroup>
+    <ProjectReference Include="../Acme.BookStore.EntityFrameworkCore/Acme.BookStore.EntityFrameworkCore.csproj" />
+  </ItemGroup>
+</Project>

@@ -8,11 +8,31 @@ jobs:
   integration:
     runs-on: ubuntu-latest
     timeout-minutes: 15
+    services:
+      postgres:
+        image: postgres:17-alpine
+        env:
+          POSTGRES_USER: sonnetdb_abp
+          POSTGRES_PASSWORD: sonnetdb_abp_demo
+        ports:
+          - 5432:5432
+        options: >-
+          --health-cmd "pg_isready -U sonnetdb_abp"
+          --health-interval 10s
+          --health-timeout 5s
+          --health-retries 6
+    env:
+      BOOKSTORE_POSTGRES_CONNECTION: Host=127.0.0.1;Port=5432;Database=postgres;Username=sonnetdb_abp;Password=sonnetdb_abp_demo
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-dotnet@v4
         with:
           dotnet-version: '10.0.x'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22.x'
+      - run: npm ci --prefix samples/BookStore/src/Acme.BookStore.Web --no-audit --no-fund
+      - run: node eng/Copy-BookStoreAssets.cjs
       - run: dotnet restore SonnetDB.Abp.slnx
       - run: dotnet format SonnetDB.Abp.slnx --verify-no-changes --no-restore --severity warn
       - run: dotnet build SonnetDB.Abp.slnx -c Release --no-restore

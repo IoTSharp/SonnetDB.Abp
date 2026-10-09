@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>DynamicDistributedEvents</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Volo.Abp.Autofac" Version="10.3.0-rc.1" />
+    <PackageReference Include="Volo.Abp.EventBus" Version="10.3.0-rc.1" />
+    <PackageReference Include="Volo.Abp.EntityFrameworkCore.SqlServer" Version="10.3.0-rc.1" />
+  </ItemGroup>
+</Project>

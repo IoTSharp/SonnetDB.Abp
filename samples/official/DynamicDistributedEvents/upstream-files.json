@@ -1,0 +1,182 @@
+[
+  {
+    "path": "docker-compose.yml",
+    "mode": "100644",
+    "gitBlob": "7f3873bcf15878ad4d21b86943505725e7a5fc03",
+    "sha256": "4212bf4f0a53b3e337709097306d42b98dae7149337c3842c955c385928b1366"
+  },
+  {
+    "path": "DynamicDistributedEvents.slnx",
+    "mode": "100644",
+    "gitBlob": "c1199b19783bfec825e99c218626e9a4102e23b2",
+    "sha256": "5ad73122097dded1ec40c95304f7464d4ac2163a520e0505f4ab978f6a29bd7c"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "gitBlob": "8d6992fb662d835a5821afdf635d57bf66f21cde",
+    "sha256": "14f7f6e2c817bc0eac4aaf2c849a8660da95737b5897306cf6cca2d99a2e68d5"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.Azure/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "705c6edcdd22ccff9171241c3fad36894293b3cc",
+    "sha256": "a53a20efabb9207e0edace60b80524b0809351035b70dc0f1c4a05b265680be6"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.Azure/AzureModule.cs",
+    "mode": "100644",
+    "gitBlob": "8aadd4909ab7e803d3c4559acf454b4c615f6625",
+    "sha256": "7d18ff93abbc60589c8de89fabbc03580aa3e74fca06a2895d023e98674b5c53"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.Azure/DynamicDistributedEvents.Azure.csproj",
+    "mode": "100644",
+    "gitBlob": "cbe63c30c75fef55778d5dd2648d3cc896df840a",
+    "sha256": "9d74cf1465893e70ef1dffd3a5f1afe1f463ccd62daac713323a9cdf429e6713"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.Azure/Program.cs",
+    "mode": "100644",
+    "gitBlob": "6b4ecd1fa405578520d4adefb4caa6f218098a0c",
+    "sha256": "4a1eba6cba377e02cf09e7c987bec1806a5e3aa43aa266a01c49782c072376c4"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.Dapr/DaprModule.cs",
+    "mode": "100644",
+    "gitBlob": "d012a71835a765101554cd20f151973e2fe36bb8",
+    "sha256": "81eb9a035499a35f9a823c0b72409d32e4b4b8da82acd8844d00c900051ee997"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.Dapr/DynamicDistributedEvents.Dapr.csproj",
+    "mode": "100644",
+    "gitBlob": "6571c1b2b57e6871b90a01b4281cecc116264acc",
+    "sha256": "6a9b866de9e05089c942ae8fff2272649562a48a5a8d4390df9296570acfd166"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.Dapr/Program.cs",
+    "mode": "100644",
+    "gitBlob": "2a53756a48a9b5985375d167df0c32a441b95c79",
+    "sha256": "66f2653d9846cdb2a0e0286138ae9178f9fca6d5bd922053b807b2fad857fa7f"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.Kafka/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "636ca9226a9afa82c69d90b7f6d2c3f4c76a5182",
+    "sha256": "19582deb34480563d71bd480f5ec7d6dfa2b1795edaea153a7b14017d3b7bac4"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.Kafka/DynamicDistributedEvents.Kafka.csproj",
+    "mode": "100644",
+    "gitBlob": "48fecefb87bf65c6108d1eb2cf494a6cb2e1ee57",
+    "sha256": "ba192379e82a9ef8a8bbe074e57f9e311aeda4c2459b567cc96c0206eee0e316"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.Kafka/KafkaModule.cs",
+    "mode": "100644",
+    "gitBlob": "b406ac2c2b0f2339d3dfc225f8f1b4d692448cce",
+    "sha256": "d677824bfbf524ffb8501072bced7901c218218f066d60566a7429c22b864408"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.Kafka/Program.cs",
+    "mode": "100644",
+    "gitBlob": "411afcea7f70de7b0acf8998bb3d731daaa51c7d",
+    "sha256": "b6524cba6a44faf0d2237741809e425deeead709be54fb571e35d9ed0ecabcd2"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.Local/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "d27b5d46b12182369a8a757636844cc96d3d2796",
+    "sha256": "f2cb374ab90dba77c589a3f56c7ad64d2292ae345d83187431f005e18318d78d"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.Local/DynamicDistributedEvents.Local.csproj",
+    "mode": "100644",
+    "gitBlob": "a1a8be4525b2ad660046a983b6eb575eedb60ed6",
+    "sha256": "4d5c6d1965ad753f20cd2fef10fa67fde40c1780e42caefb5594613a4024d2d6"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.Local/LocalModule.cs",
+    "mode": "100644",
+    "gitBlob": "fcd69317c34f43eeba23f9ac2fcf85df181362e5",
+    "sha256": "2bd7ce43b1c7b26a1d4b8cf4d1201ad16a6013901bd969183f80e110feeec6b8"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.Local/Program.cs",
+    "mode": "100644",
+    "gitBlob": "170f4def27d4b5e8538289b9d7d47a7e95318a10",
+    "sha256": "a5444fa24f357d7ea34829f8f361aa69229633a131c3d2ef2b3fd6752b0990d0"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.RabbitMq/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "9862917e3dd684b3195667610cd917e163ac6123",
+    "sha256": "1290620605b8a263134e71f4d6c57861874bab2593b2ecac3e4c83d9cfe8b26e"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.RabbitMq/DynamicDistributedEvents.RabbitMq.csproj",
+    "mode": "100644",
+    "gitBlob": "313b038eb5952055c9692040896924c890c6970b",
+    "sha256": "76010d173c7a946660d3f3f740f4486eee6ee55acff15043c50f5955b1763862"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.RabbitMq/Program.cs",
+    "mode": "100644",
+    "gitBlob": "42a8d60ae4880720faaa9a2212409e9723982071",
+    "sha256": "3b45398e85c2f3cbbce973cdf22c649513450c9d6abd0b323a134f8b4140c414"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.RabbitMq/RabbitMqModule.cs",
+    "mode": "100644",
+    "gitBlob": "db81292854b8c6bec9a86b4c49f6f8e3b08861ee",
+    "sha256": "cb1c45cd53ce0f995a9cdd31091314c48d2890e962c7554740931ebc0c84cfa6"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.Rebus/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "a492e6935339dbe55992f9c0124c698a50f7360c",
+    "sha256": "7759ada7e1ef2ce810d86c9ade8cf5bcc5844ce5e24523128a819930d0d57eed"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.Rebus/DynamicDistributedEvents.Rebus.csproj",
+    "mode": "100644",
+    "gitBlob": "f1aa086e99d700e1e295ab96badf926b29ba6422",
+    "sha256": "f4f62d47f8e16c1e2e6b951139805d217eacecbd1aa341ce4a60373bd7f69825"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.Rebus/Program.cs",
+    "mode": "100644",
+    "gitBlob": "5db23d94626b3f04573d0042da39ed1ec88525f8",
+    "sha256": "91f9036d423af3266f6f86d07a00b7f0227214232bce4a4c913740dc8f4445c2"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.Rebus/RebusModule.cs",
+    "mode": "100644",
+    "gitBlob": "9cfbe7b8c5e9e40381cddfba8efb9ce5518ea776",
+    "sha256": "c67c3f5e526cb9b609f0611a21536b6210a9df6635d958e497a58fddf4c670f3"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.Shared/DynamicDistributedEvents.Shared.csproj",
+    "mode": "100644",
+    "gitBlob": "0bbf33d85bb6fcf2aad863de0632bfcc74e421cf",
+    "sha256": "da18914b7accc2e1d162c3d434670b1864ee71c58990e9494c0d334dbe2cf1d1"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.Shared/DynamicEventScenarioRunner.cs",
+    "mode": "100644",
+    "gitBlob": "819c44377c4d991afa75414a769ca8edb3d72015",
+    "sha256": "ad0d23ea3d541e0847e2a323515468db04636c5b847b94e1ab4607bc473c5cac"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.Shared/DynamicEventsDbContext.cs",
+    "mode": "100644",
+    "gitBlob": "ba4d78ef0f0cf3a80e1d2f42d4fe46301fb17ef0",
+    "sha256": "d4ea43db6121b18011427488d33d53724f8deec6ef6a9de286ed077e85f5c1b9"
+  },
+  {
+    "path": "src/DynamicDistributedEvents.Shared/SharedModule.cs",
+    "mode": "100644",
+    "gitBlob": "04d249b5d38fab6e3149ff4a41f983f78774d9c0",
+    "sha256": "132e73ec094d7a8ea230ecab5fa4db613ad92dfbb5d423dafef7ee21babea6b2"
+  }
+]

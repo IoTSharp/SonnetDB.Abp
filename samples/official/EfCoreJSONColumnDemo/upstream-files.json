@@ -1,0 +1,854 @@
+[
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "gitBlob": "c941e52669683c63ad9c3db2073b54ac74e20ba7",
+    "sha256": "13a51d1e2ad3b2997aaeb6295a568a555faa0c01c040f0db71a0d85c803cf111"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "gitBlob": "ed4fefd2554fbfd2fc6b5e06c82d99744af388aa",
+    "sha256": "d30d04414ea14d0ba08b20cf7775fad50a52de1505c334b5e3d26673b9647593"
+  },
+  {
+    "path": ".prettierrc",
+    "mode": "100644",
+    "gitBlob": "56af76bd946b9fb138e50acb89d460c7b857bc3e",
+    "sha256": "06d3746be94056a4b24f5a74c6bd1c5efd9492eeeba42ded768fa3043aa2f6ca"
+  },
+  {
+    "path": "common.props",
+    "mode": "100644",
+    "gitBlob": "7e89c3a06b0fd59cbf893dd272242effb9348e9f",
+    "sha256": "653369b881844d1ea98269cf3726635c53c1c21ff90dc80c987e5b1bd29ed8fc"
+  },
+  {
+    "path": "EfCoreJSONColumnDemo.sln",
+    "mode": "100644",
+    "gitBlob": "8e25742ecbe53cd935f61441024c3e2b79c85ac1",
+    "sha256": "2cb9eeeb8247e87426bff6983051623d0d46581f881f91e940252da3b504b8cf"
+  },
+  {
+    "path": "EfCoreJSONColumnDemo.sln.DotSettings",
+    "mode": "100644",
+    "gitBlob": "cb0b2c919f75c02f264be049b25b49828974664c",
+    "sha256": "a2720bad501f52bfc11a0b5a214408771b52e2e4177a7c85ff6fff8384dc4136"
+  },
+  {
+    "path": "readme.md",
+    "mode": "100644",
+    "gitBlob": "d7390f858d78872561d1868171457dd5f4b69215",
+    "sha256": "50f796e2c1177a6d09aeedb5aa96b84ba8acde5bc14526255023c2bbd2bef8ed"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Application.Contracts/EfCoreJSONColumnDemo.Application.Contracts.csproj",
+    "mode": "100644",
+    "gitBlob": "6ea798f13c0b8e98eefc843de8f4ac9239f5476f",
+    "sha256": "7bfa3d650eb6a53937c43dc8eaf94c4fca55b6ccb3e8eb28c9794e3732334449"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Application.Contracts/EfCoreJSONColumnDemoApplicationContractsModule.cs",
+    "mode": "100644",
+    "gitBlob": "68f5d96b6ae83d0fc979116edd3ddcb065b30bc8",
+    "sha256": "2c9e78c6f29a85ff935296f183f93fac6b1235968afcaef42f3762a15bbc5eb0"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Application.Contracts/EfCoreJSONColumnDemoDtoExtensions.cs",
+    "mode": "100644",
+    "gitBlob": "d41219ce80445fe19041a569b165b66de2597004",
+    "sha256": "d2fc7f4d3a91c850dad7e0ea6e7e59263d410b7af26b24e30a6101b28e6f5526"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Application.Contracts/Permissions/EfCoreJSONColumnDemoPermissionDefinitionProvider.cs",
+    "mode": "100644",
+    "gitBlob": "c062a3bbf767d95489bfc0a964e59d345967ec75",
+    "sha256": "6a5d02636cec0147266d6765ef82b46cdae7803d8bb4d755f687b37616432347"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Application.Contracts/Permissions/EfCoreJSONColumnDemoPermissions.cs",
+    "mode": "100644",
+    "gitBlob": "3a8410d28092c9032ca968f5f2196e93d25ec189",
+    "sha256": "37de20f0339e28674c3d9a532b3d8ac4bb5e787404553e7e30fb9fb418b6bf5b"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Application/EfCoreJSONColumnDemo.Application.csproj",
+    "mode": "100644",
+    "gitBlob": "1357fd942c9076c91b8b4c100630006ed74c4ae0",
+    "sha256": "3824cd20a0b25a3416d36595539797565a2fffd3a81ba00cc854b5fd79aa48b6"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Application/EfCoreJSONColumnDemoApplicationAutoMapperProfile.cs",
+    "mode": "100644",
+    "gitBlob": "b8b103ca3cbe0df1822fe9bb1d25eae014a4b3e4",
+    "sha256": "2022a6932e490c1a5d74b4109aacbc25faea6f002284ef35cefed4765f311ea1"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Application/EfCoreJSONColumnDemoApplicationModule.cs",
+    "mode": "100644",
+    "gitBlob": "0e0d82369d790c056b2e1d8b1958279e2e8ea8f0",
+    "sha256": "3956a025ef9e0cdb7fbc19cf3446e962ce3198fa19d3dd9816264edb1d6ff95d"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Application/EfCoreJSONColumnDemoAppService.cs",
+    "mode": "100644",
+    "gitBlob": "4ef34f3cdaa1b0dc7e5a94ea5d990e0e9db4e4d2",
+    "sha256": "411803a49502d30970c7af3ffcf30e1c88f6ab89b5ae92e25aea1ddcd938cc4f"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Application/Properties/AssemblyInfo.cs",
+    "mode": "100644",
+    "gitBlob": "ae63275ce773e64ea5090b83ceb20cd6259e2661",
+    "sha256": "ee0b005ca6790efaaf745227fe3f2e448edb9aa5b7cfb0897e29aeb5bd4e5e1f"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.DbMigrator/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "af221dd9e22a434bbf2232944484b707a5567d08",
+    "sha256": "2fb9ea3c777be7f46e20f322d65e0ceb873609c40757109125838751cbe31aad"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.DbMigrator/appsettings.secrets.json",
+    "mode": "100644",
+    "gitBlob": "7a73a41bfdf76d6f793007240d80983a52f15f97",
+    "sha256": "8eb95bcbc154530931e15fc418c8b1fe991095671409552099ea1aa596999ede"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.DbMigrator/DbMigratorHostedService.cs",
+    "mode": "100644",
+    "gitBlob": "1949c8406106d615781a125db24f208fa4224942",
+    "sha256": "9eec042f8b65d657505adf0050b5e96c08e104a73590e2dd7c760da741f48f0a"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.DbMigrator/EfCoreJSONColumnDemo.DbMigrator.csproj",
+    "mode": "100644",
+    "gitBlob": "9b7f88ba0e0d9baea07a4dbdf4d9467ca4795388",
+    "sha256": "94d38384fd594d9d54b0fdddebd302d83265819e9d0d5ed32eb591dc511c91ad"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.DbMigrator/EfCoreJSONColumnDemoDbMigratorModule.cs",
+    "mode": "100644",
+    "gitBlob": "28f1e35017d616718a02b5e0f0fc7a8e9f35ffe7",
+    "sha256": "dca5df73f38c70da1ebcf85f2f14f6a64074cdf296a217ade4e02ea7d43d5508"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.DbMigrator/Program.cs",
+    "mode": "100644",
+    "gitBlob": "32459a3d36e54a20ba0278df7f010bf461d1876f",
+    "sha256": "cf8e1f54df268752cf0934caf470ba800e0c08d2347a37d1a430dc3c07be0675"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/EfCoreJSONColumnDemo.Domain.Shared.csproj",
+    "mode": "100644",
+    "gitBlob": "7b48b3ca741892504262bba790d1c87767d7ee77",
+    "sha256": "6e094b6cec70a2863c48d0700e3634df8c93c23a4e8e0b3b88aeecb9ec47b608"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/EfCoreJSONColumnDemoDomainErrorCodes.cs",
+    "mode": "100644",
+    "gitBlob": "7d50bfb12e6f74b9547366a7991613a58171eec3",
+    "sha256": "4c5990f0cfa9e851f864e99b3c82b1d124aca74a99e1dc450cf551d6c41f79e8"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/EfCoreJSONColumnDemoDomainSharedModule.cs",
+    "mode": "100644",
+    "gitBlob": "3f9cd0b4cf275372971e1b69f29250b59e4ae30c",
+    "sha256": "102e1e3798e54f1ac3ff7d51fc56b03b90a2248b69b0074582d9e22eff6969f0"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/EfCoreJSONColumnDemoGlobalFeatureConfigurator.cs",
+    "mode": "100644",
+    "gitBlob": "b1b5c7ad93677f11555236a2e24598f115e96ed5",
+    "sha256": "1cb972e178bb11580d74ddcdedf3f2b1db50c487134eec53ee7495f0be3d8443"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/EfCoreJSONColumnDemoModuleExtensionConfigurator.cs",
+    "mode": "100644",
+    "gitBlob": "57b109461ed7552838854276653cbdc59d07ea49",
+    "sha256": "94746630c4b04e966b126d14bc02e81f07b054b56b1606e25db29e0e5143f50b"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemo/ar.json",
+    "mode": "100644",
+    "gitBlob": "96bbf80b40c6b18119ec5d67793564024b008d2d",
+    "sha256": "ac846e10e371d4b3206fbe8ba6644116ac0dd144670574648b99637fbedd5a63"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemo/cs.json",
+    "mode": "100644",
+    "gitBlob": "5a0bbf613e1c04db8e53bef212a64ad853cc084a",
+    "sha256": "d0913130082f87173f663e36888ed5b699bb6481e7a594b1783f45276bd79d76"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemo/de.json",
+    "mode": "100644",
+    "gitBlob": "831493be8675534fe19a08544dd3106ceaad9427",
+    "sha256": "86c6defce4ce18e3152358bd9c3b29ba5870e202fa9103714d02f9184faf06b6"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemo/en-GB.json",
+    "mode": "100644",
+    "gitBlob": "d2ca0793a3d3ee31ef911c195356ab0908b3c015",
+    "sha256": "bc1439cff74f5144bd6bcdf4bab06edc10030d1c2015c95ff0e20737f38e9fa1"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemo/en.json",
+    "mode": "100644",
+    "gitBlob": "d2a6a9831ebc67b7db1f042c0d955a57ebb3926b",
+    "sha256": "faec2df7fa9849a8d7c650a4a681fdd979503b58db33c55bfdc479d48ed562f2"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemo/es.json",
+    "mode": "100644",
+    "gitBlob": "31b4b59e256acf17b6271340649e268fb0c62602",
+    "sha256": "58abd217ddab4c7eb64df39e03d11c78284ba7e7ee465b51dea9a957cc80eeba"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemo/fi.json",
+    "mode": "100644",
+    "gitBlob": "a318859f23d1d1107593fed1d0d5fcd4c4ab5fc7",
+    "sha256": "fb8383022d309bffe9a152aa12368a4be20fa78131a6c917aabe37f74329d58c"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemo/fr.json",
+    "mode": "100644",
+    "gitBlob": "e76eac0c710ea581d1105a718fe6be27e998d8fb",
+    "sha256": "f4955a8edb72656750a20b6aa37bfeb22b4446605273718049789de298e94dbc"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemo/hi.json",
+    "mode": "100644",
+    "gitBlob": "a1676bfd45094468e1958ef23b2c75872fa74f3d",
+    "sha256": "d339e37d113a17a4acb7f84d20b7072dba2b2c2cf20a2444f462fdd34e92c4f4"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemo/hu.json",
+    "mode": "100644",
+    "gitBlob": "c7b6a33a0f985c43ff60a6f41e0c34b9f9a4de26",
+    "sha256": "25aaf4e277498ea38e66047f913d9b7e47759718a228d72cf7923568359278a6"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemo/is.json",
+    "mode": "100644",
+    "gitBlob": "190df903738ea466c6b0b94a72cfa5616750b9f6",
+    "sha256": "e317c8800b90121ccbf264d58245ec4369d664f92c4b144b4ddcccfafeacc338"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemo/it.json",
+    "mode": "100644",
+    "gitBlob": "82ce42b0338735b08eb0aad235532003c8244cc8",
+    "sha256": "aa87dc231177e0431a1287caa732d47bdf0e85c568c9339cb99323429d6372ce"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemo/nl.json",
+    "mode": "100644",
+    "gitBlob": "9ba8da4743b552618c50bf2c6c87e27f6b175df3",
+    "sha256": "9fe18054ee5928c4845fdb7452d76775f036ac79a0008771a90a63a67eb6c87f"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemo/pl-PL.json",
+    "mode": "100644",
+    "gitBlob": "33412f307ca4b0ed7af9ee52484099c067fe6ca5",
+    "sha256": "a12f7381fb09fe215f30f42e4a547a4fc46271397530bf094eee671bcfab4bc4"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemo/pt-BR.json",
+    "mode": "100644",
+    "gitBlob": "8c818a07af405ba8caf208bb7b49d390a2c844b2",
+    "sha256": "c5b656f1ab373b18559d72ae781244dcae871c24084018c7c40a44fdded57181"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemo/ro-RO.json",
+    "mode": "100644",
+    "gitBlob": "1fe560196eb543a8d1d82491853753b004aeaa76",
+    "sha256": "662761b5866e679de8ef8f0bc807955d5bca9f6d4126a7660f9254e065ff624b"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemo/ru.json",
+    "mode": "100644",
+    "gitBlob": "8464e4434474ddf95c953b5709c2178ddc391341",
+    "sha256": "bf3f69ebc1ac1c6c3d366d4f5ce88a353f9661d54bb3f008f8e0cb1a8f06dbc2"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemo/sk.json",
+    "mode": "100644",
+    "gitBlob": "4f35aaf1c3af2dcfc1f911f2d72d92c6f1cf7d42",
+    "sha256": "73ded766a528816911600f2beebeb6ce40a0a07dd809d8cd73f1dab4c41c6c31"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemo/sl.json",
+    "mode": "100644",
+    "gitBlob": "a066ef26baa7a762eebd46fef6650ce4635e9e9f",
+    "sha256": "5636d4ca999940cdee3c24cc15af323893de952705c787d59871b856fe588765"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemo/tr.json",
+    "mode": "100644",
+    "gitBlob": "2cc911e48e6b658b6e778706864ddb1d45c01b2a",
+    "sha256": "47f3a3765eaf6a01c2ad3ae06e068784b7167da8c315c789d09133a26a335f62"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemo/vi.json",
+    "mode": "100644",
+    "gitBlob": "c115a35726d049352cdf3c6773c5caeda67651ad",
+    "sha256": "73d137a03e279534c134d94389653016cf0407ab5eb8987dc75f05fdddae54f7"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemo/zh-Hans.json",
+    "mode": "100644",
+    "gitBlob": "23790bde506730dcb517f31f3b2a1ac458c74f95",
+    "sha256": "791a81f2e8ecf75643b865ebcb832090b91d731801a3f8f8de14696634b01f13"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemo/zh-Hant.json",
+    "mode": "100644",
+    "gitBlob": "31e0ab5a47a599f6fd945c2962eb34fc2487fc9c",
+    "sha256": "50ab5d8312e891769bb5dd76202ee65310a8f82e71edfa8121329595e2df45b6"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/Localization/EfCoreJSONColumnDemoResource.cs",
+    "mode": "100644",
+    "gitBlob": "c329dd3cedcfa948e595268980fdd153ab77a75f",
+    "sha256": "7550f1d8899cf74cffbae91a59dd3c1f289d9120de34fbecb714e80de079bccb"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain.Shared/MultiTenancy/MultiTenancyConsts.cs",
+    "mode": "100644",
+    "gitBlob": "196d5630c3195f0ca9acfb3d28d2ac15e943e317",
+    "sha256": "e3e2c6f2197fa0fb1808cad5e7bdab7faaca993b058ec2b4a2b44fda805d34b8"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain/Data/EfCoreJSONColumnDemoDbMigrationService.cs",
+    "mode": "100644",
+    "gitBlob": "341b5005164cf29111c4f09780de291bdbaa8c1e",
+    "sha256": "98bef35d887582c31e3c5e1b1908e09220f2e204b3199dcdc687aee1074f1f13"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain/Data/IEfCoreJSONColumnDemoDbSchemaMigrator.cs",
+    "mode": "100644",
+    "gitBlob": "6567ef63dfec122b0e4c7499e79eb3c848d9589e",
+    "sha256": "b4853fda87380488795caf3dbaadcc2610798d3ab15821315d44ec83c34677a7"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain/Data/NullEfCoreJSONColumnDemoDbSchemaMigrator.cs",
+    "mode": "100644",
+    "gitBlob": "ab7b4222f6e82c1f211668b1647341500bfcc71a",
+    "sha256": "a29d7868ea08996d579472ceed6c35c45095b83d64428a1d7fbe9bf7c2a63509"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain/EfCoreJSONColumnDemo.Domain.csproj",
+    "mode": "100644",
+    "gitBlob": "337a0ab9dbb50a73c48a27fb4bac4e07d3ccb21d",
+    "sha256": "779f321c1d460c08d441115e817de82da3d67d27fb08caa52663d6b9bb484be7"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain/EfCoreJSONColumnDemoConsts.cs",
+    "mode": "100644",
+    "gitBlob": "d18045d0cb898b5215a5e9f0b1e42c5e973badd1",
+    "sha256": "691b7ce986d97298679c3caa1dd51cec73ae46542edee9b8272d41e2efb97018"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain/EfCoreJSONColumnDemoDomainModule.cs",
+    "mode": "100644",
+    "gitBlob": "c0490a7ba94925da59576fef5fe17347b7041f72",
+    "sha256": "593c083a483aa6761d74b9f265c54bc8f675caa1aed354e81117b39c95018e24"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain/OpenIddict/OpenIddictDataSeedContributor.cs",
+    "mode": "100644",
+    "gitBlob": "210123c3928b518af0f9f2063e8bf333f822a58a",
+    "sha256": "11d27511d13073e507c5a370677afb7c6fb2f2c4fe8ce1f123a4c626ecb49909"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain/Persons/Address.cs",
+    "mode": "100644",
+    "gitBlob": "6c2adfa37bb7a8a8d469cd558ba6e01f0ceffe5c",
+    "sha256": "5828863e0c19a4ef6d94bf1d946e4851d15b3dd78df976d59b40923c90228428"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain/Persons/ContactDetails.cs",
+    "mode": "100644",
+    "gitBlob": "4912c8054f311326833ad8bc947f01281c16d476",
+    "sha256": "d1f90b8b04fe760d902192977c001de83926d0fdb5ac4d98baa871922b8b3d4d"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain/Persons/IPersonRepository.cs",
+    "mode": "100644",
+    "gitBlob": "4a8e029d89038cfa556b7dfc90d558b747c1cbe9",
+    "sha256": "9f0a024142e89c8e790f0664b2522092b3ccf489454a52169cc6cf8d6a6069d2"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain/Persons/Person.cs",
+    "mode": "100644",
+    "gitBlob": "ef2344818fdc70a2807661ed175798182ddbafac",
+    "sha256": "7ae9264450dc621003f50fd6b0e5a95ff794beff38c36c3ec6c9350fbf937c18"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain/Properties/AssemblyInfo.cs",
+    "mode": "100644",
+    "gitBlob": "e35fca79313dd0a4b91bcf89d5c791344052a377",
+    "sha256": "db47b7ce87b9c4da8b4ca59de1a75b9cf1cf2c3521265da6372e58bbe6966c59"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain/Settings/EfCoreJSONColumnDemoSettingDefinitionProvider.cs",
+    "mode": "100644",
+    "gitBlob": "a90c529c19b350fa2dce38a86139595bc1276255",
+    "sha256": "873aaeb07497b9cddb87d6bf1610396c7eed8d5caae7fc2f4b998a465052aff1"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Domain/Settings/EfCoreJSONColumnDemoSettings.cs",
+    "mode": "100644",
+    "gitBlob": "5cb4cccb1447f657837a9616450abe6b7fb7309e",
+    "sha256": "21750f30714870c4984c3dac081f158dcfedd339feda1ab681127b85adaf67de"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.EntityFrameworkCore/EfCoreJSONColumnDemo.EntityFrameworkCore.csproj",
+    "mode": "100644",
+    "gitBlob": "da4263b3e917306133ddcaa522e0b997370b79a2",
+    "sha256": "d30eee084a9437b12505be984f50b1134eb6d36249411fb774d2b566fc6526c0"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.EntityFrameworkCore/EntityFrameworkCore/EfCoreJSONColumnDemoDbContext.cs",
+    "mode": "100644",
+    "gitBlob": "8b0010ee531eea15a9aa77863a64d1cc6d6fdcd3",
+    "sha256": "f91c555c344c61084c089cca2ebf09d8438c0cdec31b43e41b28c1069c1b8212"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.EntityFrameworkCore/EntityFrameworkCore/EfCoreJSONColumnDemoDbContextFactory.cs",
+    "mode": "100644",
+    "gitBlob": "ee784b50e76e561f2f5a932fd69abbc16f6a7da1",
+    "sha256": "72cfe70f7b3310385d42efa7ab722a998477014f58b9d7b7b2c148ea6e8fa175"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.EntityFrameworkCore/EntityFrameworkCore/EfCoreJSONColumnDemoEfCoreEntityExtensionMappings.cs",
+    "mode": "100644",
+    "gitBlob": "d33721a09984afbc33262cba272c720569f8d0aa",
+    "sha256": "c5d36590778dcd5531908574193765b1d551e1e71eea1be1447652253cba65fa"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.EntityFrameworkCore/EntityFrameworkCore/EfCoreJSONColumnDemoEntityFrameworkCoreModule.cs",
+    "mode": "100644",
+    "gitBlob": "8472322d035bda45b682b34a382ea241faeff936",
+    "sha256": "09c8eecb3b6cb1dcca0a81e474f10986b3ff7cd69e919bade6726aa9840e7618"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.EntityFrameworkCore/EntityFrameworkCore/EntityFrameworkCoreEfCoreJSONColumnDemoDbSchemaMigrator.cs",
+    "mode": "100644",
+    "gitBlob": "5f237c84ee32970331ea52dd6deac29c1ae37786",
+    "sha256": "ff6d4a171d5c9dd5a98555a594a7f55552e4c960ebeb8bd549d8d7eb906518a5"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.EntityFrameworkCore/Migrations/20240912065119_Initial.cs",
+    "mode": "100644",
+    "gitBlob": "f63d7da5ef861a133714b0893e02525f8d80f6a5",
+    "sha256": "66b1bcc96321e1378c092aa65afab523fc1c412328a16fd357188736c740bd1b"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.EntityFrameworkCore/Migrations/20240912065119_Initial.Designer.cs",
+    "mode": "100644",
+    "gitBlob": "178bcf4a0dd49bd0c5044072301764890dd39ffb",
+    "sha256": "511ce303b72208cdc683f7046a4b92682048589e9bab32d14964f6b71f3e0c88"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.EntityFrameworkCore/Migrations/EfCoreJSONColumnDemoDbContextModelSnapshot.cs",
+    "mode": "100644",
+    "gitBlob": "5ef7c2ac8b7346023ef71b5b2723b8c7079c82b8",
+    "sha256": "86335b6ba90ac9556b7ef74b3076dd30a8b8c1eb02a024f1c6eab3d730814383"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.EntityFrameworkCore/Persons/PersonRepository.cs",
+    "mode": "100644",
+    "gitBlob": "83da99b1fb2a487bf2340629f0b9344af5950d0e",
+    "sha256": "28b7a64a414ac057903fd50f4ca07790fd8882acad3bc762df160249421ddb3c"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.EntityFrameworkCore/Properties/AssemblyInfo.cs",
+    "mode": "100644",
+    "gitBlob": "8e4410c16757722c5578ca8c8b20eaa2c02bac79",
+    "sha256": "f65cb6902a18dbd9f0d46dfaa8197656fe60f73fbd2867cd6114dc952b4950ee"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.HttpApi.Client/EfCoreJSONColumnDemo.HttpApi.Client.csproj",
+    "mode": "100644",
+    "gitBlob": "40a22fdb5de9ba5efd9a909b7a05f06fce72850a",
+    "sha256": "d57052fecb46fbca85928f30ab81d1681e21aa83da3aeba5b2eceb83fd0bd571"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.HttpApi.Client/EfCoreJSONColumnDemoHttpApiClientModule.cs",
+    "mode": "100644",
+    "gitBlob": "b0a304e03a1817141dc055fbdf6629f21c16d36a",
+    "sha256": "8fa1cace40598c40c17a29ebbaf7e4425225fd20e7848fd33f75ec7d766482ac"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.HttpApi/Controllers/EfCoreJSONColumnDemoController.cs",
+    "mode": "100644",
+    "gitBlob": "f4c57473e9e59a858071a8c777910d2b70724fc7",
+    "sha256": "47c1bb7eb4479cab480a9e476da57d17cc944ea2f79fe8f4d5860a41f9313b28"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.HttpApi/EfCoreJSONColumnDemo.HttpApi.csproj",
+    "mode": "100644",
+    "gitBlob": "27b2e9299cad8efbef69168cd53e03eeac96ed39",
+    "sha256": "86f2449327c96d5da4e97c9e72319c783787c62b094980ae3c06ed1d341b46d3"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.HttpApi/EfCoreJSONColumnDemoHttpApiModule.cs",
+    "mode": "100644",
+    "gitBlob": "dbe0e663fdb54dbaa511b5680ad8390fa4ef666d",
+    "sha256": "c0e60a59ee8e957280cf44f11fac6c9788d76607d842d2033562791ef68feaea"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.HttpApi/Models/Test/TestModel.cs",
+    "mode": "100644",
+    "gitBlob": "b8d049cf784ffbf8f1c93d2b1b89b3c4fb4258c8",
+    "sha256": "a6c5a71b16e2f185631abaf592002a3397a123eed1f3706b586ed9d192f2a81b"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/abp.resourcemapping.js",
+    "mode": "100644",
+    "gitBlob": "4a2ad4589644bbdd2cd3c836c12688c7102a5b54",
+    "sha256": "8d4d2e9bf16d2ffef65e2b94f2873c41144038b0d748ff8aae44f813007eb63c"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/appsettings.Development.json",
+    "mode": "100644",
+    "gitBlob": "2c63c0851048d8f7bff41ecf0f8cee05f52fd120",
+    "sha256": "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "91b7ac82e2bc413b7fcf508138d93182bc89450d",
+    "sha256": "59607c82f647c1d2feac80f950208024e287adb8a455fccc206bf02a20d28db2"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/appsettings.secrets.json",
+    "mode": "100644",
+    "gitBlob": "7a73a41bfdf76d6f793007240d80983a52f15f97",
+    "sha256": "8eb95bcbc154530931e15fc418c8b1fe991095671409552099ea1aa596999ede"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/Components/_ViewImports.cshtml",
+    "mode": "100644",
+    "gitBlob": "c1da1f5f107073cb33bda44b29af50b0ca819024",
+    "sha256": "12f2ecf13ffdd45d83b0198a52d2bd0972c59a17dc4da1c61d0a1974ddec9fda"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/EfCoreJSONColumnDemo.Web.csproj",
+    "mode": "100644",
+    "gitBlob": "a99dfc86b68a4c2fa20cedab437639bfafbb2702",
+    "sha256": "c5f46f7a6f19982302f12606723cf6aaef90b4b90fb8a8d9713bc6ff7caeb6b2"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/EfCoreJSONColumnDemoBrandingProvider.cs",
+    "mode": "100644",
+    "gitBlob": "ddba25eec0c3d25a001d0e83ea3534a5404431e3",
+    "sha256": "09de31d508de17615c2f99fc1b4b3eba996a058db6e1c3a3086734d42fcc7561"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/EfCoreJSONColumnDemoWebAutoMapperProfile.cs",
+    "mode": "100644",
+    "gitBlob": "f570e2ce4da34ad6bb8454d11e5c230321ecce06",
+    "sha256": "3a3adf8f23f85752868c32179bfd519023947ec5cea41ea51b1f97ddbcb7afec"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/EfCoreJSONColumnDemoWebModule.cs",
+    "mode": "100644",
+    "gitBlob": "3f28332c275b645926381d7fc92aa475c41a8357",
+    "sha256": "e2535628a9e7b19bfa6a014b00bd9422ed801ea2a7e4324cb7fd4fb98a6eb83a"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/Menus/EfCoreJSONColumnDemoMenuContributor.cs",
+    "mode": "100644",
+    "gitBlob": "5d13863c30d886ab943510edc2db356ffbc9912a",
+    "sha256": "bfed26379a49f94eae113e0855838cdbaf3a880359a67ffe93174d1967c1e220"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/Menus/EfCoreJSONColumnDemoMenus.cs",
+    "mode": "100644",
+    "gitBlob": "f29357a26f7f4388f7e8ac82024f19cc98865ca7",
+    "sha256": "363a337f7164a2fbef0f73a81324c661f720047cf9c66455d2c182432099943b"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/package.json",
+    "mode": "100644",
+    "gitBlob": "7a0fb0d2547a1b9313e034dc40be1410327dea64",
+    "sha256": "3e32d5b0db69cca441b806dc68023c7d251f9bc0816618ddb422c4a1bc39de79"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/Pages/_ViewImports.cshtml",
+    "mode": "100644",
+    "gitBlob": "c1da1f5f107073cb33bda44b29af50b0ca819024",
+    "sha256": "12f2ecf13ffdd45d83b0198a52d2bd0972c59a17dc4da1c61d0a1974ddec9fda"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/Pages/EfCoreJSONColumnDemoPageModel.cs",
+    "mode": "100644",
+    "gitBlob": "54e82452c66c61abea4114386a67cae6ed708b82",
+    "sha256": "64012581c0dcacb21facc96dba3aa3295d3fc90b6fd692e447d191509f477312"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/Pages/Index.cshtml",
+    "mode": "100644",
+    "gitBlob": "87baeb7cf2dbe475442cc73efc62569788801d2f",
+    "sha256": "2eadb91798b24aaffdacb87373fa5aca373ea9d6ee76b72275402e45ecc9cfec"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/Pages/Index.cshtml.cs",
+    "mode": "100644",
+    "gitBlob": "efa7170332f2721fbed1109f14b15a916b738c40",
+    "sha256": "08a058deb307081d8ef699ba0e3fcd7df2f5f22ac1e5655d577d812d1457f322"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/Pages/Index.css",
+    "mode": "100644",
+    "gitBlob": "7f8a925bc09fec261efbe05acc95c7244ab31bb5",
+    "sha256": "ccb4795e765d0376c5f07e58161ef61dc208aca3d45dd9a7e7222a094709c755"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/Pages/Index.js",
+    "mode": "100644",
+    "gitBlob": "32b47c56fd0b3281613013e347dcfb028f7c25d0",
+    "sha256": "60cc61320bdccb8534246e5ae38e5393ffd41469f0c16d8b3d49fea0dd700c48"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/Program.cs",
+    "mode": "100644",
+    "gitBlob": "f8b214697d3450085345ac5cc495419501f3a2d8",
+    "sha256": "62de1b223640a0cab65fcfd0f34b73a69763b871f4a9b1bdaab95c4bca93bee4"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/Properties/AssemblyInfo.cs",
+    "mode": "100644",
+    "gitBlob": "341728e27718c4ef18b65eb472ebc70891b4cd60",
+    "sha256": "9590585cf82fb26c55f148cdd9b0c3ed9462cae39cfbdfa77fd2a2b9b337dbbe"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/Properties/launchSettings.json",
+    "mode": "100644",
+    "gitBlob": "de0031af7334eebc1235af8ae4d4a2479cd959da",
+    "sha256": "d3360e6c96178a106b29079e461f446d0baddcf7165ff6132e67d97ecfdb633c"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/Views/_ViewImports.cshtml",
+    "mode": "100644",
+    "gitBlob": "c1da1f5f107073cb33bda44b29af50b0ca819024",
+    "sha256": "12f2ecf13ffdd45d83b0198a52d2bd0972c59a17dc4da1c61d0a1974ddec9fda"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/web.config",
+    "mode": "100644",
+    "gitBlob": "dd82b331bc1eab08f6d4e116cfc59a939b5c1a3d",
+    "sha256": "e29a9658e4a4e4c5e4a886c173e4211f683d2fe3a00882dae0a69cac518a52db"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/wwwroot/global-styles.css",
+    "mode": "100644",
+    "gitBlob": "74db4bd54f3f72c1e84ce5b512504c5c2d128613",
+    "sha256": "d007b490db9e3bef0930c34c57b7a4b03bf0116e8fe06e9206fb130c4ef06f31"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/wwwroot/images/logo/leptonx/logo-dark-thumbnail.png",
+    "mode": "100644",
+    "gitBlob": "621596bb5c1a301136d9ee2af5ffe1391a4af776",
+    "sha256": "fe22525ee249a11be341ac93df02c1d8ded12c9fab9ca765977e74ba6941fb29"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/wwwroot/images/logo/leptonx/logo-dark.png",
+    "mode": "100644",
+    "gitBlob": "e4bfe818c880edfbe00b88ddfc1cbc98289eb238",
+    "sha256": "2a39a8fe7f501f0d401a8c49e38f6d964dc7f31c71ca9916399cb6b37e23c7f6"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/wwwroot/images/logo/leptonx/logo-light-thumbnail.png",
+    "mode": "100644",
+    "gitBlob": "886c96086415a813f5de9dd916ee465c7859b267",
+    "sha256": "c47dc4bb7e49f0d27d26c4e5045c5583b231e60ebccefb270f3d516d494a9247"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/wwwroot/images/logo/leptonx/logo-light.png",
+    "mode": "100644",
+    "gitBlob": "6ebd97e2b2805085393d70d51ffd926be6de9fde",
+    "sha256": "e2c5e241d205bfd0b733478f0b7342eefbf92a7c3a04b7184d46562c62a9928a"
+  },
+  {
+    "path": "src/EfCoreJSONColumnDemo.Web/yarn.lock",
+    "mode": "100644",
+    "gitBlob": "8c8aa12cc043d8ca2f79e5a9fd3882023ff3ffee",
+    "sha256": "cdc57d8fb1267ba1b6315d72abe680e18024dc8a2ac07c6da2cfbe49842625ca"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.Application.Tests/EfCoreJSONColumnDemo.Application.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "5590365bb643fd6aa428541f9cb5f27f62364f3c",
+    "sha256": "da8fd923f80dc7e029c46ed2d69824abadce84f6ebd86f4be551b702a833c03f"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.Application.Tests/EfCoreJSONColumnDemoApplicationTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "6d0150134e68cb8fcbaca386ff8b31c4d1580b16",
+    "sha256": "559b040d1fe2926433c24fc73601444cbeb48465b4dfbeb89277025388c20095"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.Application.Tests/EfCoreJSONColumnDemoApplicationTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "5e7f30c856e34381b91b0730ae6599c2b9530cf9",
+    "sha256": "fc57a95e6cf641d43cdad4ee5f68aaf7327f258cd6e24d642ac78b2f714347d2"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.Application.Tests/Samples/SampleAppServiceTests.cs",
+    "mode": "100644",
+    "gitBlob": "61fa7ecf1b190a5c35d0d2f47b87c939dbb531b1",
+    "sha256": "e5cdcf3ff16d9ab8fa14ea62de3c449cb3d97ec63bf5df2bb566752654415905"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.Domain.Tests/EfCoreJSONColumnDemo.Domain.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "9bf2b2a406d4c1a8850435f89cb4ea4a744f2e22",
+    "sha256": "e93f358c20300ccb978f8c2864f4f7ea7c7b1ef83aaf6bcd6bb0e59290a413e1"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.Domain.Tests/EfCoreJSONColumnDemoDomainTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "1ab3f88dbe84b0e064e0d9be9b14b5d22b8448fa",
+    "sha256": "25c04d8414d0b0244a92767cbe030f2b601051b13ee88f1765430a001e29a33f"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.Domain.Tests/EfCoreJSONColumnDemoDomainTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "be9f74ea044dcd30794098ee12945624b2efc0cf",
+    "sha256": "daee62758ab0ebf26c9068991e42848d730d680ca2fe7a368a8ce994beca9297"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.EntityFrameworkCore.Tests/EfCoreJSONColumnDemo.EntityFrameworkCore.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "c729c97735641abca7f1b5257758bdd8c3ff15a4",
+    "sha256": "d1539eae79b366341299f52a61f6b6d926120fd19b80e51825677f6370295cf0"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.EntityFrameworkCore.Tests/EntityFrameworkCore/EfCoreJSONColumnDemoEntityFrameworkCoreTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "3049b639880b84678eee1992bdf045ccdb63836b",
+    "sha256": "1ffb093a7cadd540cf7ceb89085edc6d416e50a28282ff4ce0f24dbaad2b8585"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.EntityFrameworkCore.Tests/EntityFrameworkCore/EfCoreJSONColumnDemoEntityFrameworkCoreTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "ebb0949eaf5dcfb2eecb0ba63d8cb1007617bdb8",
+    "sha256": "4ba0154087f86d7c4d9b6cee3c58ef8d2b35b300dcc5f5799e5e5aa8df076d24"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.EntityFrameworkCore.Tests/EntityFrameworkCore/Persons/Person_Test.cs",
+    "mode": "100644",
+    "gitBlob": "85398e6642fec3926752e0686f4ab20830d5dbc5",
+    "sha256": "8e93ff7e9713c934c9d797a27d6efeafe1468cd68920d211115254fb6c2ea9ef"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.HttpApi.Client.ConsoleTestApp/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "3dabf253cdcde3b154e5cb36018c718dd8f1b564",
+    "sha256": "32029d827e4579908803bb60a91f5cdfa017ed9d4d55ee8133878bd105151fbc"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.HttpApi.Client.ConsoleTestApp/appsettings.secrets.json",
+    "mode": "100644",
+    "gitBlob": "7a73a41bfdf76d6f793007240d80983a52f15f97",
+    "sha256": "8eb95bcbc154530931e15fc418c8b1fe991095671409552099ea1aa596999ede"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.HttpApi.Client.ConsoleTestApp/ClientDemoService.cs",
+    "mode": "100644",
+    "gitBlob": "2e21411238fd643ef13a859e3d9e61aeae56bde3",
+    "sha256": "4970aabe8e3349280a9de806a5b255c7f011a43903f9a9c6c010feb8e64ffbb2"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.HttpApi.Client.ConsoleTestApp/ConsoleTestAppHostedService.cs",
+    "mode": "100644",
+    "gitBlob": "ae5565a0ccc544e5f27fd6938303f6b6de8a76e0",
+    "sha256": "b4a2b28034e3cb07b76c69875a3a11dcfad367c66acc821ef1cb730cbe78832d"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.HttpApi.Client.ConsoleTestApp/EfCoreJSONColumnDemo.HttpApi.Client.ConsoleTestApp.csproj",
+    "mode": "100644",
+    "gitBlob": "9e89cfacc801fab2d5155b46f1660cc0fe9ce59e",
+    "sha256": "f58a9acbb79e25babe77cef8d42313908deb7ec945be29509451a50e93b4982d"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.HttpApi.Client.ConsoleTestApp/EfCoreJSONColumnDemoConsoleApiClientModule.cs",
+    "mode": "100644",
+    "gitBlob": "e8719201183a7203bb2916ec7112599704f17e00",
+    "sha256": "a1a139c31a71b88d476368d40fae45891c131f45016d37f211097218c31f62e2"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.HttpApi.Client.ConsoleTestApp/Program.cs",
+    "mode": "100644",
+    "gitBlob": "348afedb0b71d591f24ef0634a7892785693c5ff",
+    "sha256": "68201db87c0e1a12ad610a5081c9308ac7a0118efcb313155084e255418deff1"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.TestBase/EfCoreJSONColumnDemo.TestBase.csproj",
+    "mode": "100644",
+    "gitBlob": "848e73cb8e736dbba4a8ceea708ed4fcd4632db2",
+    "sha256": "4a1adbb98627af2eb15f4d224015800427033ef6cccd09114bd7abc8af67583c"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.TestBase/EfCoreJSONColumnDemoTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "a00cce808748f3b66cb3c0fc36eabe060628fd49",
+    "sha256": "aacf9375abdd84490819a619e29ba94da6ebef44176fee0afd7ba54793365cd6"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.TestBase/EfCoreJSONColumnDemoTestBaseModule.cs",
+    "mode": "100644",
+    "gitBlob": "a4567672604c93dbf52fd05efe1f072d4ef713fc",
+    "sha256": "f95c600eb308e74359cccd02d9af15898390b66e1bcc29fa9d9dd8a0b00ec5fe"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.TestBase/EfCoreJSONColumnDemoTestDataSeedContributor.cs",
+    "mode": "100644",
+    "gitBlob": "15ad05dd9c96582d7ebf490bd88fbc49b03a86d4",
+    "sha256": "e30a6cf1384613be957ca7e4a0af7121c8111122618c561bd73009ca2c8bdfff"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.Web.Tests/EfCoreJSONColumnDemo.Web.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "b49e918ea6199f8aef32ae5cea118dc413e971e8",
+    "sha256": "71a9dc40ffe3ee81eb097641b56a8c3f37f932dbc1da5b2ca48cf0852f6c88a1"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.Web.Tests/EfCoreJSONColumnDemoWebTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "ba94a8bea45e243a05107367fca73713f00f2681",
+    "sha256": "3ddf2cd18854540c90d712ebe206d59a39a79fe86ddfeb3bec8e6eaca5a38753"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.Web.Tests/EfCoreJSONColumnDemoWebTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "49d62a6ec860ede0c41de9cec062615ae7e86547",
+    "sha256": "83b70e32c761ea18a4a2af5d63ce44d99f40980edc332c635008d47a999212b0"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.Web.Tests/EfCoreJSONColumnDemoWebTestStartup.cs",
+    "mode": "100644",
+    "gitBlob": "8441a91953dab7f22786277e26d08abb614652d8",
+    "sha256": "09e2104c95da123745b2cfcaaf3aacfb5b9bd0b0916a086fe751b79680208f43"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.Web.Tests/Pages/Index_Tests.cs",
+    "mode": "100644",
+    "gitBlob": "95a52a194c44b08c6c2495ac074e10f6d20c1ecd",
+    "sha256": "e7fa48eb213ab56781f6612dc0c72939475ad4e28ca016969bfe8fea065c0879"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.Web.Tests/WebContentDirectoryFinder.cs",
+    "mode": "100644",
+    "gitBlob": "b99b4b3aaab9f365a4129440c06bab62f19cefb6",
+    "sha256": "75e1dc6e405319ae7353ad0605b68db8af07f87401bf2c8d03b59767e063774d"
+  },
+  {
+    "path": "test/EfCoreJSONColumnDemo.Web.Tests/xunit.runner.json",
+    "mode": "100644",
+    "gitBlob": "78c070e83207bdd11bb030a7bdf071817b002a43",
+    "sha256": "fc494e3756292818bf0990f400cb29f19780e4ec76cd0b8a1efa72a5dbab5618"
+  }
+]

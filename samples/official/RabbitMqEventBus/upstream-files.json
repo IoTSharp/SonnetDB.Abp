@@ -1,0 +1,116 @@
+[
+  {
+    "path": "App1/App1.csproj",
+    "mode": "100644",
+    "gitBlob": "e00940a49d420cfc72397f6bd896aad0a4b5262b",
+    "sha256": "00ce3fa52921d623a548603456e7daf41d0f87f7258b3d29cf1f0d894e00f678"
+  },
+  {
+    "path": "App1/App1MessagingService.cs",
+    "mode": "100644",
+    "gitBlob": "9ed72867bb59785f044f17aabfe482f3fbc8fbda",
+    "sha256": "4df45275a0b5dcce6cd106c0a7e17b4cfc00c5fc6a89d838d2ec842a0e237de4"
+  },
+  {
+    "path": "App1/App1Module.cs",
+    "mode": "100644",
+    "gitBlob": "d6fff8f7e2c53c1e1d8d61e0e0651fb0904e84c5",
+    "sha256": "9554435391839af4ee322390a565d9691cc76ae615fbf9563848d4cba32adbdc"
+  },
+  {
+    "path": "App1/App1TextEventHandler.cs",
+    "mode": "100644",
+    "gitBlob": "8a13adace0e1c2c7cecc1c13336d3928405acb03",
+    "sha256": "cfb064c73ffb58c5678d47a735d9afb779b3764b5a2b196021bb852873f46d62"
+  },
+  {
+    "path": "App1/App1TextReceivedEventHandler.cs",
+    "mode": "100644",
+    "gitBlob": "f9d6525e491a73abd2daada3d801e2d9a340ba4c",
+    "sha256": "bba335418240abf75250f9603b960dfa5786c0d418577bb94584ff13816a31ff"
+  },
+  {
+    "path": "App1/Program.cs",
+    "mode": "100644",
+    "gitBlob": "47c474c8c6a5b1e622acbcc06e1d95733d7b8b5b",
+    "sha256": "c4494c8ee38cdc5b8f85a5dd535c5eecba54ce7e37685ace2ec48369bb63617d"
+  },
+  {
+    "path": "App2/App2.csproj",
+    "mode": "100644",
+    "gitBlob": "e00940a49d420cfc72397f6bd896aad0a4b5262b",
+    "sha256": "00ce3fa52921d623a548603456e7daf41d0f87f7258b3d29cf1f0d894e00f678"
+  },
+  {
+    "path": "App2/App2MessagingService.cs",
+    "mode": "100644",
+    "gitBlob": "05c6661979400ebd9ec2affa861daf666de3e64b",
+    "sha256": "fb2841497d65dd5f6f4bb7c6ead9e13fc94bcf1eec8926d0a8503826e2443baa"
+  },
+  {
+    "path": "App2/App2Module.cs",
+    "mode": "100644",
+    "gitBlob": "1c35ce9cd94469fb23b7bf58dca866cdcb71d7d1",
+    "sha256": "3de9b34c6202f0f2828678665234473b3e029b5aff2273b7a1be6a46552bf6e5"
+  },
+  {
+    "path": "App2/App2TextEventHandler.cs",
+    "mode": "100644",
+    "gitBlob": "a43a9107263ba60ef365aeece84206d720a6ed85",
+    "sha256": "102daab2652d409ef7cdb371a6b002044aaf2954b526741d0ab7be2e710baa92"
+  },
+  {
+    "path": "App2/App2TextReceivedEventHandler.cs",
+    "mode": "100644",
+    "gitBlob": "d53bac48b470f27b35d98d79a721595aebd17b8d",
+    "sha256": "80bd104eed1262fed30cb7539988bf1c30af00c21671270f25c0adaf177dee21"
+  },
+  {
+    "path": "App2/Program.cs",
+    "mode": "100644",
+    "gitBlob": "75eb872edf3f00b797f8b81d53d177859adba31d",
+    "sha256": "3f2c4823ac58d96636fec27c033df5e722654e73a3f938056086379625abb23d"
+  },
+  {
+    "path": "RabbitMqEventBus.sln",
+    "mode": "100644",
+    "gitBlob": "fae44b73bb7d67fcf0447f91c58d6060f4e09933",
+    "sha256": "63d3f43323d8392374d355dc5a2f9dc3f3134b7253d3ca53ced0feda82fcca92"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "gitBlob": "a4660ec6c5ba4a3d3c7c9be05181e3eac3cd29b1",
+    "sha256": "3b0b62f76d2af909be46dfe814538088f2b4d8ee40a0b9a0687432ab691915fc"
+  },
+  {
+    "path": "SharedModule/App1TextReceivedEventData.cs",
+    "mode": "100644",
+    "gitBlob": "0e01f74b84b199a149cf6a755daa4afdc84b3fc1",
+    "sha256": "5dd4029cc65aad1548a20d9913eedbc6e0338f558b7e37af625ba2ef9aa14448"
+  },
+  {
+    "path": "SharedModule/App1ToApp2TextEventData.cs",
+    "mode": "100644",
+    "gitBlob": "56d2c3118681901b850ae9d8bf80bb5aec8c3011",
+    "sha256": "747e373b913636283ee9598e9db545fefd5dd391b0428fb340a6f71fcac668b7"
+  },
+  {
+    "path": "SharedModule/App2TextReceivedEventData.cs",
+    "mode": "100644",
+    "gitBlob": "c3ac4bf9bbefd40443e7dff0538bfb62465662e1",
+    "sha256": "948f747846bb94a8e961e74c41a6d700a7fd6c455f376f4396bf2de998d922d9"
+  },
+  {
+    "path": "SharedModule/App2ToApp1TextEventData.cs",
+    "mode": "100644",
+    "gitBlob": "2943661f7d413b49f934ef3c3546ed8ca62b928f",
+    "sha256": "eb33ba9c37262c4fc42466ee08614eacc6deb492dd6f490cece06aff53915f5b"
+  },
+  {
+    "path": "SharedModule/SharedModule.csproj",
+    "mode": "100644",
+    "gitBlob": "0d21e39faae020d7ce5bccbb3fdaa6ed83182ac3",
+    "sha256": "6bac26961207ede9934a4be1cf71ab718c8f6c1b9f693a1a6c30789741096bb1"
+  }
+]

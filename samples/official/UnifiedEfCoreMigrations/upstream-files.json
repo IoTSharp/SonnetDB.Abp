@@ -1,0 +1,806 @@
+[
+  {
+    "path": ".gitattributes",
+    "mode": "100644",
+    "gitBlob": "c941e52669683c63ad9c3db2073b54ac74e20ba7",
+    "sha256": "13a51d1e2ad3b2997aaeb6295a568a555faa0c01c040f0db71a0d85c803cf111"
+  },
+  {
+    "path": ".gitignore",
+    "mode": "100644",
+    "gitBlob": "2932189663c040cb0f5c77282d66bd685e6a65e9",
+    "sha256": "5c1164e0e093122b0176ac4385685ff34d9eb79a144ba11fc5d1e7260ff2dd09"
+  },
+  {
+    "path": ".prettierrc",
+    "mode": "100644",
+    "gitBlob": "56af76bd946b9fb138e50acb89d460c7b857bc3e",
+    "sha256": "06d3746be94056a4b24f5a74c6bd1c5efd9492eeeba42ded768fa3043aa2f6ca"
+  },
+  {
+    "path": "common.props",
+    "mode": "100644",
+    "gitBlob": "fbef88367ba3a429c758d88bd993c66ce822a87a",
+    "sha256": "4aca6231c3cd24f987c6fb172b6b99f29b3af25ada901311d402b9f2aa5a2854"
+  },
+  {
+    "path": "README.md",
+    "mode": "100644",
+    "gitBlob": "d65fe69b337820cff9a03720eb1a316e5724cfae",
+    "sha256": "a600292a3c536e8e63faba9cb2195d43e42fc681ef13dc6658638bf78923d891"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Application.Contracts/Permissions/UnifiedContextsDemoPermissionDefinitionProvider.cs",
+    "mode": "100644",
+    "gitBlob": "07b32e7d1dd2dd78c843072a42cef2a883ed5ec0",
+    "sha256": "c4a88f3143c49c2f9153c56d805cc8029651d171b67c7d8837b6956a1c20a1f5"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Application.Contracts/Permissions/UnifiedContextsDemoPermissions.cs",
+    "mode": "100644",
+    "gitBlob": "46494ae7e2377bd6e79bc449985351eae899c26b",
+    "sha256": "1031521f36a85a90d5053da3ad67b3c146936652013d3cd44574ce5675ccf13b"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Application.Contracts/UnifiedContextsDemo.Application.Contracts.csproj",
+    "mode": "100644",
+    "gitBlob": "6ab50157ecf4094fad31ad00dc9b4c69de999219",
+    "sha256": "f7e53e40b0d99699a8fb7cf4c7a3d76c7b6c46908d550768979c29aa3eea952f"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Application.Contracts/UnifiedContextsDemoApplicationContractsModule.cs",
+    "mode": "100644",
+    "gitBlob": "47e15bb645f36ce5f50a0dbf13526981fefab9b7",
+    "sha256": "8eb7c13f6c1bb2138cc51fed0abe029e1a3ccf87517292d4d0107712aa485b70"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Application.Contracts/UnifiedContextsDemoDtoExtensions.cs",
+    "mode": "100644",
+    "gitBlob": "5e443ed41328208fed24bb4ff3c038b823765f52",
+    "sha256": "d64f3f18dfbb3b5db2708c9f1c161cc8a0efa6ddd6c01f9ac478988a451666f0"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Application/Properties/AssemblyInfo.cs",
+    "mode": "100644",
+    "gitBlob": "b7cbf4268595a6fbc7fad15b76582212745320a3",
+    "sha256": "59e349cb7e3553d294b90ec8568caf8e13d0c402b49e3aac941c8fb7f55fc127"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Application/UnifiedContextsDemo.Application.csproj",
+    "mode": "100644",
+    "gitBlob": "e722e0de03ef51d23314ce1893a9a5c4db83c6be",
+    "sha256": "ddc640ccff06bae083486a8c9be9faca6ebd2c3829959d0d7515aa6374b749dc"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Application/UnifiedContextsDemoApplicationAutoMapperProfile.cs",
+    "mode": "100644",
+    "gitBlob": "7985a9ccb76e773e8f6e3052e4a0b2ca05e92c0c",
+    "sha256": "465e9bc9ed489d675e3ec0cbf0db1d118dafd85631ced438a60de6864671faec"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Application/UnifiedContextsDemoApplicationModule.cs",
+    "mode": "100644",
+    "gitBlob": "ab26d23f1589c139a96f637356b531cc3199975b",
+    "sha256": "0a4d88d61b52ca46f93fda4a0de67512b733b2e4406f2f342bb88dca67777b65"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Application/UnifiedContextsDemoAppService.cs",
+    "mode": "100644",
+    "gitBlob": "b614c76f16421a4d6378dc5745a6807383a8a327",
+    "sha256": "1d859337622ba7e9329a338af71dbafd910ee9f621f9382961532c7050272235"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.DbMigrator/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "8a796e4cd4dfe40d56415020c2e7a074a2daaa06",
+    "sha256": "8df4019f5babcc36adbda8dfa651be7c6f768a640e555a0f4b659acc9b42d45e"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.DbMigrator/DbMigratorHostedService.cs",
+    "mode": "100644",
+    "gitBlob": "44cc8001eb790e03b0dca3b8f6d36028ba2d9c51",
+    "sha256": "d53d131b6a611d77f469be030239ce8f0df3c1b95c8c51e7abdb1e404285da85"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.DbMigrator/Program.cs",
+    "mode": "100644",
+    "gitBlob": "f0d0ce753f91f3288f4201f3ee7a5d6dd20efab9",
+    "sha256": "0822e25ab4a11a21de42a2e952cfcad1a199a2185141b74fbdede251afc79e99"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.DbMigrator/tempkey.rsa",
+    "mode": "100644",
+    "gitBlob": "494c2013e39c03873f86735e09efe21be561796f",
+    "sha256": "8d0f1416857afef00e5000bace83126aeb4a0f0234abce421128d4f80b718194"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.DbMigrator/UnifiedContextsDemo.DbMigrator.csproj",
+    "mode": "100644",
+    "gitBlob": "1e6784c5d7a2faceaf62aa29458f6a162235a775",
+    "sha256": "ba8781cb41b6a9d48e11a4a1ab66108ea1481296fddb776a809af01f5dd2a350"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.DbMigrator/UnifiedContextsDemoDbMigratorModule.cs",
+    "mode": "100644",
+    "gitBlob": "a2ab4de20c573f789168ff2ef5a00977a2d4b883",
+    "sha256": "52a0494bbffee52c8156bb52a2b216d09bf8e4392536d2d030d2b33d5a163e3d"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/Localization/UnifiedContextsDemo/ar.json",
+    "mode": "100644",
+    "gitBlob": "05cb96a9d620b717de574c75a19a74ab7af9be7a",
+    "sha256": "87eee48088b966b1ed1bff00da7c2f881266532db04d0b30742891a11b147f50"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/Localization/UnifiedContextsDemo/cs.json",
+    "mode": "100644",
+    "gitBlob": "5a0bbf613e1c04db8e53bef212a64ad853cc084a",
+    "sha256": "d0913130082f87173f663e36888ed5b699bb6481e7a594b1783f45276bd79d76"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/Localization/UnifiedContextsDemo/de-DE.json",
+    "mode": "100644",
+    "gitBlob": "aca4528c7c2ad44af7dc72c01aa6e9bdd13667a3",
+    "sha256": "17983093007a545b0c16dc78641c896b46cdbfc837dfa76d54f7d250b77edc8e"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/Localization/UnifiedContextsDemo/en-GB.json",
+    "mode": "100644",
+    "gitBlob": "d2ca0793a3d3ee31ef911c195356ab0908b3c015",
+    "sha256": "bc1439cff74f5144bd6bcdf4bab06edc10030d1c2015c95ff0e20737f38e9fa1"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/Localization/UnifiedContextsDemo/en.json",
+    "mode": "100644",
+    "gitBlob": "d2a6a9831ebc67b7db1f042c0d955a57ebb3926b",
+    "sha256": "faec2df7fa9849a8d7c650a4a681fdd979503b58db33c55bfdc479d48ed562f2"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/Localization/UnifiedContextsDemo/es.json",
+    "mode": "100644",
+    "gitBlob": "31b4b59e256acf17b6271340649e268fb0c62602",
+    "sha256": "58abd217ddab4c7eb64df39e03d11c78284ba7e7ee465b51dea9a957cc80eeba"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/Localization/UnifiedContextsDemo/fr.json",
+    "mode": "100644",
+    "gitBlob": "e76eac0c710ea581d1105a718fe6be27e998d8fb",
+    "sha256": "f4955a8edb72656750a20b6aa37bfeb22b4446605273718049789de298e94dbc"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/Localization/UnifiedContextsDemo/hu.json",
+    "mode": "100644",
+    "gitBlob": "c7b6a33a0f985c43ff60a6f41e0c34b9f9a4de26",
+    "sha256": "25aaf4e277498ea38e66047f913d9b7e47759718a228d72cf7923568359278a6"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/Localization/UnifiedContextsDemo/nl.json",
+    "mode": "100644",
+    "gitBlob": "9ba8da4743b552618c50bf2c6c87e27f6b175df3",
+    "sha256": "9fe18054ee5928c4845fdb7452d76775f036ac79a0008771a90a63a67eb6c87f"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/Localization/UnifiedContextsDemo/pl-PL.json",
+    "mode": "100644",
+    "gitBlob": "33412f307ca4b0ed7af9ee52484099c067fe6ca5",
+    "sha256": "a12f7381fb09fe215f30f42e4a547a4fc46271397530bf094eee671bcfab4bc4"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/Localization/UnifiedContextsDemo/pt-BR.json",
+    "mode": "100644",
+    "gitBlob": "8c818a07af405ba8caf208bb7b49d390a2c844b2",
+    "sha256": "c5b656f1ab373b18559d72ae781244dcae871c24084018c7c40a44fdded57181"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/Localization/UnifiedContextsDemo/ru.json",
+    "mode": "100644",
+    "gitBlob": "8464e4434474ddf95c953b5709c2178ddc391341",
+    "sha256": "bf3f69ebc1ac1c6c3d366d4f5ce88a353f9661d54bb3f008f8e0cb1a8f06dbc2"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/Localization/UnifiedContextsDemo/sl.json",
+    "mode": "100644",
+    "gitBlob": "a066ef26baa7a762eebd46fef6650ce4635e9e9f",
+    "sha256": "5636d4ca999940cdee3c24cc15af323893de952705c787d59871b856fe588765"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/Localization/UnifiedContextsDemo/tr.json",
+    "mode": "100644",
+    "gitBlob": "5bf83ee7a8e2e1e315a20b99c428d5e4733b1933",
+    "sha256": "356e12b4eb299a32b99bfd1efd20658a877d5be768abc08c5b123236775abb63"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/Localization/UnifiedContextsDemo/vi.json",
+    "mode": "100644",
+    "gitBlob": "c115a35726d049352cdf3c6773c5caeda67651ad",
+    "sha256": "73d137a03e279534c134d94389653016cf0407ab5eb8987dc75f05fdddae54f7"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/Localization/UnifiedContextsDemo/zh-Hans.json",
+    "mode": "100644",
+    "gitBlob": "23790bde506730dcb517f31f3b2a1ac458c74f95",
+    "sha256": "791a81f2e8ecf75643b865ebcb832090b91d731801a3f8f8de14696634b01f13"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/Localization/UnifiedContextsDemo/zh-Hant.json",
+    "mode": "100644",
+    "gitBlob": "31e0ab5a47a599f6fd945c2962eb34fc2487fc9c",
+    "sha256": "50ab5d8312e891769bb5dd76202ee65310a8f82e71edfa8121329595e2df45b6"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/Localization/UnifiedContextsDemoResource.cs",
+    "mode": "100644",
+    "gitBlob": "6b3fa5a5d9f089bd721fd7c268ba56e4281359eb",
+    "sha256": "a39f401b159411fcb02343a78b8ad94f0400f313e2df20f4b669e14cd8bdcd0c"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/MultiTenancy/MultiTenancyConsts.cs",
+    "mode": "100644",
+    "gitBlob": "53cc044317bd1c1aa329c085fb0568ac3199aa0e",
+    "sha256": "13f00b65a1fa78b2fd0908ac2edb190e69d70d3d9a45c14d865170fa7b7c8e05"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/UnifiedContextsDemo.Domain.Shared.csproj",
+    "mode": "100644",
+    "gitBlob": "b0a7483d3feb58a838c26c7a0493bd0fd1c96601",
+    "sha256": "c5526196857997fae68bff61e573c544ea40adfded95a44659f7dcb53f76c878"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/UnifiedContextsDemoDomainErrorCodes.cs",
+    "mode": "100644",
+    "gitBlob": "ba2c080bbae116e6c96e60e3baa7ad10f40121b4",
+    "sha256": "6e87626e5b8153dfb3f4f7d8ecf9ffc5d883e120ad7b2382cf36254cb4ea8e1e"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/UnifiedContextsDemoDomainSharedModule.cs",
+    "mode": "100644",
+    "gitBlob": "63f4719d901a098413d1c64c3b303fcb95ff26b0",
+    "sha256": "41e62b9e2b765f8358b1b391ba66b93dd29fdcc8bde05ea675ba55350af86210"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/UnifiedContextsDemoGlobalFeatureConfigurator.cs",
+    "mode": "100644",
+    "gitBlob": "e41f2f3d642775a8270214c3b7f31ffe0227b0f3",
+    "sha256": "c2ac1e328f0c42007bbc5a6fad1f77d16998b2cc8a357c039b0cfe262193713a"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain.Shared/UnifiedContextsDemoModuleExtensionConfigurator.cs",
+    "mode": "100644",
+    "gitBlob": "92765e1cd19c420d0212635f590829da0700d573",
+    "sha256": "ebe5f9db58a1bfc1b892d157d1d12741aa82b315b51e612e543cfd43b16566c7"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain/Data/IUnifiedContextsDemoDbSchemaMigrator.cs",
+    "mode": "100644",
+    "gitBlob": "10f3d4e05bd0236e425800182a037d03776039b2",
+    "sha256": "c11d9ea9f834d825bd497b4672a57a334a06b612a76e70807454ce4dbd6b99a3"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain/Data/NullUnifiedContextsDemoDbSchemaMigrator.cs",
+    "mode": "100644",
+    "gitBlob": "47656f9730beac4ba212eb059ad812eaa9428b03",
+    "sha256": "1bc1fab1c6fa1c8a93da7c56e36d3c92943945cfdbbe52da2cbe793a856152f1"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain/Data/UnifiedContextsDemoDbMigrationService.cs",
+    "mode": "100644",
+    "gitBlob": "ed4f359ae79d6e2536ec73333b93c7560dbd1142",
+    "sha256": "38df75848bdd800727f065afab6cd77ff9accc5277ccddcd205e2ae0c54720ce"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain/IdentityServer/IdentityServerDataSeedContributor.cs",
+    "mode": "100644",
+    "gitBlob": "84d463e47c2d1b5d5e217adec212dd8b9c6680d4",
+    "sha256": "4145775155145cf3c9b5d736dde09d16b9f9487f1b72ff58552a2990c8e84853"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain/MyUserExtensions.cs",
+    "mode": "100644",
+    "gitBlob": "26a8fb0978dc54e6ebb37bf91113f9db92e5e7be",
+    "sha256": "6ef5dd76a8bab61db40f9410ce03673c100bc92971b02df0736d04a4b0a415ce"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain/Properties/AssemblyInfo.cs",
+    "mode": "100644",
+    "gitBlob": "f431d6ec7cc2aafbb286e571a9415333b1f1dc3d",
+    "sha256": "1e0afa934683ac87992ae0e6f082cbbd0f8b0271ac9910589c8e306a92966b02"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain/Settings/UnifiedContextsDemoSettingDefinitionProvider.cs",
+    "mode": "100644",
+    "gitBlob": "36810510794a10f2954f16c1e11ecf5e2e310788",
+    "sha256": "a31da337b412192057df7a0cc54483ee4569f0165cecbbf5b7f574387be96ebf"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain/Settings/UnifiedContextsDemoSettings.cs",
+    "mode": "100644",
+    "gitBlob": "854d1cf64f96a5e14f5f1e9713347f2dc3a7f343",
+    "sha256": "8f5cb6ed69187766936c62a876a59dee17c936524cb8dca02c2b306da60764b5"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain/UnifiedContextsDemo.Domain.csproj",
+    "mode": "100644",
+    "gitBlob": "5bfe728a5cfe480918ebe33a7acaadbf2a909d4c",
+    "sha256": "96678a2d5efcce87e302d988d02269583fa3529f0051a33798b359702650e889"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain/UnifiedContextsDemoConsts.cs",
+    "mode": "100644",
+    "gitBlob": "3d41e52d3e626f5500fb00c0adc957942969a895",
+    "sha256": "3fcafee9d6d38d5f8f89a7684c8f8c907449c72000ae554af382a3c43ba1a491"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain/UnifiedContextsDemoDomainModule.cs",
+    "mode": "100644",
+    "gitBlob": "062fe6e99acbd1cb0989e3e6d4451a1b782380cf",
+    "sha256": "ac489b67e6a354cc899f16c6ed066c0f95e5bae3c47f8135a8b6a01ba2e9c34e"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain/Users/IMyUserRepository.cs",
+    "mode": "100644",
+    "gitBlob": "58191abfef9d7df65b1982e01abae5e293342365",
+    "sha256": "271ce688536e52023aa2157a3d819fd1ef8531817276ba1a583ddbb60baee5e9"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Domain/Users/MyUserService.cs",
+    "mode": "100644",
+    "gitBlob": "c4787698f49e70e6b7b84b69a21da7b4a38f7e3f",
+    "sha256": "562344232d09b45c5b2e6e63e8cff6bf5ff1746844a09f5b75e3fb2dd033e72a"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.EntityFrameworkCore/EntityFrameworkCore/EntityFrameworkCoreUnifiedContextsDemoDbSchemaMigrator.cs",
+    "mode": "100644",
+    "gitBlob": "b60edc9d9d51216a661b4635747e643fe23ec530",
+    "sha256": "92fdd51ae20ed1441ba0f652e1ca580b6d49bbf948418a8399b2f63123146c1b"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.EntityFrameworkCore/EntityFrameworkCore/UnifiedContextsDemoDbContext.cs",
+    "mode": "100644",
+    "gitBlob": "715ef39b720ea0afdd0036981e77af253a9850ed",
+    "sha256": "b57dcf30ccea0603922bdb5997cbbacf4e820a24ede4292454182431d407dbdc"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.EntityFrameworkCore/EntityFrameworkCore/UnifiedContextsDemoEfCoreEntityExtensionMappings.cs",
+    "mode": "100644",
+    "gitBlob": "0696268b00916838ac094a092e1c9bf5471f38b9",
+    "sha256": "eeb7ddf900fe209644e0d84b47fc8373b497cc37e1a31f60082ef58606f24ca9"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.EntityFrameworkCore/EntityFrameworkCore/UnifiedContextsDemoEntityFrameworkCoreModule.cs",
+    "mode": "100644",
+    "gitBlob": "290a6dfa7464e4aa13d001859e5982ec17c2431c",
+    "sha256": "f9e20e4831305921448a5552cbfcaaddbd9c3b5bb2656f9295bc7cb7173b696b"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.EntityFrameworkCore/EntityFrameworkCore/UnifiedContextsDemoMigrationsDbContextFactory.cs",
+    "mode": "100644",
+    "gitBlob": "43bba8dcf9207d9ba4c5a2a296fe8bbfd73d30b8",
+    "sha256": "c0abbef1beab76fcd1dd4f971231ac541a302831d92f0462b1bc3f14361da6ae"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.EntityFrameworkCore/Migrations/20240912065611_Initial.cs",
+    "mode": "100644",
+    "gitBlob": "3452cc74d4b0b7e70d496ae475907d6631efc83a",
+    "sha256": "c592688a71e5b7553ac96e83a23902ab04dea0c5e8bb309845678c837a766db8"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.EntityFrameworkCore/Migrations/20240912065611_Initial.Designer.cs",
+    "mode": "100644",
+    "gitBlob": "47bca276f609a4512d6ac71821ba4c6c18687287",
+    "sha256": "980d9489764c14c6351800c9f398ac06d07577b73ba6b6c636800108315ecfca"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.EntityFrameworkCore/Migrations/UnifiedContextsDemoDbContextModelSnapshot.cs",
+    "mode": "100644",
+    "gitBlob": "1b4e9abf7f6a98611a3224cb86c505c532bf234f",
+    "sha256": "b2ace6bdb4f2b04660a55c7521be57e16fa7fb7dde237f3c7e48e14216983470"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.EntityFrameworkCore/Properties/AssemblyInfo.cs",
+    "mode": "100644",
+    "gitBlob": "4cc9629043fa50f550e3268f1b42237172166975",
+    "sha256": "03679b593b30eaff873dd00a2fe71662b0952504f05e4f43930b3ca6806f7ab6"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.EntityFrameworkCore/UnifiedContextsDemo.EntityFrameworkCore.csproj",
+    "mode": "100644",
+    "gitBlob": "37f603157eea1add4118790113b8caf9f8b32301",
+    "sha256": "7020910c2a6de9d966f7876f04298e807d4a666b397853e023790f3644163b5e"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.EntityFrameworkCore/Users/MyUserRepository.cs",
+    "mode": "100644",
+    "gitBlob": "15ceaf96869a8a4949076230ef456a6b748e421b",
+    "sha256": "bfd09edbaaa4557be4ac23f1c10587b1b4f57e71c182fcc8b29bed99feadd352"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.HttpApi.Client/UnifiedContextsDemo.HttpApi.Client.csproj",
+    "mode": "100644",
+    "gitBlob": "1799bda5dc5eb663798c0a2f7b8ce9d61e639404",
+    "sha256": "12df6bddaa7d36e375412ce48e431d7032041bee57b46b6738debd75056eed45"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.HttpApi.Client/UnifiedContextsDemoHttpApiClientModule.cs",
+    "mode": "100644",
+    "gitBlob": "4cbb1556d016771cd499aabcadc9c9251140b8b1",
+    "sha256": "910b150dfd911b4fc02fcff3e6e9ceb176b42f470102fc71e20da543f483cf5b"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.HttpApi/Controllers/UnifiedContextsDemoController.cs",
+    "mode": "100644",
+    "gitBlob": "b376e7a331cf24c7869e77de6f0506de8ebc063e",
+    "sha256": "71cdeea24b1a99c7c6bf79ac498c202d86e8607259d430340d97f9681edb8b15"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.HttpApi/Models/Test/TestModel.cs",
+    "mode": "100644",
+    "gitBlob": "c0f0cda9839ad41317b30105f73b9639cce67687",
+    "sha256": "0eb784e95563e93eef298872ee5d2490ccf4e1dc8fe4a346020e36e9f3958643"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.HttpApi/UnifiedContextsDemo.HttpApi.csproj",
+    "mode": "100644",
+    "gitBlob": "179cbf5f17f7a7102d2636fd1a02d98aebf070ee",
+    "sha256": "bf16bbabb9cf64333a2f406078f38abe6fb6609533042bf78de079a5708ef42c"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.HttpApi/UnifiedContextsDemoHttpApiModule.cs",
+    "mode": "100644",
+    "gitBlob": "b81a543c8e0df6becec9a58c981b2a9ba6e34c69",
+    "sha256": "2d1b0db7f790bae43349c48a2b59e7cfadba33a6ba8bde5fcd92d5d314b28657"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/abp.resourcemapping.js",
+    "mode": "100644",
+    "gitBlob": "122e8e926aed2bcdd229513db34efe107e74ec68",
+    "sha256": "835583314984e1164b48f796782ede62cf67a1a4e8b02e69542b6e6aebda8c8e"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/appsettings.Development.json",
+    "mode": "100644",
+    "gitBlob": "2c63c0851048d8f7bff41ecf0f8cee05f52fd120",
+    "sha256": "d914176fd50bd7f565700006a31aa97b79d3ad17cee20c8e5ff2061d5cb74817"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "55de0c7142170e1b2e55a5f0021435a8702c63f2",
+    "sha256": "ba21aa684de7147e271b3110da4c6a5d4d58bfcf78f858f1223f2268477b122f"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/Components/_ViewImports.cshtml",
+    "mode": "100644",
+    "gitBlob": "c1da1f5f107073cb33bda44b29af50b0ca819024",
+    "sha256": "12f2ecf13ffdd45d83b0198a52d2bd0972c59a17dc4da1c61d0a1974ddec9fda"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/gulpfile.js",
+    "mode": "100644",
+    "gitBlob": "f7ebc78f23b5ffae00851a59aea7c57ecf52cc61",
+    "sha256": "211bac3c64a060538af908c6d85028e3c81f2b0d534077b4bec929a80976c31d"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/Menus/UnifiedContextsDemoMenuContributor.cs",
+    "mode": "100644",
+    "gitBlob": "fa3f149d5ec3b5e058b3f993f78f507c02e9dddb",
+    "sha256": "c949e658cdcf56232729a2698c572f622b3a4ae9cf9721494b540e5ecfd6924c"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/Menus/UnifiedContextsDemoMenus.cs",
+    "mode": "100644",
+    "gitBlob": "197388b5500f3d0252abdaac0fd689fd2b266a57",
+    "sha256": "d2b8a1b8f305b2beb4dcd193121a63f4958d1a743e98204799fcf9b173ce5154"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/package.json",
+    "mode": "100644",
+    "gitBlob": "d0de1d59f790e1a9f5845755ae75cfa350e48362",
+    "sha256": "ba554ce230fd912ee16b49a22def7ffba3e2961a10b4dd2992ff18e770d43a8a"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/Pages/_ViewImports.cshtml",
+    "mode": "100644",
+    "gitBlob": "c1da1f5f107073cb33bda44b29af50b0ca819024",
+    "sha256": "12f2ecf13ffdd45d83b0198a52d2bd0972c59a17dc4da1c61d0a1974ddec9fda"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/Pages/Index.cshtml",
+    "mode": "100644",
+    "gitBlob": "633b0f18d696218708522c48fa00ac2a760fd43e",
+    "sha256": "0c87236ae04a5a1b118671cbaff34c3da42e732e09a124d4c52144e4be264d90"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/Pages/Index.cshtml.cs",
+    "mode": "100644",
+    "gitBlob": "3e7e9d18402e335392ad79977d0bf94f29c68bcd",
+    "sha256": "e22cc4d2121228f650b11ddb3a4110db92584fdcdb00f3f9726d5d6e24aead64"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/Pages/Index.css",
+    "mode": "100644",
+    "gitBlob": "b248b67c1bc055d854b7908f607274fd7727b41b",
+    "sha256": "e9a5e05a1aff6894cbb3184447d5fc3b6c8e1e144f8d9b3fa93e1b4f6dbdf6e5"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/Pages/Index.js",
+    "mode": "100644",
+    "gitBlob": "a31bd7cc44ee9ce8794d98a17bcf2f54088c5145",
+    "sha256": "f602ea2ae0dbc1b556ca64916bb1f45a51cc151a9534d8df06bc42d0125965ae"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/Pages/UnifiedContextsDemoPageModel.cs",
+    "mode": "100644",
+    "gitBlob": "b85f6c30e011e2491c1c3dd108ae81b883f92c6b",
+    "sha256": "454241269c5fd8a9ccce38446df15883e42a7319aecc5c6274bde42a0fba20fc"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/Program.cs",
+    "mode": "100644",
+    "gitBlob": "8994c5c74b9eb3161d35715efb6d3579ad3dab55",
+    "sha256": "03a456e5e18d3a84dea5a7b80e3eaec1a97e1f255c46f7a2d2b54c901365d374"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/Properties/AssemblyInfo.cs",
+    "mode": "100644",
+    "gitBlob": "539ecf8af04c9b91bf87af2db9f4051c3c357635",
+    "sha256": "3ab1c24785fa37467a88403d82b7ba34afa84481b43372d69050dae58e1966aa"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/Properties/launchSettings.json",
+    "mode": "100644",
+    "gitBlob": "d7d8fd661f594cde01b7c7ac1344dbf498bd0452",
+    "sha256": "d0f04e92e119f20284eb40c6c0880592b685a674fb0066164c4f961a635a9359"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/Startup.cs",
+    "mode": "100644",
+    "gitBlob": "cc5740ea0c0470a1cc8e7c0b5c5501db9b0c4d01",
+    "sha256": "c28a1040cbf3cd79b47d29ea161573693bf6be65cb95e67fd10f9ac46d6c5597"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/tempkey.rsa",
+    "mode": "100644",
+    "gitBlob": "f3b32de233b39df1192c5d3a9709856531631390",
+    "sha256": "9da7fc410649cbebc4b01b7e31b96472c7b66a10b332070019f2bcc124e5db25"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/UnifiedContextsDemo.Web.csproj",
+    "mode": "100644",
+    "gitBlob": "8a7cd826ed2328e3a4384c72182a3e15851cb12a",
+    "sha256": "cdae786c6d660dd3eac2cef4f00cdef320eefd3b6e2aeaf787c2b9cff5ec5ccc"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/UnifiedContextsDemoBrandingProvider.cs",
+    "mode": "100644",
+    "gitBlob": "1035981265aaabfb54de6f9e83a34f2917815577",
+    "sha256": "d3805ffb42aedcdec4ed34da2a67d0d48aeb3a3953274ae2dd049283b5e87897"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/UnifiedContextsDemoWebAutoMapperProfile.cs",
+    "mode": "100644",
+    "gitBlob": "4b8e7872215e05259acddd0007e04a691717d742",
+    "sha256": "566a791287d3e8d4cb8838d23228ab38bb6cb13b26c82621e9b17b2cd35f413f"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/UnifiedContextsDemoWebModule.cs",
+    "mode": "100644",
+    "gitBlob": "0ab26b0cfe038ed7d2f5ae0ecf78c4be5799db1b",
+    "sha256": "3c256e2a5ce88db853d9bdc129c269771c9428b1c40b742943083f0c8822e4bd"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/Views/_ViewImports.cshtml",
+    "mode": "100644",
+    "gitBlob": "c1da1f5f107073cb33bda44b29af50b0ca819024",
+    "sha256": "12f2ecf13ffdd45d83b0198a52d2bd0972c59a17dc4da1c61d0a1974ddec9fda"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/wwwroot/global-styles.css",
+    "mode": "100644",
+    "gitBlob": "e5d20ea346d967ac5396607e6881f97174d1ebf5",
+    "sha256": "419c01a5b1a621479bf0356a10050b3b355b96ab1039e81d14dec639935eb13a"
+  },
+  {
+    "path": "src/UnifiedContextsDemo.Web/yarn.lock",
+    "mode": "100644",
+    "gitBlob": "02070244edcf01725ef754968c4d1cadfedf104d",
+    "sha256": "b64ab7be2b80e69a0bcd4bfc7706bd4c7e676debcb92b16bc4f6bd4178c98c18"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.Application.Tests/Samples/SampleAppServiceTests.cs",
+    "mode": "100644",
+    "gitBlob": "11a201c703e586cf3cbe77d4953286221af51bc0",
+    "sha256": "7e03dcd5de247e3f1b0418227e18a2dfc808986f0fa883f08793beb33d4421f2"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.Application.Tests/UnifiedContextsDemo.Application.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "aebf092eb26fb28391135814a17f34f20e97b7bd",
+    "sha256": "a157c29c6859a08cefd28fa9d4c3534683a7e869b33d2404c8d85990077773aa"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.Application.Tests/UnifiedContextsDemoApplicationTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "f25a8056645697d135366be780f9c072769aff91",
+    "sha256": "a5ce9dcfd355c7ae95ca1dcc23265bac4002911596e88724c61e7f16e06377e9"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.Application.Tests/UnifiedContextsDemoApplicationTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "a09355932577eab14962331dce8121788ac21fdb",
+    "sha256": "7a5356a5e5e2bea99970f83c6e4afa3d3358cce63e566fd64dd43ff1ecbc2ec3"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.Domain.Tests/Samples/SampleDomainTests.cs",
+    "mode": "100644",
+    "gitBlob": "90592c3da7e582073196adc42b408ac7798840e7",
+    "sha256": "1ec1e1265bee558f24cc985b1f1b42193b8405cbb00e9f1c2918064909bdedd6"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.Domain.Tests/UnifiedContextsDemo.Domain.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "a88ddab024dde41ba3ede18d40d867c15d05a170",
+    "sha256": "0ecc2138db497c1e763fca6258596f059424dfd56400943b9db2e8ba9ef63f2b"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.Domain.Tests/UnifiedContextsDemoDomainTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "0f7a07e6f31a15d9d7f9c1aed677463c6be1490d",
+    "sha256": "dd02af64207b4d1af4d05a4ddeb08c98480c1ea1fcee417902bb5ea6a112cc98"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.Domain.Tests/UnifiedContextsDemoDomainTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "5cc568285062c347201e35589ac11d85ab502956",
+    "sha256": "c28cb4643d863518afab7e97ac42969b6be39dd658f2b3ca4923dae57fc97713"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.Domain.Tests/Users/MyUserService_Tests.cs",
+    "mode": "100644",
+    "gitBlob": "9df9622b4eb627a9333076e964139657413632dc",
+    "sha256": "e40b92a02ff88961e2222da1ebaf7d2bc20c0541040e6ac15109e9104795a5ed"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.EntityFrameworkCore.Tests/EntityFrameworkCore/Samples/SampleRepositoryTests.cs",
+    "mode": "100644",
+    "gitBlob": "d7445cc32acd6ac17f3d4b69c3b591352fcec3a6",
+    "sha256": "3a92a851a5a377f0c65d45f4c78450b59794186b4f1ca6155bbbb2976eee1e3a"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.EntityFrameworkCore.Tests/EntityFrameworkCore/UnifiedContextsDemoEntityFrameworkCoreTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "bb657fdaf777a108b273b43b2729750fdd9a3067",
+    "sha256": "1e1ca3cdf15086b941a3a6f5a22df1011ba8a1d26aaa916b54717ee606045ba6"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.EntityFrameworkCore.Tests/EntityFrameworkCore/UnifiedContextsDemoEntityFrameworkCoreTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "8411a1aa77866f58ac1a1f55fad81968e7df688f",
+    "sha256": "3cba64611831037749cfe02ec326305a1930faf2655eb367fee80b2d4cd322bf"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.EntityFrameworkCore.Tests/UnifiedContextsDemo.EntityFrameworkCore.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "4f60f322adcaa85b049bae2f0ef3514611bd8345",
+    "sha256": "2b73c3851747fa21ce97f6a95f1984f1fffd13358cea206cae2f56b56763b640"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.HttpApi.Client.ConsoleTestApp/appsettings.json",
+    "mode": "100644",
+    "gitBlob": "521f2f8f742a5dc72979180adae87240de119bda",
+    "sha256": "f778cb40ea4a7489b1e4ea96bda450ebf22319b9d8bd02dedb281c2268a85e05"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.HttpApi.Client.ConsoleTestApp/ClientDemoService.cs",
+    "mode": "100644",
+    "gitBlob": "578759ed8b410216bb69de9cad231c0aea7d54e1",
+    "sha256": "48e0e7f44d3ef3c433b824a0f57952b93a7d3dfe4ca52392e82c2f6b557d86dd"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.HttpApi.Client.ConsoleTestApp/ConsoleTestAppHostedService.cs",
+    "mode": "100644",
+    "gitBlob": "76f903edbddba713aaed878f251ef456fbb4d662",
+    "sha256": "b4dc8c1a134a7a7fed88c706e2403fd3289c69cfeb2890d33615f7aac81f6a35"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.HttpApi.Client.ConsoleTestApp/Program.cs",
+    "mode": "100644",
+    "gitBlob": "389ca3a59a67e3e0d069f15ac650d7b161effa4e",
+    "sha256": "761e57509b73c778fc3193b0c88c006a6d5ba72027bdaf36386e31b7ff91b32a"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.HttpApi.Client.ConsoleTestApp/UnifiedContextsDemo.HttpApi.Client.ConsoleTestApp.csproj",
+    "mode": "100644",
+    "gitBlob": "6aa8bb759dd548625d0091de4eb748bffdd7c926",
+    "sha256": "7903e39e1b394a7fd193d86fd02a1c48af93990dd5b7386e8694e7bbeed41144"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.HttpApi.Client.ConsoleTestApp/UnifiedContextsDemoConsoleApiClientModule.cs",
+    "mode": "100644",
+    "gitBlob": "65ebcef004ed4f7fbf4757f058bf8a5fb6a6b942",
+    "sha256": "be9aaee1d687407ce8a6060b4266e88e0b5f54d1357c5dc2cda387e9f02b33c1"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.TestBase/Security/FakeCurrentPrincipalAccessor.cs",
+    "mode": "100644",
+    "gitBlob": "0d890ade8936139877bb8d0aab86ea6fb72e7322",
+    "sha256": "48c93e686e23f2b7f68a109e6c38bc19277e31ecbac7b9826307024f2b31fa92"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.TestBase/UnifiedContextsDemo.TestBase.csproj",
+    "mode": "100644",
+    "gitBlob": "673f45377bcd14fb535acc86692c1c9ab4a8654f",
+    "sha256": "5cae153780d413e50ccd7e21cf10f3be906a6ad4ae8895ebf0a4514489ec5a7d"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.TestBase/UnifiedContextsDemoTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "c86c234c07258a2dcf44f545a82d32529728fa0c",
+    "sha256": "4d4eb8cc1df47ce3b7ac711966da6a937cc8a743871331fd12bca70cb114d589"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.TestBase/UnifiedContextsDemoTestBaseModule.cs",
+    "mode": "100644",
+    "gitBlob": "55a2b1c90267e3db070b7c9ee32b6c4876cc38ba",
+    "sha256": "b5d1aa279fd715fa82553a302299bda9bf23b2950d980e1b6e77e90dc0a5dad7"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.TestBase/UnifiedContextsDemoTestDataSeedContributor.cs",
+    "mode": "100644",
+    "gitBlob": "67eee44dbdf9a52783889071df60ae6b4beb7fb2",
+    "sha256": "ea717e986e20fb61152ebbabf26c4646a540856914f8befaaf8ba764294d6d4f"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.Web.Tests/Pages/Index_Tests.cs",
+    "mode": "100644",
+    "gitBlob": "7d5b640bfbaa151ffc527bf8a7a4a3eb37ea4a28",
+    "sha256": "1893189453a41beecda282242fa1ba6b47bfb0999e6b89f631933d4397681a0e"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.Web.Tests/UnifiedContextsDemo.Web.Tests.csproj",
+    "mode": "100644",
+    "gitBlob": "9ee86a20e75c671290025a4748d504a4b4905b82",
+    "sha256": "62c673662fa1ab9ba99deb4dd860d51e50c28e4c677c90406fc932f7150d9139"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.Web.Tests/UnifiedContextsDemoWebTestBase.cs",
+    "mode": "100644",
+    "gitBlob": "08f9adbca1dd2b03c56f143bdcbf14e6b199e4ff",
+    "sha256": "8ee17957d6105f46f4a70f5ce978983fe966dd794a0644797c8fd9ced0792f5d"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.Web.Tests/UnifiedContextsDemoWebTestModule.cs",
+    "mode": "100644",
+    "gitBlob": "6185c0990d4340e6cc2ee227ec7ac506f447ddcb",
+    "sha256": "7c7244facf475735bfe9b2d29a8b699f2b355625f0357cab91594d78cef8bf91"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.Web.Tests/UnifiedContextsDemoWebTestStartup.cs",
+    "mode": "100644",
+    "gitBlob": "464c56bfc23f14e3e24d74d7d11154026bbc91ae",
+    "sha256": "b2fd5d62fb9686a48c2f028824c879211ea2d4fbc45d7b2740834cd6c3bd5a6c"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.Web.Tests/WebContentDirectoryFinder.cs",
+    "mode": "100644",
+    "gitBlob": "b279bc2217f30356d2888e5769730e2ff0323b0b",
+    "sha256": "2262c93a63dcc82e91bd8897aaad162c6a46ed8ba81fc3ec98d819352fb823c7"
+  },
+  {
+    "path": "test/UnifiedContextsDemo.Web.Tests/xunit.runner.json",
+    "mode": "100644",
+    "gitBlob": "34b2fe2cddb72b7d1fd0d80e16fe768756657cb6",
+    "sha256": "0122935f783ca0959cce7839c5287fb16ac8b8087975e20415761e671ca3b159"
+  },
+  {
+    "path": "UnifiedContextsDemo.sln",
+    "mode": "100644",
+    "gitBlob": "1673446d8599e0a7b9376f264bbbc78585e763f2",
+    "sha256": "728f99d429feb1286e1ecb100ee7b157cb76973dd8558d8676ee8b60c9660335"
+  },
+  {
+    "path": "UnifiedContextsDemo.sln.DotSettings",
+    "mode": "100644",
+    "gitBlob": "cb0b2c919f75c02f264be049b25b49828974664c",
+    "sha256": "a2720bad501f52bfc11a0b5a214408771b52e2e4177a7c85ff6fff8384dc4136"
+  }
+]

@@ -1,11 +1,36 @@
 <Solution>
+  <Folder Name="/samples/BookStore/" />
+  <Folder Name="/samples/BookStore/src/">
+    <Project Path="samples/BookStore/src/Acme.BookStore.Application.Contracts/Acme.BookStore.Application.Contracts.csproj" />
+    <Project Path="samples/BookStore/src/Acme.BookStore.Application/Acme.BookStore.Application.csproj" />
+    <Project Path="samples/BookStore/src/Acme.BookStore.DbMigrator/Acme.BookStore.DbMigrator.csproj" />
+    <Project Path="samples/BookStore/src/Acme.BookStore.Domain.Shared/Acme.BookStore.Domain.Shared.csproj" />
+    <Project Path="samples/BookStore/src/Acme.BookStore.Domain/Acme.BookStore.Domain.csproj" />
+    <Project Path="samples/BookStore/src/Acme.BookStore.EntityFrameworkCore/Acme.BookStore.EntityFrameworkCore.csproj" />
+    <Project Path="samples/BookStore/src/Acme.BookStore.HttpApi.Client/Acme.BookStore.HttpApi.Client.csproj" />
+    <Project Path="samples/BookStore/src/Acme.BookStore.HttpApi/Acme.BookStore.HttpApi.csproj" />
+    <Project Path="samples/BookStore/src/Acme.BookStore.PostgreSql.Migrations/Acme.BookStore.PostgreSql.Migrations.csproj" />
+    <Project Path="samples/BookStore/src/Acme.BookStore.SonnetDB.Migrations/Acme.BookStore.SonnetDB.Migrations.csproj" />
+    <Project Path="samples/BookStore/src/Acme.BookStore.Sqlite.Migrations/Acme.BookStore.Sqlite.Migrations.csproj" />
+    <Project Path="samples/BookStore/src/Acme.BookStore.Web/Acme.BookStore.Web.csproj" />
+  </Folder>
+  <Folder Name="/samples/BookStore/test/">
+    <Project Path="samples/BookStore/test/Acme.BookStore.Application.Tests/Acme.BookStore.Application.Tests.csproj" />
+    <Project Path="samples/BookStore/test/Acme.BookStore.Domain.Tests/Acme.BookStore.Domain.Tests.csproj" />
+    <Project Path="samples/BookStore/test/Acme.BookStore.EntityFrameworkCore.Tests/Acme.BookStore.EntityFrameworkCore.Tests.csproj" />
+    <Project Path="samples/BookStore/test/Acme.BookStore.HttpApi.Client.ConsoleTestApp/Acme.BookStore.HttpApi.Client.ConsoleTestApp.csproj" />
+    <Project Path="samples/BookStore/test/Acme.BookStore.TestBase/Acme.BookStore.TestBase.csproj" />
+    <Project Path="samples/BookStore/test/Acme.BookStore.Web.Tests/Acme.BookStore.Web.Tests.csproj" />
+  </Folder>
   <Folder Name="/src/">
     <Project Path="src/SonnetDB.Abp.EntityFrameworkCore/SonnetDB.Abp.EntityFrameworkCore.csproj" />
   </Folder>
   <Folder Name="/samples/">
+    <Project Path="samples/SonnetDB.Abp.JsonColumnRepro/SonnetDB.Abp.JsonColumnRepro.csproj" />
     <Project Path="samples/SonnetDB.Abp.Sample/SonnetDB.Abp.Sample.csproj" />
   </Folder>
   <Folder Name="/tests/">
+    <Project Path="tests/SonnetDB.Abp.BookStore.Tests/SonnetDB.Abp.BookStore.Tests.csproj" />
     <Project Path="tests/SonnetDB.Abp.EntityFrameworkCore.Tests/SonnetDB.Abp.EntityFrameworkCore.Tests.csproj" />
   </Folder>
 </Solution>
