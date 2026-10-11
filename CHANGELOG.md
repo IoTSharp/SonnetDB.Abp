@@ -4,6 +4,13 @@
 
 ### Added
 
+- A06：继续分析 JSON 以外的公开 4.0.0 缺口，18 个非 JSON 场景 11 PASS/7 FAIL；查重后创建并 GET 回读 SonnetDB #270（参数化 Contains 字面语义）、#271（BLOB/Passkey 参数查询）、#272（外键名称/无效 DROP）、#273（幂等脚本重放）。DDL 事务复用 #227，迁移锁/完整恢复仍未验。
+- A06：新增独立合同诊断项目与有界执行入口，纳入根解决方案；四份 issue 的完整独立代码均另行构建和运行。最终 restore/format/Release build/test 通过，0 警告/0 错误、20/20；已证失败探测单独保留，A06 继续受阻。
+- A06：2026-10-11 继续迁移并分工审查模型、HTTP 旅程和 CI；公开 Provider 仍为 4.0.0，#266 仍 open，完整官方迁移生成再次复现原 JSON 映射失败，未将 PostgreSQL 基线或历史 CI success 计为 SonnetDB 完整应用成功。
+- A06：在独立 JSON 复现中补充官方 Passkey 的 Owned JSON 字段、用户外键和字符串数组，保留原 Complex 复现与失败退出码；新增 eng/Test-A06ModelReadiness.ps1，在有界执行与独立证据下对照四项模型及完整官方建表脚本生成，失败继续返回失败。
+- A06：首次回归 19/20，保留官方 SQLite 种子初始化时重新注册函数遇到活动语句的锁错误；测试夹具改用 GUID 命名共享内存库与独立 DbContext 连接，保留 keeper 和失败释放路径。具体并发语句来源未捕获；不与历史 SQLite 完整登录安全日志写锁混称。
+- A06：上述改动后的最终 CI 同级 restore、format verify、Release build/test 均通过，0 警告/0 错误、20/20 无跳过；完整模型复测入口仍为失败（SQLite 两项成功、SonnetDB 三项失败），A06 保持受阻。测试库清理，Demo 容器恢复停止并保留数据。
+
 - A17：首批官方示例固定为 S01–S13，共 13 项，先完整入库、后逐个迁移；新增 12 项/1662 个原文件，核对 Git blob 与复制 SHA-256，逐项保留 MIT 许可证、来源清单与 ADAPTATION.md。
 - A17：增加 samples 索引，路线图调整为 29 个有序任务；导入 13/13，完整 SonnetDB 迁移 0/13，S01 受 #266 阻塞，其余各有独立迁移编号和验收条件。新增原始项目尚未构建/运行，不冒称进入已有 CI 验收。
 - A17：用户授权提交推送后重新完成最终树 restore、格式检查、Release 构建和真实数据库测试，0 警告/0 错误、20/20 无跳过；测试库清理，PostgreSQL 容器恢复停止并保留数据，原始来源在暂存区继续按原 Git blob 验证。

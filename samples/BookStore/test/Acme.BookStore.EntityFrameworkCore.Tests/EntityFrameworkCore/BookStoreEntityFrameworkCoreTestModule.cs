@@ -42,12 +42,14 @@ public class BookStoreEntityFrameworkCoreTestModule : AbpModule
     private void ConfigureInMemorySqlite(IServiceCollection services)
     {
         _sqliteConnection = CreateDatabaseAndGetConnection();
+        var connectionString = _sqliteConnection.ConnectionString;
 
         services.Configure<AbpDbContextOptions>(options =>
         {
             options.Configure(context =>
             {
-                context.DbContextOptions.UseSqlite(_sqliteConnection);
+                // 各上下文独占连接，避免注册函数时与同一连接上的活动语句冲突。
+                context.DbContextOptions.UseSqlite(connectionString);
             });
         });
     }
@@ -59,18 +61,34 @@ public class BookStoreEntityFrameworkCoreTestModule : AbpModule
 
     private static SqliteConnection CreateDatabaseAndGetConnection()
     {
-        var connection = new SqliteConnection("Data Source=:memory:");
-        connection.Open();
-
-        var options = new DbContextOptionsBuilder<BookStoreDbContext>()
-            .UseSqlite(connection)
-            .Options;
-
-        using (var context = new BookStoreDbContext(options))
+        var connectionString = new SqliteConnectionStringBuilder
         {
-            context.GetService<IRelationalDatabaseCreator>().CreateTables();
-        }
+            DataSource = "BookStore-" + Guid.NewGuid().ToString("N"),
+            Mode = SqliteOpenMode.Memory,
+            Cache = SqliteCacheMode.Shared,
+            Pooling = false
+        }.ToString();
+        var connection = new SqliteConnection(connectionString);
+        try
+        {
+            // 此连接仅维持命名内存库，测试宿主关闭时回收。
+            connection.Open();
 
-        return connection;
+            var options = new DbContextOptionsBuilder<BookStoreDbContext>()
+                .UseSqlite(connection)
+                .Options;
+
+            using (var context = new BookStoreDbContext(options))
+            {
+                context.GetService<IRelationalDatabaseCreator>().CreateTables();
+            }
+
+            return connection;
+        }
+        catch
+        {
+            connection.Dispose();
+            throw;
+        }
     }
 }

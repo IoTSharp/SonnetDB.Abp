@@ -110,3 +110,22 @@ dotnet ef migrations add InitialSonnetDB --project samples/BookStore/src/Acme.Bo
 这属于通用 EF Provider JSON 能力需求；不要求在本仓库研发或复制 SonnetDB 引擎。2026-10-09 已查重 Passkey、ToJson 和 JSON/EF 相关 issue；未发现相同的公开需求，SQL JSON 函数或 SqlSugar JSON 字段 issue 不等同于本 EF 容器映射缺口。
 
 补充参照：同一官方应用的 PostgreSQL 标准迁移、重复初始化、真实 admin 登录、书籍/作者 HTTP CRUD 与分页、重建宿主后读取已通过。SQLite 完整登录独立事务遇到写锁的失败保留，未关闭安全日志/事务制造成功。
+
+## 2026-10-11 A06 消费端复测
+
+本轮从 NuGet flat-container 索引重新读取公开版本，最新仍为 SonnetDB.EntityFrameworkCore 4.0.0；GitHub GET 回读 #266 为 open，updated_at 为 2026-10-09T10:26:16Z。本轮没有发布修复包或修改引擎，固定依赖不变。原 main 提交 e1d363d376726693770d92645e755f45f970e955 对应的 GitHub CI 37922480045 已完成并为 success，不能替代本 issue 的完整 SonnetDB 验收。
+
+重新执行原 Complex 复现与完整 BookStore `migrations add InitialSonnetDB`，都退出 1，仍报告 JSON 列 `Data` 的存储类型为 `null`。完整官方异常指向 `Volo.Abp.Identity.IdentityUserPasskey`；生成失败发生在建表前，未创建 SonnetDB 数据库或迁移文件。独立证据位于忽略的 artifacts/checks/a06-resume-20261011-original-complex-sonnetdb.*、a06-resume-20261011-migration-generate.*；原 2026-10-09 失败保留。
+
+审查发现原纯 Provider 复现只覆盖 Complex JSON，而官方 Passkey 使用 Owned JSON。新增可选 `Owned` 参数，按官方 snapshot 保留 `CredentialId` 二进制主键、`TenantId`、`UserId` 外键、`Data` 中的二进制/时间/布尔/计数字段与 `Transports` 字符串数组；不引用 ABP 包、不修改官方模型、不手工设置列类型绕过 Provider。
+
+```text
+dotnet run --project samples/SonnetDB.Abp.JsonColumnRepro -c Release --no-build --no-restore -- Sqlite Owned
+dotnet run --project samples/SonnetDB.Abp.JsonColumnRepro -c Release --no-build --no-restore -- SonnetDB Owned
+```
+
+eng/Test-A06ModelReadiness.ps1 提供 PowerShell 7 有界复测：先以 `-Micro` 执行单项 SQLite Complex，再执行完整入口，对照四项小模型并生成完整官方模型的建表 SQL。每次使用独立 label，不覆盖原证据；任何子命令失败都保留真实退出码，最终入口失败。该入口不安装 EF CLI、不执行 SQL，也不将模型/SQL 生成成功升级为迁移或应用成功。
+
+本轮已实际执行：SQLite Complex/Owned 均退出 0，JSON 列类型 TEXT；SonnetDB Complex/Owned 与完整 BookStore 建表脚本生成均退出 1，仍是同一 JSON 容器类型缺口。完整入口汇总 `allModelsReady=false`，成功 2、失败 3、未执行 0，入口退出 1。证据为 artifacts/checks/a06-model-readiness-b5cbbadf0a7d456aac31d5504c3bcc08.json 及其中逐项关联的原日志；微试独立汇总为 a06-model-readiness-6ec01d2603a04fe3a5ddbe83d47ce9d6.json。
+
+恢复条件仍是公开包修复并固定新版本后，先重跑两种 JSON 模型和完整官方模型，再生成独立 SonnetDB 标准迁移、实际建库/重复初始化与种子、真实 Passkey 数据读写、实际账户 HTTP CRUD/分页和宿主重启读取。本轮不预加跳过的 SonnetDB 应用测试，待实际标准迁移可执行后再复用已有完整 HTTP 旅程。

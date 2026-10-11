@@ -1,5 +1,44 @@
 # SonnetDB.Abp 交接记录
 
+日期：2026-10-11（Asia/Shanghai）。工作区：D:/source/SonnetDB.Abp。本轮只推进 A06；用户明确授权在不冲突的情况下使用多个智能体。
+
+## 本次 A06 提交与推送交接
+
+- 用户已明确授权提交所有文件并推送。将本轮全部 24 个可提交文件一起保存，包括前序 Owned JSON 复现、SQLite 测试连接修复、两个有界入口、非 JSON 合同项目、四项 issue 正文及路线图/交接记录。日志、数据库、bin/obj 等仍按仓库规则保留为忽略的本地证据，不强制收录。
+- 分支 main，提交前 HEAD=e1d363d376726693770d92645e755f45f970e955，origin=IoTSharp/SonnetDB.Abp；提交前 fetch 已成功。本节随 A06 提交保存，最终提交号、远端 SHA、工作区和本次门禁结果以 artifacts/checks/a06-publish-20261011-state.json 与 a06-publish-20261011-gates-summary.json 的实际回读为准。
+- 提交前在冻结的源码树执行根解决方案 restore、format verify（severity warn）、Release build/test；标准门禁与已证失败的数据库 probe 分开。保留四项公开 issue #270–#273、JSON #266 和 A06 受阻状态，不以提交或 CI 启动作为完整迁移通过。
+- 门禁所需 PostgreSQL Demo 容器按既有账本核对身份，记录本次启动并恢复原停止状态，保留数据；命令进程回执、测试库和清理记录使用新的 a06-publish-20261011-* 标签，原成功/失败证据不覆盖。新提交远端 CI 需要按实际 SHA 和 run 独立验收。
+
+## 本次 A06 非 JSON 缺口分析与 issue 交付
+
+- 用户要求分析还有哪些 SonnetDB 缺口并创建 issue；沿用已明确授权的多个子智能体，各自只写模型/应用/查重与正文文档，主智能体单进程顺序跑数据库探测、核对独立代码并发布。只处理 A06，没有修改引擎、ABP 框架或删除官方模块。
+- 新建并独立 GET 回读 SonnetDB #270（参数化 Contains 的 %/_/反斜杠字面语义）、#271（BLOB 普通/Passkey Any 二进制参数读取）、#272（EF 建表丢失外键名，DROP 返回成功但约束仍生效）、#273（接受 Idempotent 的无历史保护脚本，首轮成功重放失败）。编号、open 状态和完整正文分别核对；每项只创建一次。已有 JSON #266 和 DDL 事务 #227 复用，迁移锁/完整失败恢复未证，不重复提报。链接和最小独立正文见 docs/issues/A06-sonnetdb-gap-analysis.md。
+- 公开 SonnetDB.EntityFrameworkCore 4.0.0 / EF Core 10.0.12 实际运行 18 个非 JSON 合同，11 PASS/7 FAIL，失败归并为四项新 issue。CRUD/float/Guid/DateTime、JOIN分页、三个集合 Include、复合键、NULL唯一索引、基本外键、history 表、独立日志事务、集合过滤、UNION及DateTimeOffset通过；小模型通过不代表整个 ABP 模块。SQLite 独立写锁、幂等脚本明确拒绝及跨 offset 相等限制保留，不当作 SonnetDB 问题。
+- 四份 issue 的完整独立代码另行提取构建，0 警告/0 错误，14 次运行复现问题与对照；第一次二进制正文提取误选说明片段的编译失败保留，修正为完整代码后成功。早期只验 DROP 返回值的弱合同 PASS、history 混入不支持 guard 的失败也保留；加强合同后以 refined/standalone 的真实执行解释为准。原成功/失败回执均未覆盖。
+- 新 samples/SonnetDB.Abp.A06ContractProbe 纳入根解决方案，eng/Test-A06Contracts.ps1 先以 CRUD 微试，数量/总时间/单命令/程序取消均有界。最终源码树 restore、format verify、Release build/test 全部通过，0 警告/0 错误、20/20、无跳过。证据 a06-gap-20261011-final-{restore,format,build,test}.json、final-test-totals.json；诊断 FAIL 未伪装为通过测试。A06 仍 ⛔，完整迁移仍 0/13。
+- 恢复迁移：先获取并固定公开修复包，验证 #266 的两个 JSON 模型和完整模型/迁移；真实建库与种子后验收 #270 作者过滤、#271 Passkey、账户/CRUD/分页/重启；关系升级和脚本部署分别验收 #272/#273。Server、全部 Administration、并发迁移/恢复和发布仍独立待验。
+- 资源：最终门禁核对已有 PostgreSQL Demo 容器身份后启动，记录本次 StartedAt/PID，再恢复 stopped/running=false/PID=0，保留数据，GUID 测试库剩余 0。独立合同目录剩余 0，四个临时正文提取目录按任务归属回收，日志/TRX、bin/obj 作为忽略证据保留。最终审计 105 个命令回执、227 个进程身份/216 个 PID，匹配存活 0；审计自身 checked 回执也清理完成。证据 a06-gap-20261011-resource-audit.json；不宣称未观察后代全部已证明不存在。首次资源审计把 JSON 数组汇总误识别成命令回执而拒绝，失败保留；限定标量回执后，混合输入微试和完整审计通过。
+- Git（分析结束时）：仍在 main，HEAD=e1d363d376726693770d92645e755f45f970e955，当时无暂存、无新提交/推送。本次开始时上轮十个 A06 dirty 路径已存在并保留；本次另修改 SonnetDB.Abp.slnx 和三个根文档，新增合同项目、脚本与分析/issue 文档，最终 owned-path 清单以 git status 为准。没有安装工具、修改共享缓存或新建聊天/自动化。用户后续授权提交与推送，见本文件顶部本次交接。
+
+## 前序 A06 结果
+
+- 主智能体集中执行验证，三个子智能体分别负责模型复现、HTTP/SQLite 测试审查与夹具修复、CI 回读与复测脚本；写入目录互不重叠，合并后交叉审查。没有开展 A18 等其他迁移任务。
+- 现场回读 NuGet 公开版本，SonnetDB.EntityFrameworkCore 最新仍为 4.0.0；#266 仍 open，updated_at=2026-10-09T10:26:16Z。原 main=e1d363d376726693770d92645e755f45f970e955 的 GitHub CI 37922480045 已回读 completed/success、20/20，仅是既有基线的 CI。
+- 原 Complex 最小复现与完整官方 `migrations add InitialSonnetDB` 再次退出 1，仍报 Passkey `Data` JSON 容器存储类型为 null。未生成 SonnetDB 标准迁移或创建数据库；现有 SonnetDB 迁移程序集仍只有标记类型。A06 整体保持 ⛔，完整迁移仍为 0/13。
+- 独立 JsonColumnRepro 新增可选 Owned 模式，覆盖实际 Passkey 的二进制主键、用户外键、JSON 字段与字符串数组，保留原 Complex 命令和 0/1/2 退出码。新 eng/Test-A06ModelReadiness.ps1 有数量/时间边界、微试、独立 label 与失败汇总，只检查设计时模型和官方建表 SQL 生成。实际微试成功；完整检查 SQLite Complex/Owned 均成功，SonnetDB Complex/Owned 与完整官方模型均失败，成功 2/失败 3/未执行 0，入口退出 1、allModelsReady=false。汇总为 artifacts/checks/a06-model-readiness-b5cbbadf0a7d456aac31d5504c3bcc08.json；原失败记录保留。
+- 首次回归 19/20：官方 SQLite 作者测试的种子初始化在函数注册处报 database is locked；PostgreSQL 完整 HTTP 旅程与 SonnetDB 基础测试成功。夹具改为 GUID 命名共享内存库，keeper 维持库生命周期，各 DbContext 使用独立连接，打开/建表失败释放 keeper。具体活动语句及并发来源未捕获；不与历史 SQLite 完整登录的安全日志写锁混称。业务、ABP 模块、授权、事务和安全日志未变，首个失败与 TRX 保留。
+- 最终源码树完成 CI 同级 restore、format verify（severity warn）、Release build/test，全部退出 0，0 警告/0 错误、20/20、无失败/跳过。三支持/基类程序集没有独立测试，不额外计数。证据为 artifacts/checks/a06-resume-20261011-final-{restore,format,build,test}.json、a06-resume-20261011-final-test-totals.json 与 artifacts/test-results/a06-resume-20261011-final/。独立 JSON 模型检查的失败没有计入通过，也未添加跳过的 SonnetDB 应用测试。
+
+## 恢复迁移与资源交接
+
+- 等待 #266 的公开 NuGet 修复版本，先在 Directory.Packages.props 固定新版本，再 restore/Release build 和运行新复测入口。两个 JSON 模型与完整模型成功后，才生成独立 SonnetDB 标准迁移、实际建库/重复种子、真实 Passkey 读写、实际账户 HTTP 登录/CRUD/分页和宿主重启读取；模型、SQL 生成、数据库执行与应用验收分别记录。
+- 仍未验收：SonnetDB 完整应用与标准迁移、全部 Administration 模块、真实 Server、恢复、浏览器点击与正式发布。没有修改引擎、跨仓库引用、缓存或 ABP 框架；没有安装/升级工具、新建聊天/自动化或发布包。
+- Git：起点 main 工作区干净、HEAD=e1d363d376726693770d92645e755f45f970e955。当前修改仅本轮 A06 的文档、JSON 复现、SQLite 测试夹具与复测脚本；无暂存、无新提交/推送，最终 owned-path 清单以 git status 为准。ROADMAP、CHANGELOG、DEMO、UPSTREAM 和 issue 合同已同步。
+- 两次回归均先核对保留的 PostgreSQL 容器完整 ID/创建时间/task label，记录本次 StartedAt/PID 后恢复，finally 核对身份并停止。最终 GUID 测试数据库剩余 0、running=false/PID=0；保留 Demo 数据。证据为 a06-resume-20261011-final-postgres-{ownership,cleanup}.json；容器 ID 与历史账本相同。
+- 最终资源审计覆盖 57 个已完成命令回执、194 个不同进程身份/185 个 PID，身份匹配存活数 0；审计命令自己的 checked 回执也确认清理。证据为 artifacts/checks/a06-resume-20261011-resource-audit.json；不宣称未观察后代已全部证明不存在。无待清理专属服务或临时下载；本轮本地验证脚本、日志/TRX、bin/obj 和既有 Demo 数据作为忽略证据保留，不提交、不清理共享缓存。
+
+## 2026-10-09 历史交接
+
 日期：2026-10-09（Asia/Shanghai）。工作区：D:/source/SonnetDB.Abp。
 
 用户要求以 ABP 官方完整 Demo 为主线，通过本仓库适配 SonnetDB；尽量保留示例，不修改 ABP 框架，通用数据库能力缺口向 SonnetDB 提交 issue。九种原生模型涉及的组件都进入路线图，顺序号与 ✅/🔄/⬜/⛔ 标记分别表达推进顺序和实际验收状态。

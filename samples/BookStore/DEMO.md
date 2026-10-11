@@ -2,7 +2,7 @@
 
 对应第一批 13 个官方示例中的 **S01**，迁移任务为 ROADMAP 的 **A06**；完整清单和逐例进度见 [示例索引](../README.md)。这个原 SQL Server 项目已纳入根解决方案，并通过本仓库模块接入 SonnetDB。来源与改动见 UPSTREAM.md，业务、Razor 页面和 ABP 模块沿用官方示例。所有 C# 依赖固定在根 Directory.Packages.props，无引擎源码依赖。
 
-## 当前状态（2026-10-09）
+## 当前状态（2026-10-11）
 
 | 检查 | PostgreSQL 完整基线 | SQLite 局部对照 | SonnetDB 4.0.0 |
 | --- | --- | --- | --- |
@@ -14,6 +14,8 @@
 | 九模型、SonnetDB Server 与恢复 | ⬜ 独立后续验收 | ⬜ | ⬜ 不从此基线推导 |
 
 上游需求已提交并回读确认：[SonnetDB #266](https://github.com/IoTSharp/SonnetDB/issues/266)。复现与验收合同见根 docs/issues/A06-ef-json-columns.md；不删除 Identity/Passkey 或改 ABP 来绕过缺口。源码中的 SonnetDB 迁移程序集当前只含标记类型，尚无成功生成的迁移。
+
+2026-10-11 已重新读取公开包版本与 issue：SonnetDB.EntityFrameworkCore 仍为 4.0.0，#266 仍 open；原最小复现和完整 BookStore 初始迁移生成仍在 JSON 容器类型映射阶段退出 1，未执行建表。原 main 的 GitHub CI 37922480045 已确认 success，但其通过范围仍是下文的既有基线。
 
 ## PostgreSQL 完整 Demo 运行
 
@@ -65,7 +67,20 @@ dotnet run --project samples/SonnetDB.Abp.JsonColumnRepro -c Release --no-build 
 
 前者退出 0、报告 JSON 列 TEXT；后者退出 1、报告 JSON 容器类型不支持。这两个结果是能力对照，失败没有转换为测试成功。完整标准迁移复现命令见 issue 文档。SonnetDB 公开包修复后，重新生成本 Provider 的迁移，再做实际建库、种子、完整 HTTP/UI 旅程和重启验证。
 
+原复现覆盖 `ComplexProperty(...ToJson)`；实际 Identity Passkey 使用 `OwnsOne(...).ToJson("Data")`。新增 `Sqlite Owned` / `SonnetDB Owned` 模式保留实际字段类型、用户外键和字符串数组，仍只构造模型，不打开数据库。说明见 [JSON 复现](../SonnetDB.Abp.JsonColumnRepro/README.md)。
+
+完成根解决方案的 restore 与 Release build 后，可在仓库根目录用已安装的 EF CLI 执行统一复测：
+
+```powershell
+& 'C:\Program Files\PowerShell\7\pwsh.exe' -File ./eng/Test-A06ModelReadiness.ps1 -Micro
+& 'C:\Program Files\PowerShell\7\pwsh.exe' -File ./eng/Test-A06ModelReadiness.ps1
+```
+
+微试只执行 SQLite Complex；完整入口依次执行四项 Provider/模型组合及官方完整模型的 `dbcontext script`，每次以唯一编号保存 artifacts/checks 下的日志与汇总。任何失败都使完整入口失败；即使全部通过，也只证明设计时模型与建表 SQL 生成，仍须标准迁移生成、实际执行/种子、Passkey 读写、完整 HTTP 旅程与重启持久化逐项验收。
+
 ## 自动验证范围
+
+2026-10-11 本轮修改后的最终树再次完成 restore、format verify、Release build/test，0 警告/0 错误、20/20 无跳过。首次回归 19/20 的 SQLite 种子函数注册锁错误保留；测试夹具改用 GUID 命名共享内存库与独立 DbContext 连接后通过，具体并发语句来源未捕获。此夹具修复未改变历史完整 SQLite 登录安全日志的失败状态。证据为 artifacts/checks/a06-resume-20261011-final-{restore,format,build,test}.json、a06-resume-20261011-final-test-totals.json 与 artifacts/test-results/a06-resume-20261011-final/。独立模型复测仍是 SQLite 两项成功、SonnetDB 三项失败，入口退出 1，A06 仍受阻。
 
 2026-10-09 提交前重新执行最终 CI 同级 restore、格式检查、Release 构建与测试，全部通过，构建零警告/错误，实际 20/20 测试、无失败/跳过：原有 SonnetDB 集成 8 项、官方 SQLite 业务 10 项、官方欢迎页 1 项及 PostgreSQL 完整 HTTP 旅程 1 项。最新证据位于根 artifacts/checks/a17-commit-{restore,format,build,test}.json 与 artifacts/test-results/a17-commit/；均为忽略的本地产物，新 GitHub 工作流依对应提交的实际 run 单独验收。
 

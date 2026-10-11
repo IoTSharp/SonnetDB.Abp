@@ -26,6 +26,7 @@
     <Project Path="src/SonnetDB.Abp.EntityFrameworkCore/SonnetDB.Abp.EntityFrameworkCore.csproj" />
   </Folder>
   <Folder Name="/samples/">
+    <Project Path="samples/SonnetDB.Abp.A06ContractProbe/SonnetDB.Abp.A06ContractProbe.csproj" />
     <Project Path="samples/SonnetDB.Abp.JsonColumnRepro/SonnetDB.Abp.JsonColumnRepro.csproj" />
     <Project Path="samples/SonnetDB.Abp.Sample/SonnetDB.Abp.Sample.csproj" />
   </Folder>

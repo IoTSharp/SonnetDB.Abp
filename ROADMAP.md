@@ -1,6 +1,6 @@
 # ROADMAP
 
-更新：2026-10-09。主线是先把选定的 ABP 官方示例完整纳入本仓库，再按顺序逐个迁移到 SonnetDB，最终完成九种原生模型涉及的组件适配。
+更新：2026-10-11。主线是先把选定的 ABP 官方示例完整纳入本仓库，再按顺序逐个迁移到 SonnetDB，最终完成九种原生模型涉及的组件适配。
 
 第一批固定为 **13 个官方示例**，源码导入 **13/13 ✅**，完整 SonnetDB 迁移验收 **0/13**。BookStore 已完成接线与 PostgreSQL 对照，SonnetDB 完整模型仍受上游阻塞；另外 12 个仅导入源码，尚未迁移、构建或运行。来源均固定为 abp-samples 提交 97bc6ddfbc491843ddcd101342ce10e088c1d0d6。完整目录索引见 [samples/README.md](samples/README.md)。
 
@@ -12,7 +12,7 @@
 | --- | --- | --- | --- | --- |
 | 01 | A01 | ✅ | 独立仓库与关系型 EF Core 配置桥接 | 默认/指定 DbContext、动态连接串、ExistingConnection 复用；8 项真实本地仓储/UOW/过滤测试、控制台样例与初始化 CI 通过。仅此范围完成，不能代表完整 Web 应用或九模型完成 |
 | 02 | A17 | ✅ | 第一批 13 个官方示例清单、来源与完整源码入库 | S01 BookStore 原 195 文件已在仓库；新增 S02–S13 共 1662 原文件，逐文件核对原始 Git blob 与复制 SHA-256，保留 MIT 许可证、来源与迁移记录。只完成导入，不代表构建或兼容 |
-| 03 | A06 | ⛔ | S01 BookStore：SQL Server 官方应用迁移到 SonnetDB | 保留完整分层、业务/UI、登录和模块；PostgreSQL 完整 HTTP 基线已通过，SQLite 保留局部对照；SonnetDB 官方模型受 #266 阻塞，修复后重跑迁移/种子、启动、登录、CRUD、分页与重启持久化 |
+| 03 | A06 | ⛔ | S01 BookStore：SQL Server 官方应用迁移到 SonnetDB | 保留完整分层、业务/UI、登录和模块；完整模型受 #266 阻塞；新增 #270 作者筛选、#271 二进制查询；后续升级/脚本部署受 #272/#273 影响。修复后独立验收迁移/种子、账户、CRUD/分页与重启 |
 | 04 | A18 | ⬜ | S02 EfCoreJSONColumnDemo 迁移 | 固定依赖后先建立 JSON 列参照；用 SonnetDB 验证 owned/complex JSON 聚合、嵌套/数组/null、查询、更新、迁移和回滚。共享 #266 需求，但本示例未经运行，不能预写已复现或完成 |
 | 05 | A19 | ⬜ | S03 EfCoreMigrationDemo 迁移 | 保留官方迁移流程；SonnetDB 首次、重复与增量迁移、种子和数据保留通过；迁移生成与实际执行分别验收 |
 | 06 | A20 | ⬜ | S04 MultipleDbContext 迁移 | 完整示例多 DbContext 的仓储、同库连接/事务复用、各迁移和共同回滚；跨库边界单独说明，不从 A01 的小型测试推导 |
@@ -40,7 +40,9 @@
 | 28 | A16 | ⬜ | 13 示例与九模型完整应用联合验收 | 13 个官方例子逐项完成 SonnetDB 旅程，九模型均有可操作入口与独立结果；混合请求、权限/租户、错误传播、取消、持久化、恢复和资源回收；本地/Server 分别报告 |
 | 29 | A05 | ⬜ | 上游闭环与适配包交付 | 能力缺口随各步骤立即提交 SonnetDB issue 并复测；核对支持矩阵、版本、文档与 CI。许可证、NuGet 发布及必要 ABP PR 由维护者确定，未经明确请求不发布 |
 
-本次源码入库任务为 A17，已完成。当前首个迁移任务仍为 A06；A01 为历史完成项，原 A01–A16 ID 均保留。后续 S02–S13 各有 A18–A29 迁移任务，按顺序推进；受阻时记录 issue，可继续不依赖该缺口的下一项。每次实现归属明确任务 ID，同步 CHANGELOG、HANDOFF 和验证记录。
+本次继续 A06，按模型、HTTP 旅程和 CI 三个互不重叠的范围使用子智能体审查与实现，主智能体集中验证。2026-10-11 回读 NuGet 后，公开 SonnetDB.EntityFrameworkCore 仍为 4.0.0，#266 仍 open；同包重新执行纯 Provider 复现和完整官方迁移生成，仍在 JSON 容器存储类型处失败。新增实际 Passkey 的 Owned JSON 模型复现与有界复测入口，详见 [A06 复测记录](docs/issues/A06-ef-json-columns.md)。原 main 的 GitHub CI 37922480045 已回读为 success，仅覆盖既有基线，不代表完整 SonnetDB 应用通过。
+
+A17 源码入库已完成。当前首个迁移任务仍为 A06；A01 为历史完成项，原 A01–A16 ID 均保留。后续 S02–S13 各有 A18–A29 迁移任务，按顺序推进；受阻时记录 issue，可继续不依赖该缺口的下一项。每次实现归属明确任务 ID，同步 CHANGELOG、HANDOFF 和验证记录。
 
 ## 第一批示例逐项进度
 
@@ -67,6 +69,10 @@
 首批 13 个是官方示例迁移数量；KV、BLOB、时序、全文、向量和图仍按 A07/A09/A12–A15 在 BookStore 增加独立场景，不能用关系型示例代替验收。后续新增官方例子需先更新清单、总数和来源，再入库、迁移。
 
 A06 当前子项：✅ 官方完整示例导入（195 文件与 MIT 来源）、集中依赖/Provider 接线、Release 编译、PostgreSQL 标准迁移/种子与真实账户 HTTP CRUD/分页/宿主重启读取；✅ SQLite 标准迁移与局部业务对照。提交前已重新完成本地 restore、格式检查、Release 构建和测试，零警告/错误、20/20 测试无跳过；新增远端 CI 以对应提交的实际 run 另验。SQLite 完整登录遇到安全日志独立事务与数据库写锁冲突，原失败保留，未通过关闭事务/安全日志处理，完整基线改用 PostgreSQL。⛔ SonnetDB 官方模型 JSON 列映射，已提交并回读 [SonnetDB #266](https://github.com/IoTSharp/SonnetDB/issues/266)。[最小复现与验收合同](docs/issues/A06-ef-json-columns.md) 已纳入仓库；纯 Provider 程序也复现相同失败。A06 仍未完成，可独立步骤按下一任务 ID 推进。
+
+2026-10-11 A06 本轮新增 Owned JSON 复现和有界复测脚本；SQLite 两种 JSON 模型均通过，SonnetDB 两种模型与完整官方模型仍失败，入口明确退出 1。首次既有回归 19/20 的 SQLite 夹具函数注册锁错误保留，改为各 DbContext 独立连接后，最终 restore/format/Release build/test 全部通过，0 警告/0 错误、20/20 无跳过。该测试夹具修复不改变历史完整 SQLite 登录的验收状态，也不解除 SonnetDB #266。
+
+同日继续分析 JSON 之外的缺口，公开 4.0.0 的 18 个非 JSON 场景中 11 PASS/7 FAIL；失败归并为四项并独立 GET 回读：[作者参数 Contains #270](https://github.com/IoTSharp/SonnetDB/issues/270)、[BLOB/Passkey 参数查询 #271](https://github.com/IoTSharp/SonnetDB/issues/271)、[EF 外键名丢失与无效 DROP #272](https://github.com/IoTSharp/SonnetDB/issues/272)、[Idempotent 脚本重放 #273](https://github.com/IoTSharp/SonnetDB/issues/273)。后两项属于后续升级/脚本部署，不宣称初次建库都因此失败；DDL 事务复用现有 #227，并发迁移锁与完整恢复仍未验。四份 issue 的完整独立代码另行构建并运行；根解决方案最终门禁仍为 0 警告/0 错误、20/20。详见 [A06 缺口矩阵和回执](docs/issues/A06-sonnetdb-gap-analysis.md)，不将独立失败 probe 计入通过测试。
 
 ## 官方示例与改动约束
 
