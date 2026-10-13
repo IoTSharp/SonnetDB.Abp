@@ -1,6 +1,6 @@
 # BookStore MVC + EF Core
 
-> 本仓库已将这个官方 SQL Server 示例纳入为 **SonnetDB 适配示例 S01（A06）**，并加入根 SonnetDB.Abp.slnx。Web 与 DbMigrator 可通过 Database:Provider=SonnetDB 使用本仓库适配层；完整模型目前受上游 JSON 列映射 #266 阻塞。运行和实际验收以 [DEMO.md](DEMO.md) 为准，第一批 13 个例子的迁移顺序见 [示例索引](../README.md)。下文保留官方原始运行说明作为来源记录。
+> 本仓库已将这个官方 SQL Server 示例纳入为 **SonnetDB 适配示例 S01（A06）**，并加入根 SonnetDB.Abp.slnx。Web 与 DbMigrator 可通过 Database:Provider=SonnetDB 使用本仓库适配层；公开修复包已固定，标准初始迁移、账户 HTTP 与 Passkey 存储回归通过。其余模块、升级恢复及实际运行范围以 [DEMO.md](DEMO.md) 为准，第一批 13 个例子的迁移顺序见 [示例索引](../README.md)。下文保留官方原始运行说明作为来源记录。
 
 This sample implements the ABP Book Store tutorial with an MVC/Razor Pages UI and Entity Framework Core. It is a layered ABP application with the usual `Domain`, `Application`, `EntityFrameworkCore`, `HttpApi`, `Web`, and `DbMigrator` projects.
 

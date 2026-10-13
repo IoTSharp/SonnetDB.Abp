@@ -3,7 +3,7 @@
     <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
   </PropertyGroup>
   <ItemGroup>
-    <PackageVersion Include="SonnetDB.EntityFrameworkCore" Version="4.0.0" />
+    <PackageVersion Include="SonnetDB.EntityFrameworkCore" Version="4.5.0-preview.ef266.5" />
     <PackageVersion Include="Volo.Abp.EntityFrameworkCore" Version="10.7.0" />
     <PackageVersion Include="Volo.Abp.EntityFrameworkCore.PostgreSql" Version="10.7.0" />
     <PackageVersion Include="Volo.Abp.Autofac" Version="10.7.0" />
