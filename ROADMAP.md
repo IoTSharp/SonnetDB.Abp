@@ -2,17 +2,19 @@
 
 更新：2026-10-11。主线是先把选定的 ABP 官方示例完整纳入本仓库，再按顺序逐个迁移到 SonnetDB，最终完成九种原生模型涉及的组件适配。
 
-第一批固定为 **13 个官方示例**，源码导入 **13/13 ✅**，完整 SonnetDB 迁移验收 **0/13**。BookStore 已完成接线与 PostgreSQL 对照，SonnetDB 完整模型仍受上游阻塞；另外 12 个仅导入源码，尚未迁移、构建或运行。来源均固定为 abp-samples 提交 97bc6ddfbc491843ddcd101342ce10e088c1d0d6。完整目录索引见 [samples/README.md](samples/README.md)。
+第一批固定为 **13 个官方示例**，源码导入 **13/13 ✅**，完整 SonnetDB 迁移验收仍为 **0/13**。BookStore 已固定公开 JSON 修复包并通过标准初始迁移、账户 HTTP 与 Passkey 存储回归，A06 的全部模块、升级和恢复仍单独推进；另外 12 个仅导入源码，尚未迁移、构建或运行。来源均固定为 abp-samples 提交 97bc6ddfbc491843ddcd101342ce10e088c1d0d6。完整目录索引见 [samples/README.md](samples/README.md)。
 
 状态：✅ 已完成并有验证证据；🔄 正在进行；⬜ 待开展；⛔ 已复现并受上游能力缺口阻塞。编号是稳定任务 ID，第一列序号是当前推进顺序，调整顺序不重新编号。计划、编译通过和引擎已有某能力都不能标成适配完成。
 
 ## 推进顺序
 
+2026-10-14：A06 已固定公开 `4.5.0-preview.ef266.5`，JSON 模型5项检查、标准初始迁移与本地账户/Passkey回归通过；迁移文件和两项回归已纳入源码。#266 的公共包消费与其余 #270–#273 合同、全部模块、升级/恢复分别验收，A06 保持进行中，完整示例统计不因此扩大。
+
 | 顺序 | 编号 | 状态 | 任务 | 完成条件 |
 | --- | --- | --- | --- | --- |
 | 01 | A01 | ✅ | 独立仓库与关系型 EF Core 配置桥接 | 默认/指定 DbContext、动态连接串、ExistingConnection 复用；8 项真实本地仓储/UOW/过滤测试、控制台样例与初始化 CI 通过。仅此范围完成，不能代表完整 Web 应用或九模型完成 |
 | 02 | A17 | ✅ | 第一批 13 个官方示例清单、来源与完整源码入库 | S01 BookStore 原 195 文件已在仓库；新增 S02–S13 共 1662 原文件，逐文件核对原始 Git blob 与复制 SHA-256，保留 MIT 许可证、来源与迁移记录。只完成导入，不代表构建或兼容 |
-| 03 | A06 | ⛔ | S01 BookStore：SQL Server 官方应用迁移到 SonnetDB | 保留完整分层、业务/UI、登录和模块；完整模型受 #266 阻塞；新增 #270 作者筛选、#271 二进制查询；后续升级/脚本部署受 #272/#273 影响。修复后独立验收迁移/种子、账户、CRUD/分页与重启 |
+| 03 | A06 | 🔄 | S01 BookStore：SQL Server 官方应用迁移到 SonnetDB | 公开 4.5.0-preview.ef266.5 下 JSON 模型、标准初始/重复迁移、账户 HTTP 与 Passkey 存储通过；保留官方模块。#270–#273 独立合同、全部 Administration、升级/脚本及恢复不因此关闭 |
 | 04 | A18 | ⬜ | S02 EfCoreJSONColumnDemo 迁移 | 固定依赖后先建立 JSON 列参照；用 SonnetDB 验证 owned/complex JSON 聚合、嵌套/数组/null、查询、更新、迁移和回滚。共享 #266 需求，但本示例未经运行，不能预写已复现或完成 |
 | 05 | A19 | ⬜ | S03 EfCoreMigrationDemo 迁移 | 保留官方迁移流程；SonnetDB 首次、重复与增量迁移、种子和数据保留通过；迁移生成与实际执行分别验收 |
 | 06 | A20 | ⬜ | S04 MultipleDbContext 迁移 | 完整示例多 DbContext 的仓储、同库连接/事务复用、各迁移和共同回滚；跨库边界单独说明，不从 A01 的小型测试推导 |
@@ -50,7 +52,7 @@ A17 源码入库已完成。当前首个迁移任务仍为 A06；A01 为历史�
 
 | 顺序 | 示例 | 本仓库目录 | 原文件数 | 源码导入 | SonnetDB 迁移 | 任务 |
 | --- | --- | --- | --- | --- | --- | --- |
-| S01 | BookStore-Mvc-EfCore | [samples/BookStore](samples/BookStore/DEMO.md) | 195 | ✅ | ⛔ 已接线，完整模型受 #266 阻塞 | A06 |
+| S01 | BookStore-Mvc-EfCore | [samples/BookStore](samples/BookStore/DEMO.md) | 195 | ✅ | 🔄 公开包 JSON 与初始应用路径通过 | A06 |
 | S02 | EfCoreJSONColumnDemo | [源码与记录](samples/official/EfCoreJSONColumnDemo/ADAPTATION.md) | 142 | ✅ | ⬜ | A18 |
 | S03 | EfCoreMigrationDemo | [源码与记录](samples/official/EfCoreMigrationDemo/ADAPTATION.md) | 135 | ✅ | ⬜ | A19 |
 | S04 | MultipleDbContext | [源码与记录](samples/official/MultipleDbContext/ADAPTATION.md) | 254 | ✅ | ⬜ | A20 |
@@ -88,7 +90,7 @@ A06 当前子项：✅ 官方完整示例导入（195 文件与 MIT 来源）、
 
 | 原生模型 | ABP 接入点 | 公开组件候选 | 归属 | 当前状态 |
 | --- | --- | --- | --- | --- |
-| 关系表 | EF Core、Repository、UOW、内置模块、Dapper | SonnetDB.EntityFrameworkCore + 本仓库适配层与公开 ADO.NET | A01/A02/A04/A06/A18–A23 | 🔄 基础 8 项通过；⛔ SonnetDB 完整 Demo 受 #266 阻塞 |
+| 关系表 | EF Core、Repository、UOW、内置模块、Dapper | SonnetDB.EntityFrameworkCore + 本仓库适配层与公开 ADO.NET | A01/A02/A04/A06/A18–A23 | 🔄 基础合同及公开包下 BookStore JSON/初始应用路径通过；全部模块和恢复另验 |
 | KV | IDistributedCache、类型化缓存；锁另验 | SonnetDB.Caching.Distributed、SonnetDB 的 KV SDK | A07/A11 | ⬜ |
 | JSON 文档 | 应用服务、必要仓储扩展 | SonnetDB 的文档 SDK | A08/A24 | ⬜ |
 | 对象存储 | ABP BLOB Storing | SonnetDB 的对象 SDK | A09 | ⬜ |

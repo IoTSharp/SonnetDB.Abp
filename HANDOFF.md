@@ -1,5 +1,19 @@
 # SonnetDB.Abp 交接记录
 
+## 2026-10-14 A06 / #266 公开修复包消费
+
+本轮从干净main 8006cf2d527a5a46e06b205ddd03c69fe52e5674建立codex/a06-ef266-public-packages，沿用用户对#266代码交付、公开包批准后的消费者固定/复验与满足验收后关闭的授权。根依赖已固定NuGet.org的SonnetDB.EntityFrameworkCore 4.5.0-preview.ef266.5，来源为SonnetDB 1af23d8f299febfdf66b040ab3419980396acf46（#306合入2b079317）。使用仅NuGet.org的配置、全新D:\t\ef266pub5\nuget缓存和空fallback还原，未跨仓库ProjectReference、复制引擎源码或改共享包缓存。
+
+引擎侧发布run38421367503实际六包已接受并公开；公共有效载荷逐项等于获批CI原包，NuGet仓库签名验证全部通过。第七包Testcontainers.SonnetDB因保留命名空间HTTP409被拒，没有重投或更名；这是独立发布阻塞，不把整批记为成功。本仓库依赖的EF Provider/ADO.NET/Core均已公开，不依赖该Testcontainers包。
+
+原统一模型入口5/5通过（SQLite/ SonnetDB ×Complex/Owned，完整BookStore建表脚本），原EF CLI10.0.5保留低于运行时10.0.12的提示。标准InitialSonnetDB迁移、Designer和ModelSnapshot直接生成到本仓库迁移项目；保留原其它Provider迁移。新增公开包账户HTTP与真实IdentityUserStore Passkey存储回归，各自本地1/1、零跳过。HTTP覆盖标准初始/重复迁移、登录、页面/CRUD/分页、应用重建读取与删除；Passkey覆盖二进制/数组/Unicode/时间/uint.MaxValue及多次应用重建。官方业务、UI、模块、授权、事务均未修改，测试不代表浏览器WebAuthn或Server进程重启。
+
+引擎侧另用同源码同版本Server复验真实REST/h2c数据连接，公共消费者与服务器/协议/包字节绑定独立保存在D:\source\SonnetDB\artifacts\online-closure-20261012的ef266pub5-*。提交前最终restore、原Format、Release build/test及远端CI按各自真实收据核验，不用旧20项或定向2项替代完整门禁。测试所需既有PostgreSQL容器必须核完整ID/创建时间/label/image，再临时启动并恢复stopped；保留Demo数据，GUID测试库应清零。
+
+README、ROADMAP、示例索引、DEMO和#266合同已按新范围更新。A06仍进行中、完整示例0/13；#270–#273独立合同、全部Administration、升级/脚本、故障恢复及其它12示例未被自动关闭。旧4.0.0模型失败、SQLite写锁与所有历史FAIL/UNKNOWN保持。#266须在本次公共消费者提交与CI验收完成后由引擎侧关闭；本仓库NuGet适配包未发布，无其它聊天/自动化/子智能体。
+
+当前可提交范围仅公共依赖固定、三个标准迁移文件、两项回归及对应A06文档；日志/TRX、数据库、包、bin/obj与外部探针不提交。最终提交/远端SHA和清理结果以本次ef266pub5回执及Git实际状态为准。本段以下均为前序历史，不能将旧受阻状态作为新固定版本的当前结论。
+
 日期：2026-10-11（Asia/Shanghai）。工作区：D:/source/SonnetDB.Abp。本轮只推进 A06；用户明确授权在不冲突的情况下使用多个智能体。
 
 ## 本次 A06 提交与推送交接

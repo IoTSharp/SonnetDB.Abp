@@ -3,13 +3,13 @@
 第一批 **13 个官方示例**，已全部纳入当前仓库；先完成源码导入，再按 S01–S13 顺序迁移 SonnetDB。总推进顺序与验收条件见 [ROADMAP](../ROADMAP.md)。
 
 - ✅ 源码导入：13/13；上游原文件共 1857 个。
-- ⛔ S01 已接入本仓库 SonnetDB 适配层，完整模型受上游 #266 JSON 列映射阻塞；PostgreSQL 的登录/CRUD/分页/宿主重启对照通过。
+- 🔄 S01 已固定公开 JSON 修复包，标准初始迁移、账户 HTTP 与 Passkey 存储回归通过；全部模块、升级与恢复仍独立验收，PostgreSQL 对照保留。
 - ⬜ S02–S13：源码已导入，SonnetDB 迁移尚未开展。
 - 完整 SonnetDB 示例验收：0/13。构建或另一 Provider 通过不计为 SonnetDB 完成。
 
 | 顺序 | 官方例子 | 目标与迁移入口 | 导入 | SonnetDB 迁移 | 任务 |
 | --- | --- | --- | --- | --- | --- |
-| S01 | BookStore-Mvc-EfCore | [完整 MVC/EF 书店、Identity 与模块](BookStore/DEMO.md) | ✅ | ⛔ #266 | A06 |
+| S01 | BookStore-Mvc-EfCore | [完整 MVC/EF 书店、Identity 与模块](BookStore/DEMO.md) | ✅ | 🔄 JSON 与初始应用路径通过 | A06 |
 | S02 | EfCoreJSONColumnDemo | [JSON 列](official/EfCoreJSONColumnDemo/ADAPTATION.md) | ✅ | ⬜ | A18 |
 | S03 | EfCoreMigrationDemo | [标准数据库迁移](official/EfCoreMigrationDemo/ADAPTATION.md) | ✅ | ⬜ | A19 |
 | S04 | MultipleDbContext | [多 DbContext](official/MultipleDbContext/ADAPTATION.md) | ✅ | ⬜ | A20 |

@@ -1,5 +1,13 @@
 # [A06 / EF Core] JSON 列类型映射缺失阻塞 ABP Identity Passkey 和官方 BookStore 迁移
 
+## 2026-10-14 公开修复包消费
+
+已固定 NuGet.org 的 `SonnetDB.EntityFrameworkCore 4.5.0-preview.ef266.5`，引擎来源提交为 `1af23d8f299febfdf66b040ab3419980396acf46`，相关代码由 SonnetDB #306 正常合入 main。使用全新公共包缓存和仅含 NuGet.org 的配置还原；公开包有效载荷逐项匹配批准的 CI 原包，并通过仓库签名验证，未引用引擎源码或私有feed。
+
+原 Complex/Owned × SQLite/SonnetDB 四项模型及完整 BookStore 建表脚本检查5/5通过。标准 `InitialSonnetDB` 迁移、Designer、模型快照已纳入独立迁移项目；真实账户 HTTP 与 IdentityUserStore Passkey 存储回归纳入消费者测试项目，各1/1通过，保留官方业务、模块、授权和事务。
+
+完整HTTP使用真实ASP.NET应用的TestServer；Passkey回归验证存储及应用重建，未执行浏览器WebAuthn仪式。数据层实际REST/h2c服务及最终公开包接受由引擎侧独立记录；公共消费者提交/CI完成后才更新 #266 的关闭状态。A06全部Administration、其他问题、升级与故障恢复不因此视为完成。以下4.0.0失败均为历史实测，不删除、不改写。
+
 ## 需求与范围
 
 本需求来自 SonnetDB.Abp 的 A06：基于 ABP 官方 BookStore MVC/EF Core 完整示例，保留 Identity、Account、权限、设置、租户、审计与 OpenIddict 等标准模块，通过适配包切换数据库。示例来源为 abpframework/abp-samples，提交 97bc6ddfbc491843ddcd101342ce10e088c1d0d6，目录 BookStore-Mvc-EfCore。

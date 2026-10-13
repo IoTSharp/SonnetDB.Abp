@@ -4,7 +4,7 @@ SonnetDB 的独立 ABP 集成仓库。首期提供 EF Core 适配模块，应用
 
 首期本地接线已实现：八项真实数据库集成测试通过，控制台样例可以使用 ABP 标准仓储写入和读取。测试结果与未验边界见 [兼容性记录](docs/compatibility.md)。尚未发布适配层 NuGet 包，也未提交 ABP 上游 PR。
 
-当前主线为官方完整应用与九模型适配，顺序和表情状态见 [ROADMAP](ROADMAP.md)。已导入固定来源的 [BookStore 完整 Demo](samples/BookStore/DEMO.md)，提供 PostgreSQL 完整 HTTP 基线、SQLite 局部对照与 SonnetDB 配置切换。SonnetDB 完整模型目前受 [JSON 列 Provider 缺口](docs/issues/A06-ef-json-columns.md) 阻塞，已提交上游 #266；基础仓储通过不代表完整 Identity/Web 应用通过。
+当前主线为官方完整应用与九模型适配，顺序和表情状态见 [ROADMAP](ROADMAP.md)。固定来源的 [BookStore 完整 Demo](samples/BookStore/DEMO.md) 已使用公开 SonnetDB 修复包完成 JSON 模型、标准初始迁移、账户 HTTP 和 Passkey 存储回归；保留 PostgreSQL 基线与 SQLite 局部对照。[#266 消费验收](docs/issues/A06-ef-json-columns.md)与全部 Administration、升级恢复及其它模型验收分别记录，A06 仍在推进。
 
 第一批 [13 个官方示例](samples/README.md) 已全部纳入仓库，先导入、后逐个迁移；新增的 12 项保留完整原始源码与许可证，尚未构建/运行或纳入根解决方案。路线图分别记录源码导入与 SonnetDB 迁移状态，完整迁移验收目前为 0/13。
 
@@ -15,7 +15,7 @@ SonnetDB 的独立 ABP 集成仓库。首期提供 EF Core 适配模块，应用
 | .NET | 10，SDK 10.0.100 起，latestMinor |
 | ABP | 10.7.0 |
 | EF Core | 10.0.12 |
-| SonnetDB.EntityFrameworkCore | 4.0.0，公开 NuGet 包 |
+| SonnetDB.EntityFrameworkCore | 4.5.0-preview.ef266.5，公开 NuGet 修复预览包 |
 
 本仓库不依赖旁边 SonnetDB 的源码或未提交改动。通用引擎和 Provider 修复回 [SonnetDB](https://github.com/IoTSharp/SonnetDB) 单独处理。
 

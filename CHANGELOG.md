@@ -4,6 +4,8 @@
 
 ### Added
 
+- A06 / SonnetDB #266：固定公开 `SonnetDB.EntityFrameworkCore 4.5.0-preview.ef266.5`，补入官方完整模型的标准 SonnetDB 初始迁移与快照，增加账户 HTTP 和真实 IdentityUserStore Passkey 存储回归。公开包内容与已批准 CI 原包匹配，JSON 模型/迁移与实际应用验收分列；A06 全部模块、其它问题和恢复仍独立推进。
+
 - A06：继续分析 JSON 以外的公开 4.0.0 缺口，18 个非 JSON 场景 11 PASS/7 FAIL；查重后创建并 GET 回读 SonnetDB #270（参数化 Contains 字面语义）、#271（BLOB/Passkey 参数查询）、#272（外键名称/无效 DROP）、#273（幂等脚本重放）。DDL 事务复用 #227，迁移锁/完整恢复仍未验。
 - A06：新增独立合同诊断项目与有界执行入口，纳入根解决方案；四份 issue 的完整独立代码均另行构建和运行。最终 restore/format/Release build/test 通过，0 警告/0 错误、20/20；已证失败探测单独保留，A06 继续受阻。
 - A06：2026-10-11 继续迁移并分工审查模型、HTTP 旅程和 CI；公开 Provider 仍为 4.0.0，#266 仍 open，完整官方迁移生成再次复现原 JSON 映射失败，未将 PostgreSQL 基线或历史 CI success 计为 SonnetDB 完整应用成功。

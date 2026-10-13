@@ -16,3 +16,5 @@
 7. A06 复测中，SQLite 测试夹具的多个 DbContext 复用同一连接对象，种子初始化的函数注册遇到活动语句而失败。改为 GUID 命名的共享内存库，保留 keeper 维持数据库生命周期，各 DbContext 使用独立连接；创建失败释放 keeper。仅调整测试资源隔离，不改业务、授权、事务或安全日志。首个失败保留；这与完整 SQLite 登录的历史写锁是不同验证路径。
 
 上游 README、解决方案、Studio 元数据和脚本保留为来源记录；本仓库运行方式以 DEMO.md 为准。导入或构建不代表 SQLite/SonnetDB 完整旅程通过，实际结果写入 DEMO.md、根 HANDOFF 和 ROADMAP 的 A06。
+
+2026-10-14：集中依赖固定公开 SonnetDB.EntityFrameworkCore 4.5.0-preview.ef266.5，由标准 EF CLI 为现有官方完整模型生成 SonnetDB 初始迁移、Designer 和快照；原 SQL Server/PostgreSQL/SQLite 迁移保留。新回归只在测试项目中调用现有迁移服务、Web Program 和 IdentityUserStore，不修改官方业务/UI 或 ABP 模块。
