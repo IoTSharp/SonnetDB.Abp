@@ -14,10 +14,10 @@ SonnetDB 的独立 ABP 集成仓库。首期提供 EF Core 适配模块，应用
 | --- | --- |
 | .NET | 10，SDK 10.0.100 起，latestMinor |
 | ABP | 10.7.0 |
-| EF Core | 10.0.12 |
-| SonnetDB.EntityFrameworkCore | 4.5.0-preview.ef266.5，公开 NuGet 修复预览包 |
+| EF Core | 10.0.14 |
+| SonnetDB.EntityFrameworkCore | 5.0.0，升级准备；公开包复验待完成 |
 
-本仓库不依赖旁边 SonnetDB 的源码或未提交改动。通用引擎和 Provider 修复回 [SonnetDB](https://github.com/IoTSharp/SonnetDB) 单独处理。
+项目通过 NuGet 包接入 SonnetDB，没有跨仓库源码引用。5.0 升级包含标准日期类型迁移；当前私有候选验证、公开包合入门禁与回退边界见 [5.0 升级说明](docs/upgrades/sonnetdb-5.md)。通用引擎和 Provider 修复回 [SonnetDB](https://github.com/IoTSharp/SonnetDB) 单独处理。
 
 ## 接入
 
