@@ -15,7 +15,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
         protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
-            modelBuilder.HasAnnotation("ProductVersion", "10.0.12");
+            modelBuilder.HasAnnotation("ProductVersion", "10.0.14");
 
             modelBuilder.Entity("Acme.BookStore.Authors.Author", b =>
                 {
@@ -23,7 +23,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnType("STRING");
 
                     b.Property<DateTime>("BirthDate")
-                        .HasColumnType("DATETIME");
+                        .HasColumnType("DATETIME2");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
@@ -33,7 +33,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("ConcurrencyStamp");
 
                     b.Property<DateTime>("CreationTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("CreationTime");
 
                     b.Property<Guid?>("CreatorId")
@@ -45,7 +45,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("DeleterId");
 
                     b.Property<DateTime?>("DeletionTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("DeletionTime");
 
                     b.Property<string>("ExtraProperties")
@@ -60,7 +60,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("IsDeleted");
 
                     b.Property<DateTime?>("LastModificationTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("LastModificationTime");
 
                     b.Property<Guid?>("LastModifierId")
@@ -103,7 +103,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("ConcurrencyStamp");
 
                     b.Property<DateTime>("CreationTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("CreationTime");
 
                     b.Property<Guid?>("CreatorId")
@@ -116,7 +116,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("ExtraProperties");
 
                     b.Property<DateTime?>("LastModificationTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("LastModificationTime");
 
                     b.Property<Guid?>("LastModifierId")
@@ -132,7 +132,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnType("FLOAT");
 
                     b.Property<DateTime>("PublishDate")
-                        .HasColumnType("DATETIME");
+                        .HasColumnType("DATETIME2");
 
                     b.Property<int>("Type")
                         .HasColumnType("INT");
@@ -205,7 +205,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("ExecutionDuration");
 
                     b.Property<DateTime>("ExecutionTime")
-                        .HasColumnType("DATETIME");
+                        .HasColumnType("DATETIME2");
 
                     b.Property<string>("ExtraProperties")
                         .IsRequired()
@@ -315,7 +315,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("ExecutionDuration");
 
                     b.Property<DateTime>("ExecutionTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("ExecutionTime");
 
                     b.Property<string>("ExtraProperties")
@@ -364,7 +364,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnType("STRING");
 
                     b.Property<DateTime>("CreationTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("CreationTime");
 
                     b.Property<Guid?>("CreatorId")
@@ -399,7 +399,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("AuditLogId");
 
                     b.Property<DateTime>("ChangeTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("ChangeTime");
 
                     b.Property<byte>("ChangeType")
@@ -504,7 +504,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnType("STRING");
 
                     b.Property<DateTime?>("CompletionTime")
-                        .HasColumnType("DATETIME");
+                        .HasColumnType("DATETIME2");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
@@ -514,7 +514,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("ConcurrencyStamp");
 
                     b.Property<DateTime>("CreationTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("CreationTime");
 
                     b.Property<string>("ExtraProperties")
@@ -538,10 +538,10 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnType("STRING");
 
                     b.Property<DateTime?>("LastTryTime")
-                        .HasColumnType("DATETIME");
+                        .HasColumnType("DATETIME2");
 
                     b.Property<DateTime>("NextTryTime")
-                        .HasColumnType("DATETIME");
+                        .HasColumnType("DATETIME2");
 
                     b.Property<byte>("Priority")
                         .ValueGeneratedOnAdd()
@@ -734,7 +734,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("ConcurrencyStamp");
 
                     b.Property<DateTime>("CreationTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("CreationTime");
 
                     b.Property<string>("Description")
@@ -822,7 +822,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("ConcurrencyStamp");
 
                     b.Property<DateTime>("CreationTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("CreationTime");
 
                     b.Property<int>("EntityVersion")
@@ -943,7 +943,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnType("STRING");
 
                     b.Property<DateTime>("CreationTime")
-                        .HasColumnType("DATETIME");
+                        .HasColumnType("DATETIME2");
 
                     b.Property<string>("ExtraProperties")
                         .IsRequired()
@@ -1030,7 +1030,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnType("STRING");
 
                     b.Property<DateTime?>("LastAccessed")
-                        .HasColumnType("DATETIME");
+                        .HasColumnType("DATETIME2");
 
                     b.Property<string>("SessionId")
                         .IsRequired()
@@ -1038,7 +1038,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnType("STRING");
 
                     b.Property<DateTime>("SignedIn")
-                        .HasColumnType("DATETIME");
+                        .HasColumnType("DATETIME2");
 
                     b.Property<Guid?>("TenantId")
                         .HasColumnType("STRING")
@@ -1088,7 +1088,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("ConcurrencyStamp");
 
                     b.Property<DateTime>("CreationTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("CreationTime");
 
                     b.Property<Guid?>("CreatorId")
@@ -1100,7 +1100,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("DeleterId");
 
                     b.Property<DateTime?>("DeletionTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("DeletionTime");
 
                     b.Property<string>("Email")
@@ -1140,7 +1140,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("IsExternal");
 
                     b.Property<DateTime?>("LastModificationTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("LastModificationTime");
 
                     b.Property<Guid?>("LastModifierId")
@@ -1148,10 +1148,10 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("LastModifierId");
 
                     b.Property<DateTimeOffset?>("LastPasswordChangeTime")
-                        .HasColumnType("DATETIME");
+                        .HasColumnType("DATETIMEOFFSET");
 
                     b.Property<DateTimeOffset?>("LastSignInTime")
-                        .HasColumnType("DATETIME");
+                        .HasColumnType("DATETIMEOFFSET");
 
                     b.Property<bool>("Leaved")
                         .ValueGeneratedOnAdd()
@@ -1166,7 +1166,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("LockoutEnabled");
 
                     b.Property<DateTimeOffset?>("LockoutEnd")
-                        .HasColumnType("DATETIME");
+                        .HasColumnType("DATETIMEOFFSET");
 
                     b.Property<string>("Name")
                         .HasMaxLength(64)
@@ -1304,13 +1304,13 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnType("STRING");
 
                     b.Property<DateTime>("EndTime")
-                        .HasColumnType("DATETIME");
+                        .HasColumnType("DATETIME2");
 
                     b.Property<Guid>("SourceUserId")
                         .HasColumnType("STRING");
 
                     b.Property<DateTime>("StartTime")
-                        .HasColumnType("DATETIME");
+                        .HasColumnType("DATETIME2");
 
                     b.Property<Guid>("TargetUserId")
                         .HasColumnType("STRING");
@@ -1369,7 +1369,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnType("STRING");
 
                     b.Property<DateTime>("CreationTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("CreationTime");
 
                     b.Property<Guid?>("CreatorId")
@@ -1417,7 +1417,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnType("STRING");
 
                     b.Property<DateTimeOffset>("CreatedAt")
-                        .HasColumnType("DATETIME");
+                        .HasColumnType("DATETIMEOFFSET");
 
                     b.Property<Guid?>("TenantId")
                         .HasColumnType("STRING")
@@ -1499,7 +1499,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("ConcurrencyStamp");
 
                     b.Property<DateTime>("CreationTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("CreationTime");
 
                     b.Property<Guid?>("CreatorId")
@@ -1511,7 +1511,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("DeleterId");
 
                     b.Property<DateTime?>("DeletionTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("DeletionTime");
 
                     b.Property<string>("DisplayName")
@@ -1535,7 +1535,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("IsDeleted");
 
                     b.Property<DateTime?>("LastModificationTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("LastModificationTime");
 
                     b.Property<Guid?>("LastModifierId")
@@ -1574,7 +1574,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnType("STRING");
 
                     b.Property<DateTime>("CreationTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("CreationTime");
 
                     b.Property<Guid?>("CreatorId")
@@ -1628,7 +1628,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnType("STRING");
 
                     b.Property<DateTime>("CreationTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("CreationTime");
 
                     b.Property<Guid?>("CreatorId")
@@ -1640,7 +1640,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("DeleterId");
 
                     b.Property<DateTime?>("DeletionTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("DeletionTime");
 
                     b.Property<string>("DisplayName")
@@ -1667,7 +1667,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnType("STRING");
 
                     b.Property<DateTime?>("LastModificationTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("LastModificationTime");
 
                     b.Property<Guid?>("LastModifierId")
@@ -1730,7 +1730,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("ConcurrencyStamp");
 
                     b.Property<DateTime?>("CreationDate")
-                        .HasColumnType("DATETIME");
+                        .HasColumnType("DATETIME2");
 
                     b.Property<string>("ExtraProperties")
                         .IsRequired()
@@ -1785,7 +1785,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("ConcurrencyStamp");
 
                     b.Property<DateTime>("CreationTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("CreationTime");
 
                     b.Property<Guid?>("CreatorId")
@@ -1797,7 +1797,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("DeleterId");
 
                     b.Property<DateTime?>("DeletionTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("DeletionTime");
 
                     b.Property<string>("Description")
@@ -1824,7 +1824,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("IsDeleted");
 
                     b.Property<DateTime?>("LastModificationTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("LastModificationTime");
 
                     b.Property<Guid?>("LastModifierId")
@@ -1873,10 +1873,10 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("ConcurrencyStamp");
 
                     b.Property<DateTime?>("CreationDate")
-                        .HasColumnType("DATETIME");
+                        .HasColumnType("DATETIME2");
 
                     b.Property<DateTime?>("ExpirationDate")
-                        .HasColumnType("DATETIME");
+                        .HasColumnType("DATETIME2");
 
                     b.Property<string>("ExtraProperties")
                         .IsRequired()
@@ -1890,7 +1890,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnType("STRING");
 
                     b.Property<DateTime?>("RedemptionDate")
-                        .HasColumnType("DATETIME");
+                        .HasColumnType("DATETIME2");
 
                     b.Property<string>("ReferenceId")
                         .HasMaxLength(100)
@@ -2248,7 +2248,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("ConcurrencyStamp");
 
                     b.Property<DateTime>("CreationTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("CreationTime");
 
                     b.Property<Guid?>("CreatorId")
@@ -2260,7 +2260,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("DeleterId");
 
                     b.Property<DateTime?>("DeletionTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("DeletionTime");
 
                     b.Property<int>("EntityVersion")
@@ -2278,7 +2278,7 @@ namespace Acme.BookStore.SonnetDB.Migrations.Migrations
                         .HasColumnName("IsDeleted");
 
                     b.Property<DateTime?>("LastModificationTime")
-                        .HasColumnType("DATETIME")
+                        .HasColumnType("DATETIME2")
                         .HasColumnName("LastModificationTime");
 
                     b.Property<Guid?>("LastModifierId")

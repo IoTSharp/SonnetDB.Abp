@@ -2,6 +2,14 @@
 
 ## [Unreleased]
 
+### Changed
+
+- A06：准备将 SonnetDB EF Provider 升级至 5.0.0，统一 EF Core 与对应 Microsoft 依赖至 10.0.14，并集中固定 Pkcs/Xml 安全补丁。保留 NuGet 审计及 warnings-as-errors；私有候选的 22 项回归通过，公开 5.0 包及远端 CI 仍须独立复验。
+
+### Fixed
+
+- A06：新增标准 `NativeDateTimeTicks5` 迁移、Designer 与快照，将 43 个 DateTime 列演进至 DATETIME2、4 个 DateTimeOffset 列演进至 DATETIMEOFFSET，适配原生 UTC ticks。保留初始迁移、业务 Clock、授权及约束；新增精确升级和备份回退说明。
+
 ### Added
 
 - A06 / SonnetDB #266：固定公开 `SonnetDB.EntityFrameworkCore 4.5.0-preview.ef266.5`，补入官方完整模型的标准 SonnetDB 初始迁移与快照，增加账户 HTTP 和真实 IdentityUserStore Passkey 存储回归。公开包内容与已批准 CI 原包匹配，JSON 模型/迁移与实际应用验收分列；A06 全部模块、其它问题和恢复仍独立推进。

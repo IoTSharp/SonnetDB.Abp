@@ -1,5 +1,13 @@
 # SonnetDB.Abp 交接记录
 
+## 2026-11-04 A06 / SonnetDB 5.0 升级 PR 准备
+
+- 实时 GitHub main 与独占 checkout 基线均为 `841567fd963621a8656a904121462234c6c80c0e`，分支 `codex/abp-sonnetdb-5-upgrade-20261104`。本轮先准备可审差异与原始回执，等待主流程复核后才提交、普通推送并创建 PR；不合入主线、不发布适配包。
+- 必要变更为中央 SonnetDB 5.0 / EF 10.0.14 / Pkcs、Xml 补丁依赖，标准 `NativeDateTimeTicks5` 迁移及 Designer/快照，README、CHANGELOG 与升级说明。初始迁移两文件保持原 SHA；业务、Clock、外键及模型警告策略未改。
+- 已有混合私有候选的完整 restore、Format、Release build 和原 22 项测试通过，零失败、零跳过；此前亚毫秒旧参数及自引用迁移失败仍保留。Core 修复、EF 日期默认映射、包源码/DLL身份和本仓库候选分别验收，没有跨仓库源码引用或改共享 NuGet 缓存。
+- 本 checkout 已独立完成 npm ci、前端资源复制、restore、Format、Release build 和原 22 项测试，零警告、零错误、零失败、零跳过；生成文件按仓库 LF 规则归一后复跑最终门禁，实际源哈希与收据独立保存。本地 NuGet 配置、缓存、日志、前端依赖和编译产物均在提交范围外。正文说明只使用仓库相对路径，不携带验证机器的私有路径或 feed。
+- 下一顺序：独占 checkout 四项门禁及 source/heads 回读 → 主流程代码复核 → 普通 commit/push/PR。SonnetDB 5.0 正式公开后再以全新公开缓存复验全部 22 项及实际 DLL/来源；通过前保持 PR 待验，不用私有候选 PASS 声称公开兼容或提前合入。
+
 ## 2026-10-14 A06 / #266 公开修复包消费
 
 本轮从干净main 8006cf2d527a5a46e06b205ddd03c69fe52e5674建立codex/a06-ef266-public-packages，沿用用户对#266代码交付、公开包批准后的消费者固定/复验与满足验收后关闭的授权。根依赖已固定NuGet.org的SonnetDB.EntityFrameworkCore 4.5.0-preview.ef266.5，来源为SonnetDB 1af23d8f299febfdf66b040ab3419980396acf46（#306合入2b079317）。使用仅NuGet.org的配置、全新D:\t\ef266pub5\nuget缓存和空fallback还原，未跨仓库ProjectReference、复制引擎源码或改共享包缓存。
